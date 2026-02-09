@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <defs>
+    <style>
+      .brand-color { fill: #1a4d4d; }
+      .white { fill: #ffffff; }
+    </style>
+  </defs>
+  
+  <!-- Background rectangle for proper sizing -->
+  <rect width="200" height="50" fill="transparent"/>
+  
+  <!-- Shield/Wappen -->
+  <g transform="translate(2, 2)">
+    <path d="M5 3 L5 30 Q5 42 22 46 Q39 42 39 30 L39 3 Z" class="brand-color" stroke="#1a4d4d" stroke-width="2"/>
+    
+    <!-- Dove/Bird inside shield -->
+    <g transform="translate(9, 8) scale(0.6)" fill="#ffffff">
+      <!-- Bird body -->
+      <path d="M20 35 Q10 30 12 22 Q14 14 25 12 Q32 10 38 15 L42 12 L40 18 Q42 22 40 28 Q38 35 30 38 Q24 40 20 35Z"/>
+      <!-- Wing detail -->
+      <path d="M15 25 Q8 20 10 30 Q12 35 18 32"/>
+      <!-- Tail feathers -->
+      <path d="M18 35 L8 42 L14 38 L6 48 L16 40 L10 52 L20 42"/>
+      <!-- Legs -->
+      <line x1="24" y1="38" x2="22" y2="46" stroke="#ffffff" stroke-width="2"/>
+      <line x1="28" y1="38" x2="30" y2="46" stroke="#ffffff" stroke-width="2"/>
+      <!-- Feet -->
+      <path d="M19 46 L22 46 L25 46" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+      <path d="M27 46 L30 46 L33 46" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Text LUDWIG -->
+  <text x="50" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400" letter-spacing="2" class="brand-color">LUDWIG</text>
+  
+  <!-- Text OELZE -->
+  <text x="50" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400" letter-spacing="2" class="brand-color">OELZE</text>
+</svg>

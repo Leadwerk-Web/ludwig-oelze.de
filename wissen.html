@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wissen und Ratgeber zu Versicherungen, Vorsorge und Finanzen - verständlich erklärt von Ludwig Oelze, Versicherungsmakler Baden-Baden.">
+    <title>Wissen & Ratgeber – Ludwig Oelze | Versicherungen verständlich erklärt</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="Ludwig Oelze" class="logo-img">
+            </a>
+            
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="zusammenarbeit.html">Zusammenarbeit</a></li>
+                    <li><a href="gold-service.html">Gold-Service</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Für wen
+                            <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </a>
+                        <div class="dropdown">
+                            <a href="familien.html">Für Familien</a>
+                            <a href="selbststaendige.html">Für Selbstständige</a>
+                            <a href="expats.html">Expats</a>
+                        </div>
+                    </li>
+                    <li><a href="ueber-ludwig.html">Über Ludwig</a></li>
+                    <li><a href="wissen.html" class="active">Wissen</a></li>
+                </ul>
+            </nav>
+            
+            <a href="kontakt.html" class="btn btn-primary btn-sm header-cta">Termin buchen</a>
+            
+            <button class="menu-toggle" aria-label="Menü öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <nav class="nav-mobile">
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="zusammenarbeit.html">Zusammenarbeit</a></li>
+                <li><a href="gold-service.html">Gold-Service</a></li>
+                <li class="has-dropdown">
+                    <a href="#" class="dropdown-toggle">Für wen
+                        <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </a>
+                    <div class="dropdown">
+                        <a href="familien.html">Für Familien</a>
+                        <a href="selbststaendige.html">Für Selbstständige</a>
+                        <a href="expats.html">Expats</a>
+                    </div>
+                </li>
+                <li><a href="ueber-ludwig.html">Über Ludwig</a></li>
+                <li><a href="wissen.html" class="active">Wissen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <div class="nav-mobile-cta">
+                <a href="kontakt.html" class="btn btn-primary btn-full">Beratungsgespräch vereinbaren</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero hero-small">
+            <div class="hero-overlay" style="background: var(--gradient-hero);"></div>
+            <div class="hero-shapes">
+                <div class="hero-shape hero-shape-1"></div>
+                <div class="hero-shape hero-shape-2"></div>
+            </div>
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    Wissen & Ratgeber
+                </span>
+                <h1>Verstehen statt <span class="highlight">vertrauen müssen</span></h1>
+                <p class="hero-subtitle">
+                    Gute Entscheidungen brauchen gute Informationen. Hier finden Sie Wissen zu Versicherungen, 
+                    Vorsorge und Finanzen – verständlich erklärt, ohne Verkaufsabsicht.
+                </p>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="section bg-white">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Themen, die Sie interessieren könnten</h2>
+                </div>
+                
+                <div class="grid grid-3">
+                    <div class="card reveal stagger-1">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Versicherungen verstehen</h3>
+                        <ul style="padding-left: var(--space-5); margin-top: var(--space-4); color: var(--color-gray-600);">
+                            <li style="margin-bottom: var(--space-2);">Was macht ein Versicherungsmakler?</li>
+                            <li style="margin-bottom: var(--space-2);">Welche Versicherungen brauche ich wirklich?</li>
+                            <li style="margin-bottom: var(--space-2);">Wie lese ich einen Versicherungsvertrag?</li>
+                            <li>Was tun im Schadensfall?</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card reveal stagger-2">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3>Vorsorge & Absicherung</h3>
+                        <ul style="padding-left: var(--space-5); margin-top: var(--space-4); color: var(--color-gray-600);">
+                            <li style="margin-bottom: var(--space-2);">Berufsunfähigkeit: Der wichtigste Schutz</li>
+                            <li style="margin-bottom: var(--space-2);">Risikolebensversicherung: Für wen macht sie Sinn?</li>
+                            <li style="margin-bottom: var(--space-2);">Patientenverfügung richtig erstellen</li>
+                            <li>Notfallordner: Was Ihre Familie wissen muss</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card reveal stagger-3">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                        </div>
+                        <h3>Immobilie & Baufinanzierung</h3>
+                        <ul style="padding-left: var(--space-5); margin-top: var(--space-4); color: var(--color-gray-600);">
+                            <li style="margin-bottom: var(--space-2);">Gebäudeversicherung: Was muss rein?</li>
+                            <li style="margin-bottom: var(--space-2);">Baufinanzierung: Häufige Fehler vermeiden</li>
+                            <li style="margin-bottom: var(--space-2);">Anschlussfinanzierung: Der richtige Zeitpunkt</li>
+                            <li>Elementarschutz: Brauche ich das?</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card reveal stagger-4">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                        </div>
+                        <h3>Selbstständige & Unternehmer</h3>
+                        <ul style="padding-left: var(--space-5); margin-top: var(--space-4); color: var(--color-gray-600);">
+                            <li style="margin-bottom: var(--space-2);">Welche Versicherungen brauchen Selbstständige?</li>
+                            <li style="margin-bottom: var(--space-2);">GKV oder PKV: Die ewige Frage</li>
+                            <li style="margin-bottom: var(--space-2);">Betriebshaftpflicht: Was Sie wissen müssen</li>
+                            <li>Altersvorsorge ohne Arbeitgeber</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card reveal stagger-5">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        </div>
+                        <h3>Expats & Ausland</h3>
+                        <ul style="padding-left: var(--space-5); margin-top: var(--space-4); color: var(--color-gray-600);">
+                            <li style="margin-bottom: var(--space-2);">Krankenversicherung im Ausland</li>
+                            <li style="margin-bottom: var(--space-2);">Deutsche Immobilie, ausländischer Wohnsitz</li>
+                            <li>Steuern und Vorsorge bei Auslandsaufenthalt</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Articles -->
+        <section class="section bg-off-white">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Ausgewählte Artikel</h2>
+                </div>
+                
+                <div class="grid grid-3">
+                    <article class="article-card reveal stagger-1">
+                        <div class="article-card-image">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Berufsunfähigkeit" loading="lazy">
+                        </div>
+                        <div class="article-card-content">
+                            <span class="article-card-category">Vorsorge</span>
+                            <h3>Berufsunfähigkeit: Warum 90% der Deutschen unterversichert sind</h3>
+                            <p class="article-card-meta">8 Minuten Lesezeit</p>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card reveal stagger-2">
+                        <div class="article-card-image">
+                            <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&q=80" alt="Notfallordner" loading="lazy">
+                        </div>
+                        <div class="article-card-content">
+                            <span class="article-card-category">Familie</span>
+                            <h3>Der Notfallordner: Was Ihre Familie wissen muss</h3>
+                            <p class="article-card-meta">12 Minuten Lesezeit</p>
+                        </div>
+                    </article>
+                    
+                    <article class="article-card reveal stagger-3">
+                        <div class="article-card-image">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=80" alt="Gebäudeversicherung" loading="lazy">
+                        </div>
+                        <div class="article-card-content">
+                            <span class="article-card-category">Immobilie</span>
+                            <h3>Gebäudeversicherung: Diese Fehler kosten tausende Euro</h3>
+                            <p class="article-card-meta">6 Minuten Lesezeit</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="reveal">Noch Fragen?</h2>
+                <p class="reveal">
+                    Wissen ist gut – aber manchmal braucht man jemanden, der einem die eigene Situation erklärt. 
+                    In einem kostenlosen Erstgespräch beantworte ich Ihre Fragen. Ohne Verkaufsdruck, ohne Verpflichtung.
+                </p>
+                <a href="kontakt.html" class="btn btn-primary btn-lg btn-pulse reveal">Beratungsgespräch vereinbaren</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.svg" alt="Ludwig Oelze" class="logo-img logo-img-footer">
+                    </a>
+                    <p>Mehr als nur Finanzberatung. Ihr unabhängiger Partner für Versicherungen, Vorsorge und Baufinanzierung.</p>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Navigation</h4>
+                    <div class="footer-links">
+                        <a href="zusammenarbeit.html">Zusammenarbeit</a>
+                        <a href="gold-service.html">Gold-Service</a>
+                        <a href="familien.html">Für Familien</a>
+                        <a href="selbststaendige.html">Für Selbstständige</a>
+                        <a href="expats.html">Expats</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Mehr</h4>
+                    <div class="footer-links">
+                        <a href="ueber-ludwig.html">Über Ludwig</a>
+                        <a href="wissen.html">Wissen & Ratgeber</a>
+                        <a href="kontakt.html">Kontakt & Termin</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Kontakt</h4>
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Rheinstraße 80<br>76532 Baden-Baden</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <a href="tel:+4917643689181">+49 176 43689181</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <a href="mailto:finanzen@ludwigoelze.com">finanzen@ludwigoelze.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 Ludwig Oelze. Alle Rechte vorbehalten.</p>
+                <div class="footer-legal">
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                    <a href="erstinformation.html">Erstinformation (§15 VersVermV)</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="sticky-cta">
+        <a href="kontakt.html" class="btn btn-primary">Beratungsgespräch vereinbaren</a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
