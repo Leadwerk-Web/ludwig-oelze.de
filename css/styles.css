@@ -1899,6 +1899,60 @@ p:last-child {
     margin-top: var(--space-2);
 }
 
+/* Hint icon + custom tooltip (site-matched) */
+.hint-icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--space-1);
+    color: var(--color-gray-500);
+    cursor: help;
+    vertical-align: middle;
+    transition: color var(--transition-fast);
+}
+.hint-icon:hover {
+    color: var(--color-gold);
+}
+.hint-tooltip {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + var(--space-2));
+    transform: translateX(-50%) translateY(4px);
+    min-width: 220px;
+    max-width: 320px;
+    padding: var(--space-3) var(--space-4);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    line-height: var(--leading-snug);
+    color: var(--color-gray-800);
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-200);
+    border-left: 3px solid var(--color-gold);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg), 0 0 0 1px rgba(201, 169, 98, 0.08);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity var(--transition-base), transform var(--transition-base), visibility var(--transition-base);
+    z-index: var(--z-tooltip);
+}
+.hint-tooltip::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--color-white);
+    filter: drop-shadow(0 1px 0 var(--color-gray-200));
+}
+.hint-icon:hover .hint-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
 /* Checkbox & Radio */
 .form-check {
     display: flex;
