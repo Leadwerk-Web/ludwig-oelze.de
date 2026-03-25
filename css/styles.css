@@ -1146,6 +1146,14 @@ p:last-child {
     animation: fadeInUp 1.2s var(--ease-out) 0.9s forwards;
 }
 
+.hero-mandanten-cta {
+    margin-top: var(--space-5);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1.2s var(--ease-out) 1.05s forwards;
+}
+
 /* Modern Ghost Button für Hero */
 .hero .btn-secondary {
     background: rgba(255, 255, 255, 0.08);

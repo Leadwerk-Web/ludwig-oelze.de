@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initPartnerCarousel();
     initFormValidation();
     initLazyLoading();
+    initHeroMandantenStand();
 });
 
 /* ============================================
@@ -515,6 +516,22 @@ function initLazyLoading() {
             }
         });
     }
+}
+
+function initHeroMandantenStand() {
+    const el = document.getElementById('hero-mandanten-stand');
+    if (!el) return;
+
+    const now = new Date();
+    const monthYear = new Intl.DateTimeFormat('de-DE', {
+        month: 'long',
+        year: 'numeric'
+    }).format(now);
+    const y = now.getFullYear();
+    const m = String(now.getMonth() + 1).padStart(2, '0');
+
+    el.textContent = `Stand – ${monthYear}`;
+    el.setAttribute('datetime', `${y}-${m}`);
 }
 
 /* ============================================
