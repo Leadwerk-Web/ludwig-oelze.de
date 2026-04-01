@@ -1154,6 +1154,31 @@ p:last-child {
     animation: fadeInUp 1.2s var(--ease-out) 1.05s forwards;
 }
 
+.hero-mandanten-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.875rem 1.25rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: rgba(255, 255, 255, 0.82);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    transition: all var(--transition-base);
+}
+
+.hero-mandanten-link:hover {
+    color: var(--color-white);
+    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.14);
+    transform: translateY(-1px);
+}
+
 /* Modern Ghost Button für Hero */
 .hero .btn-secondary {
     background: rgba(255, 255, 255, 0.08);
@@ -3057,6 +3082,10 @@ p:last-child {
     .hero-buttons {
         flex-direction: row;
         justify-content: center;
+    }
+
+    .hero-mandanten-link {
+        font-size: var(--text-base);
     }
     
     .two-col {
