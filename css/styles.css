@@ -1220,13 +1220,20 @@ p:last-child {
     padding: var(--space-2) var(--space-4);
     border-radius: var(--radius-full);
     margin-bottom: var(--space-6);
+    max-width: 100%;
     opacity: 0;
     animation: fadeInUp 1.2s var(--ease-out) 0.1s forwards;
+}
+
+.hero-badge span {
+    min-width: 0;
+    line-height: 1.4;
 }
 
 .hero-badge svg {
     width: 16px;
     height: 16px;
+    flex-shrink: 0;
 }
 
 /* Stats im Hero-Bereich */
@@ -2203,6 +2210,11 @@ p:last-child {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .hero-badge {
+        padding: var(--space-2) var(--space-3);
+        font-size: var(--text-xs);
+    }
+
     .comparison-table th,
     .comparison-table td {
         padding: var(--space-4);

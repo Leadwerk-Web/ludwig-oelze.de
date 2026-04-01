@@ -522,16 +522,8 @@ function initHeroMandantenStand() {
     const el = document.getElementById('hero-mandanten-stand');
     if (!el) return;
 
-    const now = new Date();
-    const monthYear = new Intl.DateTimeFormat('de-DE', {
-        month: 'long',
-        year: 'numeric'
-    }).format(now);
-    const y = now.getFullYear();
-    const m = String(now.getMonth() + 1).padStart(2, '0');
-
-    el.textContent = `Stand – ${monthYear}`;
-    el.setAttribute('datetime', `${y}-${m}`);
+    el.textContent = 'Wichtige Infos - Stand März 2026';
+    el.setAttribute('datetime', '2026-03');
 }
 
 /* ============================================
