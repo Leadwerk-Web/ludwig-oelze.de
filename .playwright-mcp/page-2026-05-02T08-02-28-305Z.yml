@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Finora Investment Studio" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Finora Investment Studio" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Leistungen" [ref=e10] [cursor=pointer]:
+              - /url: "#"
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "Altersvorsorge-Beratung" [ref=e13] [cursor=pointer]:
+                  - /url: altersvorsorge.html
+              - listitem [ref=e14]:
+                - link "Investment Beratung" [ref=e15] [cursor=pointer]:
+                  - /url: investment-beratung.html
+              - listitem [ref=e16]:
+                - link "Immobilien Beratung" [ref=e17] [cursor=pointer]:
+                  - /url: immobilien-beratung.html
+              - listitem [ref=e18]:
+                - link "Erb-Anlage-Beratung" [ref=e19] [cursor=pointer]:
+                  - /url: erbanlage-beratung.html
+          - listitem [ref=e20]:
+            - link "Finora-Philosophie" [ref=e21] [cursor=pointer]:
+              - /url: finora-philosophie.html
+          - listitem [ref=e22]:
+            - link "Über Finora" [ref=e23] [cursor=pointer]:
+              - /url: ueber-finora.html
+          - listitem [ref=e24]:
+            - link "Kontakt" [ref=e25] [cursor=pointer]:
+              - /url: kontakt.html
+      - button "Menü öffnen"
+    - generic [ref=e26]:
+      - link [ref=e27] [cursor=pointer]:
+        - /url: "#"
+        - text: Leistungen
+      - generic [ref=e28]:
+        - link [ref=e29] [cursor=pointer]:
+          - /url: altersvorsorge.html
+          - text: Altersvorsorge-Beratung
+        - link [ref=e30] [cursor=pointer]:
+          - /url: investment-beratung.html
+          - text: Investment Beratung
+        - link [ref=e31] [cursor=pointer]:
+          - /url: immobilien-beratung.html
+          - text: Immobilien Beratung
+        - link [ref=e32] [cursor=pointer]:
+          - /url: erbanlage-beratung.html
+          - text: Erb-Anlage-Beratung
+      - link [ref=e33] [cursor=pointer]:
+        - /url: finora-philosophie.html
+        - text: Finora-Philosophie
+      - link [ref=e34] [cursor=pointer]:
+        - /url: ueber-finora.html
+        - text: Über Finora
+      - link [ref=e35] [cursor=pointer]:
+        - /url: kontakt.html
+        - text: Kontakt
+      - link [ref=e36] [cursor=pointer]:
+        - /url: en/404.html
+        - text: EN
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - paragraph [ref=e41]: 404 / Strategie neu ausrichten
+      - heading "Diese Route passt nicht mehr zum Plan." [level=1] [ref=e42]
+      - generic [ref=e43]:
+        - paragraph [ref=e44]: Die gesuchte Seite ist nicht erreichbar. Von hier aus finden Sie schnell zur Beratung, zur Philosophie oder direkt zur passenden Finanzfrage.
+        - generic [ref=e45]:
+          - link "Zur Startseite" [ref=e46] [cursor=pointer]:
+            - /url: index.html
+          - link "Termin anfragen" [ref=e47] [cursor=pointer]:
+            - /url: kontakt.html
+        - generic [ref=e48]:
+          - link "Altersvorsorge langfristig planen" [ref=e49] [cursor=pointer]:
+            - /url: altersvorsorge.html
+            - strong [ref=e50]: Altersvorsorge
+            - text: langfristig planen
+          - link "Investment klar strukturieren" [ref=e51] [cursor=pointer]:
+            - /url: investment-beratung.html
+            - strong [ref=e52]: Investment
+            - text: klar strukturieren
+          - link "Philosophie Finora verstehen" [ref=e53] [cursor=pointer]:
+            - /url: finora-philosophie.html
+            - strong [ref=e54]: Philosophie
+            - text: Finora verstehen
+    - figure [ref=e55]:
+      - img "Finora Beratungssituation" [ref=e56]
+      - generic [ref=e57]: "404"
+      - generic [ref=e58]: Plan pruefen. Fokus behalten.
+  - contentinfo [ref=e59]:
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - img "Finora Logo" [ref=e62]
+        - paragraph [ref=e63]: Finora bietet unabhängige Finanzberatung für Expats, Erben, Berufseinsteiger, Angestellte, Selbstständige und ETF-Investoren in Deutschland. Spezialisiert auf Altersvorsorge, Investment, Immobilien und steueroptimierte Strategien.
+      - generic [ref=e64]:
+        - heading "Menü" [level=4] [ref=e65]
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Startseite" [ref=e68] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e69]:
+            - link "Finora-Philosophie" [ref=e70] [cursor=pointer]:
+              - /url: finora-philosophie.html
+          - listitem [ref=e71]:
+            - link "Über Finora" [ref=e72] [cursor=pointer]:
+              - /url: ueber-finora.html
+          - listitem [ref=e73]:
+            - link "Kontakt" [ref=e74] [cursor=pointer]:
+              - /url: kontakt.html
+      - generic [ref=e75]:
+        - heading "Themen" [level=4] [ref=e76]
+        - list [ref=e77]:
+          - listitem [ref=e78]:
+            - link "Altersvorsorge-Beratung" [ref=e79] [cursor=pointer]:
+              - /url: altersvorsorge.html
+          - listitem [ref=e80]:
+            - link "Investment" [ref=e81] [cursor=pointer]:
+              - /url: investment-beratung.html
+          - listitem [ref=e82]:
+            - link "Immobilien" [ref=e83] [cursor=pointer]:
+              - /url: immobilien-beratung.html
+          - listitem [ref=e84]:
+            - link "Erb-Anlage" [ref=e85] [cursor=pointer]:
+              - /url: erbanlage-beratung.html
+      - generic [ref=e86]:
+        - heading "Kontakt" [level=4] [ref=e87]
+        - generic [ref=e88]:
+          - text: 
+          - paragraph [ref=e89]:
+            - text: Brauerstr. 17
+            - text: 76137 Karlsruhe
+        - generic [ref=e90]:
+          - text: 
+          - paragraph [ref=e91]:
+            - text: "Tel.:"
+            - link "01512 8915214" [ref=e92] [cursor=pointer]:
+              - /url: tel:+4915128915214
+        - generic [ref=e93]:
+          - text: 
+          - paragraph [ref=e94]:
+            - link "hallo@finora.de" [ref=e95] [cursor=pointer]:
+              - /url: mailto:hallo@finora.de
+    - img "Finora" [ref=e97]
+    - paragraph [ref=e99]:
+      - link "Impressum" [ref=e100] [cursor=pointer]:
+        - /url: impressum.html
+      - text: "|"
+      - link "Datenschutz" [ref=e101] [cursor=pointer]:
+        - /url: datenschutz.html
+  - button [ref=e102] [cursor=pointer]:
+    - generic [ref=e103]: 

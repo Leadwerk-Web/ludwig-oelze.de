@@ -1,0 +1,268 @@
+<script>window.onmessage = function(event) {event.source.postMessage({iframeId: event.data, scrollHeight: document.body.getBoundingClientRect().height || document.body.scrollHeight}, event.origin);};</script><body style='margin: 0'><div class="savings-calculator">
+    <style>
+        /* Reset und Basis-Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .savings-calculator {
+            background: white;
+            border-radius: 15px;
+            padding: clamp(0.5rem, 2vw, 1.5rem);
+            margin: 0 auto;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            font-family: 'Segoe UI', sans-serif;
+            font-size: clamp(14px, 2.5vw, 16px);
+            overflow: hidden; /* Verhindert Scrolling */
+        }
+
+        .calculator-title {
+            color: #005CB9;
+            text-align: center;
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            margin-bottom: 0.5rem;
+        }
+
+        .calculator-subtitle {
+            text-align: center;
+            color: #666;
+            font-size: clamp(0.8rem, 2vw, 1rem);
+            margin-bottom: 1rem;
+        }
+
+        .input-group {
+            margin: 0.5rem 0;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.3rem;
+            font-weight: bold;
+            color: #333;
+            font-size: clamp(0.8rem, 2vw, 1rem);
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: clamp(0.3rem, 1.5vw, 0.6rem);
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: clamp(0.9rem, 2vw, 1rem);
+            transition: border-color 0.3s ease;
+        }
+
+        .input-group input:focus {
+            border-color: #005CB9;
+            outline: none;
+        }
+
+        .calculate-button {
+            background: #32CD32;
+            color: white;
+            padding: clamp(0.5rem, 1.5vw, 0.8rem);
+            border: none;
+            border-radius: 25px;
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin: 0.5rem 0;
+        }
+
+        .calculate-button:hover {
+            background: #28a428;
+            transform: translateY(-2px);
+        }
+
+        .result-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: clamp(0.5rem, 2vw, 1rem);
+            margin-top: 0.8rem;
+            text-align: center;
+        }
+
+        .savings-amount {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            color: #32CD32;
+            font-weight: bold;
+            margin: 0.5rem 0;
+            word-wrap: break-word;
+        }
+
+        .share-section {
+            margin-top: 1rem;
+            padding: clamp(0.5rem, 2vw, 1rem);
+            background: #e9f7ff;
+            border-radius: 10px;
+            border-left: 4px solid #005CB9;
+        }
+
+        .share-title {
+            color: #005CB9;
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            margin-bottom: 0.5rem;
+        }
+
+        .share-button {
+            background: #005CB9;
+            color: white;
+            padding: clamp(0.4rem, 1.5vw, 0.6rem) clamp(0.8rem, 2vw, 1.2rem);
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 0.8rem;
+            font-size: clamp(0.8rem, 2vw, 0.9rem);
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .share-button:hover {
+            background: #004796;
+            transform: translateY(-2px);
+        }
+
+        .bonus-info {
+            margin-top: 0.8rem;
+            padding: clamp(0.5rem, 1.5vw, 0.8rem);
+            background: #fff3cd;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            font-size: clamp(0.8rem, 2vw, 0.9rem);
+        }
+
+        .bonus-info ul {
+            padding-left: 1rem;
+            margin-top: 0.3rem;
+        }
+
+        .bonus-info li {
+            margin-bottom: 0.3rem;
+        }
+
+        #detailedComparison {
+            font-size: clamp(0.8rem, 2vw, 0.9rem);
+            line-height: 1.4;
+        }
+
+        /* Kompakteres Layout für eingebettete Ansicht */
+        .compact-view {
+            display: grid;
+            grid-gap: 0.5rem;
+        }
+
+        /* Grid Layout für größere Bildschirme */
+        @media (min-width: 768px) {
+            .input-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+            }
+        }
+
+        /* Anpassungen für sehr kleine Bildschirme */
+        @media (max-width: 320px) {
+            .savings-calculator {
+                padding: 0.5rem;
+                margin: 0;
+            }
+            
+            .bonus-info ul {
+                padding-left: 0.8rem;
+            }
+        }
+    </style>
+
+    <h2 class="calculator-title">💰 Dein Sparpotenzial</h2>
+    <p class="calculator-subtitle">Provisionsfreie Anlage im Vergleich</p>
+
+    <div class="compact-view">
+        <div class="input-container">
+            <div class="input-group">
+                <label for="monthlyAmount">Monatlicher Betrag (€)</label>
+                <input type="number" id="monthlyAmount" min="10" step="10" value="100">
+            </div>
+
+            <div class="input-group">
+                <label for="years">Laufzeit (Jahre)</label>
+                <input type="number" id="years" min="5" max="50" value="30">
+            </div>
+        </div>
+
+        <button onclick="calculateAndShare()" class="calculate-button">Berechnen</button>
+
+        <div class="result-box" id="result">
+            <div class="savings-amount" id="savingsResult"></div>
+            <div id="detailedComparison"></div>
+        </div>
+
+        <div class="share-section">
+            <div class="share-title">🎁 50€ Prämie sichern!</div>
+            <div class="bonus-info">
+                <p><strong>Deine Vorteile:</strong></p>
+                <ul>
+                    <li>50€ für jede Empfehlung</li>
+                    <li>Hilf Freunden beim Sparen</li>
+                    <li>Gemeinsam gegen hohe Gebühren</li>
+                </ul>
+            </div>
+            <center><button onclick="shareCalculator()" class="share-button">Jetzt teilen</button></center>
+        </div>
+    </div>
+
+    <script>
+        function calculateAndShare() {
+            const monthlyAmount = parseFloat(document.getElementById('monthlyAmount').value);
+            const years = parseInt(document.getElementById('years').value);
+            const traditionalFees = 0.05;
+            const annualReturn = 0.07;
+
+            const withoutFees = monthlyAmount * 12 * ((Math.pow(1 + annualReturn, years) - 1) / annualReturn);
+            const withFees = (monthlyAmount * 12 * (1 - traditionalFees)) * ((Math.pow(1 + annualReturn, years) - 1) / annualReturn);
+            const difference = withoutFees - withFees;
+            const totalInvested = monthlyAmount * 12 * years;
+
+            document.getElementById('savingsResult').innerHTML = 
+                `Dein Vorteil: ${Math.round(difference).toLocaleString('de-DE')}€`;
+
+            document.getElementById('detailedComparison').innerHTML = `
+                <p>Einzahlung: ${Math.round(totalInvested).toLocaleString('de-DE')}€</p>
+                <p>Ohne Provision: ${Math.round(withoutFees).toLocaleString('de-DE')}€</p>
+                <p>Mit Provision: ${Math.round(withFees).toLocaleString('de-DE')}€</p>
+            `;
+        }
+
+        function shareCalculator() {
+            const sharingUrl = "https://ludwigoelze.com/durchblick";
+            const text = `🎯 Krass! Schau mal, wie viel du bei deiner Altersvorsorge sparen kannst: ${sharingUrl}`;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Sparpotenzial-Rechner',
+                    text: text,
+                    url: sharingUrl
+                })
+                .then(() => alert('Super! Wir melden uns wegen deiner 50€ Prämie.'))
+                .catch(console.error);
+            } else {
+                const dummy = document.createElement('textarea');
+                document.body.appendChild(dummy);
+                dummy.value = text;
+                dummy.select();
+                document.execCommand('copy');
+                document.body.removeChild(dummy);
+                alert('Link kopiert! Teile ihn und sichere dir 50€!');
+            }
+        }
+
+        window.onload = calculateAndShare;
+    </script>
+</div>
+</body>

@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - dialog "Zustimmung verwalten" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Zustimmung verwalten
+      - button "Dialog schließen" [ref=e5] [cursor=pointer]:
+        - img [ref=e6]
+    - paragraph [ref=e10]: Um dir ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn du diesen Technologien zustimmst, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn du deine Zustimmung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.
+    - generic [ref=e11]:
+      - button "Akzeptieren" [ref=e12] [cursor=pointer]
+      - button "Ablehnen" [ref=e13] [cursor=pointer]
+      - button "Einstellungen ansehen" [ref=e14] [cursor=pointer]
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: https://ludwigoelze.com/
+        - listitem
+        - listitem
+  - banner [ref=e15]:
+    - generic [ref=e16]:
+      - link "Ludwig Oelze" [ref=e17] [cursor=pointer]:
+        - /url: https://ludwigoelze.com/
+        - img "Ludwig Oelze" [ref=e18]
+      - link "Termin buchen" [ref=e19] [cursor=pointer]:
+        - /url: https://ludwigoelze.com/kontakt/
+      - button "Menü öffnen" [ref=e20] [cursor=pointer]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]: Fehler 404
+      - heading "Diese Seite gibt es nicht." [level=1] [ref=e28]
+      - paragraph [ref=e29]: Der Link ist veraltet oder die Adresse wurde falsch eingegeben. Von hier kommst Du direkt zurück zur Startseite oder in die persönliche Beratung.
+      - generic [ref=e30]:
+        - link "Zur Startseite" [ref=e31] [cursor=pointer]:
+          - /url: https://ludwigoelze.com/
+        - link "Kontakt aufnehmen" [ref=e32] [cursor=pointer]:
+          - /url: https://ludwigoelze.com/kontakt/
+    - generic [ref=e34]: "404"
+  - contentinfo [ref=e35]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - link "Ludwig Oelze" [ref=e39] [cursor=pointer]:
+            - /url: https://ludwigoelze.com/
+            - img "Ludwig Oelze" [ref=e40]
+          - paragraph [ref=e41]: Freier Versicherungsmakler und Baufinanzierungsberater in Baden-Baden.
+        - generic [ref=e42]:
+          - heading "Navigation" [level=4] [ref=e43]
+          - generic [ref=e44]:
+            - link "Start" [ref=e45] [cursor=pointer]:
+              - /url: https://ludwigoelze.com/
+            - link "Zusammenarbeit" [ref=e46] [cursor=pointer]:
+              - /url: https://ludwigoelze.com/zusammenarbeit/
+            - link "Gold-Service" [ref=e47] [cursor=pointer]:
+              - /url: https://ludwigoelze.com/gold-service/
+            - link "Kontakt" [ref=e48] [cursor=pointer]:
+              - /url: https://ludwigoelze.com/kontakt/
+        - generic [ref=e49]:
+          - heading "Kontakt" [level=4] [ref=e50]
+          - generic [ref=e51]:
+            - link "+49 176 43689181" [ref=e53] [cursor=pointer]:
+              - /url: tel:+4917643689181
+            - link "finanzen@ludwigoelze.com" [ref=e55] [cursor=pointer]:
+              - /url: mailto:finanzen@ludwigoelze.com
+      - generic [ref=e56]:
+        - generic [ref=e57]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e58]:
+          - link "Impressum" [ref=e59] [cursor=pointer]:
+            - /url: https://ludwigoelze.com/impressum/
+          - link "Datenschutz" [ref=e60] [cursor=pointer]:
+            - /url: https://ludwigoelze.com/datenschutz/
+          - link "Erstinformation" [ref=e61] [cursor=pointer]:
+            - /url: https://ludwigoelze.com/erstinformation/

@@ -1,0 +1,339 @@
+- generic [active] [ref=e1]:
+  - dialog "Zustimmung verwalten" [ref=e2]:
+    - button "Dialog schließen" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - paragraph [ref=e9]: Um dir ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn du diesen Technologien zustimmst, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn du deine Zustimmung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.
+    - generic [ref=e10]:
+      - button "Akzeptieren" [ref=e11] [cursor=pointer]
+      - button "Ablehnen" [ref=e12] [cursor=pointer]
+      - button "Einstellungen ansehen" [ref=e13] [cursor=pointer]
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: https://b15fqlk.myrdbx.io/
+        - listitem
+        - listitem
+  - banner [ref=e14]:
+    - generic [ref=e15]:
+      - link "Ludwig Oelze" [ref=e16] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/
+        - img "Ludwig Oelze" [ref=e17]
+      - link "Termin buchen" [ref=e18] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/kontakt/
+      - button "Menü öffnen" [ref=e19] [cursor=pointer]
+  - generic [ref=e23]:
+    - img "Ludwig Oelze im Büro" [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - img [ref=e29]
+        - generic [ref=e32]: Dein freier Makler und Life Planner
+      - heading "Endlich jemand, der sich wirklich kümmert." [level=1] [ref=e33]
+      - paragraph [ref=e34]: Versicherungen, Vorsorge, Finanzen (Du musst Dich nicht mehr alleine durchkämpfen). Mit meinem exklusiven Gold-Service nehme ich Dir die Last ab und sorge dauerhaft dafür, dass Du und Deine Familie wasserdicht abgesichert seid. Ohne Verkaufsdruck. Ohne Fachchinesisch. Mit echtem Interesse an Deiner Situation.
+      - link "Rückruf buchen" [ref=e36] [cursor=pointer]:
+        - /url: https://calendly.com/einsparung/telefon
+      - link "Aktuelle Mandanteninformation und Ankündigungen lesen" [ref=e38] [cursor=pointer]:
+        - /url: https://ludwigoelze.com/ankuendigung
+        - time [ref=e39]: Wichtige Infos - Stand März 2026
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - img [ref=e44]
+      - generic [ref=e47]: 120+ zufriedene Haushalte im Gold-Service
+    - generic [ref=e48]:
+      - img [ref=e49]
+      - generic [ref=e52]: 10+ Jahre Erfahrung
+    - generic [ref=e53]:
+      - img [ref=e54]
+      - generic [ref=e57]: 250+ betreute Schadenfälle
+    - generic [ref=e58]:
+      - img [ref=e59]
+      - generic [ref=e61]: 4,9 ★ bei Google
+  - generic [ref=e63]:
+    - heading "Kennst Du das?" [level=2] [ref=e65]
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - img [ref=e69]
+        - heading "Versicherungschaos" [level=3] [ref=e72]
+        - text: „Ich habe bestimmt zehn verschiedene Verträge, aber keine Ahnung, ob die überhaupt zusammenpassen oder ob ich überversichert bin."
+      - generic [ref=e73]:
+        - img [ref=e75]
+        - heading "Angst vor dem Ernstfall" [level=3] [ref=e77]
+        - text: „Was passiert eigentlich, wenn mir wirklich etwas zustößt? Wer kümmert sich dann um alles? Ich schiebe das Thema seit Jahren vor mir her."
+      - generic [ref=e78]:
+        - img [ref=e80]
+        - heading "Schlechte Erfahrungen" [level=3] [ref=e83]
+        - text: „Jeder will mir nur etwas verkaufen. Ich habe kein Vertrauen mehr in Berater, die nach Abschluss nie wieder anrufen."
+    - paragraph [ref=e84]: Diese Sorgen kenne ich. Und genau deshalb arbeite ich anders.
+  - generic [ref=e87]:
+    - generic [ref=e88]:
+      - img "Ludwig Oelze, Versicherungsmakler"
+    - generic [ref=e89]:
+      - heading "Ein Ansprechpartner. Für alles." [level=2] [ref=e90]
+      - paragraph [ref=e91]: "Ich bin Ludwig Oelze, Versicherungsmakler, Baufinanzierungsexperte und vor allem: Dein persönlicher Partner für finanzielle Sicherheit."
+      - paragraph [ref=e92]: Dort, wo besondere Sorgfalt und tiefgehende Spezialexpertise gefragt sind, arbeite ich Hand in Hand mit strategischen Fachexperten. So stelle ich sicher, dass Du über die Standardberatung hinaus in jedem Bereich die absolut beste Lösung erhältst – koordiniert aus einer Hand.
+      - paragraph [ref=e93]: Als freier Makler bin ich keiner Versicherung verpflichtet, nur Dir. Ich prüfe über 60 Versicherungsgesellschaften und 400 Finanzierungsinstitute, um genau die Lösung zu finden, die zu Deinem Leben passt. Bei mir erhältst Du eine fundierte Notfallplanung mit allen wichtigen Vollmachten bis hin zu einem professionellen Schadenservice, direkt von Anwälten.
+      - link "Mehr über meine Arbeitsweise" [ref=e94] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/zusammenarbeit/
+  - generic [ref=e96]:
+    - heading "Ich helfe Menschen, die Klarheit suchen" [level=2] [ref=e98]
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - button "Familien mit Immobilie" [ref=e101] [cursor=pointer]
+        - button "Selbstständige & Unternehmer" [ref=e102] [cursor=pointer]
+        - button "Expats & internationale Familien" [ref=e103] [cursor=pointer]
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - heading "Für Familien mit Immobilie" [level=3] [ref=e107]
+          - paragraph [ref=e108]: "Du hast Verantwortung übernommen: für Dein Zuhause, für Deine Familie und für alles, was Ihr Euch aufgebaut habt. Seit mein eigener kleiner Sohn auf der Welt ist, weiß ich aus erster Hand, wie sehr sich der Blick auf Sicherheit verändert, sobald man für ein Kind mitdenkt. Ich helfe Dir, diese Fragen in Ruhe zu klären und ein Fundament zu bauen, das Deine Liebsten im Ernstfall wirklich schützt."
+          - link "Mehr für Familien" [ref=e109] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/familien/
+        - generic [ref=e110]:
+          - img "Ludwig Oelze in der Beratung"
+    - generic [ref=e111]:
+      - paragraph [ref=e112]: Passt das zu Deiner Situation?
+      - link "Lass uns sprechen" [ref=e113] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/kontakt/
+  - generic [ref=e115]:
+    - generic [ref=e116]:
+      - heading "Der Gold-Service" [level=2] [ref=e117]
+      - paragraph [ref=e118]: Damit Du Dich um nichts mehr kümmern musst
+    - paragraph [ref=e119]: Die meisten Menschen wollen sich nicht ständig mit Versicherungen beschäftigen. Du willst wissen, dass jemand an alles denkt und im Ernstfall sofort handelt. Genau dafür gibt es den Gold-Service.
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]: "1"
+        - heading "Jahresgespräch & Optimierung" [level=3] [ref=e123]
+        - paragraph [ref=e124]: Einmal im Jahr nehmen wir uns Zeit, Deine Situation zu prüfen. Hat sich etwas verändert? Gibt es bessere Tarife? Sind alle Verträge noch aktuell? Du bekommst Klarheit, ohne selbst recherchieren zu müssen.
+      - generic [ref=e125]:
+        - generic [ref=e126]: "2"
+        - heading "Schadenmanagement & Leistungsservice" [level=3] [ref=e127]
+        - paragraph [ref=e128]: Wenn etwas passiert, übernehme ich oder meine Anwälte. Du meldest mir den Schaden und ich kümmere mich um den Rest. Kommunikation mit der Versicherung, Nachfassen, Durchsetzen Deiner Ansprüche. Du hast den Kopf frei.
+      - generic [ref=e129]:
+        - generic [ref=e130]: "3"
+        - heading "Vorsorge & Notfallplanung" [level=3] [ref=e131]
+        - paragraph [ref=e132]: Vollmachten, Patientenverfügung, Sorgerechtsverfügung, Notfallordner, alles, was im Ernstfall wichtig ist, wird einmal sauber aufgesetzt und regelmäßig aktualisiert. Deine Familie weiß dann, was zu tun ist.
+    - generic [ref=e133]:
+      - paragraph [ref=e134]:
+        - strong [ref=e135]: 59,90 € für Familien und Haushalte
+      - link "Alle Gold-Service Leistungen kennenlernen" [ref=e136] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/gold-service/
+  - generic [ref=e138]:
+    - heading "Warum Du mir vertrauen kannst" [level=2] [ref=e140]
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - img [ref=e144]
+        - heading "Freier Makler" [level=3] [ref=e146]
+        - text: Keine Bindung an einzelne Versicherungen, ich vergleiche über 60 Gesellschaften für Dich.
+      - generic [ref=e147]:
+        - img [ref=e149]
+        - heading "Bankfachwirt" [level=3] [ref=e152]
+        - text: Fundierte Ausbildung im Finanzwesen, keine angelernten Verkäufer.
+      - generic [ref=e153]:
+        - img [ref=e155]
+        - heading "Seit 2019 selbstständig" [level=3] [ref=e157]
+        - text: Bewusst als freier Makler aufgestellt, um ehrlich beraten zu können.
+      - generic [ref=e158]:
+        - img [ref=e160]
+        - heading "Registriert bei der IHK" [level=3] [ref=e164]
+        - text: Zugelassen nach §34d GewO, transparent und überprüfbar.
+    - generic [ref=e165]:
+      - link "Allianz" [ref=e166] [cursor=pointer]:
+        - /url: https://www.allianz.de/
+        - img "Allianz"
+      - link "AXA" [ref=e167] [cursor=pointer]:
+        - /url: https://www.axa.de/
+        - img "AXA"
+      - link "HDI" [ref=e168] [cursor=pointer]:
+        - /url: https://www.hdi.de/
+        - img "HDI"
+      - link "Alte Leipziger" [ref=e169] [cursor=pointer]:
+        - /url: https://www.alte-leipziger.de/
+        - img "Alte Leipziger"
+      - link "ERGO" [ref=e170] [cursor=pointer]:
+        - /url: https://www.ergo.de/
+        - img "ERGO"
+      - link "ARAG" [ref=e171] [cursor=pointer]:
+        - /url: https://www.arag.de/
+        - img "ARAG"
+  - generic [ref=e173]:
+    - heading "Was meine Kunden sagen" [level=2] [ref=e175]
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - text: "\""
+        - generic [ref=e178]:
+          - img [ref=e179]
+          - img [ref=e181]
+          - img [ref=e183]
+          - img [ref=e185]
+          - img [ref=e187]
+        - paragraph
+        - paragraph [ref=e189]: „Endlich jemand, der nicht nur verkaufen will. Ludwig hat sich wirklich Zeit genommen, unsere Situation zu verstehen. Nach Jahren des Chaos haben wir jetzt einen klaren Überblick und einen Ansprechpartner, der auch nach dem Abschluss noch erreichbar ist.Wir wissen jetzt auch, warum eine Vorsorgevollmacht für uns so wichtig ist."
+        - paragraph
+        - generic [ref=e190]:
+          - generic [ref=e191]: S
+          - generic [ref=e192]:
+            - generic [ref=e193]: Familie Schneider
+            - generic [ref=e194]: Baden-Baden
+      - generic [ref=e195]:
+        - text: "\""
+        - generic [ref=e196]:
+          - img [ref=e197]
+          - img [ref=e199]
+          - img [ref=e201]
+          - img [ref=e203]
+          - img [ref=e205]
+        - paragraph
+        - paragraph [ref=e207]: „Als Selbstständiger hatte ich null Durchblick bei Versicherungen. Ludwig hat das Ganze strukturiert, mir erklärt, was ich wirklich brauche und mir viel Geld gespart. Absolute Empfehlung.Zudem haben wir genau geplant wer sich um mein Unternehmen kümmert und eine Vollmacht dafür hat, wenn ich als Unternehmer ausfalle."
+        - paragraph
+        - generic [ref=e208]:
+          - generic [ref=e209]: T
+          - generic [ref=e210]:
+            - generic [ref=e211]: Thomas M.
+            - generic [ref=e212]: Unternehmer aus Rastatt
+      - generic [ref=e213]:
+        - text: "\""
+        - generic [ref=e214]:
+          - img [ref=e215]
+          - img [ref=e217]
+          - img [ref=e219]
+          - img [ref=e221]
+          - img [ref=e223]
+        - paragraph
+        - paragraph [ref=e225]: „Wir leben als Familie in Spanien und haben Immobilien in Deutschland. Ludwig versteht beide Welten und hat uns geholfen, alles sauber aufzusetzen. Unbezahlbar."
+        - paragraph
+        - generic [ref=e226]:
+          - generic [ref=e227]: W
+          - generic [ref=e228]:
+            - generic [ref=e229]: Familie Weber
+            - generic [ref=e230]: Expats
+    - link "Google Bewertungen von Ludwig Oelze ansehen" [ref=e232] [cursor=pointer]:
+      - /url: https://www.google.com/maps/search/?api=1&query=Ludwig%20Oelze%20Rheinstra%C3%9Fe%2080%2076532%20Baden-Baden
+      - img [ref=e233]
+      - generic [ref=e238]:
+        - img [ref=e239]
+        - img [ref=e241]
+        - img [ref=e243]
+        - img [ref=e245]
+        - img [ref=e247]
+      - generic [ref=e249]: 4,9
+      - generic [ref=e250]: 50+ Bewertungen
+  - generic [ref=e251]:
+    - heading "Bereit für Klarheit?" [level=2] [ref=e252]
+    - paragraph [ref=e253]: Der erste Schritt ist ein unverbindliches Gespräch. Wir lernen uns kennen, ich höre zu, Du stellst Fragen. Ohne Druck, ohne Verpflichtung. Und danach weißt Du, ob wir zusammenpassen.
+    - link "Beratungsgespräch vereinbaren" [ref=e254] [cursor=pointer]:
+      - /url: https://b15fqlk.myrdbx.io/kontakt/
+    - link "Erstmal mehr erfahren" [ref=e255] [cursor=pointer]:
+      - /url: https://b15fqlk.myrdbx.io/zusammenarbeit/
+  - contentinfo [ref=e256]:
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - link "Ludwig Oelze" [ref=e260] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/
+            - img "Ludwig Oelze" [ref=e261]
+          - paragraph [ref=e262]: Mehr als nur Finanzberatung. Dein loyaler Partner für Versicherungen, Vorsorge und Finanzen.
+        - generic [ref=e263]:
+          - heading "Navigation" [level=4] [ref=e264]
+          - generic [ref=e265]:
+            - link "Zusammenarbeit" [ref=e266] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/zusammenarbeit/
+            - link "Gold-Service" [ref=e267] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/gold-service/
+            - link "Für Familien" [ref=e268] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/familien/
+            - link "Für Selbstständige" [ref=e269] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/selbststaendige/
+            - link "Expats" [ref=e270] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/expats/
+            - link "App" [ref=e271] [cursor=pointer]:
+              - /url: https://meine-finanzen.digital/login
+            - link "App Store" [ref=e272] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/finanzmanager-app/id6648793330
+            - link "Play Store" [ref=e273] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.demv.finanzmanager.app&pli=1
+        - generic [ref=e274]:
+          - heading "Mehr" [level=4] [ref=e275]
+          - generic [ref=e276]:
+            - link "Über Ludwig" [ref=e277] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/ueber-ludwig/
+            - link "Wissen & Ratgeber" [ref=e278] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/wissen/
+            - link "Kontakt & Termin" [ref=e279] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/kontakt/
+            - link "Unternehmervollmacht" [ref=e280] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/unternehmervollmacht/
+            - link "Berufsunfähigkeit" [ref=e281] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/berufsunfaehigkeit/
+            - link "Haftpflichtversicherung" [ref=e282] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/haftpflichtversicherung/
+            - link "Hausratversicherung" [ref=e283] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/hausratversicherung/
+            - link "Unfallversicherung" [ref=e284] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/unfallversicherung/
+            - link "Gebäudeversicherung" [ref=e285] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/gebaeudeversicherung/
+            - link "Rentenversicherung" [ref=e286] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/rentenversicherung/
+            - link "Pflegeversicherung" [ref=e287] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/pflegeversicherung/
+            - link "Krankenversicherung" [ref=e288] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/krankenversicherung/
+            - link "Rechtsschutzversicherung" [ref=e289] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/rechtsschutzversicherung/
+            - link "Zahnzusatzversicherung" [ref=e290] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/zahnzusatzversicherung/
+            - link "PassportCard" [ref=e291] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/passportcard/
+            - link "Expat-Beratung" [ref=e292] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/expat-beratung-1/
+            - link "Digitale Nomaden" [ref=e293] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/digitale-nomaden/
+            - link "Immobilien-Unternehmer" [ref=e294] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/immobilien-nomaden/
+            - link "Freelancer & Selbständige" [ref=e295] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/freelancer-nomaden/
+            - link "Spanien - Dubai - Deutschland" [ref=e296] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/spanien-dubai/
+            - link "PassportCard (EN)" [ref=e297] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/passportcard-en/
+        - generic [ref=e298]:
+          - heading "Kontakt" [level=4] [ref=e299]
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - img [ref=e302]
+              - generic [ref=e305]:
+                - strong [ref=e306]: "Post- & Geschäftsanschrift:"
+                - text: Bismarckstr. 26
+                - text: 76530 Baden-Baden
+            - generic [ref=e307]:
+              - img [ref=e308]
+              - generic [ref=e311]:
+                - strong [ref=e312]: "Büroanschrift für Termine:"
+                - text: Lange Str. 75
+                - text: 76530 Baden-Baden
+            - generic [ref=e313]:
+              - img [ref=e314]
+              - link "+49 176 43689181" [ref=e316] [cursor=pointer]:
+                - /url: tel:+4917643689181
+            - generic [ref=e317]:
+              - img [ref=e318]
+              - link "finanzen@ludwigoelze.com" [ref=e321] [cursor=pointer]:
+                - /url: mailto:finanzen@ludwigoelze.com
+          - generic [ref=e322]:
+            - link "WhatsApp" [ref=e323] [cursor=pointer]:
+              - /url: https://wa.me/4917643689181
+              - img [ref=e324]
+            - link "LinkedIn" [ref=e326] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ludwig-oelze-6656b8173
+              - img [ref=e327]
+            - link "Instagram" [ref=e329] [cursor=pointer]:
+              - /url: https://www.instagram.com/ludwig_finanzmakler
+              - img [ref=e330]
+      - generic [ref=e333]:
+        - generic [ref=e334]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e335]:
+          - link "Impressum" [ref=e336] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/impressum/
+          - link "Datenschutz" [ref=e337] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/datenschutz/
+          - link "Erstinformation" [ref=e338] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/erstinformation/

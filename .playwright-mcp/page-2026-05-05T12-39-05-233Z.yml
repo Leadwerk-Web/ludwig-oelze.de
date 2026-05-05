@@ -1,0 +1,301 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Ludwig Oelze" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img "Ludwig Oelze" [ref=e5]
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Start" [ref=e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e10]:
+            - link "Zusammenarbeit" [ref=e11] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+          - listitem [ref=e12]:
+            - link "Gold-Service" [ref=e13] [cursor=pointer]:
+              - /url: gold-service.html
+          - listitem [ref=e14]:
+            - link "Für wen" [ref=e15] [cursor=pointer]:
+              - /url: "#"
+              - text: Für wen
+              - img [ref=e16]
+          - listitem [ref=e18]:
+            - link "Über Ludwig" [ref=e19] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+          - listitem [ref=e20]:
+            - link "Wissen" [ref=e21] [cursor=pointer]:
+              - /url: wissen.html
+      - link "Termin buchen" [ref=e22] [cursor=pointer]:
+        - /url: kontakt.html
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Ludwig Oelze Beratung" [ref=e26]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - text: ETF-Vorsorge
+        - heading "Hey! Kennst Du schon Durchblick?" [level=1] [ref=e32]
+        - paragraph [ref=e33]: "Deine ETF-Vorsorge der neuen Generation: flexibel sparen, Renditechancen nutzen und Kosten bewusst im Blick behalten."
+        - generic [ref=e34]:
+          - link "Sparpotenzial berechnen" [ref=e35] [cursor=pointer]:
+            - /url: "#rechner"
+          - link "Termin buchen" [ref=e36] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung/beratung
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Mach mehr aus Deinem Geld" [level=2] [ref=e41]
+        - paragraph [ref=e42]: Mit Durchblick geht es um eine clevere ETF-Vorsorge, die flexibel bleiben soll und ohne klassische Abschlussgebühren auskommt. Schon ab 10 EUR im Monat kannst Du starten und Dir Schritt für Schritt eine Vorsorgestruktur aufbauen.
+        - paragraph [ref=e43]: Wichtig ist dabei nicht nur die Renditechance. Entscheidend ist, dass Kosten, Laufzeit, Flexibilität, Steuern und spätere Rentenoptionen zusammenpassen. Genau deshalb schaue ich mit Dir auf die Struktur, bevor Du einfach irgendeinen Sparplan auswählst.
+        - paragraph [ref=e44]: Wenn Du wissen willst, ob Durchblick für Dich sinnvoll ist, erkläre ich Dir in wenigen Minuten, wie der Ansatz funktioniert und worauf Du achten solltest.
+      - generic [ref=e45]:
+        - img "Smartphone-App-Ansicht der Durchblick ETF-Vorsorge" [ref=e47]
+        - generic [ref=e48]:
+          - heading "Die Kernidee" [level=3] [ref=e49]
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - generic [ref=e52]: ETF-Vorsorge mit Renditechancen und individueller Anlagestrategie
+              - text: ✓
+            - listitem [ref=e53]:
+              - generic [ref=e54]: keine klassischen Abschlussgebühren im Vordergrund
+              - text: ✓
+            - listitem [ref=e55]:
+              - generic [ref=e56]: flexibel ein- und auszahlen
+              - text: ✓
+            - listitem [ref=e57]:
+              - generic [ref=e58]: steuerliche Aspekte der Ansparphase sauber prüfen
+              - text: ✓
+            - listitem [ref=e59]:
+              - generic [ref=e60]: lebenslange Rentenoption für den Ruhestand
+              - text: ✓
+    - generic [ref=e62]:
+      - heading "Was Durchblick interessant macht" [level=2] [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - img [ref=e68]
+          - heading "Renditechancen und Sicherheit" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Du wählst eine Anlagestrategie, die zu Ziel, Laufzeit und Risikogefühl passt.
+        - generic [ref=e73]:
+          - img [ref=e75]
+          - heading "Steuervorteile prüfen" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Je nach Vorsorgestruktur können Erträge in der Ansparphase steuerlich anders behandelt werden. Das prüfen wir konkret.
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - heading "Flexibel bleiben" [level=3] [ref=e84]
+          - paragraph [ref=e85]: Einzahlungen und Auszahlungen sollen nicht starr sein, sondern zu Deinem Leben passen.
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - heading "Rente mitdenken" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Am Ende geht es nicht nur um Depotwerte, sondern um planbare Vorsorge und eine mögliche lebenslange Rente.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: Sparpotenzial-Rechner
+        - heading "Provisionsfreie Anlage im Vergleich" [level=2] [ref=e97]
+        - paragraph [ref=e98]: "Der Rechner macht die Kostenwirkung sichtbar: monatlichen Betrag und Laufzeit eingeben, dann sehen, wie stark Abschlusskosten in einer langen Vorsorgephase wirken können."
+        - paragraph [ref=e99]: Die Berechnung ist bewusst eine vereinfachte Modellrechnung mit 7 Prozent angenommener Jahresrendite und 5 Prozent modellhafter Abschlusskosten. Sie ist keine Garantie, keine Steuerberatung und keine Anlageempfehlung.
+        - list [ref=e100]:
+          - listitem [ref=e101]:
+            - generic [ref=e102]: Monatlicher Betrag ab 10 EUR
+            - text: ✓
+          - listitem [ref=e103]:
+            - generic [ref=e104]: Laufzeit zwischen 5 und 50 Jahren
+            - text: ✓
+          - listitem [ref=e105]:
+            - generic [ref=e106]: Vergleich mit und ohne modellhafte Abschlusskosten
+            - text: ✓
+          - listitem [ref=e107]:
+            - generic [ref=e108]: Ergebnis direkt sichtbar und mobil nutzbar
+            - text: ✓
+      - generic [ref=e109]:
+        - heading "Dein Sparpotenzial" [level=3] [ref=e110]
+        - paragraph [ref=e111]: Provisionsfreie Anlage im Vergleich
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: Monatlicher Betrag (EUR)
+            - spinbutton "Monatlicher Betrag (EUR)" [ref=e115]: "100"
+          - generic [ref=e116]:
+            - generic [ref=e117]: Laufzeit (Jahre)
+            - spinbutton "Laufzeit (Jahre)" [ref=e118]: "30"
+        - button "Berechnen" [ref=e119] [cursor=pointer]
+        - generic [ref=e120]:
+          - generic [ref=e121]: "Vorteil: 5.668 €"
+          - generic [ref=e122]:
+            - paragraph [ref=e123]:
+              - generic [ref=e124]: Einzahlung
+              - strong [ref=e125]: 36.000 €
+            - paragraph [ref=e126]:
+              - generic [ref=e127]: Ohne modellhafte Abschlusskosten
+              - strong [ref=e128]: 113.353 €
+            - paragraph [ref=e129]:
+              - generic [ref=e130]: Mit 5% modellhaften Abschlusskosten
+              - strong [ref=e131]: 107.685 €
+        - generic [ref=e132]:
+          - heading "50 EUR Prämie sichern" [level=4] [ref=e133]
+          - paragraph [ref=e134]: Wenn Du Durchblick weiterempfiehlst, kann eine Empfehlungsprämie von 50 EUR relevant sein. Details klären wir persönlich.
+          - button "Jetzt teilen" [ref=e135] [cursor=pointer]
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - heading "Dokumente zur Einordnung" [level=2] [ref=e140]
+        - paragraph [ref=e141]: Zur Einordnung gehören ein Kostenvergleich mit Trade Republic und Produktinformationen. So kannst Du die wichtigsten Punkte vor einem Gespräch in Ruhe ansehen.
+      - generic [ref=e142]:
+        - heading "Downloads" [level=3] [ref=e143]
+        - generic [ref=e144]:
+          - link "Kostenvergleich herunterladen" [ref=e145] [cursor=pointer]:
+            - /url: https://img1.wsimg.com/blobby/go/bf02664e-696f-43a3-81e6-61e8b405fc2a/downloads/d72fe84e-e3e7-4873-9e03-ebf774ec6f70/Steuervergleich%20mit%20TradeRepuiblic.pdf?ver=1777982447724
+          - link "Produktinformationen herunterladen" [ref=e146] [cursor=pointer]:
+            - /url: https://img1.wsimg.com/blobby/go/bf02664e-696f-43a3-81e6-61e8b405fc2a/downloads/53ac43b6-c051-4705-ba4d-f2c83b3f639c/Produktinformationen.pdf?ver=1777982447724
+    - generic [ref=e148]:
+      - heading "Häufige Fragen" [level=2] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - button "Was ist Durchblick?" [ref=e153] [cursor=pointer]:
+            - text: Was ist Durchblick?
+            - img [ref=e154]
+          - paragraph [ref=e157]: Durchblick ist ein Einstieg in eine ETF-basierte Vorsorgelösung, bei der Kosten, Flexibilität, Steuern und spätere Rentenoptionen gemeinsam betrachtet werden.
+        - generic [ref=e158]:
+          - button "Ab welchem Betrag kann ich starten?" [ref=e159] [cursor=pointer]:
+            - text: Ab welchem Betrag kann ich starten?
+            - img [ref=e160]
+          - paragraph [ref=e163]: Durchblick ist auf einen Einstieg ab 10 EUR im Monat ausgerichtet. Ob dieser Einstieg für Dich sinnvoll ist, hängt von Ziel, Laufzeit und Gesamtstruktur ab.
+        - generic [ref=e164]:
+          - button "Kann ich flexibel ein- und auszahlen?" [ref=e165] [cursor=pointer]:
+            - text: Kann ich flexibel ein- und auszahlen?
+            - img [ref=e166]
+          - paragraph [ref=e169]: Flexibilität ist ein zentraler Punkt von Durchblick. Vor einer Entscheidung prüfen wir trotzdem, welche Regeln, Kosten und steuerlichen Folgen konkret gelten.
+        - generic [ref=e170]:
+          - button "Was zeigt der Sparpotenzial-Rechner?" [ref=e171] [cursor=pointer]:
+            - text: Was zeigt der Sparpotenzial-Rechner?
+            - img [ref=e172]
+          - paragraph [ref=e175]: Er zeigt modellhaft, wie stark Abschlusskosten langfristig wirken können. Gerechnet wird mit festen Annahmen; echte Ergebnisse können abweichen.
+        - generic [ref=e176]:
+          - button "Ist das eine Anlageberatung?" [ref=e177] [cursor=pointer]:
+            - text: Ist das eine Anlageberatung?
+            - img [ref=e178]
+          - paragraph [ref=e181]: Nein. Die Seite ist ein Einstieg und der Rechner ist eine Orientierung. Eine konkrete Empfehlung setzt voraus, dass wir Deine Situation, Ziele und Risikobereitschaft sauber besprechen.
+    - generic [ref=e183]:
+      - heading "Durchblick kurz einordnen lassen" [level=2] [ref=e184]
+      - paragraph [ref=e185]: Schreib mir oder buche direkt einen Termin. Ich erkläre Dir in wenigen Minuten, ob der Ansatz zu Deiner Vorsorge passt.
+      - generic [ref=e186]:
+        - link "Termin buchen" [ref=e187] [cursor=pointer]:
+          - /url: https://calendly.com/einsparung/beratung
+        - link "Per WhatsApp fragen" [ref=e188] [cursor=pointer]:
+          - /url: https://wa.me/4917643689181
+  - contentinfo [ref=e189]:
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - link "Ludwig Oelze" [ref=e193] [cursor=pointer]:
+            - /url: index.html
+            - img "Ludwig Oelze" [ref=e194]
+          - paragraph [ref=e195]: Mehr als nur Finanzberatung. Dein loyaler Partner für Versicherungen, Vorsorge und Finanzen.
+        - generic [ref=e196]:
+          - heading "Navigation" [level=4] [ref=e197]
+          - generic [ref=e198]:
+            - link "Zusammenarbeit" [ref=e199] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+            - link "Gold-Service" [ref=e200] [cursor=pointer]:
+              - /url: gold-service.html
+            - link "Für Familien" [ref=e201] [cursor=pointer]:
+              - /url: familien.html
+            - link "Für Selbstständige" [ref=e202] [cursor=pointer]:
+              - /url: selbststaendige.html
+            - link "Expats" [ref=e203] [cursor=pointer]:
+              - /url: expats.html
+            - link "App" [ref=e204] [cursor=pointer]:
+              - /url: https://meine-finanzen.digital/login
+            - link "App Store" [ref=e205] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/finanzmanager-app/id6648793330
+            - link "Play Store" [ref=e206] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.demv.finanzmanager.app&pli=1
+        - generic [ref=e207]:
+          - heading "Mehr" [level=4] [ref=e208]
+          - generic [ref=e209]:
+            - link "Über Ludwig" [ref=e210] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+            - link "Wissen & Ratgeber" [ref=e211] [cursor=pointer]:
+              - /url: wissen.html
+            - link "Kontakt & Termin" [ref=e212] [cursor=pointer]:
+              - /url: kontakt.html
+            - link "Unternehmervollmacht" [ref=e213] [cursor=pointer]:
+              - /url: unternehmervollmacht.html
+            - link "Durchblick ETF-Vorsorge" [ref=e214] [cursor=pointer]:
+              - /url: durchblick.html
+            - link "Berufsunfähigkeit" [ref=e215] [cursor=pointer]:
+              - /url: berufsunfaehigkeit.html
+            - link "Haftpflichtversicherung" [ref=e216] [cursor=pointer]:
+              - /url: haftpflichtversicherung.html
+            - link "Hausratversicherung" [ref=e217] [cursor=pointer]:
+              - /url: hausratversicherung.html
+            - link "Unfallversicherung" [ref=e218] [cursor=pointer]:
+              - /url: unfallversicherung.html
+            - link "Gebäudeversicherung" [ref=e219] [cursor=pointer]:
+              - /url: gebaeudeversicherung.html
+            - link "Rentenversicherung" [ref=e220] [cursor=pointer]:
+              - /url: rentenversicherung.html
+            - link "Pflegeversicherung" [ref=e221] [cursor=pointer]:
+              - /url: pflegeversicherung.html
+            - link "Krankenversicherung" [ref=e222] [cursor=pointer]:
+              - /url: krankenversicherung.html
+            - link "Rechtsschutzversicherung" [ref=e223] [cursor=pointer]:
+              - /url: rechtsschutzversicherung.html
+            - link "Zahnzusatzversicherung" [ref=e224] [cursor=pointer]:
+              - /url: zahnzusatzversicherung.html
+            - link "PassportCard" [ref=e225] [cursor=pointer]:
+              - /url: passportcard.html
+            - link "Expat-Beratung" [ref=e226] [cursor=pointer]:
+              - /url: expat-beratung-1.html
+            - link "Digitale Nomaden" [ref=e227] [cursor=pointer]:
+              - /url: digitale-nomaden.html
+            - link "Immobilien-Unternehmer" [ref=e228] [cursor=pointer]:
+              - /url: immobilien-nomaden.html
+            - link "Freelancer & Selbständige" [ref=e229] [cursor=pointer]:
+              - /url: freelancer-nomaden.html
+            - link "Spanien - Dubai - Deutschland" [ref=e230] [cursor=pointer]:
+              - /url: spanien-dubai.html
+            - link "PassportCard (EN)" [ref=e231] [cursor=pointer]:
+              - /url: passportcard-en.html
+        - generic [ref=e232]:
+          - heading "Kontakt" [level=4] [ref=e233]
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - img [ref=e236]
+              - generic [ref=e239]:
+                - strong [ref=e240]: "Post- & Geschäftsanschrift:"
+                - text: Bismarckstr. 26
+                - text: 76530 Baden-Baden
+            - generic [ref=e241]:
+              - img [ref=e242]
+              - generic [ref=e245]:
+                - strong [ref=e246]: "Büroanschrift für Termine:"
+                - text: Lange Str. 75
+                - text: 76530 Baden-Baden
+            - generic [ref=e247]:
+              - img [ref=e248]
+              - link "+49 176 43689181" [ref=e250] [cursor=pointer]:
+                - /url: tel:+4917643689181
+            - generic [ref=e251]:
+              - img [ref=e252]
+              - link "finanzen@ludwigoelze.com" [ref=e255] [cursor=pointer]:
+                - /url: mailto:finanzen@ludwigoelze.com
+          - generic [ref=e256]:
+            - link "WhatsApp" [ref=e257] [cursor=pointer]:
+              - /url: https://wa.me/4917643689181
+              - img [ref=e258]
+            - link "Facebook" [ref=e260] [cursor=pointer]:
+              - /url: https://www.facebook.com/ludwig.finanzmakler/
+              - img [ref=e261]
+            - link "LinkedIn" [ref=e263] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ludwig-oelze-6656b8173
+              - img [ref=e264]
+            - link "Instagram" [ref=e266] [cursor=pointer]:
+              - /url: https://www.instagram.com/ludwig_finanzmakler
+              - img [ref=e267]
+      - generic [ref=e270]:
+        - generic [ref=e271]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e272]:
+          - link "Impressum" [ref=e273] [cursor=pointer]:
+            - /url: impressum.html
+          - link "Datenschutz" [ref=e274] [cursor=pointer]:
+            - /url: datenschutz.html
+          - link "Erstinformation" [ref=e275] [cursor=pointer]:
+            - /url: erstinformation.html

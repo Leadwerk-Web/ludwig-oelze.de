@@ -1,0 +1,7 @@
+[     473ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://b15fqlk.myrdbx.io/passportcard-en.html:0
+[     498ms] [LOG] opt-in @ https://b15fqlk.myrdbx.io/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1773664336:0
+[    6074ms] [LOG] opt-in @ https://b15fqlk.myrdbx.io/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1773664336:0
+[    6463ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://b15fqlk.myrdbx.io/en/passportcard/:0
+[    6479ms] [LOG] opt-in @ https://b15fqlk.myrdbx.io/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1773664336:0
+[   36885ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://b15fqlk.myrdbx.io/en/passportcard-en/:0
+[   36958ms] [LOG] opt-in @ https://b15fqlk.myrdbx.io/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1773664336:0

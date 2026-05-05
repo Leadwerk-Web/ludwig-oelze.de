@@ -1,0 +1,14 @@
+/*
+Theme Name: Leadwerk Theme - Ludwig
+Theme URI: https://ludwig-oelze.de
+Description: WordPress theme for the Ludwig Oelze static-site import stack.
+Version: 1.0.11
+Author: Leadwerk
+Text Domain: leadwerk-theme
+Requires at least: 6.0
+Requires PHP: 7.4
+*/
+
+body {
+	margin: 0;
+}

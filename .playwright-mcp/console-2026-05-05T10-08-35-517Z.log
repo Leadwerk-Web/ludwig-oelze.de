@@ -1,0 +1,4 @@
+[    1535ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web.archive.org/web/20260505095537/http://web.archive.org/screenshot/https://img1.wsimg.com/blobby/go/bf02664e-696f-43a3-81e6-61e8b405fc2a/downloads/d72fe84e-e3e7-4873-9e03-ebf774ec6f70/Steuervergleich%20mit%20TradeRepuiblic.pdf?ver=1758112701285:0
+[    7542ms] [LOG] donation-banner loaded {version: 1.1.1} @ https://archive.org/includes/build/js/archive.min.js?v=4b6bc904:400
+[   15835ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web.archive.org/web/20260505095537/http://web.archive.org/screenshot/https://img1.wsimg.com/blobby/go/bf02664e-696f-43a3-81e6-61e8b405fc2a/downloads/d72fe84e-e3e7-4873-9e03-ebf774ec6f70/Steuervergleich%20mit%20TradeRepuiblic.pdf?ver=1758112701285:0
+[   16719ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web.archive.org/favicon.ico:0

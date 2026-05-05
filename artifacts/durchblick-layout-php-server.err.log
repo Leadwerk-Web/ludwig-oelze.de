@@ -1,0 +1,43 @@
+[Tue May  5 15:38:40 2026] PHP 8.5.4 Development Server (http://127.0.0.1:8765) started
+[Tue May  5 15:39:04 2026] 127.0.0.1:58523 Accepted
+[Tue May  5 15:39:04 2026] 127.0.0.1:58523 [200]: GET /durchblick.html
+[Tue May  5 15:39:04 2026] 127.0.0.1:65063 Accepted
+[Tue May  5 15:39:04 2026] 127.0.0.1:58523 Closing
+[Tue May  5 15:39:04 2026] 127.0.0.1:65063 [200]: GET /css/styles.css
+[Tue May  5 15:39:04 2026] 127.0.0.1:65063 Closing
+[Tue May  5 15:39:04 2026] 127.0.0.1:65369 Accepted
+[Tue May  5 15:39:04 2026] 127.0.0.1:65369 [200]: GET /assets/images/logo.svg
+[Tue May  5 15:39:04 2026] 127.0.0.1:56576 Accepted
+[Tue May  5 15:39:04 2026] 127.0.0.1:65369 Closing
+[Tue May  5 15:39:04 2026] 127.0.0.1:56576 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 15:39:04 2026] 127.0.0.1:52382 Accepted
+[Tue May  5 15:39:04 2026] 127.0.0.1:55366 Accepted
+[Tue May  5 15:39:04 2026] 127.0.0.1:52382 [200]: GET /Ludwig_prev_foto/_X8A3120_prev.jpg
+[Tue May  5 15:39:04 2026] 127.0.0.1:55366 [200]: GET /js/main.js
+[Tue May  5 15:39:04 2026] 127.0.0.1:55366 Closing
+[Tue May  5 15:39:04 2026] 127.0.0.1:56576 Closing
+[Tue May  5 15:39:04 2026] 127.0.0.1:52382 Closing
+[Tue May  5 15:39:05 2026] 127.0.0.1:50155 Accepted
+[Tue May  5 15:39:05 2026] 127.0.0.1:50155 [200]: GET /assets/images/durchblick/durchblick-app.png
+[Tue May  5 15:39:05 2026] 127.0.0.1:50155 Closing
+[Tue May  5 15:40:42 2026] 127.0.0.1:49195 Accepted
+[Tue May  5 15:40:42 2026] 127.0.0.1:49195 [200]: GET /durchblick.html
+[Tue May  5 15:40:42 2026] 127.0.0.1:65075 Accepted
+[Tue May  5 15:40:42 2026] 127.0.0.1:49195 Closing
+[Tue May  5 15:40:42 2026] 127.0.0.1:65075 [200]: GET /css/styles.css
+[Tue May  5 15:40:42 2026] 127.0.0.1:65305 Accepted
+[Tue May  5 15:40:42 2026] 127.0.0.1:65075 Closing
+[Tue May  5 15:40:42 2026] 127.0.0.1:59035 Accepted
+[Tue May  5 15:40:42 2026] 127.0.0.1:65305 [200]: GET /assets/images/logo.svg
+[Tue May  5 15:40:42 2026] 127.0.0.1:59035 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 15:40:42 2026] 127.0.0.1:65305 Closing
+[Tue May  5 15:40:42 2026] 127.0.0.1:59035 Closing
+[Tue May  5 15:40:42 2026] 127.0.0.1:52698 Accepted
+[Tue May  5 15:40:42 2026] 127.0.0.1:52698 [200]: GET /Ludwig_prev_foto/_X8A3120_prev.jpg
+[Tue May  5 15:40:42 2026] 127.0.0.1:52698 Closing
+[Tue May  5 15:40:42 2026] 127.0.0.1:54216 Accepted
+[Tue May  5 15:40:42 2026] 127.0.0.1:54216 [200]: GET /js/main.js
+[Tue May  5 15:40:42 2026] 127.0.0.1:54216 Closing
+[Tue May  5 15:40:42 2026] 127.0.0.1:51559 Accepted
+[Tue May  5 15:40:42 2026] 127.0.0.1:51559 [200]: GET /assets/images/durchblick/durchblick-app.png
+[Tue May  5 15:40:42 2026] 127.0.0.1:51559 Closing

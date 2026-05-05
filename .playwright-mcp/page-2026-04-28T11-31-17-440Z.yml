@@ -1,0 +1,138 @@
+- generic [active] [ref=e1]:
+  - dialog "Manage consent" [ref=e2]:
+    - button "Dialog schließen" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - paragraph [ref=e9]: To provide the best experience, we use technologies like cookies to store and/or access device information. If you consent to these technologies, we may process data such as browsing behavior or unique IDs on this site. If you do not consent or withdraw your consent, certain features and functions may be affected.
+    - generic [ref=e10]:
+      - button "Accept" [ref=e11] [cursor=pointer]
+      - button "Deny" [ref=e12] [cursor=pointer]
+      - button "View preferences" [ref=e13] [cursor=pointer]
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: https://b15fqlk.myrdbx.io/
+        - listitem
+        - listitem
+  - banner [ref=e14]:
+    - generic [ref=e15]:
+      - link "Ludwig Oelze" [ref=e16] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/en/
+        - img "Ludwig Oelze" [ref=e17]
+      - link "Termin buchen" [ref=e18] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/en/
+      - button "Menü öffnen" [ref=e19] [cursor=pointer]
+  - contentinfo [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - link "Ludwig Oelze" [ref=e27] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/en/
+            - img "Ludwig Oelze" [ref=e28]
+          - paragraph [ref=e29]: Mehr als nur Finanzberatung. Dein loyaler Partner für Versicherungen, Vorsorge und Finanzen.
+        - generic [ref=e30]:
+          - heading "Navigation" [level=4] [ref=e31]
+          - generic [ref=e32]:
+            - link "Zusammenarbeit" [ref=e33] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Gold-Service" [ref=e34] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Für Familien" [ref=e35] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Für Selbstständige" [ref=e36] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Expats" [ref=e37] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "App" [ref=e38] [cursor=pointer]:
+              - /url: https://meine-finanzen.digital/login
+            - link "App Store" [ref=e39] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/finanzmanager-app/id6648793330
+            - link "Play Store" [ref=e40] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.demv.finanzmanager.app&pli=1
+        - generic [ref=e41]:
+          - heading "Mehr" [level=4] [ref=e42]
+          - generic [ref=e43]:
+            - link "Über Ludwig" [ref=e44] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Wissen & Ratgeber" [ref=e45] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Kontakt & Termin" [ref=e46] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Unternehmervollmacht" [ref=e47] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Berufsunfähigkeit" [ref=e48] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Haftpflichtversicherung" [ref=e49] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Hausratversicherung" [ref=e50] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Unfallversicherung" [ref=e51] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Gebäudeversicherung" [ref=e52] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Rentenversicherung" [ref=e53] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Pflegeversicherung" [ref=e54] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Krankenversicherung" [ref=e55] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Rechtsschutzversicherung" [ref=e56] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Zahnzusatzversicherung" [ref=e57] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "PassportCard" [ref=e58] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Expat-Beratung" [ref=e59] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Digitale Nomaden" [ref=e60] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Immobilien-Unternehmer" [ref=e61] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Freelancer & Selbständige" [ref=e62] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "Spanien - Dubai - Deutschland" [ref=e63] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/en/
+            - link "PassportCard (EN)" [ref=e64] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/passportcard-en/
+        - generic [ref=e65]:
+          - heading "Kontakt" [level=4] [ref=e66]
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - generic [ref=e72]:
+                - strong [ref=e73]: "Post- & Geschäftsanschrift:"
+                - text: Bismarckstr. 26
+                - text: 76530 Baden-Baden
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - generic [ref=e78]:
+                - strong [ref=e79]: "Büroanschrift für Termine:"
+                - text: Lange Str. 75
+                - text: 76530 Baden-Baden
+            - generic [ref=e80]:
+              - img [ref=e81]
+              - link "+49 176 43689181" [ref=e83] [cursor=pointer]:
+                - /url: tel:+4917643689181
+            - generic [ref=e84]:
+              - img [ref=e85]
+              - link "finanzen@ludwigoelze.com" [ref=e88] [cursor=pointer]:
+                - /url: mailto:finanzen@ludwigoelze.com
+          - generic [ref=e89]:
+            - link "WhatsApp" [ref=e90] [cursor=pointer]:
+              - /url: https://wa.me/4917643689181
+              - img [ref=e91]
+            - link "LinkedIn" [ref=e93] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ludwig-oelze-6656b8173
+              - img [ref=e94]
+            - link "Instagram" [ref=e96] [cursor=pointer]:
+              - /url: https://www.instagram.com/ludwig_finanzmakler
+              - img [ref=e97]
+      - generic [ref=e100]:
+        - generic [ref=e101]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e102]:
+          - link "Impressum" [ref=e103] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/en/
+          - link "Datenschutz" [ref=e104] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/en/
+          - link "Erstinformation" [ref=e105] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/en/

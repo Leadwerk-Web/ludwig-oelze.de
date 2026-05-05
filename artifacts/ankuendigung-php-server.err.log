@@ -1,0 +1,22 @@
+[Tue May  5 15:57:27 2026] PHP 8.5.4 Development Server (http://127.0.0.1:8765) started
+[Tue May  5 15:57:44 2026] 127.0.0.1:63522 Accepted
+[Tue May  5 15:57:44 2026] 127.0.0.1:63522 [200]: GET /ankuendigung.html
+[Tue May  5 15:57:44 2026] 127.0.0.1:63522 Closing
+[Tue May  5 15:57:44 2026] 127.0.0.1:50066 Accepted
+[Tue May  5 15:57:44 2026] 127.0.0.1:61847 Accepted
+[Tue May  5 15:57:44 2026] 127.0.0.1:50066 [200]: GET /css/styles.css
+[Tue May  5 15:57:44 2026] 127.0.0.1:61847 [200]: GET /assets/images/logo.svg
+[Tue May  5 15:57:44 2026] 127.0.0.1:62017 Accepted
+[Tue May  5 15:57:44 2026] 127.0.0.1:62017 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 15:57:44 2026] 127.0.0.1:50066 Closing
+[Tue May  5 15:57:44 2026] 127.0.0.1:61847 Closing
+[Tue May  5 15:57:44 2026] 127.0.0.1:62017 Closing
+[Tue May  5 15:57:44 2026] 127.0.0.1:57778 Accepted
+[Tue May  5 15:57:44 2026] 127.0.0.1:57778 [200]: GET /Ludwig_prev_foto/_X8A3007_prev.jpg
+[Tue May  5 15:57:44 2026] 127.0.0.1:57778 Closing
+[Tue May  5 15:57:44 2026] 127.0.0.1:51539 Accepted
+[Tue May  5 15:57:44 2026] 127.0.0.1:51539 [200]: GET /js/main.js
+[Tue May  5 15:57:44 2026] 127.0.0.1:51539 Closing
+[Tue May  5 15:57:44 2026] 127.0.0.1:64043 Accepted
+[Tue May  5 15:57:44 2026] 127.0.0.1:64043 [200]: GET /assets/images/ankuendigung/ludwig-service-update.jpg
+[Tue May  5 15:57:44 2026] 127.0.0.1:64043 Closing

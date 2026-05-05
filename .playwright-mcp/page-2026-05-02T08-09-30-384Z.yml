@@ -1,0 +1,96 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Finora Investment Studio" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Finora Investment Studio" [ref=e6]
+      - button "Menü öffnen" [ref=e7] [cursor=pointer]
+  - generic [ref=e13]:
+    - generic [ref=e14]:
+      - paragraph [ref=e15]: 404 / Strategie neu ausrichten
+      - heading "Diese Route passt nicht mehr zum Plan." [level=1] [ref=e16]
+      - generic [ref=e17]:
+        - paragraph [ref=e18]: Die gesuchte Seite ist nicht erreichbar. Von hier aus finden Sie schnell zur Beratung, zur Philosophie oder direkt zur passenden Finanzfrage.
+        - generic [ref=e19]:
+          - link "Zur Startseite" [ref=e20] [cursor=pointer]:
+            - /url: index.html
+          - link "Termin anfragen" [ref=e21] [cursor=pointer]:
+            - /url: kontakt.html
+        - generic [ref=e22]:
+          - link "Altersvorsorge langfristig planen" [ref=e23] [cursor=pointer]:
+            - /url: altersvorsorge.html
+            - strong [ref=e24]: Altersvorsorge
+            - text: langfristig planen
+          - link "Investment klar strukturieren" [ref=e25] [cursor=pointer]:
+            - /url: investment-beratung.html
+            - strong [ref=e26]: Investment
+            - text: klar strukturieren
+          - link "Philosophie Finora verstehen" [ref=e27] [cursor=pointer]:
+            - /url: finora-philosophie.html
+            - strong [ref=e28]: Philosophie
+            - text: Finora verstehen
+    - figure [ref=e29]:
+      - img "Finora Beratungssituation" [ref=e30]
+      - generic [ref=e31]: "404"
+      - generic [ref=e32]: Plan pruefen. Fokus behalten.
+  - contentinfo [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - img "Finora Logo" [ref=e36]
+        - paragraph [ref=e37]: Finora bietet unabhängige Finanzberatung für Expats, Erben, Berufseinsteiger, Angestellte, Selbstständige und ETF-Investoren in Deutschland. Spezialisiert auf Altersvorsorge, Investment, Immobilien und steueroptimierte Strategien.
+      - generic [ref=e38]:
+        - heading "Menü" [level=4] [ref=e39]
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Startseite" [ref=e42] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e43]:
+            - link "Finora-Philosophie" [ref=e44] [cursor=pointer]:
+              - /url: finora-philosophie.html
+          - listitem [ref=e45]:
+            - link "Über Finora" [ref=e46] [cursor=pointer]:
+              - /url: ueber-finora.html
+          - listitem [ref=e47]:
+            - link "Kontakt" [ref=e48] [cursor=pointer]:
+              - /url: kontakt.html
+      - generic [ref=e49]:
+        - heading "Themen" [level=4] [ref=e50]
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "Altersvorsorge-Beratung" [ref=e53] [cursor=pointer]:
+              - /url: altersvorsorge.html
+          - listitem [ref=e54]:
+            - link "Investment" [ref=e55] [cursor=pointer]:
+              - /url: investment-beratung.html
+          - listitem [ref=e56]:
+            - link "Immobilien" [ref=e57] [cursor=pointer]:
+              - /url: immobilien-beratung.html
+          - listitem [ref=e58]:
+            - link "Erb-Anlage" [ref=e59] [cursor=pointer]:
+              - /url: erbanlage-beratung.html
+      - generic [ref=e60]:
+        - heading "Kontakt" [level=4] [ref=e61]
+        - generic [ref=e62]:
+          - generic [ref=e63]: 
+          - paragraph [ref=e64]:
+            - text: Brauerstr. 17
+            - text: 76137 Karlsruhe
+        - generic [ref=e65]:
+          - generic [ref=e66]: 
+          - paragraph [ref=e67]:
+            - text: "Tel.:"
+            - link "01512 8915214" [ref=e68] [cursor=pointer]:
+              - /url: tel:+4915128915214
+        - generic [ref=e69]:
+          - generic [ref=e70]: 
+          - paragraph [ref=e71]:
+            - link "hallo@finora.de" [ref=e72] [cursor=pointer]:
+              - /url: mailto:hallo@finora.de
+    - generic [ref=e73]:
+      - img "Finora"
+    - paragraph [ref=e75]:
+      - link "Impressum" [ref=e76] [cursor=pointer]:
+        - /url: impressum.html
+      - text: "|"
+      - link "Datenschutz" [ref=e77] [cursor=pointer]:
+        - /url: datenschutz.html

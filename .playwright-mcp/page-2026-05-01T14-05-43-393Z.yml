@@ -1,0 +1,56 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Ludwig Oelze" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img "Ludwig Oelze" [ref=e5]
+      - link "Termin buchen" [ref=e6] [cursor=pointer]:
+        - /url: kontakt.html
+      - button "Menü öffnen" [ref=e7] [cursor=pointer]
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]: Fehler 404
+        - heading "Diese Seite gibt es nicht." [level=1] [ref=e16]
+        - paragraph [ref=e17]: Der Link ist veraltet oder die Adresse wurde falsch eingegeben. Von hier kommst Du direkt zurück zur Startseite oder in die persönliche Beratung.
+        - generic [ref=e18]:
+          - link "Zur Startseite" [ref=e19] [cursor=pointer]:
+            - /url: index.html
+          - link "Kontakt aufnehmen" [ref=e20] [cursor=pointer]:
+            - /url: kontakt.html
+      - generic [ref=e22]: "404"
+  - contentinfo [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - link "Ludwig Oelze" [ref=e27] [cursor=pointer]:
+            - /url: index.html
+            - img "Ludwig Oelze" [ref=e28]
+          - paragraph [ref=e29]: Freier Versicherungsmakler und Baufinanzierungsberater in Baden-Baden.
+        - generic [ref=e30]:
+          - heading "Navigation" [level=4] [ref=e31]
+          - generic [ref=e32]:
+            - link "Start" [ref=e33] [cursor=pointer]:
+              - /url: index.html
+            - link "Zusammenarbeit" [ref=e34] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+            - link "Gold-Service" [ref=e35] [cursor=pointer]:
+              - /url: gold-service.html
+            - link "Kontakt" [ref=e36] [cursor=pointer]:
+              - /url: kontakt.html
+        - generic [ref=e37]:
+          - heading "Kontakt" [level=4] [ref=e38]
+          - generic [ref=e39]:
+            - link "+49 176 43689181" [ref=e41] [cursor=pointer]:
+              - /url: tel:+4917643689181
+            - link "finanzen@ludwigoelze.com" [ref=e43] [cursor=pointer]:
+              - /url: mailto:finanzen@ludwigoelze.com
+      - generic [ref=e44]:
+        - generic [ref=e45]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e46]:
+          - link "Impressum" [ref=e47] [cursor=pointer]:
+            - /url: impressum.html
+          - link "Datenschutz" [ref=e48] [cursor=pointer]:
+            - /url: datenschutz.html
+          - link "Erstinformation" [ref=e49] [cursor=pointer]:
+            - /url: erstinformation.html

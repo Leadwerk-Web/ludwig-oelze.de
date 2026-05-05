@@ -1,0 +1,208 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Ludwig Oelze" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img "Ludwig Oelze" [ref=e5]
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Start" [ref=e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e10]:
+            - link "Zusammenarbeit" [ref=e11] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+          - listitem [ref=e12]:
+            - link "Gold-Service" [ref=e13] [cursor=pointer]:
+              - /url: gold-service.html
+          - listitem [ref=e14]:
+            - link "Für wen" [ref=e15] [cursor=pointer]:
+              - /url: "#"
+              - text: Für wen
+              - img [ref=e16]
+          - listitem [ref=e18]:
+            - link "Über Ludwig" [ref=e19] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+          - listitem [ref=e20]:
+            - link "Wissen" [ref=e21] [cursor=pointer]:
+              - /url: wissen.html
+      - link "Termin buchen" [ref=e22] [cursor=pointer]:
+        - /url: kontakt.html
+  - main [ref=e23]:
+    - generic [ref=e25]:
+      - heading "Erstinformation" [level=1] [ref=e26]
+      - heading "1. Firma und Anschrift:" [level=2] [ref=e27]
+      - paragraph [ref=e28]:
+        - text: Ludwig Oelze
+        - text: Ludwig Oelze
+        - text: Bismarckstr. 26
+        - text: 76530 Baden-Baden
+      - heading "2. Status des Vermittlers nach Gewerbeordnung:" [level=2] [ref=e29]
+      - paragraph [ref=e30]: Wir sind als Versicherungsmakler nach § 34d Abs. 1 der Gewerbeordnung tätig und im Vermittlerregister unter der Nummer D-KQ7W-92T3Y-75 registriert.
+      - heading "3. Bei Interesse können Sie die Angaben bei der Registerstelle überprüfen:" [level=2] [ref=e31]
+      - paragraph [ref=e32]:
+        - text: Deutsche Industrie- und Handelskammer (DIHK)
+        - text: Breite Straße 29
+        - text: 10178 Berlin
+        - text: "Tel.: 0180-600-585-0*"
+        - text: "* 20 Cent/Anruf aus dem deutschen Festnetz"
+        - link "http://www.vermittlerregister.info" [ref=e33] [cursor=pointer]:
+          - /url: http://www.vermittlerregister.info
+      - heading "4. Schlichtungsstellen für außergerichtliche Streitbeilegung:" [level=2] [ref=e34]
+      - paragraph [ref=e35]:
+        - text: Versicherungsombudsmann e.V.
+        - text: Postfach 08 06 32
+        - text: 10006 Berlin
+      - paragraph [ref=e36]:
+        - text: Ombudsmann private Kranken- und Pflegeversicherung
+        - text: Postfach 06 02 22
+        - text: 10052 Berlin
+      - heading "5." [level=2] [ref=e37]
+      - paragraph [ref=e38]: Der Vermittler hält keine unmittelbare oder mittelbare Beteiligung von mehr als 10 % der Stimmrechte oder des Kapitals an einem Versicherungsunternehmen.
+      - heading "6." [level=2] [ref=e39]
+      - paragraph [ref=e40]: Ein Versicherungsunternehmen hält keine mittelbare oder unmittelbare Beteiligung von mehr als 10 % der Stimmrechte oder des Kapitals am Versicherungsmakler.
+      - heading "7." [level=2] [ref=e41]
+      - paragraph [ref=e42]: Der Vermittler erhält für die Vermittlung von Versicherungsverträgen eine Courtage des Produktgebers. Eine gesonderte Vergütung durch den Kunden wird nicht geschuldet.
+      - paragraph [ref=e43]: Sofern die Vergütung aufgrund der Wünsche und Bedürfnisse durch den Kunden erfolgt, wird hierfür eine separate Vergütungsvereinbarung getroffen.
+      - heading "8." [level=2] [ref=e44]
+      - paragraph [ref=e45]: Die Tätigkeit beinhaltet auch Beratung.
+      - heading "9." [level=2] [ref=e46]
+      - paragraph [ref=e47]: Es werden in regelmäßigen Intervallen die Produktanbieter sondiert. Hierbei wird mit Produktanbietern, welche dem Makler Informationen zur Produktinformationen zur Verfügung stellen, eine Vermittlungsvereinbarung geschlossen. Es werden nur Versicherer berücksichtigt, die in Deutschland zum Vertrieb zugelassen sind bzw. der Aufsicht der Bundesanstalt für Finanzdienstleistungsaufsicht unterliegen, ihren Sitz oder eine Niederlassung in der Bundesrepublik Deutschland haben und die Vertragsbedingungen in deutscher Sprache anbieten.
+      - paragraph [ref=e48]: Auf Wunsch wird Ihnen eine aktuelle Liste der kooperierenden Versicherer zur Verfügung gestellt.
+      - heading "Ludwig Oelze" [level=2] [ref=e49]
+      - paragraph [ref=e50]:
+        - text: Bismarckstr. 26
+        - text: 76530 Baden-Baden
+      - paragraph [ref=e51]:
+        - text: Ludwig Oelze
+        - text: "Tel.: +4917643689181"
+        - text: "Registrierungsnr.: D-KQ7W-92T3Y-75"
+        - text: "E-Mail:"
+        - link "finanzen@ludwigoelze.com" [ref=e52] [cursor=pointer]:
+          - /url: mailto:finanzen@ludwigoelze.com
+        - text: "Homepage:"
+        - link "https://ludwigoelze.com" [ref=e53] [cursor=pointer]:
+          - /url: https://ludwigoelze.com
+  - contentinfo [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - link "Ludwig Oelze" [ref=e58] [cursor=pointer]:
+            - /url: index.html
+            - img "Ludwig Oelze" [ref=e59]
+          - paragraph [ref=e60]: Mehr als nur Finanzberatung. Dein loyaler Partner für Versicherungen, Vorsorge und Finanzen.
+        - generic [ref=e61]:
+          - heading "Navigation" [level=4] [ref=e62]
+          - generic [ref=e63]:
+            - link "Zusammenarbeit" [ref=e64] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+            - link "Gold-Service" [ref=e65] [cursor=pointer]:
+              - /url: gold-service.html
+            - link "Für Familien" [ref=e66] [cursor=pointer]:
+              - /url: familien.html
+            - link "Für Selbstständige" [ref=e67] [cursor=pointer]:
+              - /url: selbststaendige.html
+            - link "Expats" [ref=e68] [cursor=pointer]:
+              - /url: expats.html
+            - link "App" [ref=e69] [cursor=pointer]:
+              - /url: https://meine-finanzen.digital/login
+            - link "App Store" [ref=e70] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/finanzmanager-app/id6648793330
+            - link "Play Store" [ref=e71] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.demv.finanzmanager.app&pli=1
+        - generic [ref=e72]:
+          - heading "Mehr" [level=4] [ref=e73]
+          - generic [ref=e74]:
+            - link "Über Ludwig" [ref=e75] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+            - link "Wissen & Ratgeber" [ref=e76] [cursor=pointer]:
+              - /url: wissen.html
+            - link "Kontakt & Termin" [ref=e77] [cursor=pointer]:
+              - /url: kontakt.html
+            - link "Unternehmervollmacht" [ref=e78] [cursor=pointer]:
+              - /url: unternehmervollmacht.html
+            - link "Ankündigung" [ref=e79] [cursor=pointer]:
+              - /url: ankuendigung.html
+            - link "Schadenfall" [ref=e80] [cursor=pointer]:
+              - /url: schadenfall.html
+            - link "Durchblick" [ref=e81] [cursor=pointer]:
+              - /url: durchblick.html
+            - link "Berufsunfähigkeit" [ref=e82] [cursor=pointer]:
+              - /url: berufsunfaehigkeit.html
+            - link "Haftpflichtversicherung" [ref=e83] [cursor=pointer]:
+              - /url: haftpflichtversicherung.html
+            - link "Hausratversicherung" [ref=e84] [cursor=pointer]:
+              - /url: hausratversicherung.html
+            - link "Unfallversicherung" [ref=e85] [cursor=pointer]:
+              - /url: unfallversicherung.html
+            - link "Gebäudeversicherung" [ref=e86] [cursor=pointer]:
+              - /url: gebaeudeversicherung.html
+            - link "Rentenversicherung" [ref=e87] [cursor=pointer]:
+              - /url: rentenversicherung.html
+            - link "Pflegeversicherung" [ref=e88] [cursor=pointer]:
+              - /url: pflegeversicherung.html
+            - link "Krankenversicherung" [ref=e89] [cursor=pointer]:
+              - /url: krankenversicherung.html
+            - link "Rechtsschutzversicherung" [ref=e90] [cursor=pointer]:
+              - /url: rechtsschutzversicherung.html
+            - link "Zahnzusatzversicherung" [ref=e91] [cursor=pointer]:
+              - /url: zahnzusatzversicherung.html
+            - link "PassportCard" [ref=e92] [cursor=pointer]:
+              - /url: passportcard.html
+            - link "Expat-Beratung" [ref=e93] [cursor=pointer]:
+              - /url: expat-beratung-1.html
+            - link "Digitale Nomaden" [ref=e94] [cursor=pointer]:
+              - /url: digitale-nomaden.html
+            - link "Immobilien-Unternehmer" [ref=e95] [cursor=pointer]:
+              - /url: immobilien-nomaden.html
+            - link "Freelancer & Selbständige" [ref=e96] [cursor=pointer]:
+              - /url: freelancer-nomaden.html
+            - link "Spanien - Dubai - Deutschland" [ref=e97] [cursor=pointer]:
+              - /url: spanien-dubai.html
+            - link "PassportCard (EN)" [ref=e98] [cursor=pointer]:
+              - /url: passportcard-en.html
+        - generic [ref=e99]:
+          - heading "Kontakt" [level=4] [ref=e100]
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - img [ref=e103]
+              - generic [ref=e106]:
+                - strong [ref=e107]: "Post- & Geschäftsanschrift:"
+                - text: Bismarckstr. 26
+                - text: 76530 Baden-Baden
+            - generic [ref=e108]:
+              - img [ref=e109]
+              - generic [ref=e112]:
+                - strong [ref=e113]: "Büroanschrift für Termine:"
+                - text: Lange Str. 75
+                - text: 76530 Baden-Baden
+            - generic [ref=e114]:
+              - img [ref=e115]
+              - link "+49 176 43689181" [ref=e117] [cursor=pointer]:
+                - /url: tel:+4917643689181
+            - generic [ref=e118]:
+              - img [ref=e119]
+              - link "finanzen@ludwigoelze.com" [ref=e122] [cursor=pointer]:
+                - /url: mailto:finanzen@ludwigoelze.com
+          - generic [ref=e123]:
+            - link "WhatsApp" [ref=e124] [cursor=pointer]:
+              - /url: https://wa.me/4917643689181
+              - img [ref=e125]
+            - link "Facebook" [ref=e127] [cursor=pointer]:
+              - /url: https://www.facebook.com/ludwig.finanzmakler/
+              - img [ref=e128]
+            - link "LinkedIn" [ref=e130] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ludwig-oelze-6656b8173
+              - img [ref=e131]
+            - link "Instagram" [ref=e133] [cursor=pointer]:
+              - /url: https://www.instagram.com/ludwig_finanzmakler
+              - img [ref=e134]
+      - generic [ref=e137]:
+        - generic [ref=e138]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e139]:
+          - link "Impressum" [ref=e140] [cursor=pointer]:
+            - /url: impressum.html
+          - link "Datenschutz" [ref=e141] [cursor=pointer]:
+            - /url: datenschutz.html
+          - link "Erstinformation" [ref=e142] [cursor=pointer]:
+            - /url: erstinformation.html

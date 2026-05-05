@@ -1,0 +1,383 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Ludwig Oelze" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img "Ludwig Oelze" [ref=e5]
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Start" [ref=e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e10]:
+            - link "Zusammenarbeit" [ref=e11] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+          - listitem [ref=e12]:
+            - link "Gold-Service" [ref=e13] [cursor=pointer]:
+              - /url: gold-service.html
+          - listitem [ref=e14]:
+            - link "Für wen" [ref=e15] [cursor=pointer]:
+              - /url: "#"
+              - text: Für wen
+              - img [ref=e16]
+          - listitem [ref=e18]:
+            - link "Über Ludwig" [ref=e19] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+          - listitem [ref=e20]:
+            - link "Wissen" [ref=e21] [cursor=pointer]:
+              - /url: wissen.html
+      - link "Termin buchen" [ref=e22] [cursor=pointer]:
+        - /url: kontakt.html
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Ludwig Oelze Beratung" [ref=e26]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - text: Mandanteninformation
+        - 'heading "Ankündigung: Pilotprojekt für besseren Kundenservice" [level=1] [ref=e33]'
+        - paragraph [ref=e34]: Neue, klarere Abläufe für Anliegen, Termine, Schadenfälle und Spezialthemen. So weißt Du schneller, welcher Weg für Dein Thema der richtige ist.
+        - generic [ref=e35]:
+          - link "Termin für Rückruf buchen" [ref=e36] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung/telefon
+          - link "Was sich ändert" [ref=e37] [cursor=pointer]:
+            - /url: "#ablauf"
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]: Stand Mai 2026
+        - heading "Liebe Mandantinnen und Mandanten" [level=2] [ref=e43]
+        - paragraph [ref=e44]: Ich starte ein Pilotprojekt, um meinen Kundenservice effizienter und strukturierter zu gestalten. Mein Ziel ist es, Dir nicht nur gute Beratung, sondern auch klare und einfache Prozesse für Deine Anliegen zu bieten.
+        - paragraph [ref=e45]: Viele Themen lassen sich schneller bearbeiten, wenn klar ist, wann wir dazu sprechen, welche Unterlagen vorliegen und welcher Ansprechpartner zuständig ist. Deshalb werden einige Abläufe gebündelt und bestimmte Spezialthemen an erfahrene Kooperationspartner übergeben.
+        - paragraph [ref=e46]: Laufende Anfragen werden selbstverständlich weiterhin bearbeitet. Angeforderte Unterlagen werden direkt an die Gesellschaften weitergeleitet und Du wirst in Kopie gesetzt.
+      - img "Ludwig Oelze lächelnd im Gesprächsumfeld" [ref=e48]
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - heading "Was sich konkret ändert" [level=2] [ref=e52]
+        - paragraph [ref=e53]: Bitte nutze für Dein Anliegen den passenden Weg. Das spart Rückfragen und sorgt dafür, dass wichtige Themen priorisiert werden können.
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - img [ref=e57]
+          - heading "Anliegen, Angebote und Fragen per Termin" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Fragen zu Verträgen, Angeboten und weiteren Anliegen werden künftig über einen Termin bearbeitet. So weißt Du genau, wann Dein Thema dran ist und wir sind beide erreichbar.
+          - link "Termin buchen" [ref=e62] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung/telefon
+        - generic [ref=e63]:
+          - img [ref=e65]
+          - heading "Schadenfälle über das Portal" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Schadenmeldungen und Rechnungen reichst Du bitte über das Schadenportal ein. Dort kann auch geprüft werden, ob ein Schadenfall versichert ist.
+          - link "Schadenfall öffnen" [ref=e69] [cursor=pointer]:
+            - /url: https://ludwigoelze.com/schadenfall
+        - generic [ref=e70]:
+          - img [ref=e72]
+          - heading "App für Datenänderungen" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Adressänderungen, Kontaktdaten und Bankdaten kannst Du bequem über die App aktualisieren. Wenn Du die App noch nicht nutzt, sende ich Dir den Link gerne zu.
+          - link "Kunden-App öffnen" [ref=e76] [cursor=pointer]:
+            - /url: https://meine-finanzen.digital/login
+        - generic [ref=e77]:
+          - img [ref=e79]
+          - heading "Dringende Anliegen" [level=3] [ref=e82]
+          - paragraph [ref=e83]:
+            - text: Wenn kein zeitnaher Termin frei ist, sende bitte eine E-Mail oder WhatsApp mit dem Betreff
+            - strong [ref=e84]: DRINGEND
+            - text: . Dann kann ich das Thema priorisiert bearbeiten und bei Bedarf zurückrufen.
+          - link "WhatsApp schreiben" [ref=e85] [cursor=pointer]:
+            - /url: https://wa.me/4917643689181
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - heading "Informationen & Kommunikation" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Wichtige Informationen erscheinen regelmäßig auf der Webseite, per E-Mail und auf Instagram. So bleibst Du über Änderungen auf dem Laufenden.
+          - link "Instagram ansehen" [ref=e93] [cursor=pointer]:
+            - /url: https://www.instagram.com/ludwig_finanzmakler
+        - generic [ref=e94]:
+          - img [ref=e96]
+          - heading "Terminmanagement" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Wenn Du einen gebuchten Termin verschieben oder absagen musst, nutze einfach den Link in Deiner Terminbestätigung.
+          - link "Beratungstermin buchen" [ref=e100] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung/beratung
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - heading "Spezialthemen und Ansprechpartner" [level=2] [ref=e104]
+        - paragraph [ref=e105]: Für einige Themen arbeite ich mit spezialisierten Kolleginnen und Kollegen zusammen. Bitte setze mich bei E-Mail-Korrespondenz in Kopie, damit ich über die Bearbeitung informiert bleibe.
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - heading "KFZ-Anfragen und EVB-Nummern" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Für KFZ-Anliegen und EVB-Nummern steht Dir Charly Staab zur Verfügung.
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - generic [ref=e112]: Staab & Staab GmbH - Deine Versicherungsmakler
+              - text: ✓
+            - listitem [ref=e113]:
+              - generic [ref=e114]: Karl-Theodor-Str. 47, 80803 München
+              - text: ✓
+            - listitem [ref=e115]:
+              - generic [ref=e116]:
+                - text: "Telefon:"
+                - link "089 29 36 89" [ref=e117] [cursor=pointer]:
+                  - /url: tel:+4989293689
+              - text: ✓
+            - listitem [ref=e118]:
+              - generic [ref=e119]:
+                - text: "E-Mail:"
+                - link "post@staab-versicherungsmakler.de" [ref=e120] [cursor=pointer]:
+                  - /url: mailto:post@staab-versicherungsmakler.de
+              - text: ✓
+        - generic [ref=e121]:
+          - heading "Baufinanzierung" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Für Baufinanzierung steht Kilian Hauns vor Ort und online zur Verfügung. Er arbeitet als selbstständiger Baufinanzierungsexperte bei der LBS in Bühl und nutzt eine deutschlandweite Vergleichsplattform.
+          - list [ref=e124]:
+            - listitem [ref=e125]:
+              - generic [ref=e126]: Kilian Hauns, Stv. Bezirksdirektor LBS
+              - text: ✓
+            - listitem [ref=e127]:
+              - generic [ref=e128]: Beratungsstelle Bühl, Grabenstr. 11, 77815 Bühl
+              - text: ✓
+            - listitem [ref=e129]:
+              - generic [ref=e130]:
+                - text: "Telefon:"
+                - link "07223/80886-31" [ref=e131] [cursor=pointer]:
+                  - /url: tel:+4972238088631
+              - text: ✓
+            - listitem [ref=e132]:
+              - generic [ref=e133]:
+                - text: "Mobil:"
+                - link "0162/9590506" [ref=e134] [cursor=pointer]:
+                  - /url: tel:+491629590506
+              - text: ✓
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - text: "E-Mail:"
+                - link "Kilian.Hauns@LBS-Sued.de" [ref=e137] [cursor=pointer]:
+                  - /url: mailto:Kilian.Hauns@LBS-Sued.de
+              - text: ✓
+        - generic [ref=e138]:
+          - heading "Strom- & Gaspreisvergleiche" [level=3] [ref=e139]
+          - paragraph [ref=e140]: Strom- und Gasvergleiche werden von Tino Stoll in Rastatt bearbeitet. Bitte sende nach der Terminbuchung Deine aktuelle Rechnung an ihn.
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - generic [ref=e143]: Tino Stoll, Seefeldstr. 1, 76437 Rastatt
+              - text: ✓
+            - listitem [ref=e144]:
+              - generic [ref=e145]: jährlicher Blick auf günstige und zuverlässige Anbieter
+              - text: ✓
+            - listitem [ref=e146]:
+              - generic [ref=e147]: Berücksichtigung von Grundversorgern, Datenschutz und Solvenz
+              - text: ✓
+          - link "Termin für Energievergleich" [ref=e148] [cursor=pointer]:
+            - /url: https://calendly.com/envervice_team/erstgespraech_tarifoptimierung
+        - generic [ref=e149]:
+          - heading "Gesetzliche Krankenkassen" [level=3] [ref=e150]
+          - paragraph [ref=e151]: Wenn Du Deine gesetzliche Krankenkasse wechseln oder jährlich prüfen lassen möchtest, übernehmen Olaf Walkenhorst und Fiona Jasmut aus Hamburg diese Aufgabe.
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - generic [ref=e154]: Kassenkompass für Leistungen, Bonusprogramme und Preis
+              - text: ✓
+            - listitem [ref=e155]:
+              - generic [ref=e156]: in wenigen Minuten zur passenden Krankenkasse
+              - text: ✓
+            - listitem [ref=e157]:
+              - generic [ref=e158]: Du entscheidest, welche Kriterien Dir wichtig sind
+              - text: ✓
+          - link "Kassenkompass öffnen" [ref=e159] [cursor=pointer]:
+            - /url: https://kassenkompass.de/bonusrechner/?lizenz=ludwigoelze
+        - generic [ref=e160]:
+          - heading "Arbeitskraftabsicherung" [level=3] [ref=e161]
+          - paragraph [ref=e162]: Für Berufsunfähigkeitsversicherung, Grundfähigkeitsabsicherung und Krankentagegeld arbeite ich eng mit Marco und dem Team der buXperts GmbH zusammen.
+          - list [ref=e163]:
+            - listitem [ref=e164]:
+              - generic [ref=e165]: spezialisierte Risikovoranfragen
+              - text: ✓
+            - listitem [ref=e166]:
+              - generic [ref=e167]: tiefe Expertise über Standardberatung hinaus
+              - text: ✓
+            - listitem [ref=e168]:
+              - generic [ref=e169]: Begleitung auch mit Blick auf den Leistungsfall
+              - text: ✓
+          - link "BU-Spezialberatung ansehen" [ref=e170] [cursor=pointer]:
+            - /url: https://buxperts.de/kooperation-ludwig-oelze/
+        - generic [ref=e171]:
+          - heading "Neue Beratungsthemen" [level=3] [ref=e172]
+          - paragraph [ref=e173]: Für vollständige Beratungstermine zu neuen Produkten nutze bitte den Beratungskalender. So ist ausreichend Zeit für Einordnung, Rückfragen und nächste Schritte eingeplant.
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: vor Ort oder online möglich
+              - text: ✓
+            - listitem [ref=e177]:
+              - generic [ref=e178]: klare Terminbestätigung
+              - text: ✓
+            - listitem [ref=e179]:
+              - generic [ref=e180]: genug Zeit für neue Produkte und Strategiefragen
+              - text: ✓
+          - link "Beratung buchen" [ref=e181] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung/beratung
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Was bleibt wie gewohnt?" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Dieses Pilotprojekt soll Deinen Service nicht unpersönlicher machen, sondern verlässlicher. Laufende Vorgänge werden weiter bearbeitet, Unterlagen gehen an die Gesellschaften und Du wirst transparent in Kopie gesetzt.
+        - paragraph [ref=e188]: Gleichzeitig helfen klare Wege dabei, Rückfragen zu reduzieren und meine Ressourcen dort einzusetzen, wo sie für Dich den größten Nutzen haben.
+      - generic [ref=e189]:
+        - heading "Weiterhin wichtig" [level=3] [ref=e190]
+        - list [ref=e191]:
+          - listitem [ref=e192]:
+            - generic [ref=e193]: laufende Anfragen werden weiter bearbeitet
+            - text: ✓
+          - listitem [ref=e194]:
+            - generic [ref=e195]: Unterlagen gehen direkt an die Gesellschaften
+            - text: ✓
+          - listitem [ref=e196]:
+            - generic [ref=e197]: Beratungstermine vor Ort und online bleiben möglich
+            - text: ✓
+          - listitem [ref=e198]:
+            - generic [ref=e199]: bei Spezialthemen bleibe ich in Kopie informiert
+            - text: ✓
+    - generic [ref=e201]:
+      - heading "Häufige Fragen" [level=2] [ref=e203]
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - button "Warum werden viele Anliegen nur noch per Termin bearbeitet?" [ref=e206] [cursor=pointer]:
+            - text: Warum werden viele Anliegen nur noch per Termin bearbeitet?
+            - img [ref=e207]
+          - paragraph [ref=e210]: Damit klar ist, wann Dein Anliegen bearbeitet wird und wir bei Rückfragen direkt sprechen können. Das verhindert lange Nachrichtenketten und macht die Bearbeitung verlässlicher.
+        - generic [ref=e211]:
+          - button "Was mache ich, wenn es dringend ist?" [ref=e212] [cursor=pointer]:
+            - text: Was mache ich, wenn es dringend ist?
+            - img [ref=e213]
+          - paragraph [ref=e216]: Wenn kein zeitnaher Termin frei ist, sende bitte eine E-Mail oder WhatsApp mit dem Betreff DRINGEND. Dann kann das Anliegen priorisiert und bei Bedarf mit einem Rückruf geklärt werden.
+        - generic [ref=e217]:
+          - button "Kann ich Schadenfälle weiterhin direkt melden?" [ref=e218] [cursor=pointer]:
+            - text: Kann ich Schadenfälle weiterhin direkt melden?
+            - img [ref=e219]
+          - paragraph [ref=e222]: Bitte nutze dafür das Schadenportal. Dort sind die nötigen Angaben strukturierter, und viele Gesellschaften können Rechnungen über spezielle Apps sogar noch schneller bearbeiten.
+        - generic [ref=e223]:
+          - button "Bleibt Ludwig mein Ansprechpartner?" [ref=e224] [cursor=pointer]:
+            - text: Bleibt Ludwig mein Ansprechpartner?
+            - img [ref=e225]
+          - paragraph [ref=e228]: Ja. Bei Spezialthemen arbeiten ausgewählte Kolleginnen und Kollegen mit, aber ich bleibe für die Gesamtbetreuung und Transparenz im Hintergrund eingebunden.
+    - generic [ref=e230]:
+      - heading "Danke für Dein Vertrauen" [level=2] [ref=e231]
+      - paragraph [ref=e232]: Dieses Pilotprojekt soll sicherstellen, dass Du jederzeit weißt, an wen Du Dich wenden kannst und wie Deine Anfrage bearbeitet wird. Vielen Dank für Deine Unterstützung.
+      - generic [ref=e233]:
+        - link "Rückruf buchen" [ref=e234] [cursor=pointer]:
+          - /url: https://calendly.com/einsparung/telefon
+        - link "Durchblick ansehen" [ref=e235] [cursor=pointer]:
+          - /url: durchblick.html
+  - contentinfo [ref=e236]:
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - generic [ref=e239]:
+          - link "Ludwig Oelze" [ref=e240] [cursor=pointer]:
+            - /url: index.html
+            - img "Ludwig Oelze" [ref=e241]
+          - paragraph [ref=e242]: Mehr als nur Finanzberatung. Dein loyaler Partner für Versicherungen, Vorsorge und Finanzen.
+        - generic [ref=e243]:
+          - heading "Navigation" [level=4] [ref=e244]
+          - generic [ref=e245]:
+            - link "Zusammenarbeit" [ref=e246] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+            - link "Gold-Service" [ref=e247] [cursor=pointer]:
+              - /url: gold-service.html
+            - link "Für Familien" [ref=e248] [cursor=pointer]:
+              - /url: familien.html
+            - link "Für Selbstständige" [ref=e249] [cursor=pointer]:
+              - /url: selbststaendige.html
+            - link "Expats" [ref=e250] [cursor=pointer]:
+              - /url: expats.html
+            - link "App" [ref=e251] [cursor=pointer]:
+              - /url: https://meine-finanzen.digital/login
+            - link "App Store" [ref=e252] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/finanzmanager-app/id6648793330
+            - link "Play Store" [ref=e253] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.demv.finanzmanager.app&pli=1
+        - generic [ref=e254]:
+          - heading "Mehr" [level=4] [ref=e255]
+          - generic [ref=e256]:
+            - link "Über Ludwig" [ref=e257] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+            - link "Wissen & Ratgeber" [ref=e258] [cursor=pointer]:
+              - /url: wissen.html
+            - link "Kontakt & Termin" [ref=e259] [cursor=pointer]:
+              - /url: kontakt.html
+            - link "Unternehmervollmacht" [ref=e260] [cursor=pointer]:
+              - /url: unternehmervollmacht.html
+            - link "Durchblick ETF-Vorsorge" [ref=e261] [cursor=pointer]:
+              - /url: durchblick.html
+            - link "Ankündigung" [ref=e262] [cursor=pointer]:
+              - /url: ankuendigung.html
+            - link "Berufsunfähigkeit" [ref=e263] [cursor=pointer]:
+              - /url: berufsunfaehigkeit.html
+            - link "Haftpflichtversicherung" [ref=e264] [cursor=pointer]:
+              - /url: haftpflichtversicherung.html
+            - link "Hausratversicherung" [ref=e265] [cursor=pointer]:
+              - /url: hausratversicherung.html
+            - link "Unfallversicherung" [ref=e266] [cursor=pointer]:
+              - /url: unfallversicherung.html
+            - link "Gebäudeversicherung" [ref=e267] [cursor=pointer]:
+              - /url: gebaeudeversicherung.html
+            - link "Rentenversicherung" [ref=e268] [cursor=pointer]:
+              - /url: rentenversicherung.html
+            - link "Pflegeversicherung" [ref=e269] [cursor=pointer]:
+              - /url: pflegeversicherung.html
+            - link "Krankenversicherung" [ref=e270] [cursor=pointer]:
+              - /url: krankenversicherung.html
+            - link "Rechtsschutzversicherung" [ref=e271] [cursor=pointer]:
+              - /url: rechtsschutzversicherung.html
+            - link "Zahnzusatzversicherung" [ref=e272] [cursor=pointer]:
+              - /url: zahnzusatzversicherung.html
+            - link "PassportCard" [ref=e273] [cursor=pointer]:
+              - /url: passportcard.html
+            - link "Expat-Beratung" [ref=e274] [cursor=pointer]:
+              - /url: expat-beratung-1.html
+            - link "Digitale Nomaden" [ref=e275] [cursor=pointer]:
+              - /url: digitale-nomaden.html
+            - link "Immobilien-Unternehmer" [ref=e276] [cursor=pointer]:
+              - /url: immobilien-nomaden.html
+            - link "Freelancer & Selbständige" [ref=e277] [cursor=pointer]:
+              - /url: freelancer-nomaden.html
+            - link "Spanien - Dubai - Deutschland" [ref=e278] [cursor=pointer]:
+              - /url: spanien-dubai.html
+            - link "PassportCard (EN)" [ref=e279] [cursor=pointer]:
+              - /url: passportcard-en.html
+        - generic [ref=e280]:
+          - heading "Kontakt" [level=4] [ref=e281]
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - img [ref=e284]
+              - generic [ref=e287]:
+                - strong [ref=e288]: "Post- & Geschäftsanschrift:"
+                - text: Bismarckstr. 26
+                - text: 76530 Baden-Baden
+            - generic [ref=e289]:
+              - img [ref=e290]
+              - generic [ref=e293]:
+                - strong [ref=e294]: "Büroanschrift für Termine:"
+                - text: Lange Str. 75
+                - text: 76530 Baden-Baden
+            - generic [ref=e295]:
+              - img [ref=e296]
+              - link "+49 176 43689181" [ref=e298] [cursor=pointer]:
+                - /url: tel:+4917643689181
+            - generic [ref=e299]:
+              - img [ref=e300]
+              - link "finanzen@ludwigoelze.com" [ref=e303] [cursor=pointer]:
+                - /url: mailto:finanzen@ludwigoelze.com
+          - generic [ref=e304]:
+            - link "WhatsApp" [ref=e305] [cursor=pointer]:
+              - /url: https://wa.me/4917643689181
+              - img [ref=e306]
+            - link "Facebook" [ref=e308] [cursor=pointer]:
+              - /url: https://www.facebook.com/ludwig.finanzmakler/
+              - img [ref=e309]
+            - link "LinkedIn" [ref=e311] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ludwig-oelze-6656b8173
+              - img [ref=e312]
+            - link "Instagram" [ref=e314] [cursor=pointer]:
+              - /url: https://www.instagram.com/ludwig_finanzmakler
+              - img [ref=e315]
+      - generic [ref=e318]:
+        - generic [ref=e319]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e320]:
+          - link "Impressum" [ref=e321] [cursor=pointer]:
+            - /url: impressum.html
+          - link "Datenschutz" [ref=e322] [cursor=pointer]:
+            - /url: datenschutz.html
+          - link "Erstinformation" [ref=e323] [cursor=pointer]:
+            - /url: erstinformation.html

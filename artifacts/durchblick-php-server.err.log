@@ -1,0 +1,25 @@
+[Tue May  5 15:26:52 2026] PHP 8.5.4 Development Server (http://127.0.0.1:8765) started
+[Tue May  5 15:27:16 2026] 127.0.0.1:64348 Accepted
+[Tue May  5 15:27:16 2026] 127.0.0.1:64348 [200]: GET /durchblick.html
+[Tue May  5 15:27:16 2026] 127.0.0.1:52551 Accepted
+[Tue May  5 15:27:16 2026] 127.0.0.1:64348 Closing
+[Tue May  5 15:27:16 2026] 127.0.0.1:52551 [200]: GET /css/styles.css
+[Tue May  5 15:27:16 2026] 127.0.0.1:51616 Accepted
+[Tue May  5 15:27:16 2026] 127.0.0.1:52135 Accepted
+[Tue May  5 15:27:16 2026] 127.0.0.1:52551 Closing
+[Tue May  5 15:27:16 2026] 127.0.0.1:51616 [200]: GET /assets/images/logo.svg
+[Tue May  5 15:27:16 2026] 127.0.0.1:52135 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 15:27:16 2026] 127.0.0.1:51616 Closing
+[Tue May  5 15:27:16 2026] 127.0.0.1:52135 Closing
+[Tue May  5 15:27:16 2026] 127.0.0.1:58696 Accepted
+[Tue May  5 15:27:16 2026] 127.0.0.1:58696 [200]: GET /Ludwig_prev_foto/_X8A3120_prev.jpg
+[Tue May  5 15:27:16 2026] 127.0.0.1:57625 Accepted
+[Tue May  5 15:27:16 2026] 127.0.0.1:57625 [200]: GET /js/main.js
+[Tue May  5 15:27:16 2026] 127.0.0.1:58696 Closing
+[Tue May  5 15:27:16 2026] 127.0.0.1:57625 Closing
+[Tue May  5 15:27:17 2026] 127.0.0.1:52646 Accepted
+[Tue May  5 15:27:17 2026] 127.0.0.1:52646 [200]: GET /assets/images/durchblick/durchblick-app.png
+[Tue May  5 15:27:17 2026] 127.0.0.1:52646 Closing
+[Tue May  5 15:27:17 2026] 127.0.0.1:49258 Accepted
+[Tue May  5 15:27:17 2026] 127.0.0.1:49258 [200]: GET /assets/images/favicon.svg
+[Tue May  5 15:27:17 2026] 127.0.0.1:49258 Closing

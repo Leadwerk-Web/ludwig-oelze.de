@@ -1,0 +1,197 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Ludwig Oelze" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+        - img "Ludwig Oelze" [ref=e5]
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Start" [ref=e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e10]:
+            - link "Zusammenarbeit" [ref=e11] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+          - listitem [ref=e12]:
+            - link "Gold-Service" [ref=e13] [cursor=pointer]:
+              - /url: gold-service.html
+          - listitem [ref=e14]:
+            - link "Für wen" [ref=e15] [cursor=pointer]:
+              - /url: "#"
+              - text: Für wen
+              - img [ref=e16]
+          - listitem [ref=e18]:
+            - link "Über Ludwig" [ref=e19] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+          - listitem [ref=e20]:
+            - link "Wissen" [ref=e21] [cursor=pointer]:
+              - /url: wissen.html
+      - link "Termin buchen" [ref=e22] [cursor=pointer]:
+        - /url: kontakt.html
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Ludwig Oelze Beratung" [ref=e26]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - text: ETF-Vorsorge
+        - heading "Hey! Kennst Du schon Durchblick?" [level=1] [ref=e32]
+        - paragraph [ref=e33]: Deine ETF-Vorsorge der neuen Generation
+        - generic [ref=e34]:
+          - link "Termin buchen" [ref=e35] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung/beratung
+          - link "Dokumente ansehen" [ref=e36] [cursor=pointer]:
+            - /url: "#dokumente"
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Mach mehr aus Deinem Geld" [level=2] [ref=e41]
+        - paragraph [ref=e42]: "Mit Durchblick, der cleveren ETF-Vorsorge, sparst Du flexibel und sicher – ohne Abschlussgebühren, dank meiner exklusiven Kooperation:"
+        - list [ref=e43]:
+          - listitem [ref=e44]:
+            - generic [ref=e45]: "Renditechancen und Sicherheit: Wähle Deine individuelle Anlagestrategie."
+            - text: ✓
+          - listitem [ref=e46]:
+            - generic [ref=e47]: "Steuervorteile nutzen: Deine Erträge während der Ansparphase sind steuerfrei."
+            - text: ✓
+          - listitem [ref=e48]:
+            - generic [ref=e49]: "Flexibel bleiben: Du kannst jederzeit ein- und auszahlen."
+            - text: ✓
+          - listitem [ref=e50]:
+            - generic [ref=e51]: "Lebenslange Rente: Genieße Deinen Ruhestand sorgenfrei."
+            - text: ✓
+        - paragraph [ref=e52]: Starte schon ab 10 € im Monat! Schreib mir einfach zurück oder ruf mich an. Ich erkläre Dir in wenigen Minuten, wie es funktioniert.
+        - link "Termin buchen" [ref=e54] [cursor=pointer]:
+          - /url: https://calendly.com/einsparung/beratung
+      - img "Smartphone-App-Ansicht der Durchblick ETF-Vorsorge" [ref=e57]
+    - generic [ref=e60]:
+      - heading "Dokumente" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - heading "Downloads" [level=3] [ref=e64]
+        - generic [ref=e65]:
+          - link "Kostenvergleich herunterladen" [ref=e66] [cursor=pointer]:
+            - /url: https://img1.wsimg.com/blobby/go/bf02664e-696f-43a3-81e6-61e8b405fc2a/downloads/d72fe84e-e3e7-4873-9e03-ebf774ec6f70/Steuervergleich%20mit%20TradeRepuiblic.pdf?ver=1777982447724
+          - link "Produktinformationen herunterladen" [ref=e67] [cursor=pointer]:
+            - /url: https://img1.wsimg.com/blobby/go/bf02664e-696f-43a3-81e6-61e8b405fc2a/downloads/53ac43b6-c051-4705-ba4d-f2c83b3f639c/Produktinformationen.pdf?ver=1777982447724
+  - contentinfo [ref=e68]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - link "Ludwig Oelze" [ref=e72] [cursor=pointer]:
+            - /url: index.html
+            - img "Ludwig Oelze" [ref=e73]
+          - paragraph [ref=e74]: Mehr als nur Finanzberatung. Dein loyaler Partner für Versicherungen, Vorsorge und Finanzen.
+        - generic [ref=e75]:
+          - heading "Navigation" [level=4] [ref=e76]
+          - generic [ref=e77]:
+            - link "Zusammenarbeit" [ref=e78] [cursor=pointer]:
+              - /url: zusammenarbeit.html
+            - link "Gold-Service" [ref=e79] [cursor=pointer]:
+              - /url: gold-service.html
+            - link "Für Familien" [ref=e80] [cursor=pointer]:
+              - /url: familien.html
+            - link "Für Selbstständige" [ref=e81] [cursor=pointer]:
+              - /url: selbststaendige.html
+            - link "Expats" [ref=e82] [cursor=pointer]:
+              - /url: expats.html
+            - link "App" [ref=e83] [cursor=pointer]:
+              - /url: https://meine-finanzen.digital/login
+            - link "App Store" [ref=e84] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/finanzmanager-app/id6648793330
+            - link "Play Store" [ref=e85] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.demv.finanzmanager.app&pli=1
+        - generic [ref=e86]:
+          - heading "Mehr" [level=4] [ref=e87]
+          - generic [ref=e88]:
+            - link "Über Ludwig" [ref=e89] [cursor=pointer]:
+              - /url: ueber-ludwig.html
+            - link "Wissen & Ratgeber" [ref=e90] [cursor=pointer]:
+              - /url: wissen.html
+            - link "Kontakt & Termin" [ref=e91] [cursor=pointer]:
+              - /url: kontakt.html
+            - link "Unternehmervollmacht" [ref=e92] [cursor=pointer]:
+              - /url: unternehmervollmacht.html
+            - link "Ankündigung" [ref=e93] [cursor=pointer]:
+              - /url: ankuendigung.html
+            - link "Schadenfall" [ref=e94] [cursor=pointer]:
+              - /url: schadenfall.html
+            - link "Durchblick" [ref=e95] [cursor=pointer]:
+              - /url: durchblick.html
+            - link "Berufsunfähigkeit" [ref=e96] [cursor=pointer]:
+              - /url: berufsunfaehigkeit.html
+            - link "Haftpflichtversicherung" [ref=e97] [cursor=pointer]:
+              - /url: haftpflichtversicherung.html
+            - link "Hausratversicherung" [ref=e98] [cursor=pointer]:
+              - /url: hausratversicherung.html
+            - link "Unfallversicherung" [ref=e99] [cursor=pointer]:
+              - /url: unfallversicherung.html
+            - link "Gebäudeversicherung" [ref=e100] [cursor=pointer]:
+              - /url: gebaeudeversicherung.html
+            - link "Rentenversicherung" [ref=e101] [cursor=pointer]:
+              - /url: rentenversicherung.html
+            - link "Pflegeversicherung" [ref=e102] [cursor=pointer]:
+              - /url: pflegeversicherung.html
+            - link "Krankenversicherung" [ref=e103] [cursor=pointer]:
+              - /url: krankenversicherung.html
+            - link "Rechtsschutzversicherung" [ref=e104] [cursor=pointer]:
+              - /url: rechtsschutzversicherung.html
+            - link "Zahnzusatzversicherung" [ref=e105] [cursor=pointer]:
+              - /url: zahnzusatzversicherung.html
+            - link "PassportCard" [ref=e106] [cursor=pointer]:
+              - /url: passportcard.html
+            - link "Expat-Beratung" [ref=e107] [cursor=pointer]:
+              - /url: expat-beratung-1.html
+            - link "Digitale Nomaden" [ref=e108] [cursor=pointer]:
+              - /url: digitale-nomaden.html
+            - link "Immobilien-Unternehmer" [ref=e109] [cursor=pointer]:
+              - /url: immobilien-nomaden.html
+            - link "Freelancer & Selbständige" [ref=e110] [cursor=pointer]:
+              - /url: freelancer-nomaden.html
+            - link "Spanien - Dubai - Deutschland" [ref=e111] [cursor=pointer]:
+              - /url: spanien-dubai.html
+            - link "PassportCard (EN)" [ref=e112] [cursor=pointer]:
+              - /url: passportcard-en.html
+        - generic [ref=e113]:
+          - heading "Kontakt" [level=4] [ref=e114]
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - img [ref=e117]
+              - generic [ref=e120]:
+                - strong [ref=e121]: "Post- & Geschäftsanschrift:"
+                - text: Bismarckstr. 26
+                - text: 76530 Baden-Baden
+            - generic [ref=e122]:
+              - img [ref=e123]
+              - generic [ref=e126]:
+                - strong [ref=e127]: "Büroanschrift für Termine:"
+                - text: Lange Str. 75
+                - text: 76530 Baden-Baden
+            - generic [ref=e128]:
+              - img [ref=e129]
+              - link "+49 176 43689181" [ref=e131] [cursor=pointer]:
+                - /url: tel:+4917643689181
+            - generic [ref=e132]:
+              - img [ref=e133]
+              - link "finanzen@ludwigoelze.com" [ref=e136] [cursor=pointer]:
+                - /url: mailto:finanzen@ludwigoelze.com
+          - generic [ref=e137]:
+            - link "WhatsApp" [ref=e138] [cursor=pointer]:
+              - /url: https://wa.me/4917643689181
+              - img [ref=e139]
+            - link "Facebook" [ref=e141] [cursor=pointer]:
+              - /url: https://www.facebook.com/ludwig.finanzmakler/
+              - img [ref=e142]
+            - link "LinkedIn" [ref=e144] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ludwig-oelze-6656b8173
+              - img [ref=e145]
+            - link "Instagram" [ref=e147] [cursor=pointer]:
+              - /url: https://www.instagram.com/ludwig_finanzmakler
+              - img [ref=e148]
+      - generic [ref=e151]:
+        - generic [ref=e152]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e153]:
+          - link "Impressum" [ref=e154] [cursor=pointer]:
+            - /url: impressum.html
+          - link "Datenschutz" [ref=e155] [cursor=pointer]:
+            - /url: datenschutz.html
+          - link "Erstinformation" [ref=e156] [cursor=pointer]:
+            - /url: erstinformation.html

@@ -1,0 +1,287 @@
+- generic [active] [ref=e1]:
+  - dialog "Zustimmung verwalten" [ref=e2]:
+    - button "Dialog schließen" [ref=e4] [cursor=pointer]:
+      - img [ref=e5]
+    - paragraph [ref=e9]: Um dir ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn du diesen Technologien zustimmst, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn du deine Zustimmung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.
+    - generic [ref=e10]:
+      - button "Akzeptieren" [ref=e11] [cursor=pointer]
+      - button "Ablehnen" [ref=e12] [cursor=pointer]
+      - button "Einstellungen ansehen" [ref=e13] [cursor=pointer]
+    - generic:
+      - list:
+        - listitem:
+          - link:
+            - /url: https://b15fqlk.myrdbx.io/
+        - listitem
+        - listitem
+  - banner [ref=e14]:
+    - generic [ref=e15]:
+      - link "Ludwig Oelze" [ref=e16] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/
+        - img "Ludwig Oelze" [ref=e17]
+      - link "Termin buchen" [ref=e18] [cursor=pointer]:
+        - /url: https://b15fqlk.myrdbx.io/kontakt/
+      - button "Menü öffnen" [ref=e19] [cursor=pointer]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - img [ref=e27]
+      - text: Kontakt & Termin
+    - heading "Lass uns sprechen" [level=1] [ref=e29]
+    - paragraph [ref=e30]: Der erste Schritt zu Klarheit ist ein Gespräch. Unverbindlich, kostenlos, in Ruhe. Wähle einfach einen Termin, der zu Dir passt.
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - heading "Termin online buchen" [level=2] [ref=e35]
+      - paragraph [ref=e36]: "Wähle einen passenden Termin direkt in meinem Kalender:"
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - heading "Zusammenarbeit" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Kennenlernen und erste Fragen klären
+          - link "Termin wählen" [ref=e41] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung/telefon
+        - generic [ref=e42]:
+          - heading "Beratung" [level=3] [ref=e43]
+          - paragraph [ref=e44]: Ausführliche Analyse Deiner Situation
+          - link "Termin wählen" [ref=e45] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung
+        - generic [ref=e46]:
+          - heading "Rückruf" [level=3] [ref=e47]
+          - paragraph [ref=e48]: Kurze Frage schnell beantwortet
+          - generic [ref=e49]:
+            - link "+49 176 43689181" [ref=e50] [cursor=pointer]:
+              - /url: https://calendly.com/einsparung/telefon
+            - link "Termin buchen" [ref=e51] [cursor=pointer]:
+              - /url: https://calendly.com/einsparung/weiterefragen
+        - generic [ref=e52]:
+          - heading "Notfallplanung" [level=3] [ref=e53]
+          - paragraph [ref=e54]: Kurze Frage schnell beantwortet
+          - link "Termin wählen" [ref=e55] [cursor=pointer]:
+            - /url: https://calendly.com/einsparung
+      - paragraph [ref=e56]:
+        - strong [ref=e57]: "Formate:"
+        - text: Videocall (Zoom/Teams/Google Meet), Telefon oder persönlich in Baden-Baden
+    - generic [ref=e58]:
+      - heading "Oder schreib mir" [level=2] [ref=e59]
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e65]: "* Telefon Wie"
+            - group "Name" [ref=e68]:
+              - generic [ref=e69]: Name *
+              - generic [ref=e70]:
+                - generic [ref=e71]:
+                  - textbox "Vorname" [ref=e72]
+                  - generic [ref=e73]: Vorname
+                - generic [ref=e74]:
+                  - textbox "Nachname" [ref=e75]
+                  - generic [ref=e76]: Nachname
+            - generic [ref=e77]:
+              - generic [ref=e78]: E-Mail *
+              - textbox "E-Mail" [ref=e79]
+            - generic [ref=e80]:
+              - generic [ref=e81]: Telefon (optional)
+              - spinbutton "Telefon (optional)" [ref=e82]
+            - generic [ref=e83]:
+              - generic [ref=e84]: Wie kann ich Dir helfen? *
+              - textbox "Wie kann ich Dir helfen? *" [ref=e85]
+            - group "Checkboxen" [ref=e87]:
+              - generic [ref=e88]: Checkboxen
+              - list [ref=e89]:
+                - listitem [ref=e90]:
+                  - checkbox "Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu." [ref=e91]
+                  - generic [ref=e92] [cursor=pointer]: Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu.
+          - button "Absenden" [ref=e94] [cursor=pointer]
+        - paragraph [ref=e95]:
+          - text: Ich habe die
+          - link "Datenschutzerklärung" [ref=e96] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/datenschutz/
+          - text: gelesen.
+  - generic [ref=e98]:
+    - heading "Du möchtest lieber direkt Kontakt aufnehmen?" [level=2] [ref=e100]
+    - generic [ref=e101]:
+      - link "WhatsApp Schnelle Antwort innerhalb weniger Stunden" [ref=e102] [cursor=pointer]:
+        - /url: https://wa.me/4917643689181
+        - img [ref=e104]
+        - heading "WhatsApp" [level=3] [ref=e106]
+        - paragraph [ref=e107]: Schnelle Antwort innerhalb weniger Stunden
+      - link "E-Mail finanzen@ludwigoelze.com" [ref=e108] [cursor=pointer]:
+        - /url: mailto:finanzen@ludwigoelze.com
+        - img [ref=e110]
+        - heading "E-Mail" [level=3] [ref=e113]
+        - paragraph [ref=e114]: finanzen@ludwigoelze.com
+      - link "Telefon +49 176 43689181Mo bis Fr, 09:00 bis 17:00 Uhr" [ref=e115] [cursor=pointer]:
+        - /url: tel:+4917643689181
+        - img [ref=e117]
+        - heading "Telefon" [level=3] [ref=e119]
+        - paragraph [ref=e120]: +49 176 43689181Mo bis Fr, 09:00 bis 17:00 Uhr
+      - generic [ref=e121]:
+        - img [ref=e123]
+        - heading "Persönlich" [level=3] [ref=e126]
+        - paragraph [ref=e127]: Lange Straße 7576530 Baden-Baden
+  - generic [ref=e129]:
+    - heading "So geht es nach Deiner Anfrage weiter" [level=2] [ref=e131]
+    - generic [ref=e132]:
+      - generic [ref=e135]:
+        - heading "1. Ich melde mich" [level=3] [ref=e136]
+        - paragraph [ref=e137]: Innerhalb von 24 Stunden erhältst Du eine Antwort, per E-Mail oder Telefon, wie Du möchtest.
+      - generic [ref=e140]:
+        - heading "2. Wir sprechen" [level=3] [ref=e141]
+        - paragraph [ref=e142]: Im Erstgespräch lernen wir uns kennen. Du erzählst mir von Deiner Situation, ich höre zu und stelle die Möglichkeiten der Zusammenarbeit vor.
+      - generic [ref=e145]:
+        - heading "3. Du entscheidest" [level=3] [ref=e146]
+        - paragraph [ref=e147]: Nach dem Gespräch weißt Du, ob wir zusammenpassen. Kein Druck, keine Verpflichtung.
+  - generic [ref=e149]:
+    - heading "Bevor Du schreibst..." [level=2] [ref=e151]
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - button "Kostet das Erstgespräch etwas?" [ref=e154] [cursor=pointer]:
+          - text: Kostet das Erstgespräch etwas?
+          - img [ref=e155]
+        - paragraph [ref=e158]: Nein. Das Erstgespräch ist immer kostenlos und unverbindlich.
+      - generic [ref=e159]:
+        - button "Muss ich mich vorbereiten?" [ref=e160] [cursor=pointer]:
+          - text: Muss ich mich vorbereiten?
+          - img [ref=e161]
+        - paragraph [ref=e164]: Nein. Komm einfach so, wie Du bist. Wenn Du Unterlagen hast, kannst Du sie mitbringen (musst Du aber nicht).
+      - generic [ref=e165]:
+        - button "Wie lange dauert es, bis ich einen Termin bekomme?" [ref=e166] [cursor=pointer]:
+          - text: Wie lange dauert es, bis ich einen Termin bekomme?
+          - img [ref=e167]
+        - paragraph [ref=e170]: In der Regel innerhalb einer Woche. Bei dringenden Fragen oft auch kurzfristiger.
+      - generic [ref=e171]:
+        - button "Was, wenn ich nur eine kurze Frage habe?" [ref=e172] [cursor=pointer]:
+          - text: Was, wenn ich nur eine kurze Frage habe?
+          - img [ref=e173]
+        - paragraph [ref=e176]: Dann schreib mir einfach per WhatsApp oder E-Mail. Nicht jede Frage braucht einen Termin.
+  - generic [ref=e178]:
+    - heading "Hier findest Du mich" [level=2] [ref=e180]
+    - iframe [ref=e182]
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - img [ref=e185]
+        - paragraph [ref=e190]:
+          - strong [ref=e191]: Parkplätze
+          - text: direkt vor dem Gebäude
+      - generic [ref=e192]:
+        - img [ref=e193]
+        - paragraph [ref=e196]:
+          - strong [ref=e197]: 10 Minuten
+          - text: vom Bahnhof Baden-Baden
+      - generic [ref=e198]:
+        - img [ref=e199]
+        - paragraph [ref=e202]:
+          - strong [ref=e203]: Barrierefreier
+          - text: Zugang
+  - contentinfo [ref=e204]:
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - link "Ludwig Oelze" [ref=e208] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/
+            - img "Ludwig Oelze" [ref=e209]
+          - paragraph [ref=e210]: Mehr als nur Finanzberatung. Dein loyaler Partner für Versicherungen, Vorsorge und Finanzen.
+        - generic [ref=e211]:
+          - heading "Navigation" [level=4] [ref=e212]
+          - generic [ref=e213]:
+            - link "Zusammenarbeit" [ref=e214] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/zusammenarbeit/
+            - link "Gold-Service" [ref=e215] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/gold-service/
+            - link "Für Familien" [ref=e216] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/familien/
+            - link "Für Selbstständige" [ref=e217] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/selbststaendige/
+            - link "Expats" [ref=e218] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/expats/
+            - link "App" [ref=e219] [cursor=pointer]:
+              - /url: https://meine-finanzen.digital/login
+            - link "App Store" [ref=e220] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/app/finanzmanager-app/id6648793330
+            - link "Play Store" [ref=e221] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.demv.finanzmanager.app&pli=1
+        - generic [ref=e222]:
+          - heading "Mehr" [level=4] [ref=e223]
+          - generic [ref=e224]:
+            - link "Über Ludwig" [ref=e225] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/ueber-ludwig/
+            - link "Wissen & Ratgeber" [ref=e226] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/wissen/
+            - link "Kontakt & Termin" [ref=e227] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/kontakt/
+            - link "Unternehmervollmacht" [ref=e228] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/unternehmervollmacht/
+            - link "Berufsunfähigkeit" [ref=e229] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/berufsunfaehigkeit/
+            - link "Haftpflichtversicherung" [ref=e230] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/haftpflichtversicherung/
+            - link "Hausratversicherung" [ref=e231] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/hausratversicherung/
+            - link "Unfallversicherung" [ref=e232] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/unfallversicherung/
+            - link "Gebäudeversicherung" [ref=e233] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/gebaeudeversicherung/
+            - link "Rentenversicherung" [ref=e234] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/rentenversicherung/
+            - link "Pflegeversicherung" [ref=e235] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/pflegeversicherung/
+            - link "Krankenversicherung" [ref=e236] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/krankenversicherung/
+            - link "Rechtsschutzversicherung" [ref=e237] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/rechtsschutzversicherung/
+            - link "Zahnzusatzversicherung" [ref=e238] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/zahnzusatzversicherung/
+            - link "PassportCard" [ref=e239] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/passportcard/
+            - link "Expat-Beratung" [ref=e240] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/expat-beratung-1/
+            - link "Digitale Nomaden" [ref=e241] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/digitale-nomaden/
+            - link "Immobilien-Unternehmer" [ref=e242] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/immobilien-nomaden/
+            - link "Freelancer & Selbständige" [ref=e243] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/freelancer-nomaden/
+            - link "Spanien - Dubai - Deutschland" [ref=e244] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/spanien-dubai/
+            - link "PassportCard (EN)" [ref=e245] [cursor=pointer]:
+              - /url: https://b15fqlk.myrdbx.io/passportcard-en/
+        - generic [ref=e246]:
+          - heading "Kontakt" [level=4] [ref=e247]
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - img [ref=e250]
+              - generic [ref=e253]:
+                - strong [ref=e254]: "Post- & Geschäftsanschrift:"
+                - text: Bismarckstr. 26
+                - text: 76530 Baden-Baden
+            - generic [ref=e255]:
+              - img [ref=e256]
+              - generic [ref=e259]:
+                - strong [ref=e260]: "Büroanschrift für Termine:"
+                - text: Lange Str. 75
+                - text: 76530 Baden-Baden
+            - generic [ref=e261]:
+              - img [ref=e262]
+              - link "+49 176 43689181" [ref=e264] [cursor=pointer]:
+                - /url: tel:+4917643689181
+            - generic [ref=e265]:
+              - img [ref=e266]
+              - link "finanzen@ludwigoelze.com" [ref=e269] [cursor=pointer]:
+                - /url: mailto:finanzen@ludwigoelze.com
+          - generic [ref=e270]:
+            - link "WhatsApp" [ref=e271] [cursor=pointer]:
+              - /url: https://wa.me/4917643689181
+              - img [ref=e272]
+            - link "LinkedIn" [ref=e274] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ludwig-oelze-6656b8173
+              - img [ref=e275]
+            - link "Instagram" [ref=e277] [cursor=pointer]:
+              - /url: https://www.instagram.com/ludwig_finanzmakler
+              - img [ref=e278]
+      - generic [ref=e281]:
+        - generic [ref=e282]: © 2026 Ludwig Oelze. Alle Rechte vorbehalten.
+        - generic [ref=e283]:
+          - link "Impressum" [ref=e284] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/impressum/
+          - link "Datenschutz" [ref=e285] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/datenschutz/
+          - link "Erstinformation" [ref=e286] [cursor=pointer]:
+            - /url: https://b15fqlk.myrdbx.io/erstinformation/

@@ -1,0 +1,2764 @@
+{
+    "generated_at": "2026-05-05T16:04:36+00:00",
+    "source_root": "C:\\Users\\mars\\OneDrive\\Documents\\GitHub\\ludwig-oelze.de",
+    "entries": [
+        {
+            "source": "404.html",
+            "target": "leadwerk_importer/source_assets/404.html",
+            "source_sha1": "b1a0e2a4b2d51eb575d4b67b123d6332cfa23e35",
+            "target_sha1": "b1a0e2a4b2d51eb575d4b67b123d6332cfa23e35",
+            "size": 7231
+        },
+        {
+            "source": "404.html",
+            "target": "leadwerk_theme/source_shells/404.html",
+            "source_sha1": "b1a0e2a4b2d51eb575d4b67b123d6332cfa23e35",
+            "target_sha1": "b1a0e2a4b2d51eb575d4b67b123d6332cfa23e35",
+            "size": 7231
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2707_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2707_prev.jpg",
+            "source_sha1": "d490511933a7feb8cc2a83193d57950b889eca21",
+            "target_sha1": "d490511933a7feb8cc2a83193d57950b889eca21",
+            "size": 278006
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2707_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2707_prev.jpg",
+            "source_sha1": "d490511933a7feb8cc2a83193d57950b889eca21",
+            "target_sha1": "d490511933a7feb8cc2a83193d57950b889eca21",
+            "size": 278006
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2708_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2708_prev.jpg",
+            "source_sha1": "191a6258cf0d825a8160c8501cecbcd280bf095e",
+            "target_sha1": "191a6258cf0d825a8160c8501cecbcd280bf095e",
+            "size": 245468
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2708_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2708_prev.jpg",
+            "source_sha1": "191a6258cf0d825a8160c8501cecbcd280bf095e",
+            "target_sha1": "191a6258cf0d825a8160c8501cecbcd280bf095e",
+            "size": 245468
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2710_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2710_prev.jpg",
+            "source_sha1": "f7a5c29025df7fecb654621bf15c56bb3175520a",
+            "target_sha1": "f7a5c29025df7fecb654621bf15c56bb3175520a",
+            "size": 247757
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2710_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2710_prev.jpg",
+            "source_sha1": "f7a5c29025df7fecb654621bf15c56bb3175520a",
+            "target_sha1": "f7a5c29025df7fecb654621bf15c56bb3175520a",
+            "size": 247757
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2715_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2715_prev.jpg",
+            "source_sha1": "53b182f06e82bbe5388940001d2fc3f74106b4ab",
+            "target_sha1": "53b182f06e82bbe5388940001d2fc3f74106b4ab",
+            "size": 237945
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2715_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2715_prev.jpg",
+            "source_sha1": "53b182f06e82bbe5388940001d2fc3f74106b4ab",
+            "target_sha1": "53b182f06e82bbe5388940001d2fc3f74106b4ab",
+            "size": 237945
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2719_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2719_prev.jpg",
+            "source_sha1": "34fdac99570a2ccf1ef8d82318dae09237ff3c13",
+            "target_sha1": "34fdac99570a2ccf1ef8d82318dae09237ff3c13",
+            "size": 233364
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2719_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2719_prev.jpg",
+            "source_sha1": "34fdac99570a2ccf1ef8d82318dae09237ff3c13",
+            "target_sha1": "34fdac99570a2ccf1ef8d82318dae09237ff3c13",
+            "size": 233364
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2720_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2720_prev.jpg",
+            "source_sha1": "d5994ebaa54bb894efc419d12c0bbc2140bd6e0d",
+            "target_sha1": "d5994ebaa54bb894efc419d12c0bbc2140bd6e0d",
+            "size": 235678
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2720_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2720_prev.jpg",
+            "source_sha1": "d5994ebaa54bb894efc419d12c0bbc2140bd6e0d",
+            "target_sha1": "d5994ebaa54bb894efc419d12c0bbc2140bd6e0d",
+            "size": 235678
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2723_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2723_prev.jpg",
+            "source_sha1": "ee5fdae1fd7bde6406c0d1f13c9404198e5afdd1",
+            "target_sha1": "ee5fdae1fd7bde6406c0d1f13c9404198e5afdd1",
+            "size": 236771
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2723_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2723_prev.jpg",
+            "source_sha1": "ee5fdae1fd7bde6406c0d1f13c9404198e5afdd1",
+            "target_sha1": "ee5fdae1fd7bde6406c0d1f13c9404198e5afdd1",
+            "size": 236771
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2725_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2725_prev.jpg",
+            "source_sha1": "ec334ef6af2013b05fd3233d1a80549247f9a660",
+            "target_sha1": "ec334ef6af2013b05fd3233d1a80549247f9a660",
+            "size": 238673
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2725_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2725_prev.jpg",
+            "source_sha1": "ec334ef6af2013b05fd3233d1a80549247f9a660",
+            "target_sha1": "ec334ef6af2013b05fd3233d1a80549247f9a660",
+            "size": 238673
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2727_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2727_prev.jpg",
+            "source_sha1": "487db30fd99c40bf5b0ad123144ab44307b64f84",
+            "target_sha1": "487db30fd99c40bf5b0ad123144ab44307b64f84",
+            "size": 236509
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2727_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2727_prev.jpg",
+            "source_sha1": "487db30fd99c40bf5b0ad123144ab44307b64f84",
+            "target_sha1": "487db30fd99c40bf5b0ad123144ab44307b64f84",
+            "size": 236509
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2728_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2728_prev.jpg",
+            "source_sha1": "2adb821181a2450a3292d922bf38a4339ae9c265",
+            "target_sha1": "2adb821181a2450a3292d922bf38a4339ae9c265",
+            "size": 239300
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2728_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2728_prev.jpg",
+            "source_sha1": "2adb821181a2450a3292d922bf38a4339ae9c265",
+            "target_sha1": "2adb821181a2450a3292d922bf38a4339ae9c265",
+            "size": 239300
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2729_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2729_prev.jpg",
+            "source_sha1": "e88ac155c078b37a226411cedcb7a0cd5fc684f7",
+            "target_sha1": "e88ac155c078b37a226411cedcb7a0cd5fc684f7",
+            "size": 234062
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2729_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2729_prev.jpg",
+            "source_sha1": "e88ac155c078b37a226411cedcb7a0cd5fc684f7",
+            "target_sha1": "e88ac155c078b37a226411cedcb7a0cd5fc684f7",
+            "size": 234062
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2733_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2733_prev.jpg",
+            "source_sha1": "4f713b98b56662d0b7ef1df5b9c439d601dc9fea",
+            "target_sha1": "4f713b98b56662d0b7ef1df5b9c439d601dc9fea",
+            "size": 236843
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2733_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2733_prev.jpg",
+            "source_sha1": "4f713b98b56662d0b7ef1df5b9c439d601dc9fea",
+            "target_sha1": "4f713b98b56662d0b7ef1df5b9c439d601dc9fea",
+            "size": 236843
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2734_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2734_prev.jpg",
+            "source_sha1": "f1c4070be6f26d6f5f97f28edb17b9a4774e80be",
+            "target_sha1": "f1c4070be6f26d6f5f97f28edb17b9a4774e80be",
+            "size": 233565
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2734_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2734_prev.jpg",
+            "source_sha1": "f1c4070be6f26d6f5f97f28edb17b9a4774e80be",
+            "target_sha1": "f1c4070be6f26d6f5f97f28edb17b9a4774e80be",
+            "size": 233565
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2738_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2738_prev.jpg",
+            "source_sha1": "97de165effa0f7dcb1f5986d12c9f9ace9e7ad7a",
+            "target_sha1": "97de165effa0f7dcb1f5986d12c9f9ace9e7ad7a",
+            "size": 238304
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2738_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2738_prev.jpg",
+            "source_sha1": "97de165effa0f7dcb1f5986d12c9f9ace9e7ad7a",
+            "target_sha1": "97de165effa0f7dcb1f5986d12c9f9ace9e7ad7a",
+            "size": 238304
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2739_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2739_prev.jpg",
+            "source_sha1": "ac0e25be85b4ef6c66daf9efa7fd151e82c42f7b",
+            "target_sha1": "ac0e25be85b4ef6c66daf9efa7fd151e82c42f7b",
+            "size": 257428
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2739_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2739_prev.jpg",
+            "source_sha1": "ac0e25be85b4ef6c66daf9efa7fd151e82c42f7b",
+            "target_sha1": "ac0e25be85b4ef6c66daf9efa7fd151e82c42f7b",
+            "size": 257428
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2740_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2740_prev.jpg",
+            "source_sha1": "93eb711aa3e4890adb72ab3e810228d4db55651e",
+            "target_sha1": "93eb711aa3e4890adb72ab3e810228d4db55651e",
+            "size": 263062
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2740_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2740_prev.jpg",
+            "source_sha1": "93eb711aa3e4890adb72ab3e810228d4db55651e",
+            "target_sha1": "93eb711aa3e4890adb72ab3e810228d4db55651e",
+            "size": 263062
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2742_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2742_prev.jpg",
+            "source_sha1": "05261ce7c2b42d751fc9933940917fcc02e03023",
+            "target_sha1": "05261ce7c2b42d751fc9933940917fcc02e03023",
+            "size": 241841
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2742_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2742_prev.jpg",
+            "source_sha1": "05261ce7c2b42d751fc9933940917fcc02e03023",
+            "target_sha1": "05261ce7c2b42d751fc9933940917fcc02e03023",
+            "size": 241841
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2745_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2745_prev.jpg",
+            "source_sha1": "c70ea28585c22927eaf7e7ce211ac229e8b782b8",
+            "target_sha1": "c70ea28585c22927eaf7e7ce211ac229e8b782b8",
+            "size": 240956
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2745_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2745_prev.jpg",
+            "source_sha1": "c70ea28585c22927eaf7e7ce211ac229e8b782b8",
+            "target_sha1": "c70ea28585c22927eaf7e7ce211ac229e8b782b8",
+            "size": 240956
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2747_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2747_prev.jpg",
+            "source_sha1": "a3bf52e84d7191e010f923dd991f118f23a556e7",
+            "target_sha1": "a3bf52e84d7191e010f923dd991f118f23a556e7",
+            "size": 997490
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2747_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2747_prev.jpg",
+            "source_sha1": "a3bf52e84d7191e010f923dd991f118f23a556e7",
+            "target_sha1": "a3bf52e84d7191e010f923dd991f118f23a556e7",
+            "size": 997490
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2752_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2752_prev.jpg",
+            "source_sha1": "dd09d51b314b7b68e7520d542e1bec341d04b2d0",
+            "target_sha1": "dd09d51b314b7b68e7520d542e1bec341d04b2d0",
+            "size": 241447
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2752_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2752_prev.jpg",
+            "source_sha1": "dd09d51b314b7b68e7520d542e1bec341d04b2d0",
+            "target_sha1": "dd09d51b314b7b68e7520d542e1bec341d04b2d0",
+            "size": 241447
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2754_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2754_prev.jpg",
+            "source_sha1": "76826fde79c447d3cf4fa000f3b73db7ee9bfb7f",
+            "target_sha1": "76826fde79c447d3cf4fa000f3b73db7ee9bfb7f",
+            "size": 239358
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2754_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2754_prev.jpg",
+            "source_sha1": "76826fde79c447d3cf4fa000f3b73db7ee9bfb7f",
+            "target_sha1": "76826fde79c447d3cf4fa000f3b73db7ee9bfb7f",
+            "size": 239358
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2757_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2757_prev.jpg",
+            "source_sha1": "9887317f5a2cdb7e8cb4c54dafaad13077bdf105",
+            "target_sha1": "9887317f5a2cdb7e8cb4c54dafaad13077bdf105",
+            "size": 242558
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2757_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2757_prev.jpg",
+            "source_sha1": "9887317f5a2cdb7e8cb4c54dafaad13077bdf105",
+            "target_sha1": "9887317f5a2cdb7e8cb4c54dafaad13077bdf105",
+            "size": 242558
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2758_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2758_prev.jpg",
+            "source_sha1": "9749c551874671c9d5a68f26868d69d5c3cafc58",
+            "target_sha1": "9749c551874671c9d5a68f26868d69d5c3cafc58",
+            "size": 232303
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2758_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2758_prev.jpg",
+            "source_sha1": "9749c551874671c9d5a68f26868d69d5c3cafc58",
+            "target_sha1": "9749c551874671c9d5a68f26868d69d5c3cafc58",
+            "size": 232303
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2762_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2762_prev.jpg",
+            "source_sha1": "620d4ac58e3ce9e5c3c93c2d0d3919ebc551f88c",
+            "target_sha1": "620d4ac58e3ce9e5c3c93c2d0d3919ebc551f88c",
+            "size": 261673
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2762_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2762_prev.jpg",
+            "source_sha1": "620d4ac58e3ce9e5c3c93c2d0d3919ebc551f88c",
+            "target_sha1": "620d4ac58e3ce9e5c3c93c2d0d3919ebc551f88c",
+            "size": 261673
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2765_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2765_prev.jpg",
+            "source_sha1": "75e6e2ffb47b94fe8259cc65dc34fbdb4cd0d773",
+            "target_sha1": "75e6e2ffb47b94fe8259cc65dc34fbdb4cd0d773",
+            "size": 257232
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2765_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2765_prev.jpg",
+            "source_sha1": "75e6e2ffb47b94fe8259cc65dc34fbdb4cd0d773",
+            "target_sha1": "75e6e2ffb47b94fe8259cc65dc34fbdb4cd0d773",
+            "size": 257232
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2766_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2766_prev.jpg",
+            "source_sha1": "dfabe3ecb759edae327c4f9e9a672d9fae0c3cef",
+            "target_sha1": "dfabe3ecb759edae327c4f9e9a672d9fae0c3cef",
+            "size": 259731
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2766_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2766_prev.jpg",
+            "source_sha1": "dfabe3ecb759edae327c4f9e9a672d9fae0c3cef",
+            "target_sha1": "dfabe3ecb759edae327c4f9e9a672d9fae0c3cef",
+            "size": 259731
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2767_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2767_prev.jpg",
+            "source_sha1": "8166ae929f14ed6ceec2518771bc59d8b72171ef",
+            "target_sha1": "8166ae929f14ed6ceec2518771bc59d8b72171ef",
+            "size": 252218
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2767_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2767_prev.jpg",
+            "source_sha1": "8166ae929f14ed6ceec2518771bc59d8b72171ef",
+            "target_sha1": "8166ae929f14ed6ceec2518771bc59d8b72171ef",
+            "size": 252218
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2774_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2774_prev.jpg",
+            "source_sha1": "df0d7acf30b535f9159782f47a43ee3cf1940b45",
+            "target_sha1": "df0d7acf30b535f9159782f47a43ee3cf1940b45",
+            "size": 1302297
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2774_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2774_prev.jpg",
+            "source_sha1": "df0d7acf30b535f9159782f47a43ee3cf1940b45",
+            "target_sha1": "df0d7acf30b535f9159782f47a43ee3cf1940b45",
+            "size": 1302297
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2775_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2775_prev.jpg",
+            "source_sha1": "9321cd8b1d63a6abd793d4116ef02dcb7cadb9d1",
+            "target_sha1": "9321cd8b1d63a6abd793d4116ef02dcb7cadb9d1",
+            "size": 293052
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2775_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2775_prev.jpg",
+            "source_sha1": "9321cd8b1d63a6abd793d4116ef02dcb7cadb9d1",
+            "target_sha1": "9321cd8b1d63a6abd793d4116ef02dcb7cadb9d1",
+            "size": 293052
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2777_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2777_prev.jpg",
+            "source_sha1": "334e6535ae6d9b6e69be6f65a114ac495d1438be",
+            "target_sha1": "334e6535ae6d9b6e69be6f65a114ac495d1438be",
+            "size": 289540
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2777_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2777_prev.jpg",
+            "source_sha1": "334e6535ae6d9b6e69be6f65a114ac495d1438be",
+            "target_sha1": "334e6535ae6d9b6e69be6f65a114ac495d1438be",
+            "size": 289540
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2781_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2781_prev.jpg",
+            "source_sha1": "2967bf26f3adf4be90f6ca9848b674b286064c11",
+            "target_sha1": "2967bf26f3adf4be90f6ca9848b674b286064c11",
+            "size": 291558
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2781_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2781_prev.jpg",
+            "source_sha1": "2967bf26f3adf4be90f6ca9848b674b286064c11",
+            "target_sha1": "2967bf26f3adf4be90f6ca9848b674b286064c11",
+            "size": 291558
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2784_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2784_prev.jpg",
+            "source_sha1": "6da6d655b91f5ef564bc200cfffa635c9b273d07",
+            "target_sha1": "6da6d655b91f5ef564bc200cfffa635c9b273d07",
+            "size": 293145
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2784_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2784_prev.jpg",
+            "source_sha1": "6da6d655b91f5ef564bc200cfffa635c9b273d07",
+            "target_sha1": "6da6d655b91f5ef564bc200cfffa635c9b273d07",
+            "size": 293145
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2785_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2785_prev.jpg",
+            "source_sha1": "b94030fba55d4df68dea37b906d29cff6a68a7fe",
+            "target_sha1": "b94030fba55d4df68dea37b906d29cff6a68a7fe",
+            "size": 289447
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2785_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2785_prev.jpg",
+            "source_sha1": "b94030fba55d4df68dea37b906d29cff6a68a7fe",
+            "target_sha1": "b94030fba55d4df68dea37b906d29cff6a68a7fe",
+            "size": 289447
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2786_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2786_prev.jpg",
+            "source_sha1": "0f4fc7a5522ec6ec9895b8f5ef9b69fb09102923",
+            "target_sha1": "0f4fc7a5522ec6ec9895b8f5ef9b69fb09102923",
+            "size": 273624
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2786_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2786_prev.jpg",
+            "source_sha1": "0f4fc7a5522ec6ec9895b8f5ef9b69fb09102923",
+            "target_sha1": "0f4fc7a5522ec6ec9895b8f5ef9b69fb09102923",
+            "size": 273624
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2791_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2791_prev.jpg",
+            "source_sha1": "8d4c18bea8207809fe69a4f732d0e3774e6dcc41",
+            "target_sha1": "8d4c18bea8207809fe69a4f732d0e3774e6dcc41",
+            "size": 1293286
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2791_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2791_prev.jpg",
+            "source_sha1": "8d4c18bea8207809fe69a4f732d0e3774e6dcc41",
+            "target_sha1": "8d4c18bea8207809fe69a4f732d0e3774e6dcc41",
+            "size": 1293286
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2792_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2792_prev.jpg",
+            "source_sha1": "2b193dcbaf5fc957159baee1501fd2d38237483f",
+            "target_sha1": "2b193dcbaf5fc957159baee1501fd2d38237483f",
+            "size": 303475
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2792_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2792_prev.jpg",
+            "source_sha1": "2b193dcbaf5fc957159baee1501fd2d38237483f",
+            "target_sha1": "2b193dcbaf5fc957159baee1501fd2d38237483f",
+            "size": 303475
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2794_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2794_prev.jpg",
+            "source_sha1": "3ebbbfd8ed2546d17ed09f0f782b9573ce5d9b42",
+            "target_sha1": "3ebbbfd8ed2546d17ed09f0f782b9573ce5d9b42",
+            "size": 287345
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2794_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2794_prev.jpg",
+            "source_sha1": "3ebbbfd8ed2546d17ed09f0f782b9573ce5d9b42",
+            "target_sha1": "3ebbbfd8ed2546d17ed09f0f782b9573ce5d9b42",
+            "size": 287345
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2806_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2806_prev.jpg",
+            "source_sha1": "4fa6bbf75b414f10120cadf2a605e28f0b49bf53",
+            "target_sha1": "4fa6bbf75b414f10120cadf2a605e28f0b49bf53",
+            "size": 1292050
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2806_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2806_prev.jpg",
+            "source_sha1": "4fa6bbf75b414f10120cadf2a605e28f0b49bf53",
+            "target_sha1": "4fa6bbf75b414f10120cadf2a605e28f0b49bf53",
+            "size": 1292050
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2812_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2812_prev.jpg",
+            "source_sha1": "50e4df21780fd53c7b2a73a910039f3e6ce73b7f",
+            "target_sha1": "50e4df21780fd53c7b2a73a910039f3e6ce73b7f",
+            "size": 295884
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2812_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2812_prev.jpg",
+            "source_sha1": "50e4df21780fd53c7b2a73a910039f3e6ce73b7f",
+            "target_sha1": "50e4df21780fd53c7b2a73a910039f3e6ce73b7f",
+            "size": 295884
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2815_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2815_prev.jpg",
+            "source_sha1": "1657ba498d4c144d7c5cf5ed9d277057d3b0c925",
+            "target_sha1": "1657ba498d4c144d7c5cf5ed9d277057d3b0c925",
+            "size": 292197
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2815_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2815_prev.jpg",
+            "source_sha1": "1657ba498d4c144d7c5cf5ed9d277057d3b0c925",
+            "target_sha1": "1657ba498d4c144d7c5cf5ed9d277057d3b0c925",
+            "size": 292197
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2817_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2817_prev.jpg",
+            "source_sha1": "0fc18bba0f3d7e006097b3d7cd85422305eb4692",
+            "target_sha1": "0fc18bba0f3d7e006097b3d7cd85422305eb4692",
+            "size": 289746
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2817_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2817_prev.jpg",
+            "source_sha1": "0fc18bba0f3d7e006097b3d7cd85422305eb4692",
+            "target_sha1": "0fc18bba0f3d7e006097b3d7cd85422305eb4692",
+            "size": 289746
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2825_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2825_prev.jpg",
+            "source_sha1": "9959c4a11d0e7b5e43f82c59d5cd0d48e896f918",
+            "target_sha1": "9959c4a11d0e7b5e43f82c59d5cd0d48e896f918",
+            "size": 269552
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2825_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2825_prev.jpg",
+            "source_sha1": "9959c4a11d0e7b5e43f82c59d5cd0d48e896f918",
+            "target_sha1": "9959c4a11d0e7b5e43f82c59d5cd0d48e896f918",
+            "size": 269552
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2826_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2826_prev.jpg",
+            "source_sha1": "267de06559337f227f5f894b2f4b7356512a4d82",
+            "target_sha1": "267de06559337f227f5f894b2f4b7356512a4d82",
+            "size": 254258
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2826_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2826_prev.jpg",
+            "source_sha1": "267de06559337f227f5f894b2f4b7356512a4d82",
+            "target_sha1": "267de06559337f227f5f894b2f4b7356512a4d82",
+            "size": 254258
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2827_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2827_prev.jpg",
+            "source_sha1": "dd7faf928117be1e783f01ba9c2d317f38502ce6",
+            "target_sha1": "dd7faf928117be1e783f01ba9c2d317f38502ce6",
+            "size": 253662
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2827_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2827_prev.jpg",
+            "source_sha1": "dd7faf928117be1e783f01ba9c2d317f38502ce6",
+            "target_sha1": "dd7faf928117be1e783f01ba9c2d317f38502ce6",
+            "size": 253662
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2829_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2829_prev.jpg",
+            "source_sha1": "c9e579cff799afed8f056cb039653bf023fcf491",
+            "target_sha1": "c9e579cff799afed8f056cb039653bf023fcf491",
+            "size": 258363
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2829_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2829_prev.jpg",
+            "source_sha1": "c9e579cff799afed8f056cb039653bf023fcf491",
+            "target_sha1": "c9e579cff799afed8f056cb039653bf023fcf491",
+            "size": 258363
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2830_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2830_prev.jpg",
+            "source_sha1": "1f21f8e806c25ba80b7247e75fd0d3297662adf1",
+            "target_sha1": "1f21f8e806c25ba80b7247e75fd0d3297662adf1",
+            "size": 262520
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2830_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2830_prev.jpg",
+            "source_sha1": "1f21f8e806c25ba80b7247e75fd0d3297662adf1",
+            "target_sha1": "1f21f8e806c25ba80b7247e75fd0d3297662adf1",
+            "size": 262520
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2832_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2832_prev.jpg",
+            "source_sha1": "3e80e4c4b630e22b3ee26d7051e36a5371ce2425",
+            "target_sha1": "3e80e4c4b630e22b3ee26d7051e36a5371ce2425",
+            "size": 260428
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2832_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2832_prev.jpg",
+            "source_sha1": "3e80e4c4b630e22b3ee26d7051e36a5371ce2425",
+            "target_sha1": "3e80e4c4b630e22b3ee26d7051e36a5371ce2425",
+            "size": 260428
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2834_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2834_prev.jpg",
+            "source_sha1": "5f107e93fe22aad13b4f258026f9731c7aa5ba11",
+            "target_sha1": "5f107e93fe22aad13b4f258026f9731c7aa5ba11",
+            "size": 1269908
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2834_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2834_prev.jpg",
+            "source_sha1": "5f107e93fe22aad13b4f258026f9731c7aa5ba11",
+            "target_sha1": "5f107e93fe22aad13b4f258026f9731c7aa5ba11",
+            "size": 1269908
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2835_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2835_prev.jpg",
+            "source_sha1": "8239294a6d8cc7b648a40a204389ba734d5d0788",
+            "target_sha1": "8239294a6d8cc7b648a40a204389ba734d5d0788",
+            "size": 274366
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2835_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2835_prev.jpg",
+            "source_sha1": "8239294a6d8cc7b648a40a204389ba734d5d0788",
+            "target_sha1": "8239294a6d8cc7b648a40a204389ba734d5d0788",
+            "size": 274366
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2836_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2836_prev.jpg",
+            "source_sha1": "4acb645258c8208f32fe533a2a6b9a19e8e69288",
+            "target_sha1": "4acb645258c8208f32fe533a2a6b9a19e8e69288",
+            "size": 269342
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2836_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2836_prev.jpg",
+            "source_sha1": "4acb645258c8208f32fe533a2a6b9a19e8e69288",
+            "target_sha1": "4acb645258c8208f32fe533a2a6b9a19e8e69288",
+            "size": 269342
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2841_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2841_prev.jpg",
+            "source_sha1": "31f09f0021837e8ae1fdcce0ee8be50c4e742c06",
+            "target_sha1": "31f09f0021837e8ae1fdcce0ee8be50c4e742c06",
+            "size": 261225
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2841_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2841_prev.jpg",
+            "source_sha1": "31f09f0021837e8ae1fdcce0ee8be50c4e742c06",
+            "target_sha1": "31f09f0021837e8ae1fdcce0ee8be50c4e742c06",
+            "size": 261225
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2854_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2854_prev.jpg",
+            "source_sha1": "62b27667f9a6c7419e4ec65842ce838d1ad9b47f",
+            "target_sha1": "62b27667f9a6c7419e4ec65842ce838d1ad9b47f",
+            "size": 249579
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2854_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2854_prev.jpg",
+            "source_sha1": "62b27667f9a6c7419e4ec65842ce838d1ad9b47f",
+            "target_sha1": "62b27667f9a6c7419e4ec65842ce838d1ad9b47f",
+            "size": 249579
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2855_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2855_prev.jpg",
+            "source_sha1": "afa0a220662e346bc96ca5caf9d24a0edfb1d2fc",
+            "target_sha1": "afa0a220662e346bc96ca5caf9d24a0edfb1d2fc",
+            "size": 247023
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2855_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2855_prev.jpg",
+            "source_sha1": "afa0a220662e346bc96ca5caf9d24a0edfb1d2fc",
+            "target_sha1": "afa0a220662e346bc96ca5caf9d24a0edfb1d2fc",
+            "size": 247023
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2857_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2857_prev.jpg",
+            "source_sha1": "54a134beafab0aebed785ae2f1934592370a0f48",
+            "target_sha1": "54a134beafab0aebed785ae2f1934592370a0f48",
+            "size": 248975
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2857_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2857_prev.jpg",
+            "source_sha1": "54a134beafab0aebed785ae2f1934592370a0f48",
+            "target_sha1": "54a134beafab0aebed785ae2f1934592370a0f48",
+            "size": 248975
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2866_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2866_prev.jpg",
+            "source_sha1": "e2e8b0564f8c4fb59c8e751ed25d34ef62592091",
+            "target_sha1": "e2e8b0564f8c4fb59c8e751ed25d34ef62592091",
+            "size": 1015234
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2866_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2866_prev.jpg",
+            "source_sha1": "e2e8b0564f8c4fb59c8e751ed25d34ef62592091",
+            "target_sha1": "e2e8b0564f8c4fb59c8e751ed25d34ef62592091",
+            "size": 1015234
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2873_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2873_prev.jpg",
+            "source_sha1": "08f1a5470ecfa07266a2f7b2359647de724b66ae",
+            "target_sha1": "08f1a5470ecfa07266a2f7b2359647de724b66ae",
+            "size": 251721
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2873_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2873_prev.jpg",
+            "source_sha1": "08f1a5470ecfa07266a2f7b2359647de724b66ae",
+            "target_sha1": "08f1a5470ecfa07266a2f7b2359647de724b66ae",
+            "size": 251721
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2874_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2874_prev.jpg",
+            "source_sha1": "14dffc70d5e088584685d72e4fae4c879e0d6244",
+            "target_sha1": "14dffc70d5e088584685d72e4fae4c879e0d6244",
+            "size": 254686
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2874_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2874_prev.jpg",
+            "source_sha1": "14dffc70d5e088584685d72e4fae4c879e0d6244",
+            "target_sha1": "14dffc70d5e088584685d72e4fae4c879e0d6244",
+            "size": 254686
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2877_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2877_prev.jpg",
+            "source_sha1": "12bde32c62df28e1d725538680d50d5ff05a8e28",
+            "target_sha1": "12bde32c62df28e1d725538680d50d5ff05a8e28",
+            "size": 251710
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2877_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2877_prev.jpg",
+            "source_sha1": "12bde32c62df28e1d725538680d50d5ff05a8e28",
+            "target_sha1": "12bde32c62df28e1d725538680d50d5ff05a8e28",
+            "size": 251710
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2878_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2878_prev.jpg",
+            "source_sha1": "45b2d29fa58179c43ca6fd5499448def8132015b",
+            "target_sha1": "45b2d29fa58179c43ca6fd5499448def8132015b",
+            "size": 252344
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2878_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2878_prev.jpg",
+            "source_sha1": "45b2d29fa58179c43ca6fd5499448def8132015b",
+            "target_sha1": "45b2d29fa58179c43ca6fd5499448def8132015b",
+            "size": 252344
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2899_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2899_prev.jpg",
+            "source_sha1": "99e6d207458625fc321bc722d2f1dbbe32ddce77",
+            "target_sha1": "99e6d207458625fc321bc722d2f1dbbe32ddce77",
+            "size": 236458
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2899_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2899_prev.jpg",
+            "source_sha1": "99e6d207458625fc321bc722d2f1dbbe32ddce77",
+            "target_sha1": "99e6d207458625fc321bc722d2f1dbbe32ddce77",
+            "size": 236458
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2902_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2902_prev.jpg",
+            "source_sha1": "9f5cfe39c439c6e978fb2398d1a0ca3ddf51764e",
+            "target_sha1": "9f5cfe39c439c6e978fb2398d1a0ca3ddf51764e",
+            "size": 286660
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2902_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2902_prev.jpg",
+            "source_sha1": "9f5cfe39c439c6e978fb2398d1a0ca3ddf51764e",
+            "target_sha1": "9f5cfe39c439c6e978fb2398d1a0ca3ddf51764e",
+            "size": 286660
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2906_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2906_prev.jpg",
+            "source_sha1": "911c10f0250792d79ebfd9cb8f4d41e342b78b0b",
+            "target_sha1": "911c10f0250792d79ebfd9cb8f4d41e342b78b0b",
+            "size": 288686
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2906_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2906_prev.jpg",
+            "source_sha1": "911c10f0250792d79ebfd9cb8f4d41e342b78b0b",
+            "target_sha1": "911c10f0250792d79ebfd9cb8f4d41e342b78b0b",
+            "size": 288686
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2917_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2917_prev.jpg",
+            "source_sha1": "3ac37c47edce3aa2865db5f26992f784ff4275c6",
+            "target_sha1": "3ac37c47edce3aa2865db5f26992f784ff4275c6",
+            "size": 287804
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2917_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2917_prev.jpg",
+            "source_sha1": "3ac37c47edce3aa2865db5f26992f784ff4275c6",
+            "target_sha1": "3ac37c47edce3aa2865db5f26992f784ff4275c6",
+            "size": 287804
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2919_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2919_prev.jpg",
+            "source_sha1": "f60293428b7b5d6f488280bf11e0a79434e073c2",
+            "target_sha1": "f60293428b7b5d6f488280bf11e0a79434e073c2",
+            "size": 288616
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2919_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2919_prev.jpg",
+            "source_sha1": "f60293428b7b5d6f488280bf11e0a79434e073c2",
+            "target_sha1": "f60293428b7b5d6f488280bf11e0a79434e073c2",
+            "size": 288616
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2920_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2920_prev.jpg",
+            "source_sha1": "3278a241262b21f75ad3a5c9fc1b56de374af50f",
+            "target_sha1": "3278a241262b21f75ad3a5c9fc1b56de374af50f",
+            "size": 285944
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2920_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2920_prev.jpg",
+            "source_sha1": "3278a241262b21f75ad3a5c9fc1b56de374af50f",
+            "target_sha1": "3278a241262b21f75ad3a5c9fc1b56de374af50f",
+            "size": 285944
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2923_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2923_prev.jpg",
+            "source_sha1": "352be21e346e78bcf097409e5cb933bc9fba31a2",
+            "target_sha1": "352be21e346e78bcf097409e5cb933bc9fba31a2",
+            "size": 286029
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2923_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2923_prev.jpg",
+            "source_sha1": "352be21e346e78bcf097409e5cb933bc9fba31a2",
+            "target_sha1": "352be21e346e78bcf097409e5cb933bc9fba31a2",
+            "size": 286029
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2924_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2924_prev.jpg",
+            "source_sha1": "045f93845148e469ab7705e2417d4614984cf0c7",
+            "target_sha1": "045f93845148e469ab7705e2417d4614984cf0c7",
+            "size": 285599
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2924_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2924_prev.jpg",
+            "source_sha1": "045f93845148e469ab7705e2417d4614984cf0c7",
+            "target_sha1": "045f93845148e469ab7705e2417d4614984cf0c7",
+            "size": 285599
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2938_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2938_prev.jpg",
+            "source_sha1": "f3f52b9d8f34a4f0c9a21f160ef181f5c2c59156",
+            "target_sha1": "f3f52b9d8f34a4f0c9a21f160ef181f5c2c59156",
+            "size": 1240766
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2938_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2938_prev.jpg",
+            "source_sha1": "f3f52b9d8f34a4f0c9a21f160ef181f5c2c59156",
+            "target_sha1": "f3f52b9d8f34a4f0c9a21f160ef181f5c2c59156",
+            "size": 1240766
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2939_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2939_prev.jpg",
+            "source_sha1": "429aa7376a4451aa7ee3566af62a2385f3022848",
+            "target_sha1": "429aa7376a4451aa7ee3566af62a2385f3022848",
+            "size": 276292
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2939_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2939_prev.jpg",
+            "source_sha1": "429aa7376a4451aa7ee3566af62a2385f3022848",
+            "target_sha1": "429aa7376a4451aa7ee3566af62a2385f3022848",
+            "size": 276292
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2946_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2946_prev.jpg",
+            "source_sha1": "dc810069b23f40ed6bdda5989f949acda1c70880",
+            "target_sha1": "dc810069b23f40ed6bdda5989f949acda1c70880",
+            "size": 257231
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2946_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2946_prev.jpg",
+            "source_sha1": "dc810069b23f40ed6bdda5989f949acda1c70880",
+            "target_sha1": "dc810069b23f40ed6bdda5989f949acda1c70880",
+            "size": 257231
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2947_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2947_prev.jpg",
+            "source_sha1": "e495429147cab388eea325a7c0918d3367c87f29",
+            "target_sha1": "e495429147cab388eea325a7c0918d3367c87f29",
+            "size": 265082
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2947_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2947_prev.jpg",
+            "source_sha1": "e495429147cab388eea325a7c0918d3367c87f29",
+            "target_sha1": "e495429147cab388eea325a7c0918d3367c87f29",
+            "size": 265082
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2948_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2948_prev.jpg",
+            "source_sha1": "a17d8f698957ab2089e6cfc63a10e542cbaac059",
+            "target_sha1": "a17d8f698957ab2089e6cfc63a10e542cbaac059",
+            "size": 270150
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2948_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2948_prev.jpg",
+            "source_sha1": "a17d8f698957ab2089e6cfc63a10e542cbaac059",
+            "target_sha1": "a17d8f698957ab2089e6cfc63a10e542cbaac059",
+            "size": 270150
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2953_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2953_prev.jpg",
+            "source_sha1": "10bacddffc27bd667821b841bcf309f59d297da9",
+            "target_sha1": "10bacddffc27bd667821b841bcf309f59d297da9",
+            "size": 259490
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2953_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2953_prev.jpg",
+            "source_sha1": "10bacddffc27bd667821b841bcf309f59d297da9",
+            "target_sha1": "10bacddffc27bd667821b841bcf309f59d297da9",
+            "size": 259490
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2954_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2954_prev.jpg",
+            "source_sha1": "c6a1aff6a12c2713fb5d0231afd337f0b2100e0b",
+            "target_sha1": "c6a1aff6a12c2713fb5d0231afd337f0b2100e0b",
+            "size": 260291
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2954_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2954_prev.jpg",
+            "source_sha1": "c6a1aff6a12c2713fb5d0231afd337f0b2100e0b",
+            "target_sha1": "c6a1aff6a12c2713fb5d0231afd337f0b2100e0b",
+            "size": 260291
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2955_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2955_prev.jpg",
+            "source_sha1": "0581d0c7ec6dcbeac86517fddefc88dfb0f9c7c3",
+            "target_sha1": "0581d0c7ec6dcbeac86517fddefc88dfb0f9c7c3",
+            "size": 1211561
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2955_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2955_prev.jpg",
+            "source_sha1": "0581d0c7ec6dcbeac86517fddefc88dfb0f9c7c3",
+            "target_sha1": "0581d0c7ec6dcbeac86517fddefc88dfb0f9c7c3",
+            "size": 1211561
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2958_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2958_prev.jpg",
+            "source_sha1": "63a6c1783dcc0e7da54cc36acd344d5bde36a827",
+            "target_sha1": "63a6c1783dcc0e7da54cc36acd344d5bde36a827",
+            "size": 263308
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2958_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2958_prev.jpg",
+            "source_sha1": "63a6c1783dcc0e7da54cc36acd344d5bde36a827",
+            "target_sha1": "63a6c1783dcc0e7da54cc36acd344d5bde36a827",
+            "size": 263308
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2959_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2959_prev.jpg",
+            "source_sha1": "2a9fc60e60792285cbb304c8d3358f7c0e8f71ef",
+            "target_sha1": "2a9fc60e60792285cbb304c8d3358f7c0e8f71ef",
+            "size": 268328
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2959_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2959_prev.jpg",
+            "source_sha1": "2a9fc60e60792285cbb304c8d3358f7c0e8f71ef",
+            "target_sha1": "2a9fc60e60792285cbb304c8d3358f7c0e8f71ef",
+            "size": 268328
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2961_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2961_prev.jpg",
+            "source_sha1": "b34950803e7a3699b10a3147d9870db3be1e9ed2",
+            "target_sha1": "b34950803e7a3699b10a3147d9870db3be1e9ed2",
+            "size": 277038
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2961_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2961_prev.jpg",
+            "source_sha1": "b34950803e7a3699b10a3147d9870db3be1e9ed2",
+            "target_sha1": "b34950803e7a3699b10a3147d9870db3be1e9ed2",
+            "size": 277038
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2964_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2964_prev.jpg",
+            "source_sha1": "797b577f758e8bdff138695a1c32dac41b9059cd",
+            "target_sha1": "797b577f758e8bdff138695a1c32dac41b9059cd",
+            "size": 264932
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2964_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2964_prev.jpg",
+            "source_sha1": "797b577f758e8bdff138695a1c32dac41b9059cd",
+            "target_sha1": "797b577f758e8bdff138695a1c32dac41b9059cd",
+            "size": 264932
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2965_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2965_prev.jpg",
+            "source_sha1": "7dd09b172b6b458ed5eb570b779eb5e1ad594102",
+            "target_sha1": "7dd09b172b6b458ed5eb570b779eb5e1ad594102",
+            "size": 270860
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2965_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2965_prev.jpg",
+            "source_sha1": "7dd09b172b6b458ed5eb570b779eb5e1ad594102",
+            "target_sha1": "7dd09b172b6b458ed5eb570b779eb5e1ad594102",
+            "size": 270860
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2966_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2966_prev.jpg",
+            "source_sha1": "f29adfde9ead0613031b6ef342d7e8c9dc49a10a",
+            "target_sha1": "f29adfde9ead0613031b6ef342d7e8c9dc49a10a",
+            "size": 280833
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2966_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2966_prev.jpg",
+            "source_sha1": "f29adfde9ead0613031b6ef342d7e8c9dc49a10a",
+            "target_sha1": "f29adfde9ead0613031b6ef342d7e8c9dc49a10a",
+            "size": 280833
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2974_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2974_prev.jpg",
+            "source_sha1": "aabec8a22ac1968756cc5eb8311d24895e1e48d3",
+            "target_sha1": "aabec8a22ac1968756cc5eb8311d24895e1e48d3",
+            "size": 177506
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2974_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2974_prev.jpg",
+            "source_sha1": "aabec8a22ac1968756cc5eb8311d24895e1e48d3",
+            "target_sha1": "aabec8a22ac1968756cc5eb8311d24895e1e48d3",
+            "size": 177506
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2978_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2978_prev.jpg",
+            "source_sha1": "754111019a3149b4e39b7eaba3da94d1bb25d969",
+            "target_sha1": "754111019a3149b4e39b7eaba3da94d1bb25d969",
+            "size": 192061
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2978_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2978_prev.jpg",
+            "source_sha1": "754111019a3149b4e39b7eaba3da94d1bb25d969",
+            "target_sha1": "754111019a3149b4e39b7eaba3da94d1bb25d969",
+            "size": 192061
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2981_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2981_prev.jpg",
+            "source_sha1": "0b825c28a26fbb77980b39ddf1bfd8d7eeeb3712",
+            "target_sha1": "0b825c28a26fbb77980b39ddf1bfd8d7eeeb3712",
+            "size": 190617
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2981_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2981_prev.jpg",
+            "source_sha1": "0b825c28a26fbb77980b39ddf1bfd8d7eeeb3712",
+            "target_sha1": "0b825c28a26fbb77980b39ddf1bfd8d7eeeb3712",
+            "size": 190617
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2982_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2982_prev.jpg",
+            "source_sha1": "50f411c46595a0814db841520085c27b1ba0ff30",
+            "target_sha1": "50f411c46595a0814db841520085c27b1ba0ff30",
+            "size": 189807
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2982_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2982_prev.jpg",
+            "source_sha1": "50f411c46595a0814db841520085c27b1ba0ff30",
+            "target_sha1": "50f411c46595a0814db841520085c27b1ba0ff30",
+            "size": 189807
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2985_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2985_prev.jpg",
+            "source_sha1": "7e47748ed60a6494c7f794ebc87b880f273d25b8",
+            "target_sha1": "7e47748ed60a6494c7f794ebc87b880f273d25b8",
+            "size": 191719
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2985_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2985_prev.jpg",
+            "source_sha1": "7e47748ed60a6494c7f794ebc87b880f273d25b8",
+            "target_sha1": "7e47748ed60a6494c7f794ebc87b880f273d25b8",
+            "size": 191719
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2988_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2988_prev.jpg",
+            "source_sha1": "e0a3167efaa4edeeab7bde0ce83e88169856e65d",
+            "target_sha1": "e0a3167efaa4edeeab7bde0ce83e88169856e65d",
+            "size": 193832
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2988_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2988_prev.jpg",
+            "source_sha1": "e0a3167efaa4edeeab7bde0ce83e88169856e65d",
+            "target_sha1": "e0a3167efaa4edeeab7bde0ce83e88169856e65d",
+            "size": 193832
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2991_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2991_prev.jpg",
+            "source_sha1": "b3e052976a03e2a42a281684fe17d2bcc0bbfb75",
+            "target_sha1": "b3e052976a03e2a42a281684fe17d2bcc0bbfb75",
+            "size": 190946
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2991_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2991_prev.jpg",
+            "source_sha1": "b3e052976a03e2a42a281684fe17d2bcc0bbfb75",
+            "target_sha1": "b3e052976a03e2a42a281684fe17d2bcc0bbfb75",
+            "size": 190946
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2996_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2996_prev.jpg",
+            "source_sha1": "0e47e7b6f371b65c73227db0864581ba56085fe8",
+            "target_sha1": "0e47e7b6f371b65c73227db0864581ba56085fe8",
+            "size": 706647
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2996_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2996_prev.jpg",
+            "source_sha1": "0e47e7b6f371b65c73227db0864581ba56085fe8",
+            "target_sha1": "0e47e7b6f371b65c73227db0864581ba56085fe8",
+            "size": 706647
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2997_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A2997_prev.jpg",
+            "source_sha1": "9dcf2933a731e8b1c19fea2df942f843a12ac6df",
+            "target_sha1": "9dcf2933a731e8b1c19fea2df942f843a12ac6df",
+            "size": 193489
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A2997_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A2997_prev.jpg",
+            "source_sha1": "9dcf2933a731e8b1c19fea2df942f843a12ac6df",
+            "target_sha1": "9dcf2933a731e8b1c19fea2df942f843a12ac6df",
+            "size": 193489
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3005_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3005_prev.jpg",
+            "source_sha1": "e8b60f72b5f13ae4683f5871a6f5f4dc6bddbe50",
+            "target_sha1": "e8b60f72b5f13ae4683f5871a6f5f4dc6bddbe50",
+            "size": 194188
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3005_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3005_prev.jpg",
+            "source_sha1": "e8b60f72b5f13ae4683f5871a6f5f4dc6bddbe50",
+            "target_sha1": "e8b60f72b5f13ae4683f5871a6f5f4dc6bddbe50",
+            "size": 194188
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3007_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3007_prev.jpg",
+            "source_sha1": "109ecc3d7ccded025b51365fe838f8a9a4ff530f",
+            "target_sha1": "109ecc3d7ccded025b51365fe838f8a9a4ff530f",
+            "size": 699592
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3007_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3007_prev.jpg",
+            "source_sha1": "109ecc3d7ccded025b51365fe838f8a9a4ff530f",
+            "target_sha1": "109ecc3d7ccded025b51365fe838f8a9a4ff530f",
+            "size": 699592
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3009_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3009_prev.jpg",
+            "source_sha1": "e3c7c3e4d1aa2f9dfdf57af96c34e682657dc7b1",
+            "target_sha1": "e3c7c3e4d1aa2f9dfdf57af96c34e682657dc7b1",
+            "size": 193419
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3009_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3009_prev.jpg",
+            "source_sha1": "e3c7c3e4d1aa2f9dfdf57af96c34e682657dc7b1",
+            "target_sha1": "e3c7c3e4d1aa2f9dfdf57af96c34e682657dc7b1",
+            "size": 193419
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3016_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3016_prev.jpg",
+            "source_sha1": "97d07539df010baec62f26fd825fe056b1c66b38",
+            "target_sha1": "97d07539df010baec62f26fd825fe056b1c66b38",
+            "size": 158988
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3016_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3016_prev.jpg",
+            "source_sha1": "97d07539df010baec62f26fd825fe056b1c66b38",
+            "target_sha1": "97d07539df010baec62f26fd825fe056b1c66b38",
+            "size": 158988
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3017_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3017_prev.jpg",
+            "source_sha1": "296c214d439452c996133c442e47b8b941842fdd",
+            "target_sha1": "296c214d439452c996133c442e47b8b941842fdd",
+            "size": 164836
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3017_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3017_prev.jpg",
+            "source_sha1": "296c214d439452c996133c442e47b8b941842fdd",
+            "target_sha1": "296c214d439452c996133c442e47b8b941842fdd",
+            "size": 164836
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3018_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3018_prev.jpg",
+            "source_sha1": "c9cf6a69b40c656c4dab8c0b05c54db17edf158d",
+            "target_sha1": "c9cf6a69b40c656c4dab8c0b05c54db17edf158d",
+            "size": 156319
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3018_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3018_prev.jpg",
+            "source_sha1": "c9cf6a69b40c656c4dab8c0b05c54db17edf158d",
+            "target_sha1": "c9cf6a69b40c656c4dab8c0b05c54db17edf158d",
+            "size": 156319
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3019_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3019_prev.jpg",
+            "source_sha1": "67db505856139598f9876a9185bd5f4f8fd1a722",
+            "target_sha1": "67db505856139598f9876a9185bd5f4f8fd1a722",
+            "size": 161712
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3019_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3019_prev.jpg",
+            "source_sha1": "67db505856139598f9876a9185bd5f4f8fd1a722",
+            "target_sha1": "67db505856139598f9876a9185bd5f4f8fd1a722",
+            "size": 161712
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3023_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3023_prev.jpg",
+            "source_sha1": "9a7d11db10f0a00d09bc94ad4554dcc5cac61ba0",
+            "target_sha1": "9a7d11db10f0a00d09bc94ad4554dcc5cac61ba0",
+            "size": 152691
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3023_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3023_prev.jpg",
+            "source_sha1": "9a7d11db10f0a00d09bc94ad4554dcc5cac61ba0",
+            "target_sha1": "9a7d11db10f0a00d09bc94ad4554dcc5cac61ba0",
+            "size": 152691
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3026_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3026_prev.jpg",
+            "source_sha1": "9e9285574e2fae2786b12e64cc2fa6c759e23aa9",
+            "target_sha1": "9e9285574e2fae2786b12e64cc2fa6c759e23aa9",
+            "size": 11516237
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3026_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3026_prev.jpg",
+            "source_sha1": "9e9285574e2fae2786b12e64cc2fa6c759e23aa9",
+            "target_sha1": "9e9285574e2fae2786b12e64cc2fa6c759e23aa9",
+            "size": 11516237
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3029_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3029_prev.jpg",
+            "source_sha1": "55da12f3984bbf7bfc32be018d6189182ed79ecc",
+            "target_sha1": "55da12f3984bbf7bfc32be018d6189182ed79ecc",
+            "size": 151150
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3029_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3029_prev.jpg",
+            "source_sha1": "55da12f3984bbf7bfc32be018d6189182ed79ecc",
+            "target_sha1": "55da12f3984bbf7bfc32be018d6189182ed79ecc",
+            "size": 151150
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3031_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3031_prev.jpg",
+            "source_sha1": "94380266cff5ad81108795443b7d0198f7525665",
+            "target_sha1": "94380266cff5ad81108795443b7d0198f7525665",
+            "size": 152156
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3031_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3031_prev.jpg",
+            "source_sha1": "94380266cff5ad81108795443b7d0198f7525665",
+            "target_sha1": "94380266cff5ad81108795443b7d0198f7525665",
+            "size": 152156
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3039_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3039_prev.jpg",
+            "source_sha1": "c84080a6fe23e9527819411e971243fb2063b3fd",
+            "target_sha1": "c84080a6fe23e9527819411e971243fb2063b3fd",
+            "size": 7193051
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3039_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3039_prev.jpg",
+            "source_sha1": "c84080a6fe23e9527819411e971243fb2063b3fd",
+            "target_sha1": "c84080a6fe23e9527819411e971243fb2063b3fd",
+            "size": 7193051
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3042_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3042_prev.jpg",
+            "source_sha1": "2be064f6829935be25b978e905780f3407d962c1",
+            "target_sha1": "2be064f6829935be25b978e905780f3407d962c1",
+            "size": 740273
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3042_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3042_prev.jpg",
+            "source_sha1": "2be064f6829935be25b978e905780f3407d962c1",
+            "target_sha1": "2be064f6829935be25b978e905780f3407d962c1",
+            "size": 740273
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3043_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3043_prev.jpg",
+            "source_sha1": "20085c1f2d1cb09c9086bd44e215346a69a529be",
+            "target_sha1": "20085c1f2d1cb09c9086bd44e215346a69a529be",
+            "size": 169631
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3043_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3043_prev.jpg",
+            "source_sha1": "20085c1f2d1cb09c9086bd44e215346a69a529be",
+            "target_sha1": "20085c1f2d1cb09c9086bd44e215346a69a529be",
+            "size": 169631
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3049_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3049_prev.jpg",
+            "source_sha1": "762b645d18ddd754abebed7c7a7dfda6523d88df",
+            "target_sha1": "762b645d18ddd754abebed7c7a7dfda6523d88df",
+            "size": 156831
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3049_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3049_prev.jpg",
+            "source_sha1": "762b645d18ddd754abebed7c7a7dfda6523d88df",
+            "target_sha1": "762b645d18ddd754abebed7c7a7dfda6523d88df",
+            "size": 156831
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3052_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3052_prev.jpg",
+            "source_sha1": "7b8ce24446850483a70a4ce05b817e1d1473438f",
+            "target_sha1": "7b8ce24446850483a70a4ce05b817e1d1473438f",
+            "size": 161140
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3052_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3052_prev.jpg",
+            "source_sha1": "7b8ce24446850483a70a4ce05b817e1d1473438f",
+            "target_sha1": "7b8ce24446850483a70a4ce05b817e1d1473438f",
+            "size": 161140
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3055_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3055_prev.jpg",
+            "source_sha1": "0a1b8bb5ea1db5d014a284f82310cdbc78f1b60c",
+            "target_sha1": "0a1b8bb5ea1db5d014a284f82310cdbc78f1b60c",
+            "size": 160729
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3055_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3055_prev.jpg",
+            "source_sha1": "0a1b8bb5ea1db5d014a284f82310cdbc78f1b60c",
+            "target_sha1": "0a1b8bb5ea1db5d014a284f82310cdbc78f1b60c",
+            "size": 160729
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3075_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3075_prev.jpg",
+            "source_sha1": "c82aea76f36985345169f0f5e82cf68ca2801c56",
+            "target_sha1": "c82aea76f36985345169f0f5e82cf68ca2801c56",
+            "size": 170540
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3075_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3075_prev.jpg",
+            "source_sha1": "c82aea76f36985345169f0f5e82cf68ca2801c56",
+            "target_sha1": "c82aea76f36985345169f0f5e82cf68ca2801c56",
+            "size": 170540
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3077_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3077_prev.jpg",
+            "source_sha1": "fd5058769e500ab6d4118dfee4c75347883997ea",
+            "target_sha1": "fd5058769e500ab6d4118dfee4c75347883997ea",
+            "size": 588374
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3077_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3077_prev.jpg",
+            "source_sha1": "fd5058769e500ab6d4118dfee4c75347883997ea",
+            "target_sha1": "fd5058769e500ab6d4118dfee4c75347883997ea",
+            "size": 588374
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3079_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3079_prev.jpg",
+            "source_sha1": "356b3b16f8ab2d3ad07c03c0bd9100353d8abf08",
+            "target_sha1": "356b3b16f8ab2d3ad07c03c0bd9100353d8abf08",
+            "size": 175195
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3079_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3079_prev.jpg",
+            "source_sha1": "356b3b16f8ab2d3ad07c03c0bd9100353d8abf08",
+            "target_sha1": "356b3b16f8ab2d3ad07c03c0bd9100353d8abf08",
+            "size": 175195
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3081_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3081_prev.jpg",
+            "source_sha1": "4758d88223c67a76aff1e5e743f607498d2e0762",
+            "target_sha1": "4758d88223c67a76aff1e5e743f607498d2e0762",
+            "size": 173833
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3081_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3081_prev.jpg",
+            "source_sha1": "4758d88223c67a76aff1e5e743f607498d2e0762",
+            "target_sha1": "4758d88223c67a76aff1e5e743f607498d2e0762",
+            "size": 173833
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3083_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3083_prev.jpg",
+            "source_sha1": "7fc8640bc21dfb2711b1811c049012dd7a75fa0d",
+            "target_sha1": "7fc8640bc21dfb2711b1811c049012dd7a75fa0d",
+            "size": 183336
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3083_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3083_prev.jpg",
+            "source_sha1": "7fc8640bc21dfb2711b1811c049012dd7a75fa0d",
+            "target_sha1": "7fc8640bc21dfb2711b1811c049012dd7a75fa0d",
+            "size": 183336
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3085_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3085_prev.jpg",
+            "source_sha1": "ba903d0f12319084824ee5f5a806f7512f824c00",
+            "target_sha1": "ba903d0f12319084824ee5f5a806f7512f824c00",
+            "size": 184679
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3085_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3085_prev.jpg",
+            "source_sha1": "ba903d0f12319084824ee5f5a806f7512f824c00",
+            "target_sha1": "ba903d0f12319084824ee5f5a806f7512f824c00",
+            "size": 184679
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3088_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3088_prev.jpg",
+            "source_sha1": "84368accdd80205b86729695310b06774ab96ab8",
+            "target_sha1": "84368accdd80205b86729695310b06774ab96ab8",
+            "size": 156145
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3088_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3088_prev.jpg",
+            "source_sha1": "84368accdd80205b86729695310b06774ab96ab8",
+            "target_sha1": "84368accdd80205b86729695310b06774ab96ab8",
+            "size": 156145
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3092_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3092_prev.jpg",
+            "source_sha1": "c2a9b37a828bd2bcd8cbac74eb999fc531cd9be6",
+            "target_sha1": "c2a9b37a828bd2bcd8cbac74eb999fc531cd9be6",
+            "size": 186500
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3092_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3092_prev.jpg",
+            "source_sha1": "c2a9b37a828bd2bcd8cbac74eb999fc531cd9be6",
+            "target_sha1": "c2a9b37a828bd2bcd8cbac74eb999fc531cd9be6",
+            "size": 186500
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3102_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3102_prev.jpg",
+            "source_sha1": "b605efcb922c92cb3762eb99a01748f1e8fcfc5b",
+            "target_sha1": "b605efcb922c92cb3762eb99a01748f1e8fcfc5b",
+            "size": 187680
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3102_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3102_prev.jpg",
+            "source_sha1": "b605efcb922c92cb3762eb99a01748f1e8fcfc5b",
+            "target_sha1": "b605efcb922c92cb3762eb99a01748f1e8fcfc5b",
+            "size": 187680
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3105_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3105_prev.jpg",
+            "source_sha1": "04aa7da5e2c56907485bcee5d907c403a95f7600",
+            "target_sha1": "04aa7da5e2c56907485bcee5d907c403a95f7600",
+            "size": 174104
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3105_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3105_prev.jpg",
+            "source_sha1": "04aa7da5e2c56907485bcee5d907c403a95f7600",
+            "target_sha1": "04aa7da5e2c56907485bcee5d907c403a95f7600",
+            "size": 174104
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3114_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3114_prev.jpg",
+            "source_sha1": "6e57e6634675f585453da4f4588644bb752c5631",
+            "target_sha1": "6e57e6634675f585453da4f4588644bb752c5631",
+            "size": 177442
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3114_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3114_prev.jpg",
+            "source_sha1": "6e57e6634675f585453da4f4588644bb752c5631",
+            "target_sha1": "6e57e6634675f585453da4f4588644bb752c5631",
+            "size": 177442
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3117_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3117_prev.jpg",
+            "source_sha1": "8bb645bb078ee5fd71b7386f5d94ffa021374a4b",
+            "target_sha1": "8bb645bb078ee5fd71b7386f5d94ffa021374a4b",
+            "size": 176815
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3117_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3117_prev.jpg",
+            "source_sha1": "8bb645bb078ee5fd71b7386f5d94ffa021374a4b",
+            "target_sha1": "8bb645bb078ee5fd71b7386f5d94ffa021374a4b",
+            "size": 176815
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3120_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3120_prev.jpg",
+            "source_sha1": "f73b686e6115b106dfcb5b98d092f8611693f458",
+            "target_sha1": "f73b686e6115b106dfcb5b98d092f8611693f458",
+            "size": 667131
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3120_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3120_prev.jpg",
+            "source_sha1": "f73b686e6115b106dfcb5b98d092f8611693f458",
+            "target_sha1": "f73b686e6115b106dfcb5b98d092f8611693f458",
+            "size": 667131
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3134_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3134_prev.jpg",
+            "source_sha1": "5c4514ce65b23bc1083108b363bdd2070c982fb0",
+            "target_sha1": "5c4514ce65b23bc1083108b363bdd2070c982fb0",
+            "size": 781704
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3134_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3134_prev.jpg",
+            "source_sha1": "5c4514ce65b23bc1083108b363bdd2070c982fb0",
+            "target_sha1": "5c4514ce65b23bc1083108b363bdd2070c982fb0",
+            "size": 781704
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3159_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3159_prev.jpg",
+            "source_sha1": "3b2239d39ed9ede042bda22c49862ace702a307e",
+            "target_sha1": "3b2239d39ed9ede042bda22c49862ace702a307e",
+            "size": 148435
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3159_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3159_prev.jpg",
+            "source_sha1": "3b2239d39ed9ede042bda22c49862ace702a307e",
+            "target_sha1": "3b2239d39ed9ede042bda22c49862ace702a307e",
+            "size": 148435
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3162_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3162_prev.jpg",
+            "source_sha1": "ac1dafcf5e3c4c8fe49f7a98f67fc759a621f5f1",
+            "target_sha1": "ac1dafcf5e3c4c8fe49f7a98f67fc759a621f5f1",
+            "size": 150844
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3162_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3162_prev.jpg",
+            "source_sha1": "ac1dafcf5e3c4c8fe49f7a98f67fc759a621f5f1",
+            "target_sha1": "ac1dafcf5e3c4c8fe49f7a98f67fc759a621f5f1",
+            "size": 150844
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3163_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3163_prev.jpg",
+            "source_sha1": "73507160c5fc4d66d68ce143e9741e2438d6450f",
+            "target_sha1": "73507160c5fc4d66d68ce143e9741e2438d6450f",
+            "size": 149914
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3163_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3163_prev.jpg",
+            "source_sha1": "73507160c5fc4d66d68ce143e9741e2438d6450f",
+            "target_sha1": "73507160c5fc4d66d68ce143e9741e2438d6450f",
+            "size": 149914
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3164_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3164_prev.jpg",
+            "source_sha1": "29eaa56a1fe1fcf1cad452225c5f11415afbc587",
+            "target_sha1": "29eaa56a1fe1fcf1cad452225c5f11415afbc587",
+            "size": 150647
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3164_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3164_prev.jpg",
+            "source_sha1": "29eaa56a1fe1fcf1cad452225c5f11415afbc587",
+            "target_sha1": "29eaa56a1fe1fcf1cad452225c5f11415afbc587",
+            "size": 150647
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3167_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3167_prev.jpg",
+            "source_sha1": "181222e555335e1d3026f17eb3b686d2d1b4dce7",
+            "target_sha1": "181222e555335e1d3026f17eb3b686d2d1b4dce7",
+            "size": 154067
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3167_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3167_prev.jpg",
+            "source_sha1": "181222e555335e1d3026f17eb3b686d2d1b4dce7",
+            "target_sha1": "181222e555335e1d3026f17eb3b686d2d1b4dce7",
+            "size": 154067
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3170_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3170_prev.jpg",
+            "source_sha1": "b873ee319593cdb01dfa98e99e3cd59d460e5eac",
+            "target_sha1": "b873ee319593cdb01dfa98e99e3cd59d460e5eac",
+            "size": 148453
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3170_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3170_prev.jpg",
+            "source_sha1": "b873ee319593cdb01dfa98e99e3cd59d460e5eac",
+            "target_sha1": "b873ee319593cdb01dfa98e99e3cd59d460e5eac",
+            "size": 148453
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3172_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3172_prev.jpg",
+            "source_sha1": "5a7b7baa9ff4b248570c2954d036ff90e4f5ac69",
+            "target_sha1": "5a7b7baa9ff4b248570c2954d036ff90e4f5ac69",
+            "size": 146422
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3172_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3172_prev.jpg",
+            "source_sha1": "5a7b7baa9ff4b248570c2954d036ff90e4f5ac69",
+            "target_sha1": "5a7b7baa9ff4b248570c2954d036ff90e4f5ac69",
+            "size": 146422
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3175_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3175_prev.jpg",
+            "source_sha1": "73f7ee9394f460e1bdafd3af881f1db9cdc4202b",
+            "target_sha1": "73f7ee9394f460e1bdafd3af881f1db9cdc4202b",
+            "size": 150016
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3175_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3175_prev.jpg",
+            "source_sha1": "73f7ee9394f460e1bdafd3af881f1db9cdc4202b",
+            "target_sha1": "73f7ee9394f460e1bdafd3af881f1db9cdc4202b",
+            "size": 150016
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3180_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3180_prev.jpg",
+            "source_sha1": "014f4bcac069edbe463f1d0b784ed77dbc3ed382",
+            "target_sha1": "014f4bcac069edbe463f1d0b784ed77dbc3ed382",
+            "size": 162958
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3180_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3180_prev.jpg",
+            "source_sha1": "014f4bcac069edbe463f1d0b784ed77dbc3ed382",
+            "target_sha1": "014f4bcac069edbe463f1d0b784ed77dbc3ed382",
+            "size": 162958
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3182_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3182_prev.jpg",
+            "source_sha1": "8326e505e239083516c7d1e0d5a52b29a3422733",
+            "target_sha1": "8326e505e239083516c7d1e0d5a52b29a3422733",
+            "size": 155836
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3182_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3182_prev.jpg",
+            "source_sha1": "8326e505e239083516c7d1e0d5a52b29a3422733",
+            "target_sha1": "8326e505e239083516c7d1e0d5a52b29a3422733",
+            "size": 155836
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3183_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3183_prev.jpg",
+            "source_sha1": "4a11e6f8f7eab53dd6d5148962aab4ea8f9acff5",
+            "target_sha1": "4a11e6f8f7eab53dd6d5148962aab4ea8f9acff5",
+            "size": 165049
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3183_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3183_prev.jpg",
+            "source_sha1": "4a11e6f8f7eab53dd6d5148962aab4ea8f9acff5",
+            "target_sha1": "4a11e6f8f7eab53dd6d5148962aab4ea8f9acff5",
+            "size": 165049
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3184_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3184_prev.jpg",
+            "source_sha1": "eea19aaa56f9e823e27d7f2c7174344d244c4158",
+            "target_sha1": "eea19aaa56f9e823e27d7f2c7174344d244c4158",
+            "size": 164275
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3184_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3184_prev.jpg",
+            "source_sha1": "eea19aaa56f9e823e27d7f2c7174344d244c4158",
+            "target_sha1": "eea19aaa56f9e823e27d7f2c7174344d244c4158",
+            "size": 164275
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3185_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3185_prev.jpg",
+            "source_sha1": "420641fed26313ff28533b6646f96cbf27a0d304",
+            "target_sha1": "420641fed26313ff28533b6646f96cbf27a0d304",
+            "size": 162294
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3185_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3185_prev.jpg",
+            "source_sha1": "420641fed26313ff28533b6646f96cbf27a0d304",
+            "target_sha1": "420641fed26313ff28533b6646f96cbf27a0d304",
+            "size": 162294
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3186_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3186_prev.jpg",
+            "source_sha1": "40131f9e662fb4760b37e56587c07775c5b8f5c3",
+            "target_sha1": "40131f9e662fb4760b37e56587c07775c5b8f5c3",
+            "size": 165995
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3186_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3186_prev.jpg",
+            "source_sha1": "40131f9e662fb4760b37e56587c07775c5b8f5c3",
+            "target_sha1": "40131f9e662fb4760b37e56587c07775c5b8f5c3",
+            "size": 165995
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3190_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3190_prev.jpg",
+            "source_sha1": "b78a7d789a9444a7de13dc6612f2d466f75ac762",
+            "target_sha1": "b78a7d789a9444a7de13dc6612f2d466f75ac762",
+            "size": 169162
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3190_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3190_prev.jpg",
+            "source_sha1": "b78a7d789a9444a7de13dc6612f2d466f75ac762",
+            "target_sha1": "b78a7d789a9444a7de13dc6612f2d466f75ac762",
+            "size": 169162
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3192_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3192_prev.jpg",
+            "source_sha1": "52d01fec20346989fc418cdda6b24c05ee034f3b",
+            "target_sha1": "52d01fec20346989fc418cdda6b24c05ee034f3b",
+            "size": 162394
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3192_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3192_prev.jpg",
+            "source_sha1": "52d01fec20346989fc418cdda6b24c05ee034f3b",
+            "target_sha1": "52d01fec20346989fc418cdda6b24c05ee034f3b",
+            "size": 162394
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3194_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3194_prev.jpg",
+            "source_sha1": "31cf14ef29b052e78217066080433f7404af2e67",
+            "target_sha1": "31cf14ef29b052e78217066080433f7404af2e67",
+            "size": 768193
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3194_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3194_prev.jpg",
+            "source_sha1": "31cf14ef29b052e78217066080433f7404af2e67",
+            "target_sha1": "31cf14ef29b052e78217066080433f7404af2e67",
+            "size": 768193
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3197_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3197_prev.jpg",
+            "source_sha1": "d22cdd9ad57702255f7bf7fac0fbdddb58496aef",
+            "target_sha1": "d22cdd9ad57702255f7bf7fac0fbdddb58496aef",
+            "size": 166229
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3197_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3197_prev.jpg",
+            "source_sha1": "d22cdd9ad57702255f7bf7fac0fbdddb58496aef",
+            "target_sha1": "d22cdd9ad57702255f7bf7fac0fbdddb58496aef",
+            "size": 166229
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3199_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3199_prev.jpg",
+            "source_sha1": "1a58a8f17301f15e88944fac6c03359748e060cd",
+            "target_sha1": "1a58a8f17301f15e88944fac6c03359748e060cd",
+            "size": 164734
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3199_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3199_prev.jpg",
+            "source_sha1": "1a58a8f17301f15e88944fac6c03359748e060cd",
+            "target_sha1": "1a58a8f17301f15e88944fac6c03359748e060cd",
+            "size": 164734
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3200_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3200_prev.jpg",
+            "source_sha1": "fd12ddcbea9a588572f550bbec077ba2da61159b",
+            "target_sha1": "fd12ddcbea9a588572f550bbec077ba2da61159b",
+            "size": 163595
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3200_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3200_prev.jpg",
+            "source_sha1": "fd12ddcbea9a588572f550bbec077ba2da61159b",
+            "target_sha1": "fd12ddcbea9a588572f550bbec077ba2da61159b",
+            "size": 163595
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3201_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3201_prev.jpg",
+            "source_sha1": "4192a4aff7b82bfb5350bbf5a10319690833a5ac",
+            "target_sha1": "4192a4aff7b82bfb5350bbf5a10319690833a5ac",
+            "size": 164952
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3201_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3201_prev.jpg",
+            "source_sha1": "4192a4aff7b82bfb5350bbf5a10319690833a5ac",
+            "target_sha1": "4192a4aff7b82bfb5350bbf5a10319690833a5ac",
+            "size": 164952
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3202_prev.jpg",
+            "target": "leadwerk_importer/source_assets/Ludwig_prev_foto/_X8A3202_prev.jpg",
+            "source_sha1": "399169d8d067a6a70434d790ba603bbd8f0a4079",
+            "target_sha1": "399169d8d067a6a70434d790ba603bbd8f0a4079",
+            "size": 163467
+        },
+        {
+            "source": "Ludwig_prev_foto/_X8A3202_prev.jpg",
+            "target": "leadwerk_theme/Ludwig_prev_foto/_X8A3202_prev.jpg",
+            "source_sha1": "399169d8d067a6a70434d790ba603bbd8f0a4079",
+            "target_sha1": "399169d8d067a6a70434d790ba603bbd8f0a4079",
+            "size": 163467
+        },
+        {
+            "source": "ankuendigung.html",
+            "target": "leadwerk_importer/source_assets/ankuendigung.html",
+            "source_sha1": "49ad7c6d2fc50da05fb1139b656c61083fbef7db",
+            "target_sha1": "49ad7c6d2fc50da05fb1139b656c61083fbef7db",
+            "size": 24220
+        },
+        {
+            "source": "ankuendigung.html",
+            "target": "leadwerk_theme/source_shells/ankuendigung.html",
+            "source_sha1": "49ad7c6d2fc50da05fb1139b656c61083fbef7db",
+            "target_sha1": "49ad7c6d2fc50da05fb1139b656c61083fbef7db",
+            "size": 24220
+        },
+        {
+            "source": "assets/images/README.md",
+            "target": "leadwerk_importer/source_assets/assets/images/README.md",
+            "source_sha1": "f5dc66f68582f370e9b396f330d98dec4281e009",
+            "target_sha1": "f5dc66f68582f370e9b396f330d98dec4281e009",
+            "size": 1547
+        },
+        {
+            "source": "assets/images/README.md",
+            "target": "leadwerk_theme/assets/images/README.md",
+            "source_sha1": "f5dc66f68582f370e9b396f330d98dec4281e009",
+            "target_sha1": "f5dc66f68582f370e9b396f330d98dec4281e009",
+            "size": 1547
+        },
+        {
+            "source": "assets/images/ankuendigung/ludwig-service-update.jpg",
+            "target": "leadwerk_importer/source_assets/assets/images/ankuendigung/ludwig-service-update.jpg",
+            "source_sha1": "a07a3b48d149f900b79bf871067d6d8dfd5d9837",
+            "target_sha1": "a07a3b48d149f900b79bf871067d6d8dfd5d9837",
+            "size": 39470
+        },
+        {
+            "source": "assets/images/ankuendigung/ludwig-service-update.jpg",
+            "target": "leadwerk_theme/assets/images/ankuendigung/ludwig-service-update.jpg",
+            "source_sha1": "a07a3b48d149f900b79bf871067d6d8dfd5d9837",
+            "target_sha1": "a07a3b48d149f900b79bf871067d6d8dfd5d9837",
+            "size": 39470
+        },
+        {
+            "source": "assets/images/durchblick/durchblick-app.png",
+            "target": "leadwerk_importer/source_assets/assets/images/durchblick/durchblick-app.png",
+            "source_sha1": "e010d57662f295be3d8c5a579bad960ad630e6aa",
+            "target_sha1": "e010d57662f295be3d8c5a579bad960ad630e6aa",
+            "size": 116530
+        },
+        {
+            "source": "assets/images/durchblick/durchblick-app.png",
+            "target": "leadwerk_theme/assets/images/durchblick/durchblick-app.png",
+            "source_sha1": "e010d57662f295be3d8c5a579bad960ad630e6aa",
+            "target_sha1": "e010d57662f295be3d8c5a579bad960ad630e6aa",
+            "size": 116530
+        },
+        {
+            "source": "assets/images/favicon.png",
+            "target": "leadwerk_importer/source_assets/assets/images/favicon.png",
+            "source_sha1": "7c106b5a881241e52f48626226e7255183b15a19",
+            "target_sha1": "7c106b5a881241e52f48626226e7255183b15a19",
+            "size": 347887
+        },
+        {
+            "source": "assets/images/favicon.png",
+            "target": "leadwerk_theme/assets/images/favicon.png",
+            "source_sha1": "7c106b5a881241e52f48626226e7255183b15a19",
+            "target_sha1": "7c106b5a881241e52f48626226e7255183b15a19",
+            "size": 347887
+        },
+        {
+            "source": "assets/images/favicon.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/favicon.svg",
+            "source_sha1": "786e0b49d146507c2209ef69d2fbadf0a5076973",
+            "target_sha1": "786e0b49d146507c2209ef69d2fbadf0a5076973",
+            "size": 799890
+        },
+        {
+            "source": "assets/images/favicon.svg",
+            "target": "leadwerk_theme/assets/images/favicon.svg",
+            "source_sha1": "786e0b49d146507c2209ef69d2fbadf0a5076973",
+            "target_sha1": "786e0b49d146507c2209ef69d2fbadf0a5076973",
+            "size": 799890
+        },
+        {
+            "source": "assets/images/logo-inverted.png",
+            "target": "leadwerk_importer/source_assets/assets/images/logo-inverted.png",
+            "source_sha1": "e0c5f65e53089fff5ef82c32aca9ea41aab36b8a",
+            "target_sha1": "e0c5f65e53089fff5ef82c32aca9ea41aab36b8a",
+            "size": 452254
+        },
+        {
+            "source": "assets/images/logo-inverted.png",
+            "target": "leadwerk_theme/assets/images/logo-inverted.png",
+            "source_sha1": "e0c5f65e53089fff5ef82c32aca9ea41aab36b8a",
+            "target_sha1": "e0c5f65e53089fff5ef82c32aca9ea41aab36b8a",
+            "size": 452254
+        },
+        {
+            "source": "assets/images/logo-inverted.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/logo-inverted.svg",
+            "source_sha1": "3f4411b59dba1f07c87fdb4d93a2e68541f2d4f6",
+            "target_sha1": "3f4411b59dba1f07c87fdb4d93a2e68541f2d4f6",
+            "size": 885443
+        },
+        {
+            "source": "assets/images/logo-inverted.svg",
+            "target": "leadwerk_theme/assets/images/logo-inverted.svg",
+            "source_sha1": "3f4411b59dba1f07c87fdb4d93a2e68541f2d4f6",
+            "target_sha1": "3f4411b59dba1f07c87fdb4d93a2e68541f2d4f6",
+            "size": 885443
+        },
+        {
+            "source": "assets/images/logo.png",
+            "target": "leadwerk_importer/source_assets/assets/images/logo.png",
+            "source_sha1": "ff27c9034762a74cebaf4109e4a5d9f64d22c6fd",
+            "target_sha1": "ff27c9034762a74cebaf4109e4a5d9f64d22c6fd",
+            "size": 248883
+        },
+        {
+            "source": "assets/images/logo.png",
+            "target": "leadwerk_theme/assets/images/logo.png",
+            "source_sha1": "ff27c9034762a74cebaf4109e4a5d9f64d22c6fd",
+            "target_sha1": "ff27c9034762a74cebaf4109e4a5d9f64d22c6fd",
+            "size": 248883
+        },
+        {
+            "source": "assets/images/logo.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/logo.svg",
+            "source_sha1": "24129e6545cb1fb7e51abfffae8c93d1a459579c",
+            "target_sha1": "24129e6545cb1fb7e51abfffae8c93d1a459579c",
+            "size": 172083
+        },
+        {
+            "source": "assets/images/logo.svg",
+            "target": "leadwerk_theme/assets/images/logo.svg",
+            "source_sha1": "24129e6545cb1fb7e51abfffae8c93d1a459579c",
+            "target_sha1": "24129e6545cb1fb7e51abfffae8c93d1a459579c",
+            "size": 172083
+        },
+        {
+            "source": "assets/images/partners/README.md",
+            "target": "leadwerk_importer/source_assets/assets/images/partners/README.md",
+            "source_sha1": "5f77b3abb54d9a8a204dde4226e18fecb55b9e9d",
+            "target_sha1": "5f77b3abb54d9a8a204dde4226e18fecb55b9e9d",
+            "size": 642
+        },
+        {
+            "source": "assets/images/partners/README.md",
+            "target": "leadwerk_theme/assets/images/partners/README.md",
+            "source_sha1": "5f77b3abb54d9a8a204dde4226e18fecb55b9e9d",
+            "target_sha1": "5f77b3abb54d9a8a204dde4226e18fecb55b9e9d",
+            "size": 642
+        },
+        {
+            "source": "assets/images/partners/allianz.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/partners/allianz.svg",
+            "source_sha1": "ebcaf4c575a94deb108a56f21c20193dfe7356f4",
+            "target_sha1": "ebcaf4c575a94deb108a56f21c20193dfe7356f4",
+            "size": 2871
+        },
+        {
+            "source": "assets/images/partners/allianz.svg",
+            "target": "leadwerk_theme/assets/images/partners/allianz.svg",
+            "source_sha1": "ebcaf4c575a94deb108a56f21c20193dfe7356f4",
+            "target_sha1": "ebcaf4c575a94deb108a56f21c20193dfe7356f4",
+            "size": 2871
+        },
+        {
+            "source": "assets/images/partners/alte-leipziger-hallesche.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/partners/alte-leipziger-hallesche.svg",
+            "source_sha1": "48ed726c5d056d989b08e5039f9c03cb364f72b4",
+            "target_sha1": "48ed726c5d056d989b08e5039f9c03cb364f72b4",
+            "size": 2770
+        },
+        {
+            "source": "assets/images/partners/alte-leipziger-hallesche.svg",
+            "target": "leadwerk_theme/assets/images/partners/alte-leipziger-hallesche.svg",
+            "source_sha1": "48ed726c5d056d989b08e5039f9c03cb364f72b4",
+            "target_sha1": "48ed726c5d056d989b08e5039f9c03cb364f72b4",
+            "size": 2770
+        },
+        {
+            "source": "assets/images/partners/arag.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/partners/arag.svg",
+            "source_sha1": "ae49b6a6596ee287104d9cb11f1a172562830de0",
+            "target_sha1": "ae49b6a6596ee287104d9cb11f1a172562830de0",
+            "size": 398120
+        },
+        {
+            "source": "assets/images/partners/arag.svg",
+            "target": "leadwerk_theme/assets/images/partners/arag.svg",
+            "source_sha1": "ae49b6a6596ee287104d9cb11f1a172562830de0",
+            "target_sha1": "ae49b6a6596ee287104d9cb11f1a172562830de0",
+            "size": 398120
+        },
+        {
+            "source": "assets/images/partners/axa.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/partners/axa.svg",
+            "source_sha1": "128f74b390408af05178e3c30bfd156a6777b1b5",
+            "target_sha1": "128f74b390408af05178e3c30bfd156a6777b1b5",
+            "size": 4603
+        },
+        {
+            "source": "assets/images/partners/axa.svg",
+            "target": "leadwerk_theme/assets/images/partners/axa.svg",
+            "source_sha1": "128f74b390408af05178e3c30bfd156a6777b1b5",
+            "target_sha1": "128f74b390408af05178e3c30bfd156a6777b1b5",
+            "size": 4603
+        },
+        {
+            "source": "assets/images/partners/ergo.jpg",
+            "target": "leadwerk_importer/source_assets/assets/images/partners/ergo.jpg",
+            "source_sha1": "d079461ce75a6730c4e750e15180567e84f7bb36",
+            "target_sha1": "d079461ce75a6730c4e750e15180567e84f7bb36",
+            "size": 53893
+        },
+        {
+            "source": "assets/images/partners/ergo.jpg",
+            "target": "leadwerk_theme/assets/images/partners/ergo.jpg",
+            "source_sha1": "d079461ce75a6730c4e750e15180567e84f7bb36",
+            "target_sha1": "d079461ce75a6730c4e750e15180567e84f7bb36",
+            "size": 53893
+        },
+        {
+            "source": "assets/images/partners/hdi.svg",
+            "target": "leadwerk_importer/source_assets/assets/images/partners/hdi.svg",
+            "source_sha1": "c69d0e828739bd7c3ef40dcb770fa8f79dda3101",
+            "target_sha1": "c69d0e828739bd7c3ef40dcb770fa8f79dda3101",
+            "size": 2268
+        },
+        {
+            "source": "assets/images/partners/hdi.svg",
+            "target": "leadwerk_theme/assets/images/partners/hdi.svg",
+            "source_sha1": "c69d0e828739bd7c3ef40dcb770fa8f79dda3101",
+            "target_sha1": "c69d0e828739bd7c3ef40dcb770fa8f79dda3101",
+            "size": 2268
+        },
+        {
+            "source": "assets/videos/Kundenvideo.mp4",
+            "target": "leadwerk_importer/source_assets/assets/videos/Kundenvideo.mp4",
+            "source_sha1": "5fdabff42bfe0453842ca2aefe5bfe90e15b4374",
+            "target_sha1": "5fdabff42bfe0453842ca2aefe5bfe90e15b4374",
+            "size": 17157013
+        },
+        {
+            "source": "assets/videos/Kundenvideo.mp4",
+            "target": "leadwerk_theme/assets/videos/Kundenvideo.mp4",
+            "source_sha1": "5fdabff42bfe0453842ca2aefe5bfe90e15b4374",
+            "target_sha1": "5fdabff42bfe0453842ca2aefe5bfe90e15b4374",
+            "size": 17157013
+        },
+        {
+            "source": "berufsunfaehigkeit.html",
+            "target": "leadwerk_importer/source_assets/berufsunfaehigkeit.html",
+            "source_sha1": "79caaa34d967c92ea5e32bb29b958fb8343f5b99",
+            "target_sha1": "79caaa34d967c92ea5e32bb29b958fb8343f5b99",
+            "size": 40261
+        },
+        {
+            "source": "berufsunfaehigkeit.html",
+            "target": "leadwerk_theme/source_shells/berufsunfaehigkeit.html",
+            "source_sha1": "79caaa34d967c92ea5e32bb29b958fb8343f5b99",
+            "target_sha1": "79caaa34d967c92ea5e32bb29b958fb8343f5b99",
+            "size": 40261
+        },
+        {
+            "source": "bilder-inventar.html",
+            "target": "leadwerk_importer/source_assets/bilder-inventar.html",
+            "source_sha1": "6403f0101679b9966a4bf1a5ee75f57c17df9873",
+            "target_sha1": "6403f0101679b9966a4bf1a5ee75f57c17df9873",
+            "size": 3457
+        },
+        {
+            "source": "bilder-inventar.html",
+            "target": "leadwerk_theme/source_shells/bilder-inventar.html",
+            "source_sha1": "6403f0101679b9966a4bf1a5ee75f57c17df9873",
+            "target_sha1": "6403f0101679b9966a4bf1a5ee75f57c17df9873",
+            "size": 3457
+        },
+        {
+            "source": "css/styles.css",
+            "target": "leadwerk_importer/source_assets/css/styles.css",
+            "source_sha1": "0033953320e8c1c379c1976a516892cc39cafefa",
+            "target_sha1": "0033953320e8c1c379c1976a516892cc39cafefa",
+            "size": 121795
+        },
+        {
+            "source": "css/styles.css",
+            "target": "leadwerk_theme/css/styles.css",
+            "source_sha1": "0033953320e8c1c379c1976a516892cc39cafefa",
+            "target_sha1": "0033953320e8c1c379c1976a516892cc39cafefa",
+            "size": 121795
+        },
+        {
+            "source": "datenschutz.html",
+            "target": "leadwerk_importer/source_assets/datenschutz.html",
+            "source_sha1": "591ccb88976900c19d60b75dbff4b08822e7fa42",
+            "target_sha1": "591ccb88976900c19d60b75dbff4b08822e7fa42",
+            "size": 33103
+        },
+        {
+            "source": "datenschutz.html",
+            "target": "leadwerk_theme/source_shells/datenschutz.html",
+            "source_sha1": "591ccb88976900c19d60b75dbff4b08822e7fa42",
+            "target_sha1": "591ccb88976900c19d60b75dbff4b08822e7fa42",
+            "size": 33103
+        },
+        {
+            "source": "digitale-nomaden.html",
+            "target": "leadwerk_importer/source_assets/digitale-nomaden.html",
+            "source_sha1": "d49ee6f328cfdb75c3ab53ede395f86a729ca1e3",
+            "target_sha1": "d49ee6f328cfdb75c3ab53ede395f86a729ca1e3",
+            "size": 24053
+        },
+        {
+            "source": "digitale-nomaden.html",
+            "target": "leadwerk_theme/source_shells/digitale-nomaden.html",
+            "source_sha1": "d49ee6f328cfdb75c3ab53ede395f86a729ca1e3",
+            "target_sha1": "d49ee6f328cfdb75c3ab53ede395f86a729ca1e3",
+            "size": 24053
+        },
+        {
+            "source": "durchblick.html",
+            "target": "leadwerk_importer/source_assets/durchblick.html",
+            "source_sha1": "7526ee1ce19d200d5265027c7dd48c04c85785ae",
+            "target_sha1": "7526ee1ce19d200d5265027c7dd48c04c85785ae",
+            "size": 14493
+        },
+        {
+            "source": "durchblick.html",
+            "target": "leadwerk_theme/source_shells/durchblick.html",
+            "source_sha1": "7526ee1ce19d200d5265027c7dd48c04c85785ae",
+            "target_sha1": "7526ee1ce19d200d5265027c7dd48c04c85785ae",
+            "size": 14493
+        },
+        {
+            "source": "erstinformation.html",
+            "target": "leadwerk_importer/source_assets/erstinformation.html",
+            "source_sha1": "76a187a2f6031d95c9226f661d259fd1cd307ae4",
+            "target_sha1": "76a187a2f6031d95c9226f661d259fd1cd307ae4",
+            "size": 17086
+        },
+        {
+            "source": "erstinformation.html",
+            "target": "leadwerk_theme/source_shells/erstinformation.html",
+            "source_sha1": "76a187a2f6031d95c9226f661d259fd1cd307ae4",
+            "target_sha1": "76a187a2f6031d95c9226f661d259fd1cd307ae4",
+            "size": 17086
+        },
+        {
+            "source": "expat-beratung-1.html",
+            "target": "leadwerk_importer/source_assets/expat-beratung-1.html",
+            "source_sha1": "98a39434741ad699b2f3a923ef65e7013f12f739",
+            "target_sha1": "98a39434741ad699b2f3a923ef65e7013f12f739",
+            "size": 24266
+        },
+        {
+            "source": "expat-beratung-1.html",
+            "target": "leadwerk_theme/source_shells/expat-beratung-1.html",
+            "source_sha1": "98a39434741ad699b2f3a923ef65e7013f12f739",
+            "target_sha1": "98a39434741ad699b2f3a923ef65e7013f12f739",
+            "size": 24266
+        },
+        {
+            "source": "expats.html",
+            "target": "leadwerk_importer/source_assets/expats.html",
+            "source_sha1": "c390e002a25fda4a3a597d4f2369a121ee972297",
+            "target_sha1": "c390e002a25fda4a3a597d4f2369a121ee972297",
+            "size": 32429
+        },
+        {
+            "source": "expats.html",
+            "target": "leadwerk_theme/source_shells/expats.html",
+            "source_sha1": "c390e002a25fda4a3a597d4f2369a121ee972297",
+            "target_sha1": "c390e002a25fda4a3a597d4f2369a121ee972297",
+            "size": 32429
+        },
+        {
+            "source": "familien.html",
+            "target": "leadwerk_importer/source_assets/familien.html",
+            "source_sha1": "294dddd5dfb4cfa5947a5395f9394122481b3e5a",
+            "target_sha1": "294dddd5dfb4cfa5947a5395f9394122481b3e5a",
+            "size": 38519
+        },
+        {
+            "source": "familien.html",
+            "target": "leadwerk_theme/source_shells/familien.html",
+            "source_sha1": "294dddd5dfb4cfa5947a5395f9394122481b3e5a",
+            "target_sha1": "294dddd5dfb4cfa5947a5395f9394122481b3e5a",
+            "size": 38519
+        },
+        {
+            "source": "freelancer-nomaden.html",
+            "target": "leadwerk_importer/source_assets/freelancer-nomaden.html",
+            "source_sha1": "268e53f800a14224c7025d7cf069e3dd4406aa98",
+            "target_sha1": "268e53f800a14224c7025d7cf069e3dd4406aa98",
+            "size": 34164
+        },
+        {
+            "source": "freelancer-nomaden.html",
+            "target": "leadwerk_theme/source_shells/freelancer-nomaden.html",
+            "source_sha1": "268e53f800a14224c7025d7cf069e3dd4406aa98",
+            "target_sha1": "268e53f800a14224c7025d7cf069e3dd4406aa98",
+            "size": 34164
+        },
+        {
+            "source": "gebaeudeversicherung.html",
+            "target": "leadwerk_importer/source_assets/gebaeudeversicherung.html",
+            "source_sha1": "7da7ab0979dceda1ea781a9871ab7bae71330836",
+            "target_sha1": "7da7ab0979dceda1ea781a9871ab7bae71330836",
+            "size": 23706
+        },
+        {
+            "source": "gebaeudeversicherung.html",
+            "target": "leadwerk_theme/source_shells/gebaeudeversicherung.html",
+            "source_sha1": "7da7ab0979dceda1ea781a9871ab7bae71330836",
+            "target_sha1": "7da7ab0979dceda1ea781a9871ab7bae71330836",
+            "size": 23706
+        },
+        {
+            "source": "gold-service.html",
+            "target": "leadwerk_importer/source_assets/gold-service.html",
+            "source_sha1": "307659c4d91c5fdd0f65251be83b5a3bebadc96c",
+            "target_sha1": "307659c4d91c5fdd0f65251be83b5a3bebadc96c",
+            "size": 51867
+        },
+        {
+            "source": "gold-service.html",
+            "target": "leadwerk_theme/source_shells/gold-service.html",
+            "source_sha1": "307659c4d91c5fdd0f65251be83b5a3bebadc96c",
+            "target_sha1": "307659c4d91c5fdd0f65251be83b5a3bebadc96c",
+            "size": 51867
+        },
+        {
+            "source": "haftpflichtversicherung.html",
+            "target": "leadwerk_importer/source_assets/haftpflichtversicherung.html",
+            "source_sha1": "847eafdd6c291c6b34f1b0213637c13c9d21f644",
+            "target_sha1": "847eafdd6c291c6b34f1b0213637c13c9d21f644",
+            "size": 45329
+        },
+        {
+            "source": "haftpflichtversicherung.html",
+            "target": "leadwerk_theme/source_shells/haftpflichtversicherung.html",
+            "source_sha1": "847eafdd6c291c6b34f1b0213637c13c9d21f644",
+            "target_sha1": "847eafdd6c291c6b34f1b0213637c13c9d21f644",
+            "size": 45329
+        },
+        {
+            "source": "hausratversicherung.html",
+            "target": "leadwerk_importer/source_assets/hausratversicherung.html",
+            "source_sha1": "17f815065b2133be6311b3f61f4dd368d1a3405d",
+            "target_sha1": "17f815065b2133be6311b3f61f4dd368d1a3405d",
+            "size": 47112
+        },
+        {
+            "source": "hausratversicherung.html",
+            "target": "leadwerk_theme/source_shells/hausratversicherung.html",
+            "source_sha1": "17f815065b2133be6311b3f61f4dd368d1a3405d",
+            "target_sha1": "17f815065b2133be6311b3f61f4dd368d1a3405d",
+            "size": 47112
+        },
+        {
+            "source": "immobilien-nomaden.html",
+            "target": "leadwerk_importer/source_assets/immobilien-nomaden.html",
+            "source_sha1": "81c0809173a42ea8171006344e16ff42e5df83fd",
+            "target_sha1": "81c0809173a42ea8171006344e16ff42e5df83fd",
+            "size": 24403
+        },
+        {
+            "source": "immobilien-nomaden.html",
+            "target": "leadwerk_theme/source_shells/immobilien-nomaden.html",
+            "source_sha1": "81c0809173a42ea8171006344e16ff42e5df83fd",
+            "target_sha1": "81c0809173a42ea8171006344e16ff42e5df83fd",
+            "size": 24403
+        },
+        {
+            "source": "impressum.html",
+            "target": "leadwerk_importer/source_assets/impressum.html",
+            "source_sha1": "5b2418ef897956882768ce98d4e3da680a55dc4a",
+            "target_sha1": "5b2418ef897956882768ce98d4e3da680a55dc4a",
+            "size": 18820
+        },
+        {
+            "source": "impressum.html",
+            "target": "leadwerk_theme/source_shells/impressum.html",
+            "source_sha1": "5b2418ef897956882768ce98d4e3da680a55dc4a",
+            "target_sha1": "5b2418ef897956882768ce98d4e3da680a55dc4a",
+            "size": 18820
+        },
+        {
+            "source": "index.html",
+            "target": "leadwerk_importer/source_assets/index.html",
+            "source_sha1": "1c1d9af50ae88a27d65f58a1644ceb49b1e9636d",
+            "target_sha1": "1c1d9af50ae88a27d65f58a1644ceb49b1e9636d",
+            "size": 52315
+        },
+        {
+            "source": "index.html",
+            "target": "leadwerk_theme/source_shells/index.html",
+            "source_sha1": "1c1d9af50ae88a27d65f58a1644ceb49b1e9636d",
+            "target_sha1": "1c1d9af50ae88a27d65f58a1644ceb49b1e9636d",
+            "size": 52315
+        },
+        {
+            "source": "js/main.js",
+            "target": "leadwerk_importer/source_assets/js/main.js",
+            "source_sha1": "480159cd8d50e2375150c64c94a1d606c80506ec",
+            "target_sha1": "480159cd8d50e2375150c64c94a1d606c80506ec",
+            "size": 38890
+        },
+        {
+            "source": "js/main.js",
+            "target": "leadwerk_theme/js/main.js",
+            "source_sha1": "480159cd8d50e2375150c64c94a1d606c80506ec",
+            "target_sha1": "480159cd8d50e2375150c64c94a1d606c80506ec",
+            "size": 38890
+        },
+        {
+            "source": "kontakt.html",
+            "target": "leadwerk_importer/source_assets/kontakt.html",
+            "source_sha1": "921341e54046f09699c1e4f3b4755b0e735514f1",
+            "target_sha1": "921341e54046f09699c1e4f3b4755b0e735514f1",
+            "size": 33624
+        },
+        {
+            "source": "kontakt.html",
+            "target": "leadwerk_theme/source_shells/kontakt.html",
+            "source_sha1": "921341e54046f09699c1e4f3b4755b0e735514f1",
+            "target_sha1": "921341e54046f09699c1e4f3b4755b0e735514f1",
+            "size": 33624
+        },
+        {
+            "source": "krankenversicherung.html",
+            "target": "leadwerk_importer/source_assets/krankenversicherung.html",
+            "source_sha1": "c9bf743d8492969474975509e26bf341ffb6adb6",
+            "target_sha1": "c9bf743d8492969474975509e26bf341ffb6adb6",
+            "size": 76958
+        },
+        {
+            "source": "krankenversicherung.html",
+            "target": "leadwerk_theme/source_shells/krankenversicherung.html",
+            "source_sha1": "c9bf743d8492969474975509e26bf341ffb6adb6",
+            "target_sha1": "c9bf743d8492969474975509e26bf341ffb6adb6",
+            "size": 76958
+        },
+        {
+            "source": "passportcard-en.html",
+            "target": "leadwerk_importer/source_assets/passportcard-en.html",
+            "source_sha1": "ff28f5d7d0143d0c4bde2142964c6d4ad85ed61c",
+            "target_sha1": "ff28f5d7d0143d0c4bde2142964c6d4ad85ed61c",
+            "size": 26691
+        },
+        {
+            "source": "passportcard-en.html",
+            "target": "leadwerk_theme/source_shells/passportcard-en.html",
+            "source_sha1": "ff28f5d7d0143d0c4bde2142964c6d4ad85ed61c",
+            "target_sha1": "ff28f5d7d0143d0c4bde2142964c6d4ad85ed61c",
+            "size": 26691
+        },
+        {
+            "source": "passportcard.html",
+            "target": "leadwerk_importer/source_assets/passportcard.html",
+            "source_sha1": "b07a5df6533f66901066e435f418e14888b81599",
+            "target_sha1": "b07a5df6533f66901066e435f418e14888b81599",
+            "size": 25744
+        },
+        {
+            "source": "passportcard.html",
+            "target": "leadwerk_theme/source_shells/passportcard.html",
+            "source_sha1": "b07a5df6533f66901066e435f418e14888b81599",
+            "target_sha1": "b07a5df6533f66901066e435f418e14888b81599",
+            "size": 25744
+        },
+        {
+            "source": "pflegeversicherung.html",
+            "target": "leadwerk_importer/source_assets/pflegeversicherung.html",
+            "source_sha1": "cfa3a299c81a1ef3d174d364f64feac6e8e8e457",
+            "target_sha1": "cfa3a299c81a1ef3d174d364f64feac6e8e8e457",
+            "size": 51448
+        },
+        {
+            "source": "pflegeversicherung.html",
+            "target": "leadwerk_theme/source_shells/pflegeversicherung.html",
+            "source_sha1": "cfa3a299c81a1ef3d174d364f64feac6e8e8e457",
+            "target_sha1": "cfa3a299c81a1ef3d174d364f64feac6e8e8e457",
+            "size": 51448
+        },
+        {
+            "source": "rechtsschutzversicherung.html",
+            "target": "leadwerk_importer/source_assets/rechtsschutzversicherung.html",
+            "source_sha1": "cac58234e5f6fb2028d9b6e6849f7117ccdb4aec",
+            "target_sha1": "cac58234e5f6fb2028d9b6e6849f7117ccdb4aec",
+            "size": 72064
+        },
+        {
+            "source": "rechtsschutzversicherung.html",
+            "target": "leadwerk_theme/source_shells/rechtsschutzversicherung.html",
+            "source_sha1": "cac58234e5f6fb2028d9b6e6849f7117ccdb4aec",
+            "target_sha1": "cac58234e5f6fb2028d9b6e6849f7117ccdb4aec",
+            "size": 72064
+        },
+        {
+            "source": "rentenversicherung.html",
+            "target": "leadwerk_importer/source_assets/rentenversicherung.html",
+            "source_sha1": "1faa2d9724c098c891bb21a22046f556d9e170c4",
+            "target_sha1": "1faa2d9724c098c891bb21a22046f556d9e170c4",
+            "size": 54621
+        },
+        {
+            "source": "rentenversicherung.html",
+            "target": "leadwerk_theme/source_shells/rentenversicherung.html",
+            "source_sha1": "1faa2d9724c098c891bb21a22046f556d9e170c4",
+            "target_sha1": "1faa2d9724c098c891bb21a22046f556d9e170c4",
+            "size": 54621
+        },
+        {
+            "source": "schadenfall.html",
+            "target": "leadwerk_importer/source_assets/schadenfall.html",
+            "source_sha1": "cbad09c4e910bceb9352fc0b0366c38920555011",
+            "target_sha1": "cbad09c4e910bceb9352fc0b0366c38920555011",
+            "size": 17079
+        },
+        {
+            "source": "schadenfall.html",
+            "target": "leadwerk_theme/source_shells/schadenfall.html",
+            "source_sha1": "cbad09c4e910bceb9352fc0b0366c38920555011",
+            "target_sha1": "cbad09c4e910bceb9352fc0b0366c38920555011",
+            "size": 17079
+        },
+        {
+            "source": "selbststaendige.html",
+            "target": "leadwerk_importer/source_assets/selbststaendige.html",
+            "source_sha1": "1527b42ac2a9e19302fd5ff39582f576a50f5aa9",
+            "target_sha1": "1527b42ac2a9e19302fd5ff39582f576a50f5aa9",
+            "size": 32038
+        },
+        {
+            "source": "selbststaendige.html",
+            "target": "leadwerk_theme/source_shells/selbststaendige.html",
+            "source_sha1": "1527b42ac2a9e19302fd5ff39582f576a50f5aa9",
+            "target_sha1": "1527b42ac2a9e19302fd5ff39582f576a50f5aa9",
+            "size": 32038
+        },
+        {
+            "source": "spanien-dubai.html",
+            "target": "leadwerk_importer/source_assets/spanien-dubai.html",
+            "source_sha1": "987792f0b76ea746a1209bdd8c5fcba0a729e6b1",
+            "target_sha1": "987792f0b76ea746a1209bdd8c5fcba0a729e6b1",
+            "size": 24168
+        },
+        {
+            "source": "spanien-dubai.html",
+            "target": "leadwerk_theme/source_shells/spanien-dubai.html",
+            "source_sha1": "987792f0b76ea746a1209bdd8c5fcba0a729e6b1",
+            "target_sha1": "987792f0b76ea746a1209bdd8c5fcba0a729e6b1",
+            "size": 24168
+        },
+        {
+            "source": "ueber-ludwig.html",
+            "target": "leadwerk_importer/source_assets/ueber-ludwig.html",
+            "source_sha1": "718fba3094ba7c7ba47883f050731e4688227fbe",
+            "target_sha1": "718fba3094ba7c7ba47883f050731e4688227fbe",
+            "size": 28975
+        },
+        {
+            "source": "ueber-ludwig.html",
+            "target": "leadwerk_theme/source_shells/ueber-ludwig.html",
+            "source_sha1": "718fba3094ba7c7ba47883f050731e4688227fbe",
+            "target_sha1": "718fba3094ba7c7ba47883f050731e4688227fbe",
+            "size": 28975
+        },
+        {
+            "source": "unfallversicherung.html",
+            "target": "leadwerk_importer/source_assets/unfallversicherung.html",
+            "source_sha1": "a96fd83a1667b675d7ee70a1ec422f8f9135d125",
+            "target_sha1": "a96fd83a1667b675d7ee70a1ec422f8f9135d125",
+            "size": 48452
+        },
+        {
+            "source": "unfallversicherung.html",
+            "target": "leadwerk_theme/source_shells/unfallversicherung.html",
+            "source_sha1": "a96fd83a1667b675d7ee70a1ec422f8f9135d125",
+            "target_sha1": "a96fd83a1667b675d7ee70a1ec422f8f9135d125",
+            "size": 48452
+        },
+        {
+            "source": "unternehmervollmacht.html",
+            "target": "leadwerk_importer/source_assets/unternehmervollmacht.html",
+            "source_sha1": "9af4c56182c8a11337381457f011b49ceaff26be",
+            "target_sha1": "9af4c56182c8a11337381457f011b49ceaff26be",
+            "size": 21296
+        },
+        {
+            "source": "unternehmervollmacht.html",
+            "target": "leadwerk_theme/source_shells/unternehmervollmacht.html",
+            "source_sha1": "9af4c56182c8a11337381457f011b49ceaff26be",
+            "target_sha1": "9af4c56182c8a11337381457f011b49ceaff26be",
+            "size": 21296
+        },
+        {
+            "source": "wissen.html",
+            "target": "leadwerk_importer/source_assets/wissen.html",
+            "source_sha1": "a8695b52e74e1e074636fbd768dd43f888bc6793",
+            "target_sha1": "a8695b52e74e1e074636fbd768dd43f888bc6793",
+            "size": 26755
+        },
+        {
+            "source": "wissen.html",
+            "target": "leadwerk_theme/source_shells/wissen.html",
+            "source_sha1": "a8695b52e74e1e074636fbd768dd43f888bc6793",
+            "target_sha1": "a8695b52e74e1e074636fbd768dd43f888bc6793",
+            "size": 26755
+        },
+        {
+            "source": "zahnzusatzversicherung.html",
+            "target": "leadwerk_importer/source_assets/zahnzusatzversicherung.html",
+            "source_sha1": "861fa4e50023fe1dc6918462af3dd20bb6d08dbc",
+            "target_sha1": "861fa4e50023fe1dc6918462af3dd20bb6d08dbc",
+            "size": 23810
+        },
+        {
+            "source": "zahnzusatzversicherung.html",
+            "target": "leadwerk_theme/source_shells/zahnzusatzversicherung.html",
+            "source_sha1": "861fa4e50023fe1dc6918462af3dd20bb6d08dbc",
+            "target_sha1": "861fa4e50023fe1dc6918462af3dd20bb6d08dbc",
+            "size": 23810
+        },
+        {
+            "source": "zusammenarbeit.html",
+            "target": "leadwerk_importer/source_assets/zusammenarbeit.html",
+            "source_sha1": "54a477c9bf8208045d12c2a5228f8805ca6ae7b1",
+            "target_sha1": "54a477c9bf8208045d12c2a5228f8805ca6ae7b1",
+            "size": 32242
+        },
+        {
+            "source": "zusammenarbeit.html",
+            "target": "leadwerk_theme/source_shells/zusammenarbeit.html",
+            "source_sha1": "54a477c9bf8208045d12c2a5228f8805ca6ae7b1",
+            "target_sha1": "54a477c9bf8208045d12c2a5228f8805ca6ae7b1",
+            "size": 32242
+        }
+    ]
+}

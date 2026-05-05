@@ -1,0 +1,105 @@
+{
+  "version": "3",
+  "languages": {
+    "source": "de",
+    "target": "en"
+  },
+  "pages": {
+    "ludwig-home-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-zusammenarbeit-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-gold-service-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-familien-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-selbststaendige-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-expats-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-ueber-ludwig-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-wissen-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-kontakt-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-impressum-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-datenschutz-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    },
+    "ludwig-erstinformation-v1": {
+      "en": {
+        "translated_title": "",
+        "document_title": "",
+        "meta_description": "",
+        "paths": []
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+[Tue May  5 16:05:51 2026] PHP 8.5.4 Development Server (http://127.0.0.1:8765) started
+[Tue May  5 16:06:18 2026] 127.0.0.1:51343 Accepted
+[Tue May  5 16:06:18 2026] 127.0.0.1:51343 [200]: GET /ankuendigung.html
+[Tue May  5 16:06:18 2026] 127.0.0.1:51343 Closing
+[Tue May  5 16:06:18 2026] 127.0.0.1:54121 Accepted
+[Tue May  5 16:06:18 2026] 127.0.0.1:54121 [200]: GET /css/styles.css
+[Tue May  5 16:06:18 2026] 127.0.0.1:56065 Accepted
+[Tue May  5 16:06:18 2026] 127.0.0.1:54121 Closing
+[Tue May  5 16:06:18 2026] 127.0.0.1:59521 Accepted
+[Tue May  5 16:06:18 2026] 127.0.0.1:56065 [200]: GET /assets/images/logo.svg
+[Tue May  5 16:06:18 2026] 127.0.0.1:59521 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 16:06:19 2026] 127.0.0.1:56065 Closing
+[Tue May  5 16:06:19 2026] 127.0.0.1:59521 Closing
+[Tue May  5 16:06:19 2026] 127.0.0.1:57450 Accepted
+[Tue May  5 16:06:19 2026] 127.0.0.1:57450 [200]: GET /Ludwig_prev_foto/_X8A3007_prev.jpg
+[Tue May  5 16:06:19 2026] 127.0.0.1:57450 Closing
+[Tue May  5 16:06:19 2026] 127.0.0.1:65394 Accepted
+[Tue May  5 16:06:19 2026] 127.0.0.1:65394 [200]: GET /js/main.js
+[Tue May  5 16:06:19 2026] 127.0.0.1:65394 Closing
+[Tue May  5 16:06:19 2026] 127.0.0.1:64015 Accepted
+[Tue May  5 16:06:19 2026] 127.0.0.1:64015 [200]: GET /assets/images/ankuendigung/ludwig-service-update.jpg
+[Tue May  5 16:06:19 2026] 127.0.0.1:64015 Closing
+[Tue May  5 16:08:17 2026] 127.0.0.1:57084 Accepted
+[Tue May  5 16:08:17 2026] 127.0.0.1:57084 [200]: GET /ankuendigung.html
+[Tue May  5 16:08:17 2026] 127.0.0.1:57084 Closing
+[Tue May  5 16:08:17 2026] 127.0.0.1:58699 Accepted
+[Tue May  5 16:08:17 2026] 127.0.0.1:52661 Accepted
+[Tue May  5 16:08:17 2026] 127.0.0.1:58699 [200]: GET /css/styles.css
+[Tue May  5 16:08:17 2026] 127.0.0.1:50866 Accepted
+[Tue May  5 16:08:17 2026] 127.0.0.1:52661 [200]: GET /assets/images/logo.svg
+[Tue May  5 16:08:17 2026] 127.0.0.1:50866 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 16:08:17 2026] 127.0.0.1:58699 Closing
+[Tue May  5 16:08:17 2026] 127.0.0.1:52661 Closing
+[Tue May  5 16:08:17 2026] 127.0.0.1:50866 Closing
+[Tue May  5 16:08:17 2026] 127.0.0.1:64446 Accepted
+[Tue May  5 16:08:17 2026] 127.0.0.1:64446 [200]: GET /Ludwig_prev_foto/_X8A3007_prev.jpg
+[Tue May  5 16:08:17 2026] 127.0.0.1:64446 Closing
+[Tue May  5 16:08:17 2026] 127.0.0.1:64064 Accepted
+[Tue May  5 16:08:17 2026] 127.0.0.1:64064 [200]: GET /js/main.js
+[Tue May  5 16:08:17 2026] 127.0.0.1:64064 Closing
+[Tue May  5 16:08:18 2026] 127.0.0.1:61804 Accepted
+[Tue May  5 16:08:18 2026] 127.0.0.1:61804 [200]: GET /assets/images/ankuendigung/ludwig-service-update.jpg
+[Tue May  5 16:08:18 2026] 127.0.0.1:61804 Closing
+[Tue May  5 16:09:43 2026] 127.0.0.1:53555 Accepted
+[Tue May  5 16:09:43 2026] 127.0.0.1:52445 Accepted
+[Tue May  5 16:09:43 2026] 127.0.0.1:53555 [200]: GET /ankuendigung.html
+[Tue May  5 16:09:43 2026] 127.0.0.1:53555 Closing
+[Tue May  5 16:09:43 2026] 127.0.0.1:52445 [200]: GET /css/styles.css
+[Tue May  5 16:09:43 2026] 127.0.0.1:52445 Closing
+[Tue May  5 16:09:43 2026] 127.0.0.1:60249 Accepted
+[Tue May  5 16:09:43 2026] 127.0.0.1:60642 Accepted
+[Tue May  5 16:09:43 2026] 127.0.0.1:60249 [200]: GET /assets/images/logo.svg
+[Tue May  5 16:09:43 2026] 127.0.0.1:60642 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 16:09:43 2026] 127.0.0.1:60249 Closing
+[Tue May  5 16:09:43 2026] 127.0.0.1:52799 Accepted
+[Tue May  5 16:09:43 2026] 127.0.0.1:52799 [200]: GET /Ludwig_prev_foto/_X8A3007_prev.jpg
+[Tue May  5 16:09:43 2026] 127.0.0.1:49971 Accepted
+[Tue May  5 16:09:43 2026] 127.0.0.1:49971 [200]: GET /js/main.js
+[Tue May  5 16:09:43 2026] 127.0.0.1:49971 Closing
+[Tue May  5 16:09:43 2026] 127.0.0.1:60642 Closing
+[Tue May  5 16:09:43 2026] 127.0.0.1:52799 Closing
+[Tue May  5 16:09:43 2026] 127.0.0.1:63860 Accepted
+[Tue May  5 16:09:43 2026] 127.0.0.1:63860 [200]: GET /assets/images/ankuendigung/ludwig-service-update.jpg
+[Tue May  5 16:09:43 2026] 127.0.0.1:63860 Closing
+[Tue May  5 16:10:01 2026] 127.0.0.1:60313 Accepted
+[Tue May  5 16:10:01 2026] 127.0.0.1:64036 Accepted
+[Tue May  5 16:10:01 2026] 127.0.0.1:60313 [200]: GET /index.html
+[Tue May  5 16:10:01 2026] 127.0.0.1:60313 Closing
+[Tue May  5 16:10:01 2026] 127.0.0.1:64036 [200]: GET /css/styles.css
+[Tue May  5 16:10:01 2026] 127.0.0.1:50489 Accepted
+[Tue May  5 16:10:01 2026] 127.0.0.1:50376 Accepted
+[Tue May  5 16:10:01 2026] 127.0.0.1:64036 Closing
+[Tue May  5 16:10:01 2026] 127.0.0.1:50489 [200]: GET /assets/images/logo.svg
+[Tue May  5 16:10:01 2026] 127.0.0.1:50376 [200]: GET /assets/images/logo-inverted.svg
+[Tue May  5 16:10:01 2026] 127.0.0.1:50489 Closing
+[Tue May  5 16:10:01 2026] 127.0.0.1:60691 Accepted
+[Tue May  5 16:10:01 2026] 127.0.0.1:50218 Accepted
+[Tue May  5 16:10:01 2026] 127.0.0.1:60691 [200]: GET /Ludwig_prev_foto/_X8A2938_prev.jpg
+[Tue May  5 16:10:01 2026] 127.0.0.1:50218 [200]: GET /js/main.js
+[Tue May  5 16:10:01 2026] 127.0.0.1:50218 Closing
+[Tue May  5 16:10:01 2026] 127.0.0.1:50376 Closing
+[Tue May  5 16:10:01 2026] 127.0.0.1:60691 Closing
+[Tue May  5 16:10:01 2026] 127.0.0.1:60928 Accepted
+[Tue May  5 16:10:01 2026] 127.0.0.1:60928 [200]: GET /Ludwig_prev_foto/_X8A2806_prev.jpg
+[Tue May  5 16:10:01 2026] 127.0.0.1:60928 Closing

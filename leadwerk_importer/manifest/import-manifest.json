@@ -1,0 +1,394 @@
+{
+    "generated_at": "2026-05-05T16:04:55+00:00",
+    "profile": "ludwig",
+    "site_title": "Ludwig Oelze",
+    "site_tagline": "Versicherungsmakler und Baufinanzierungsberater in Baden-Baden.",
+    "pages": [
+        {
+            "source_key": "ludwig-home-v1",
+            "field_name": "ludwig_home_sections",
+            "source_file": "index.html",
+            "title": "Ludwig Oelze",
+            "slug": "home",
+            "target_type": "page",
+            "post_status": "publish",
+            "is_front_page": true,
+            "focus_keyphrase": "Versicherungsmakler Baden-Baden",
+            "focus_keyphrase_en": "insurance broker Baden-Baden"
+        },
+        {
+            "source_key": "ludwig-zusammenarbeit-v1",
+            "field_name": "ludwig_zusammenarbeit_sections",
+            "source_file": "zusammenarbeit.html",
+            "title": "Zusammenarbeit",
+            "slug": "zusammenarbeit",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Zusammenarbeit Versicherungsmakler",
+            "focus_keyphrase_en": "how we work insurance broker"
+        },
+        {
+            "source_key": "ludwig-gold-service-v1",
+            "field_name": "ludwig_gold_service_sections",
+            "source_file": "gold-service.html",
+            "title": "Gold-Service",
+            "slug": "gold-service",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Gold-Service Versicherung",
+            "focus_keyphrase_en": "premium insurance service"
+        },
+        {
+            "source_key": "ludwig-unternehmervollmacht-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "unternehmervollmacht.html",
+            "title": "Unternehmervollmacht",
+            "slug": "unternehmervollmacht",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Unternehmervollmacht",
+            "focus_keyphrase_en": "business power of attorney"
+        },
+        {
+            "source_key": "ludwig-durchblick-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "durchblick.html",
+            "title": "Durchblick ETF-Vorsorge",
+            "slug": "durchblick",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Durchblick ETF-Vorsorge",
+            "focus_keyphrase_en": "Durchblick ETF pension"
+        },
+        {
+            "source_key": "ludwig-ankuendigung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "ankuendigung.html",
+            "title": "Ankündigung",
+            "slug": "ankuendigung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Ankündigung Kundenservice",
+            "focus_keyphrase_en": "customer service announcement"
+        },
+        {
+            "source_key": "ludwig-schadenfall-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "schadenfall.html",
+            "title": "Schadenfall",
+            "slug": "schadenfall",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Schadenfall",
+            "focus_keyphrase_en": "claim report"
+        },
+        {
+            "source_key": "ludwig-familien-v1",
+            "field_name": "ludwig_familien_sections",
+            "source_file": "familien.html",
+            "title": "Für Familien",
+            "slug": "familien",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Versicherung für Familien",
+            "focus_keyphrase_en": "family insurance Germany"
+        },
+        {
+            "source_key": "ludwig-selbststaendige-v1",
+            "field_name": "ludwig_selbststaendige_sections",
+            "source_file": "selbststaendige.html",
+            "title": "Für Selbstständige",
+            "slug": "selbststaendige",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Versicherung Selbstständige",
+            "focus_keyphrase_en": "self-employed insurance Germany"
+        },
+        {
+            "source_key": "ludwig-expats-v1",
+            "field_name": "ludwig_expats_sections",
+            "source_file": "expats.html",
+            "title": "Expats",
+            "slug": "expats",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Versicherung Expats Deutschland",
+            "focus_keyphrase_en": "expat insurance Germany"
+        },
+        {
+            "source_key": "ludwig-ueber-ludwig-v1",
+            "field_name": "ludwig_ueber_ludwig_sections",
+            "source_file": "ueber-ludwig.html",
+            "title": "Über Ludwig",
+            "slug": "ueber-ludwig",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Ludwig Oelze Versicherungsmakler",
+            "focus_keyphrase_en": "Ludwig Oelze insurance broker"
+        },
+        {
+            "source_key": "ludwig-wissen-v1",
+            "field_name": "ludwig_wissen_sections",
+            "source_file": "wissen.html",
+            "title": "Wissen",
+            "slug": "wissen",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Versicherungen Ratgeber",
+            "focus_keyphrase_en": "insurance knowledge guide"
+        },
+        {
+            "source_key": "ludwig-kontakt-v1",
+            "field_name": "ludwig_kontakt_sections",
+            "source_file": "kontakt.html",
+            "title": "Kontakt",
+            "slug": "kontakt",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Kontakt Versicherungsmakler Baden-Baden",
+            "focus_keyphrase_en": "contact insurance broker Baden-Baden"
+        },
+        {
+            "source_key": "ludwig-impressum-v1",
+            "field_name": "ludwig_impressum_page",
+            "source_file": "impressum.html",
+            "title": "Impressum",
+            "slug": "impressum",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Impressum Versicherungsmakler",
+            "focus_keyphrase_en": "imprint insurance broker"
+        },
+        {
+            "source_key": "ludwig-datenschutz-v1",
+            "field_name": "ludwig_datenschutz_page",
+            "source_file": "datenschutz.html",
+            "title": "Datenschutz",
+            "slug": "datenschutz",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Datenschutz Versicherungsmakler",
+            "focus_keyphrase_en": "privacy policy insurance broker"
+        },
+        {
+            "source_key": "ludwig-erstinformation-v1",
+            "field_name": "ludwig_erstinformation_page",
+            "source_file": "erstinformation.html",
+            "title": "Erstinformation",
+            "slug": "erstinformation",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Erstinformation Versicherungsmakler",
+            "focus_keyphrase_en": "initial information insurance broker"
+        },
+        {
+            "source_key": "ludwig-berufsunfaehigkeit-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "berufsunfaehigkeit.html",
+            "title": "Berufsunfähigkeit",
+            "slug": "berufsunfaehigkeit",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Berufsunfähigkeit",
+            "focus_keyphrase_en": "Berufsunfähigkeit"
+        },
+        {
+            "source_key": "ludwig-haftpflichtversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "haftpflichtversicherung.html",
+            "title": "Haftpflichtversicherung",
+            "slug": "haftpflichtversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Haftpflichtversicherung",
+            "focus_keyphrase_en": "Haftpflichtversicherung"
+        },
+        {
+            "source_key": "ludwig-hausratversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "hausratversicherung.html",
+            "title": "Hausratversicherung",
+            "slug": "hausratversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Hausratversicherung",
+            "focus_keyphrase_en": "Hausratversicherung"
+        },
+        {
+            "source_key": "ludwig-unfallversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "unfallversicherung.html",
+            "title": "Unfallversicherung",
+            "slug": "unfallversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Unfallversicherung",
+            "focus_keyphrase_en": "Unfallversicherung"
+        },
+        {
+            "source_key": "ludwig-gebaeudeversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "gebaeudeversicherung.html",
+            "title": "Gebäudeversicherung",
+            "slug": "gebaeudeversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Gebäudeversicherung",
+            "focus_keyphrase_en": "Gebäudeversicherung"
+        },
+        {
+            "source_key": "ludwig-rentenversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "rentenversicherung.html",
+            "title": "Rentenversicherung",
+            "slug": "rentenversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Rentenversicherung",
+            "focus_keyphrase_en": "Rentenversicherung"
+        },
+        {
+            "source_key": "ludwig-pflegeversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "pflegeversicherung.html",
+            "title": "Pflegeversicherung",
+            "slug": "pflegeversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Pflegeversicherung",
+            "focus_keyphrase_en": "Pflegeversicherung"
+        },
+        {
+            "source_key": "ludwig-krankenversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "krankenversicherung.html",
+            "title": "Krankenversicherung",
+            "slug": "krankenversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Krankenversicherung",
+            "focus_keyphrase_en": "Krankenversicherung"
+        },
+        {
+            "source_key": "ludwig-rechtsschutzversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "rechtsschutzversicherung.html",
+            "title": "Rechtsschutzversicherung",
+            "slug": "rechtsschutzversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Rechtsschutzversicherung",
+            "focus_keyphrase_en": "Rechtsschutzversicherung"
+        },
+        {
+            "source_key": "ludwig-zahnzusatzversicherung-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "zahnzusatzversicherung.html",
+            "title": "Zahnzusatzversicherung",
+            "slug": "zahnzusatzversicherung",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Zahnzusatzversicherung",
+            "focus_keyphrase_en": "Zahnzusatzversicherung"
+        },
+        {
+            "source_key": "ludwig-passportcard-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "passportcard.html",
+            "title": "PassportCard",
+            "slug": "passportcard",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "PassportCard",
+            "focus_keyphrase_en": "PassportCard"
+        },
+        {
+            "source_key": "ludwig-expat-beratung-1-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "expat-beratung-1.html",
+            "title": "Expat-Beratung",
+            "slug": "expat-beratung-1",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Expat-Beratung",
+            "focus_keyphrase_en": "Expat-Beratung"
+        },
+        {
+            "source_key": "ludwig-digitale-nomaden-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "digitale-nomaden.html",
+            "title": "Digitale Nomaden",
+            "slug": "digitale-nomaden",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Digitale Nomaden",
+            "focus_keyphrase_en": "Digitale Nomaden"
+        },
+        {
+            "source_key": "ludwig-immobilien-nomaden-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "immobilien-nomaden.html",
+            "title": "Immobilien-Unternehmer",
+            "slug": "immobilien-nomaden",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Immobilien-Unternehmer",
+            "focus_keyphrase_en": "Immobilien-Unternehmer"
+        },
+        {
+            "source_key": "ludwig-freelancer-nomaden-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "freelancer-nomaden.html",
+            "title": "Freelancer & Selbständige",
+            "slug": "freelancer-nomaden",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Freelancer & Selbständige",
+            "focus_keyphrase_en": "Freelancer & Selbständige"
+        },
+        {
+            "source_key": "ludwig-spanien-dubai-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "spanien-dubai.html",
+            "title": "Spanien - Dubai - Deutschland",
+            "slug": "spanien-dubai",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "Spanien - Dubai - Deutschland",
+            "focus_keyphrase_en": "Spanien - Dubai - Deutschland"
+        },
+        {
+            "source_key": "ludwig-passportcard-en-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "passportcard-en.html",
+            "title": "PassportCard (EN)",
+            "slug": "passportcard-en",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "PassportCard (EN)",
+            "focus_keyphrase_en": "PassportCard (EN)",
+            "import_languages": [
+                "de"
+            ]
+        },
+        {
+            "source_key": "ludwig-404-v1",
+            "field_name": "ludwig_page_document",
+            "source_file": "404.html",
+            "title": "404",
+            "slug": "404",
+            "target_type": "page",
+            "post_status": "publish",
+            "focus_keyphrase": "404 Seite nicht gefunden",
+            "focus_keyphrase_en": "404 page not found",
+            "import_languages": [
+                "de"
+            ]
+        }
+    ],
+    "news_articles": [],
+    "sync_manifest": {
+        "generated_at": "2026-05-05T16:04:36+00:00",
+        "entry_count": 394
+    }
+}
