@@ -50,6 +50,11 @@ if ( is_file( $leadwerk_ludwig_schadenfall_file ) ) {
 	require_once $leadwerk_ludwig_schadenfall_file;
 }
 
+$leadwerk_ludwig_structured_data_file = LEADWERK_THEME_DIR . '/inc/ludwig-structured-data.php';
+if ( is_file( $leadwerk_ludwig_structured_data_file ) ) {
+	require_once $leadwerk_ludwig_structured_data_file;
+}
+
 /**
  * Whether the active static profile is Ludwig.
  *

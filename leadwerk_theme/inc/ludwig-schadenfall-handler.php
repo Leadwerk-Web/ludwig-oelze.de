@@ -2,8 +2,8 @@
 /**
  * Standalone Schadenfall form handling for Ludwig pages.
  *
- * The fallback form works without WPForms. Uploaded PDFs are encrypted before
- * they are stored and are only downloadable through signed admin links.
+ * The fallback form works without WPForms. Uploaded PDFs are validated, attached
+ * to the owner email, and removed from temporary server storage after sending.
  *
  * @package Leadwerk_Theme
  */
@@ -14,10 +14,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! defined( 'LEADWERK_SCHADENFALL_ACTION' ) ) {
 	define( 'LEADWERK_SCHADENFALL_ACTION', 'leadwerk_schadenfall_submit' );
-}
-
-if ( ! defined( 'LEADWERK_SCHADENFALL_DOWNLOAD_ACTION' ) ) {
-	define( 'LEADWERK_SCHADENFALL_DOWNLOAD_ACTION', 'leadwerk_schadenfall_download' );
 }
 
 /**
@@ -174,7 +170,7 @@ function leadwerk_theme_get_schadenfall_standalone_form_markup( $fallback_html =
 	$form .= $nonce;
 	$form .= '<div class="form-group form-honeypot" aria-hidden="true"><label for="schadenfall-website">Website</label><input id="schadenfall-website" name="website" tabindex="-1" autocomplete="off" type="text"/></div>';
 	$form .= $fields;
-	$form .= '<div class="form-group"><label class="form-label" for="schadenfall-files">PDF-Dateien hochladen</label><input accept="application/pdf,.pdf" class="form-input form-input-file" id="schadenfall-files" name="attachments[]" multiple type="file"/><p class="form-hint">Bitte nur PDF-Dateien hochladen. Die Dateien werden verschluesselt gespeichert.</p></div>';
+	$form .= '<div class="form-group"><label class="form-label" for="schadenfall-files">PDF-Dateien hochladen</label><input accept="application/pdf,.pdf" class="form-input form-input-file" id="schadenfall-files" name="attachments[]" multiple type="file"/><p class="form-hint">Bitte nur PDF-Dateien hochladen. Die Dateien werden als E-Mail-Anhang verarbeitet und nicht auf der Website gespeichert.</p></div>';
 	$form .= '<div class="form-group schadenfall-security-question"><label class="form-label" for="schadenfall-security">Sicherheitsfrage: ' . esc_html( $challenge['question'] ) . '</label><input class="form-input" id="schadenfall-security" name="leadwerk_schadenfall_challenge_answer" inputmode="numeric" pattern="[0-9]*" required type="text"/><p class="form-hint">Schutz gegen automatische Formularsendungen.</p></div>';
 	$form .= '<p class="form-hint schadenfall-security-note">Nach dem Absenden erhaeltst Du eine kurze Eingangsbest&auml;tigung per E-Mail. Es wird keine weitere Funktion auf der Website ausgeloest.</p>';
 	$form .= '<button class="btn btn-primary btn-lg btn-full" type="submit">Senden</button>';
@@ -208,7 +204,6 @@ function leadwerk_theme_schadenfall_status_notice() {
 		'file_type'    => 'Bitte lade ausschliesslich PDF-Dateien hoch.',
 		'file_size'    => 'Eine PDF-Datei ist zu gross.',
 		'file_upload'  => 'Eine Datei konnte nicht verarbeitet werden.',
-		'encryption'   => 'Die verschluesselte Ablage konnte nicht erstellt werden.',
 		'mail_failed'  => 'Die E-Mail konnte nicht versendet werden. Bitte versuche es erneut oder schreibe direkt an finanzen@ludwigoelze.com.',
 		'server_error' => 'Es gab ein technisches Problem. Bitte versuche es erneut.',
 	);
@@ -316,22 +311,13 @@ function leadwerk_theme_handle_schadenfall_submit() {
 	}
 
 	$submission_id = gmdate( 'Ymd-His' ) . '-' . wp_generate_password( 10, false, false );
-	$stored_files  = leadwerk_theme_schadenfall_store_uploaded_files( $submission_id );
-	if ( is_wp_error( $stored_files ) ) {
-		leadwerk_theme_schadenfall_fail_redirect( $stored_files->get_error_code() );
+	$mail_files    = leadwerk_theme_schadenfall_prepare_uploaded_files( $submission_id );
+	if ( is_wp_error( $mail_files ) ) {
+		leadwerk_theme_schadenfall_fail_redirect( $mail_files->get_error_code() );
 	}
 
-	$meta = array(
-		'submission_id' => $submission_id,
-		'created_at'    => gmdate( 'c' ),
-		'ip_hash'       => hash_hmac( 'sha256', leadwerk_theme_schadenfall_client_ip(), leadwerk_theme_schadenfall_hmac_key() ),
-		'fields'        => $fields,
-		'files'         => leadwerk_theme_schadenfall_public_file_meta( $stored_files ),
-	);
-	leadwerk_theme_schadenfall_store_metadata( $submission_id, $meta );
-
-	$mail_sent = leadwerk_theme_schadenfall_send_owner_mail( $fields, $stored_files, $submission_id );
-	leadwerk_theme_schadenfall_cleanup_mail_attachments( $stored_files );
+	$mail_sent = leadwerk_theme_schadenfall_send_owner_mail( $fields, $mail_files, $submission_id );
+	leadwerk_theme_schadenfall_cleanup_mail_attachments( $mail_files );
 	if ( ! $mail_sent ) {
 		leadwerk_theme_schadenfall_fail_redirect( 'mail_failed' );
 	}
@@ -419,14 +405,14 @@ function leadwerk_theme_schadenfall_normalize_files() {
 }
 
 /**
- * Validate, encrypt and store uploaded PDFs.
+ * Validate uploaded PDFs and prepare temporary mail attachments.
  *
  * @param string $submission_id Submission ID.
  * @return array<int,array<string,mixed>>|WP_Error
  */
-function leadwerk_theme_schadenfall_store_uploaded_files( $submission_id ) {
+function leadwerk_theme_schadenfall_prepare_uploaded_files( $submission_id ) {
 	$files     = leadwerk_theme_schadenfall_normalize_files();
-	$stored    = array();
+	$prepared  = array();
 	$max_files = (int) apply_filters( 'leadwerk_schadenfall_max_pdf_files', 8 );
 	$max_size  = (int) apply_filters( 'leadwerk_schadenfall_max_pdf_size', 12 * MB_IN_BYTES );
 	$count     = 0;
@@ -438,58 +424,57 @@ function leadwerk_theme_schadenfall_store_uploaded_files( $submission_id ) {
 		}
 		$count++;
 		if ( $count > $max_files ) {
-			return new WP_Error( 'file_upload' );
+			return leadwerk_theme_schadenfall_upload_error( $prepared, 'file_upload' );
 		}
 		if ( UPLOAD_ERR_OK !== $error ) {
-			return new WP_Error( 'file_upload' );
+			return leadwerk_theme_schadenfall_upload_error( $prepared, 'file_upload' );
 		}
 		$tmp = (string) ( $file['tmp_name'] ?? '' );
 		if ( ! is_uploaded_file( $tmp ) || ! is_readable( $tmp ) ) {
-			return new WP_Error( 'file_upload' );
+			return leadwerk_theme_schadenfall_upload_error( $prepared, 'file_upload' );
 		}
 		$size = (int) ( $file['size'] ?? 0 );
 		if ( $size <= 0 || $size > $max_size ) {
-			return new WP_Error( 'file_size' );
+			return leadwerk_theme_schadenfall_upload_error( $prepared, 'file_size' );
 		}
 		$original = sanitize_file_name( (string) ( $file['name'] ?? 'schadenfall.pdf' ) );
 		if ( '' === $original ) {
 			$original = 'schadenfall.pdf';
 		}
 		if ( '.pdf' !== strtolower( substr( $original, -4 ) ) || ! leadwerk_theme_schadenfall_tmp_is_pdf( $tmp ) ) {
-			return new WP_Error( 'file_type' );
-		}
-
-		$dir = leadwerk_theme_schadenfall_vault_dir( gmdate( 'Y/m' ) );
-		if ( is_wp_error( $dir ) ) {
-			return $dir;
+			return leadwerk_theme_schadenfall_upload_error( $prepared, 'file_type' );
 		}
 
 		$file_id  = wp_generate_uuid4();
-		$dest     = trailingslashit( $dir ) . $submission_id . '-' . $file_id . '.pdf.enc';
-		$aad      = 'schadenfall-file|' . $submission_id . '|' . $original;
 		$hash     = hash_file( 'sha256', $tmp );
-		$encrypted = leadwerk_theme_schadenfall_encrypt_file( $tmp, $dest, $aad );
-		if ( is_wp_error( $encrypted ) ) {
-			return $encrypted;
-		}
-
-		$relative = leadwerk_theme_schadenfall_relative_vault_path( $dest );
 		$mail_path = leadwerk_theme_schadenfall_prepare_mail_attachment( $tmp, $submission_id, $file_id, $original );
 		if ( is_wp_error( $mail_path ) ) {
+			leadwerk_theme_schadenfall_cleanup_mail_attachments( $prepared );
 			return $mail_path;
 		}
-		$stored[] = array(
+		$prepared[] = array(
 			'id'            => $file_id,
 			'original_name' => $original,
 			'size'          => $size,
 			'sha256'        => $hash,
-			'path'          => $relative,
-			'download_url'  => leadwerk_theme_schadenfall_build_download_url( $relative, $original, $submission_id ),
 			'_mail_path'    => $mail_path,
 		);
 	}
 
-	return $stored;
+	return $prepared;
+}
+
+/**
+ * Clean prepared attachment files and return an upload error.
+ *
+ * @param array<int,array<string,mixed>> $files Prepared files.
+ * @param string                         $code Error code.
+ * @return WP_Error
+ */
+function leadwerk_theme_schadenfall_upload_error( $files, $code ) {
+	leadwerk_theme_schadenfall_cleanup_mail_attachments( $files );
+
+	return new WP_Error( $code );
 }
 
 /**
@@ -517,27 +502,9 @@ function leadwerk_theme_schadenfall_prepare_mail_attachment( $tmp, $submission_i
 }
 
 /**
- * Remove runtime-only keys before writing encrypted metadata.
- *
- * @param array<int,array<string,mixed>> $files Stored files.
- * @return array<int,array<string,mixed>>
- */
-function leadwerk_theme_schadenfall_public_file_meta( $files ) {
-	$public = array();
-	foreach ( $files as $file ) {
-		if ( is_array( $file ) ) {
-			unset( $file['_mail_path'] );
-			$public[] = $file;
-		}
-	}
-
-	return $public;
-}
-
-/**
  * Collect temporary PDF attachment paths.
  *
- * @param array<int,array<string,mixed>> $files Stored files.
+ * @param array<int,array<string,mixed>> $files Prepared files.
  * @return array<int,string>
  */
 function leadwerk_theme_schadenfall_mail_attachment_paths( $files ) {
@@ -555,13 +522,22 @@ function leadwerk_theme_schadenfall_mail_attachment_paths( $files ) {
 /**
  * Delete temporary mail attachment copies.
  *
- * @param array<int,array<string,mixed>> $files Stored files.
+ * @param array<int,array<string,mixed>> $files Prepared files.
  * @return void
  */
 function leadwerk_theme_schadenfall_cleanup_mail_attachments( $files ) {
 	foreach ( leadwerk_theme_schadenfall_mail_attachment_paths( $files ) as $path ) {
 		@unlink( $path ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged, WordPress.WP.AlternativeFunctions.unlink_unlink -- best-effort temp cleanup.
 	}
+}
+
+/**
+ * HMAC key.
+ *
+ * @return string
+ */
+function leadwerk_theme_schadenfall_hmac_key() {
+	return wp_hash( 'leadwerk-schadenfall-hmac-v1' );
 }
 
 /**
@@ -596,295 +572,10 @@ function leadwerk_theme_schadenfall_tmp_is_pdf( $tmp ) {
 }
 
 /**
- * Store encrypted metadata for audit/recovery.
- *
- * @param string $submission_id Submission ID.
- * @param array<string,mixed> $meta Metadata.
- * @return void
- */
-function leadwerk_theme_schadenfall_store_metadata( $submission_id, $meta ) {
-	$dir = leadwerk_theme_schadenfall_vault_dir( gmdate( 'Y/m' ) );
-	if ( is_wp_error( $dir ) ) {
-		return;
-	}
-	$path = trailingslashit( $dir ) . $submission_id . '-metadata.json.enc';
-	leadwerk_theme_schadenfall_encrypt_string( wp_json_encode( $meta ), $path, 'schadenfall-meta|' . $submission_id );
-}
-
-/**
- * Vault base directory outside normal public media paths.
- *
- * @param string $subdir Optional subdir.
- * @return string|WP_Error
- */
-function leadwerk_theme_schadenfall_vault_dir( $subdir = '' ) {
-	$base = trailingslashit( WP_CONTENT_DIR ) . 'leadwerk-schadenfall-vault';
-	$dir  = trailingslashit( $base ) . trim( str_replace( '\\', '/', (string) $subdir ), '/' );
-	if ( ! wp_mkdir_p( $dir ) ) {
-		return new WP_Error( 'encryption' );
-	}
-
-	foreach ( array( $base, $dir ) as $protect_dir ) {
-		if ( ! is_dir( $protect_dir ) ) {
-			continue;
-		}
-		$htaccess = trailingslashit( $protect_dir ) . '.htaccess';
-		if ( ! file_exists( $htaccess ) ) {
-			file_put_contents( $htaccess, "Deny from all\n<IfModule mod_authz_core.c>\nRequire all denied\n</IfModule>\n" ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents -- protection marker.
-		}
-		$index = trailingslashit( $protect_dir ) . 'index.html';
-		if ( ! file_exists( $index ) ) {
-			file_put_contents( $index, '' ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents -- protection marker.
-		}
-	}
-
-	return $dir;
-}
-
-/**
- * Relative path inside the vault.
- *
- * @param string $path Absolute path.
- * @return string
- */
-function leadwerk_theme_schadenfall_relative_vault_path( $path ) {
-	$base = trailingslashit( WP_CONTENT_DIR ) . 'leadwerk-schadenfall-vault';
-	$rel  = ltrim( str_replace( '\\', '/', substr( (string) $path, strlen( $base ) ) ), '/' );
-
-	return $rel;
-}
-
-/**
- * Absolute path from relative vault path.
- *
- * @param string $relative Relative path.
- * @return string
- */
-function leadwerk_theme_schadenfall_absolute_vault_path( $relative ) {
-	$relative = ltrim( str_replace( '\\', '/', (string) $relative ), '/' );
-	$relative = str_replace( array( '../', '..\\' ), '', $relative );
-
-	return trailingslashit( WP_CONTENT_DIR ) . 'leadwerk-schadenfall-vault/' . $relative;
-}
-
-/**
- * Encryption key derived from WP salts.
- *
- * @return string Binary 256-bit key.
- */
-function leadwerk_theme_schadenfall_encryption_key() {
-	$material = wp_salt( 'auth' ) . wp_salt( 'secure_auth' ) . wp_salt( 'logged_in' ) . wp_salt( 'nonce' );
-
-	return hash( 'sha256', $material . '|leadwerk-schadenfall-v1', true );
-}
-
-/**
- * HMAC key.
- *
- * @return string
- */
-function leadwerk_theme_schadenfall_hmac_key() {
-	return wp_hash( 'leadwerk-schadenfall-hmac-v1' );
-}
-
-/**
- * Encrypt an uploaded file.
- *
- * @param string $source Source path.
- * @param string $dest Destination path.
- * @param string $aad Authenticated associated data.
- * @return true|WP_Error
- */
-function leadwerk_theme_schadenfall_encrypt_file( $source, $dest, $aad ) {
-	$plain = file_get_contents( $source ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents -- uploaded temp binary read.
-	if ( false === $plain ) {
-		return new WP_Error( 'file_upload' );
-	}
-
-	return leadwerk_theme_schadenfall_encrypt_string( $plain, $dest, $aad );
-}
-
-/**
- * Encrypt a string to file using AES-256-GCM.
- *
- * @param string $plain Plain content.
- * @param string $dest Destination path.
- * @param string $aad Authenticated associated data.
- * @return true|WP_Error
- */
-function leadwerk_theme_schadenfall_encrypt_string( $plain, $dest, $aad ) {
-	if ( ! function_exists( 'openssl_encrypt' ) ) {
-		return new WP_Error( 'encryption' );
-	}
-	$iv     = random_bytes( 12 );
-	$tag    = '';
-	$cipher = openssl_encrypt( (string) $plain, 'aes-256-gcm', leadwerk_theme_schadenfall_encryption_key(), OPENSSL_RAW_DATA, $iv, $tag, (string) $aad );
-	if ( false === $cipher ) {
-		return new WP_Error( 'encryption' );
-	}
-
-	$header = wp_json_encode(
-		array(
-			'v'   => 1,
-			'alg' => 'AES-256-GCM',
-			'iv'  => base64_encode( $iv ),
-			'tag' => base64_encode( $tag ),
-			'aad' => (string) $aad,
-		)
-	);
-	$payload = "LWENC1\n" . strlen( (string) $header ) . "\n" . $header . $cipher;
-
-	return false === file_put_contents( $dest, $payload, LOCK_EX ) ? new WP_Error( 'encryption' ) : true; // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents -- encrypted vault write.
-}
-
-/**
- * Decrypt an encrypted vault file.
- *
- * @param string $path Absolute encrypted path.
- * @param string $aad Expected AAD.
- * @return string|WP_Error
- */
-function leadwerk_theme_schadenfall_decrypt_file( $path, $aad ) {
-	$payload = file_get_contents( $path ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents -- encrypted vault read.
-	if ( false === $payload || 0 !== strpos( $payload, "LWENC1\n" ) ) {
-		return new WP_Error( 'server_error' );
-	}
-	$rest       = substr( $payload, 7 );
-	$line_break = strpos( $rest, "\n" );
-	if ( false === $line_break ) {
-		return new WP_Error( 'server_error' );
-	}
-	$header_len = absint( substr( $rest, 0, $line_break ) );
-	$body       = substr( $rest, $line_break + 1 );
-	$header_raw = substr( $body, 0, $header_len );
-	$cipher     = substr( $body, $header_len );
-	$header     = json_decode( $header_raw, true );
-	if ( ! is_array( $header ) || empty( $header['iv'] ) || empty( $header['tag'] ) || (string) ( $header['aad'] ?? '' ) !== (string) $aad ) {
-		return new WP_Error( 'server_error' );
-	}
-
-	$plain = openssl_decrypt(
-		$cipher,
-		'aes-256-gcm',
-		leadwerk_theme_schadenfall_encryption_key(),
-		OPENSSL_RAW_DATA,
-		base64_decode( (string) $header['iv'], true ),
-		base64_decode( (string) $header['tag'], true ),
-		(string) $aad
-	);
-
-	return false === $plain ? new WP_Error( 'server_error' ) : $plain;
-}
-
-/**
- * Build signed admin download URL.
- *
- * @param string $relative Relative encrypted path.
- * @param string $name Original filename.
- * @param string $submission_id Submission ID.
- * @return string
- */
-function leadwerk_theme_schadenfall_build_download_url( $relative, $name, $submission_id ) {
-	$payload = wp_json_encode(
-		array(
-			'p'   => (string) $relative,
-			'n'   => (string) $name,
-			'sid' => (string) $submission_id,
-			'exp' => time() + (int) apply_filters( 'leadwerk_schadenfall_download_ttl', 14 * DAY_IN_SECONDS ),
-		)
-	);
-	$token = leadwerk_theme_schadenfall_base64url_encode( (string) $payload ) . '.' . hash_hmac( 'sha256', (string) $payload, leadwerk_theme_schadenfall_hmac_key() );
-
-	return add_query_arg(
-		array(
-			'action' => LEADWERK_SCHADENFALL_DOWNLOAD_ACTION,
-			'token'  => $token,
-		),
-		admin_url( 'admin-post.php' )
-	);
-}
-
-/**
- * Parse download token.
- *
- * @param string $token Token.
- * @return array<string,string>|WP_Error
- */
-function leadwerk_theme_schadenfall_parse_download_token( $token ) {
-	$parts = explode( '.', (string) $token, 2 );
-	if ( count( $parts ) !== 2 ) {
-		return new WP_Error( 'security' );
-	}
-	$json = leadwerk_theme_schadenfall_base64url_decode( $parts[0] );
-	if ( '' === $json ) {
-		return new WP_Error( 'security' );
-	}
-	$expected = hash_hmac( 'sha256', $json, leadwerk_theme_schadenfall_hmac_key() );
-	if ( ! hash_equals( $expected, (string) $parts[1] ) ) {
-		return new WP_Error( 'security' );
-	}
-	$data = json_decode( $json, true );
-	if ( ! is_array( $data ) || empty( $data['p'] ) || empty( $data['n'] ) || empty( $data['sid'] ) || (int) ( $data['exp'] ?? 0 ) < time() ) {
-		return new WP_Error( 'security' );
-	}
-
-	return array(
-		'path'          => (string) $data['p'],
-		'original_name' => sanitize_file_name( (string) $data['n'] ),
-		'submission_id' => sanitize_text_field( (string) $data['sid'] ),
-	);
-}
-
-/**
- * Serve decrypted PDF to authorized admins.
- *
- * @return void
- */
-function leadwerk_theme_handle_schadenfall_download() {
-	if ( ! is_user_logged_in() ) {
-		auth_redirect();
-		exit;
-	}
-	$capability = (string) apply_filters( 'leadwerk_schadenfall_download_capability', 'manage_options' );
-	if ( ! current_user_can( $capability ) ) {
-		wp_die( esc_html__( 'Du hast keine Berechtigung fuer diesen Download.', 'leadwerk' ), '', array( 'response' => 403 ) );
-	}
-	$token = isset( $_GET['token'] ) ? sanitize_text_field( wp_unslash( $_GET['token'] ) ) : '';
-	$data  = leadwerk_theme_schadenfall_parse_download_token( $token );
-	if ( is_wp_error( $data ) ) {
-		wp_die( esc_html__( 'Der Download-Link ist ungueltig oder abgelaufen.', 'leadwerk' ), '', array( 'response' => 403 ) );
-	}
-
-	$path = leadwerk_theme_schadenfall_absolute_vault_path( $data['path'] );
-	$real = realpath( $path );
-	$base = realpath( trailingslashit( WP_CONTENT_DIR ) . 'leadwerk-schadenfall-vault' );
-	if ( ! $real || ! $base || 0 !== strpos( $real, trailingslashit( $base ) ) || ! is_readable( $real ) ) {
-		wp_die( esc_html__( 'Die Datei wurde nicht gefunden.', 'leadwerk' ), '', array( 'response' => 404 ) );
-	}
-
-	$aad   = 'schadenfall-file|' . $data['submission_id'] . '|' . $data['original_name'];
-	$plain = leadwerk_theme_schadenfall_decrypt_file( $real, $aad );
-	if ( is_wp_error( $plain ) ) {
-		wp_die( esc_html__( 'Die Datei konnte nicht entschluesselt werden.', 'leadwerk' ), '', array( 'response' => 500 ) );
-	}
-
-	nocache_headers();
-	header( 'Content-Type: application/pdf' );
-	header( 'X-Content-Type-Options: nosniff' );
-	header( 'Referrer-Policy: no-referrer' );
-	header( 'Content-Disposition: attachment; filename="' . sanitize_file_name( $data['original_name'] ) . '"; filename*=UTF-8\'\'' . rawurlencode( sanitize_file_name( $data['original_name'] ) ) );
-	header( 'Content-Length: ' . strlen( $plain ) );
-	echo $plain; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- binary PDF stream.
-	exit;
-}
-add_action( 'admin_post_' . LEADWERK_SCHADENFALL_DOWNLOAD_ACTION, 'leadwerk_theme_handle_schadenfall_download' );
-add_action( 'admin_post_nopriv_' . LEADWERK_SCHADENFALL_DOWNLOAD_ACTION, 'leadwerk_theme_handle_schadenfall_download' );
-
-/**
  * Send owner email.
  *
  * @param array<string,string> $fields Fields.
- * @param array<int,array<string,mixed>> $files Stored files.
+ * @param array<int,array<string,mixed>> $files Prepared files.
  * @param string $submission_id Submission ID.
  * @return bool
  */
@@ -892,10 +583,10 @@ function leadwerk_theme_schadenfall_send_owner_mail( $fields, $files, $submissio
 	$name    = $fields['name_versicherungsnehmer'] ?? 'Unbekannt';
 	$email   = $fields['email'] ?? '';
 	$subject = 'Neue Schadenmeldung von ' . $name;
-	$content = '<p>Es wurde eine neue Schadenmeldung ueber die Website eingereicht. Die PDF-Dateien sind dieser E-Mail beigefuegt und werden zusaetzlich verschluesselt gespeichert. Die sicheren Admin-Links bleiben als Backup verfuegbar.</p>';
+	$content = '<p>Es wurde eine neue Schadenmeldung ueber die Website eingereicht. Die PDF-Dateien sind dieser E-Mail beigefuegt und werden nicht auf der Website gespeichert.</p>';
 	$content .= '<h2>Formulardaten</h2>' . leadwerk_theme_schadenfall_email_table( $fields );
 	$content .= '<h2>PDF-Dateien</h2>' . leadwerk_theme_schadenfall_file_list_for_email( $files );
-	$content .= '<h2>Sicherheit</h2><p>Vorgangs-ID: <strong>' . esc_html( $submission_id ) . '</strong><br>Die PDF-Dateien sind als E-Mail-Anhang enthalten. Zusaetzlich sind die Backup-Download-Links zeitlich begrenzt und erfordern einen berechtigten WordPress-Login.</p>';
+	$content .= '<h2>Sicherheit</h2><p>Vorgangs-ID: <strong>' . esc_html( $submission_id ) . '</strong><br>Die PDF-Dateien wurden nur fuer den Versand als E-Mail-Anhang verarbeitet. Temporaere Server-Kopien werden nach dem Mailversand geloescht.</p>';
 	$body    = leadwerk_theme_schadenfall_email_shell( 'Neue Schadenmeldung', 'Eingaben und PDF-Dateien im Anhang', $content );
 	$headers = array( 'Content-Type: text/html; charset=UTF-8' );
 	if ( is_email( $email ) ) {
@@ -973,7 +664,7 @@ function leadwerk_theme_schadenfall_email_table( $fields ) {
 /**
  * File list for owner email.
  *
- * @param array<int,array<string,mixed>> $files Stored files.
+ * @param array<int,array<string,mixed>> $files Prepared files.
  * @return string
  */
 function leadwerk_theme_schadenfall_file_list_for_email( $files ) {
@@ -983,18 +674,14 @@ function leadwerk_theme_schadenfall_file_list_for_email( $files ) {
 
 	$attachment_count = count( leadwerk_theme_schadenfall_mail_attachment_paths( $files ) );
 	$intro = $attachment_count > 0
-		? '<p>Die PDF-Dateien sind dieser E-Mail als Anhang beigefuegt. Die folgenden Links dienen als verschluesseltes Backup.</p>'
-		: '<p>Die folgenden Links dienen als verschluesseltes Backup.</p>';
+		? '<p>Die PDF-Dateien sind dieser E-Mail als Anhang beigefuegt.</p>'
+		: '<p>Die PDF-Dateien konnten nicht als Anhang vorbereitet werden.</p>';
 	$html = '<ul style="padding-left:0;list-style:none;margin:0;">';
 	foreach ( $files as $file ) {
 		$name = (string) ( $file['original_name'] ?? 'schadenfall.pdf' );
 		$size = size_format( (int) ( $file['size'] ?? 0 ), 1 );
-		$url  = (string) ( $file['download_url'] ?? '' );
 		$html .= '<li style="margin:0 0 12px;padding:14px 16px;background:#f8f6ef;border-radius:16px;border:1px solid #e8ddc8;">'
-			. '<strong>' . esc_html( $name ) . '</strong><br><span style="color:#607070;">' . esc_html( $size ) . ' | verschluesselt gespeichert</span>';
-		if ( '' !== $url ) {
-			$html .= '<br><a href="' . esc_url( $url ) . '" style="display:inline-block;margin-top:10px;padding:10px 14px;border-radius:999px;background:#174f4f;color:#ffffff;text-decoration:none;font-weight:700;">PDF sicher oeffnen</a>';
-		}
+			. '<strong>' . esc_html( $name ) . '</strong><br><span style="color:#607070;">' . esc_html( $size ) . ' | als E-Mail-Anhang beigefuegt</span>';
 		$html .= '</li>';
 	}
 	$html .= '</ul>';
