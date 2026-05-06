@@ -51,6 +51,7 @@ class Leadwerk_Fields_Metabox {
 			'fields'  => array(
 				'wpforms_form_id_de' => array( 'label' => 'WPForms Form ID / Shortcode (DE)', 'type' => 'text' ),
 				'wpforms_form_id_en' => array( 'label' => 'WPForms Form ID / Shortcode (EN)', 'type' => 'text' ),
+				'schadenfall_owner_email' => array( 'label' => 'Schadenfall Empfaenger-E-Mail', 'type' => 'text' ),
 				'wpforms_schadenfall_form_id_de' => array( 'label' => 'WPForms Schadenfall Form ID / Shortcode (DE)', 'type' => 'text' ),
 				'wpforms_schadenfall_form_id_en' => array( 'label' => 'WPForms Schadenfall Form ID / Shortcode (EN)', 'type' => 'text' ),
 			),

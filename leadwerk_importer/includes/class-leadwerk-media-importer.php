@@ -18,6 +18,7 @@ class Leadwerk_Media_Importer {
 	}
 
 	public function allow_extra_mimes( $mimes ) {
+		$mimes['webp']  = 'image/webp';
 		$mimes['svg']   = 'image/svg+xml';
 		$mimes['svgz']  = 'image/svg+xml';
 		$mimes['ico']   = 'image/x-icon';
@@ -34,6 +35,7 @@ class Leadwerk_Media_Importer {
 		}
 		$ext = strtolower( pathinfo( $filename, PATHINFO_EXTENSION ) );
 		$map = array(
+			'webp'  => 'image/webp',
 			'svg'   => 'image/svg+xml',
 			'svgz'  => 'image/svg+xml',
 			'ico'   => 'image/x-icon',

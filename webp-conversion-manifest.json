@@ -1,0 +1,1335 @@
+{
+  "created_at": "2026-05-06T17:25:42",
+  "root": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de",
+  "scope": [
+    "Ludwig_prev_foto",
+    "assets/images/ankuendigung",
+    "assets/images/durchblick",
+    "assets/images/partners"
+  ],
+  "protected_image_names": [
+    "apple-touch-icon.png",
+    "favicon-192x192.png",
+    "favicon-32x32.png",
+    "favicon.png",
+    "logo-inverted.png",
+    "logo.png"
+  ],
+  "total_images": 146,
+  "images": [
+    {
+      "filename": "ludwig-service-update.webp",
+      "extension": ".jpg",
+      "relative_path": "assets/images/ankuendigung/ludwig-service-update.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/assets/images/ankuendigung/ludwig-service-update.webp",
+      "target_webp_relative_path": "assets/images/ankuendigung/ludwig-service-update.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/assets/images/ankuendigung/ludwig-service-update.webp",
+      "size_bytes": 39470
+    },
+    {
+      "filename": "durchblick-app.webp",
+      "extension": ".png",
+      "relative_path": "assets/images/durchblick/durchblick-app.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/assets/images/durchblick/durchblick-app.webp",
+      "target_webp_relative_path": "assets/images/durchblick/durchblick-app.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/assets/images/durchblick/durchblick-app.webp",
+      "size_bytes": 116530
+    },
+    {
+      "filename": "ergo.webp",
+      "extension": ".jpg",
+      "relative_path": "assets/images/partners/ergo.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/assets/images/partners/ergo.webp",
+      "target_webp_relative_path": "assets/images/partners/ergo.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/assets/images/partners/ergo.webp",
+      "size_bytes": 53893
+    },
+    {
+      "filename": "_X8A2707_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2707_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2707_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2707_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2707_prev.webp",
+      "size_bytes": 278006
+    },
+    {
+      "filename": "_X8A2708_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2708_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2708_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2708_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2708_prev.webp",
+      "size_bytes": 245468
+    },
+    {
+      "filename": "_X8A2710_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2710_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2710_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2710_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2710_prev.webp",
+      "size_bytes": 247757
+    },
+    {
+      "filename": "_X8A2715_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2715_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2715_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2715_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2715_prev.webp",
+      "size_bytes": 237945
+    },
+    {
+      "filename": "_X8A2719_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2719_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2719_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2719_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2719_prev.webp",
+      "size_bytes": 233364
+    },
+    {
+      "filename": "_X8A2720_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2720_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2720_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2720_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2720_prev.webp",
+      "size_bytes": 235678
+    },
+    {
+      "filename": "_X8A2723_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2723_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2723_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2723_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2723_prev.webp",
+      "size_bytes": 236771
+    },
+    {
+      "filename": "_X8A2725_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2725_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2725_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2725_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2725_prev.webp",
+      "size_bytes": 238673
+    },
+    {
+      "filename": "_X8A2727_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2727_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2727_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2727_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2727_prev.webp",
+      "size_bytes": 236509
+    },
+    {
+      "filename": "_X8A2728_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2728_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2728_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2728_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2728_prev.webp",
+      "size_bytes": 239300
+    },
+    {
+      "filename": "_X8A2729_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2729_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2729_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2729_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2729_prev.webp",
+      "size_bytes": 234062
+    },
+    {
+      "filename": "_X8A2733_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2733_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2733_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2733_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2733_prev.webp",
+      "size_bytes": 236843
+    },
+    {
+      "filename": "_X8A2734_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2734_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2734_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2734_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2734_prev.webp",
+      "size_bytes": 233565
+    },
+    {
+      "filename": "_X8A2738_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2738_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2738_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2738_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2738_prev.webp",
+      "size_bytes": 238304
+    },
+    {
+      "filename": "_X8A2739_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2739_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2739_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2739_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2739_prev.webp",
+      "size_bytes": 257428
+    },
+    {
+      "filename": "_X8A2740_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2740_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2740_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2740_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2740_prev.webp",
+      "size_bytes": 263062
+    },
+    {
+      "filename": "_X8A2742_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2742_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2742_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2742_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2742_prev.webp",
+      "size_bytes": 241841
+    },
+    {
+      "filename": "_X8A2745_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2745_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2745_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2745_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2745_prev.webp",
+      "size_bytes": 240956
+    },
+    {
+      "filename": "_X8A2747_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2747_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2747_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2747_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2747_prev.webp",
+      "size_bytes": 997490
+    },
+    {
+      "filename": "_X8A2752_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2752_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2752_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2752_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2752_prev.webp",
+      "size_bytes": 241447
+    },
+    {
+      "filename": "_X8A2754_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2754_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2754_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2754_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2754_prev.webp",
+      "size_bytes": 239358
+    },
+    {
+      "filename": "_X8A2757_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2757_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2757_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2757_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2757_prev.webp",
+      "size_bytes": 242558
+    },
+    {
+      "filename": "_X8A2758_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2758_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2758_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2758_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2758_prev.webp",
+      "size_bytes": 232303
+    },
+    {
+      "filename": "_X8A2762_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2762_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2762_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2762_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2762_prev.webp",
+      "size_bytes": 261673
+    },
+    {
+      "filename": "_X8A2765_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2765_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2765_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2765_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2765_prev.webp",
+      "size_bytes": 257232
+    },
+    {
+      "filename": "_X8A2766_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2766_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2766_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2766_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2766_prev.webp",
+      "size_bytes": 259731
+    },
+    {
+      "filename": "_X8A2767_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2767_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2767_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2767_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2767_prev.webp",
+      "size_bytes": 252218
+    },
+    {
+      "filename": "_X8A2774_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2774_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2774_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2774_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2774_prev.webp",
+      "size_bytes": 1302297
+    },
+    {
+      "filename": "_X8A2775_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2775_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2775_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2775_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2775_prev.webp",
+      "size_bytes": 293052
+    },
+    {
+      "filename": "_X8A2777_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2777_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2777_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2777_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2777_prev.webp",
+      "size_bytes": 289540
+    },
+    {
+      "filename": "_X8A2781_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2781_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2781_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2781_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2781_prev.webp",
+      "size_bytes": 291558
+    },
+    {
+      "filename": "_X8A2784_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2784_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2784_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2784_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2784_prev.webp",
+      "size_bytes": 293145
+    },
+    {
+      "filename": "_X8A2785_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2785_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2785_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2785_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2785_prev.webp",
+      "size_bytes": 289447
+    },
+    {
+      "filename": "_X8A2786_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2786_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2786_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2786_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2786_prev.webp",
+      "size_bytes": 273624
+    },
+    {
+      "filename": "_X8A2791_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2791_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2791_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2791_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2791_prev.webp",
+      "size_bytes": 1293286
+    },
+    {
+      "filename": "_X8A2792_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2792_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2792_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2792_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2792_prev.webp",
+      "size_bytes": 303475
+    },
+    {
+      "filename": "_X8A2794_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2794_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2794_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2794_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2794_prev.webp",
+      "size_bytes": 287345
+    },
+    {
+      "filename": "_X8A2806_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2806_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2806_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2806_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2806_prev.webp",
+      "size_bytes": 1292050
+    },
+    {
+      "filename": "_X8A2812_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2812_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2812_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2812_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2812_prev.webp",
+      "size_bytes": 295884
+    },
+    {
+      "filename": "_X8A2815_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2815_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2815_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2815_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2815_prev.webp",
+      "size_bytes": 292197
+    },
+    {
+      "filename": "_X8A2817_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2817_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2817_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2817_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2817_prev.webp",
+      "size_bytes": 289746
+    },
+    {
+      "filename": "_X8A2825_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2825_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2825_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2825_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2825_prev.webp",
+      "size_bytes": 269552
+    },
+    {
+      "filename": "_X8A2826_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2826_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2826_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2826_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2826_prev.webp",
+      "size_bytes": 254258
+    },
+    {
+      "filename": "_X8A2827_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2827_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2827_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2827_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2827_prev.webp",
+      "size_bytes": 253662
+    },
+    {
+      "filename": "_X8A2829_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2829_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2829_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2829_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2829_prev.webp",
+      "size_bytes": 258363
+    },
+    {
+      "filename": "_X8A2830_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2830_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2830_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2830_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2830_prev.webp",
+      "size_bytes": 262520
+    },
+    {
+      "filename": "_X8A2832_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2832_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2832_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2832_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2832_prev.webp",
+      "size_bytes": 260428
+    },
+    {
+      "filename": "_X8A2834_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2834_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2834_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2834_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2834_prev.webp",
+      "size_bytes": 1269908
+    },
+    {
+      "filename": "_X8A2835_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2835_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2835_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2835_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2835_prev.webp",
+      "size_bytes": 274366
+    },
+    {
+      "filename": "_X8A2836_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2836_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2836_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2836_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2836_prev.webp",
+      "size_bytes": 269342
+    },
+    {
+      "filename": "_X8A2841_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2841_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2841_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2841_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2841_prev.webp",
+      "size_bytes": 261225
+    },
+    {
+      "filename": "_X8A2854_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2854_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2854_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2854_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2854_prev.webp",
+      "size_bytes": 249579
+    },
+    {
+      "filename": "_X8A2855_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2855_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2855_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2855_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2855_prev.webp",
+      "size_bytes": 247023
+    },
+    {
+      "filename": "_X8A2857_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2857_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2857_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2857_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2857_prev.webp",
+      "size_bytes": 248975
+    },
+    {
+      "filename": "_X8A2866_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2866_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2866_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2866_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2866_prev.webp",
+      "size_bytes": 1015234
+    },
+    {
+      "filename": "_X8A2873_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2873_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2873_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2873_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2873_prev.webp",
+      "size_bytes": 251721
+    },
+    {
+      "filename": "_X8A2874_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2874_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2874_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2874_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2874_prev.webp",
+      "size_bytes": 254686
+    },
+    {
+      "filename": "_X8A2877_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2877_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2877_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2877_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2877_prev.webp",
+      "size_bytes": 251710
+    },
+    {
+      "filename": "_X8A2878_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2878_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2878_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2878_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2878_prev.webp",
+      "size_bytes": 252344
+    },
+    {
+      "filename": "_X8A2899_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2899_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2899_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2899_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2899_prev.webp",
+      "size_bytes": 236458
+    },
+    {
+      "filename": "_X8A2902_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2902_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2902_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2902_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2902_prev.webp",
+      "size_bytes": 286660
+    },
+    {
+      "filename": "_X8A2906_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2906_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2906_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2906_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2906_prev.webp",
+      "size_bytes": 288686
+    },
+    {
+      "filename": "_X8A2917_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2917_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2917_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2917_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2917_prev.webp",
+      "size_bytes": 287804
+    },
+    {
+      "filename": "_X8A2919_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2919_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2919_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2919_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2919_prev.webp",
+      "size_bytes": 288616
+    },
+    {
+      "filename": "_X8A2920_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2920_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2920_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2920_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2920_prev.webp",
+      "size_bytes": 285944
+    },
+    {
+      "filename": "_X8A2923_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2923_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2923_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2923_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2923_prev.webp",
+      "size_bytes": 286029
+    },
+    {
+      "filename": "_X8A2924_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2924_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2924_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2924_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2924_prev.webp",
+      "size_bytes": 285599
+    },
+    {
+      "filename": "_X8A2938_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2938_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2938_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2938_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2938_prev.webp",
+      "size_bytes": 1240766
+    },
+    {
+      "filename": "_X8A2939_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2939_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2939_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2939_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2939_prev.webp",
+      "size_bytes": 276292
+    },
+    {
+      "filename": "_X8A2946_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2946_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2946_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2946_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2946_prev.webp",
+      "size_bytes": 257231
+    },
+    {
+      "filename": "_X8A2947_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2947_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2947_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2947_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2947_prev.webp",
+      "size_bytes": 265082
+    },
+    {
+      "filename": "_X8A2948_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2948_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2948_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2948_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2948_prev.webp",
+      "size_bytes": 270150
+    },
+    {
+      "filename": "_X8A2953_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2953_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2953_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2953_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2953_prev.webp",
+      "size_bytes": 259490
+    },
+    {
+      "filename": "_X8A2954_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2954_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2954_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2954_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2954_prev.webp",
+      "size_bytes": 260291
+    },
+    {
+      "filename": "_X8A2955_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2955_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2955_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2955_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2955_prev.webp",
+      "size_bytes": 1211561
+    },
+    {
+      "filename": "_X8A2958_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2958_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2958_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2958_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2958_prev.webp",
+      "size_bytes": 263308
+    },
+    {
+      "filename": "_X8A2959_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2959_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2959_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2959_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2959_prev.webp",
+      "size_bytes": 268328
+    },
+    {
+      "filename": "_X8A2961_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2961_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2961_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2961_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2961_prev.webp",
+      "size_bytes": 277038
+    },
+    {
+      "filename": "_X8A2964_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2964_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2964_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2964_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2964_prev.webp",
+      "size_bytes": 264932
+    },
+    {
+      "filename": "_X8A2965_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2965_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2965_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2965_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2965_prev.webp",
+      "size_bytes": 270860
+    },
+    {
+      "filename": "_X8A2966_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2966_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2966_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2966_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2966_prev.webp",
+      "size_bytes": 280833
+    },
+    {
+      "filename": "_X8A2974_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2974_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2974_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2974_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2974_prev.webp",
+      "size_bytes": 177506
+    },
+    {
+      "filename": "_X8A2978_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2978_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2978_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2978_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2978_prev.webp",
+      "size_bytes": 192061
+    },
+    {
+      "filename": "_X8A2981_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2981_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2981_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2981_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2981_prev.webp",
+      "size_bytes": 190617
+    },
+    {
+      "filename": "_X8A2982_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2982_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2982_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2982_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2982_prev.webp",
+      "size_bytes": 189807
+    },
+    {
+      "filename": "_X8A2985_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2985_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2985_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2985_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2985_prev.webp",
+      "size_bytes": 191719
+    },
+    {
+      "filename": "_X8A2988_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2988_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2988_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2988_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2988_prev.webp",
+      "size_bytes": 193832
+    },
+    {
+      "filename": "_X8A2991_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2991_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2991_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2991_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2991_prev.webp",
+      "size_bytes": 190946
+    },
+    {
+      "filename": "_X8A2996_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2996_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2996_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2996_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2996_prev.webp",
+      "size_bytes": 706647
+    },
+    {
+      "filename": "_X8A2997_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A2997_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2997_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A2997_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A2997_prev.webp",
+      "size_bytes": 193489
+    },
+    {
+      "filename": "_X8A3005_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3005_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3005_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3005_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3005_prev.webp",
+      "size_bytes": 194188
+    },
+    {
+      "filename": "_X8A3007_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3007_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3007_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3007_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3007_prev.webp",
+      "size_bytes": 699592
+    },
+    {
+      "filename": "_X8A3009_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3009_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3009_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3009_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3009_prev.webp",
+      "size_bytes": 193419
+    },
+    {
+      "filename": "_X8A3016_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3016_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3016_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3016_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3016_prev.webp",
+      "size_bytes": 158988
+    },
+    {
+      "filename": "_X8A3017_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3017_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3017_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3017_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3017_prev.webp",
+      "size_bytes": 164836
+    },
+    {
+      "filename": "_X8A3018_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3018_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3018_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3018_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3018_prev.webp",
+      "size_bytes": 156319
+    },
+    {
+      "filename": "_X8A3019_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3019_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3019_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3019_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3019_prev.webp",
+      "size_bytes": 161712
+    },
+    {
+      "filename": "_X8A3023_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3023_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3023_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3023_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3023_prev.webp",
+      "size_bytes": 152691
+    },
+    {
+      "filename": "_X8A3026_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3026_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3026_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3026_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3026_prev.webp",
+      "size_bytes": 11516237
+    },
+    {
+      "filename": "_X8A3029_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3029_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3029_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3029_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3029_prev.webp",
+      "size_bytes": 151150
+    },
+    {
+      "filename": "_X8A3031_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3031_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3031_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3031_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3031_prev.webp",
+      "size_bytes": 152156
+    },
+    {
+      "filename": "_X8A3039_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3039_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3039_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3039_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3039_prev.webp",
+      "size_bytes": 7193051
+    },
+    {
+      "filename": "_X8A3042_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3042_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3042_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3042_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3042_prev.webp",
+      "size_bytes": 740273
+    },
+    {
+      "filename": "_X8A3043_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3043_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3043_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3043_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3043_prev.webp",
+      "size_bytes": 169631
+    },
+    {
+      "filename": "_X8A3049_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3049_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3049_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3049_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3049_prev.webp",
+      "size_bytes": 156831
+    },
+    {
+      "filename": "_X8A3052_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3052_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3052_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3052_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3052_prev.webp",
+      "size_bytes": 161140
+    },
+    {
+      "filename": "_X8A3055_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3055_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3055_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3055_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3055_prev.webp",
+      "size_bytes": 160729
+    },
+    {
+      "filename": "_X8A3075_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3075_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3075_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3075_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3075_prev.webp",
+      "size_bytes": 170540
+    },
+    {
+      "filename": "_X8A3077_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3077_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3077_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3077_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3077_prev.webp",
+      "size_bytes": 588374
+    },
+    {
+      "filename": "_X8A3079_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3079_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3079_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3079_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3079_prev.webp",
+      "size_bytes": 175195
+    },
+    {
+      "filename": "_X8A3081_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3081_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3081_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3081_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3081_prev.webp",
+      "size_bytes": 173833
+    },
+    {
+      "filename": "_X8A3083_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3083_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3083_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3083_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3083_prev.webp",
+      "size_bytes": 183336
+    },
+    {
+      "filename": "_X8A3085_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3085_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3085_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3085_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3085_prev.webp",
+      "size_bytes": 184679
+    },
+    {
+      "filename": "_X8A3088_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3088_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3088_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3088_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3088_prev.webp",
+      "size_bytes": 156145
+    },
+    {
+      "filename": "_X8A3092_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3092_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3092_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3092_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3092_prev.webp",
+      "size_bytes": 186500
+    },
+    {
+      "filename": "_X8A3102_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3102_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3102_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3102_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3102_prev.webp",
+      "size_bytes": 187680
+    },
+    {
+      "filename": "_X8A3105_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3105_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3105_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3105_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3105_prev.webp",
+      "size_bytes": 174104
+    },
+    {
+      "filename": "_X8A3114_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3114_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3114_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3114_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3114_prev.webp",
+      "size_bytes": 177442
+    },
+    {
+      "filename": "_X8A3117_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3117_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3117_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3117_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3117_prev.webp",
+      "size_bytes": 176815
+    },
+    {
+      "filename": "_X8A3120_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3120_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3120_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3120_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3120_prev.webp",
+      "size_bytes": 667131
+    },
+    {
+      "filename": "_X8A3134_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3134_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3134_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3134_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3134_prev.webp",
+      "size_bytes": 781704
+    },
+    {
+      "filename": "_X8A3159_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3159_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3159_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3159_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3159_prev.webp",
+      "size_bytes": 148435
+    },
+    {
+      "filename": "_X8A3162_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3162_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3162_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3162_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3162_prev.webp",
+      "size_bytes": 150844
+    },
+    {
+      "filename": "_X8A3163_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3163_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3163_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3163_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3163_prev.webp",
+      "size_bytes": 149914
+    },
+    {
+      "filename": "_X8A3164_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3164_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3164_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3164_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3164_prev.webp",
+      "size_bytes": 150647
+    },
+    {
+      "filename": "_X8A3167_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3167_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3167_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3167_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3167_prev.webp",
+      "size_bytes": 154067
+    },
+    {
+      "filename": "_X8A3170_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3170_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3170_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3170_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3170_prev.webp",
+      "size_bytes": 148453
+    },
+    {
+      "filename": "_X8A3172_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3172_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3172_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3172_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3172_prev.webp",
+      "size_bytes": 146422
+    },
+    {
+      "filename": "_X8A3175_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3175_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3175_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3175_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3175_prev.webp",
+      "size_bytes": 150016
+    },
+    {
+      "filename": "_X8A3180_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3180_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3180_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3180_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3180_prev.webp",
+      "size_bytes": 162958
+    },
+    {
+      "filename": "_X8A3182_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3182_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3182_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3182_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3182_prev.webp",
+      "size_bytes": 155836
+    },
+    {
+      "filename": "_X8A3183_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3183_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3183_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3183_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3183_prev.webp",
+      "size_bytes": 165049
+    },
+    {
+      "filename": "_X8A3184_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3184_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3184_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3184_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3184_prev.webp",
+      "size_bytes": 164275
+    },
+    {
+      "filename": "_X8A3185_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3185_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3185_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3185_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3185_prev.webp",
+      "size_bytes": 162294
+    },
+    {
+      "filename": "_X8A3186_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3186_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3186_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3186_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3186_prev.webp",
+      "size_bytes": 165995
+    },
+    {
+      "filename": "_X8A3190_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3190_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3190_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3190_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3190_prev.webp",
+      "size_bytes": 169162
+    },
+    {
+      "filename": "_X8A3192_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3192_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3192_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3192_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3192_prev.webp",
+      "size_bytes": 162394
+    },
+    {
+      "filename": "_X8A3194_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3194_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3194_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3194_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3194_prev.webp",
+      "size_bytes": 768193
+    },
+    {
+      "filename": "_X8A3197_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3197_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3197_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3197_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3197_prev.webp",
+      "size_bytes": 166229
+    },
+    {
+      "filename": "_X8A3199_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3199_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3199_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3199_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3199_prev.webp",
+      "size_bytes": 164734
+    },
+    {
+      "filename": "_X8A3200_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3200_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3200_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3200_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3200_prev.webp",
+      "size_bytes": 163595
+    },
+    {
+      "filename": "_X8A3201_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3201_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3201_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3201_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3201_prev.webp",
+      "size_bytes": 164952
+    },
+    {
+      "filename": "_X8A3202_prev.webp",
+      "extension": ".jpg",
+      "relative_path": "Ludwig_prev_foto/_X8A3202_prev.webp",
+      "absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3202_prev.webp",
+      "target_webp_relative_path": "Ludwig_prev_foto/_X8A3202_prev.webp",
+      "target_webp_absolute_path": "C:/Users/mars/OneDrive/Documents/GitHub/ludwig-oelze.de/Ludwig_prev_foto/_X8A3202_prev.webp",
+      "size_bytes": 163467
+    }
+  ]
+}

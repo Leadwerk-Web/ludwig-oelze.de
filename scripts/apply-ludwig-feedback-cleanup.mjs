@@ -32,6 +32,7 @@ const calendlyLinks = {
   beratung: 'https://calendly.com/einsparung/beratung',
   telefon: 'https://calendly.com/einsparung/telefon',
   notfallplanung: 'https://calendly.com/einsparung/notfallplanung',
+  weitereFragen: 'https://calendly.com/einsparung/weitere-fragen',
 };
 const durchblickLinks = {
   kostenvergleich: 'https://img1.wsimg.com/blobby/go/bf02664e-696f-43a3-81e6-61e8b405fc2a/downloads/d72fe84e-e3e7-4873-9e03-ebf774ec6f70/Steuervergleich%20mit%20TradeRepuiblic.pdf?ver=1777982447724',
@@ -228,7 +229,7 @@ function cleanMigrationWording(html) {
     ['Auch diesen Teil trug die Live-Seite deutlich stärker:', 'Auch dieser Teil ist wichtig:'],
     ['Ja, genau das betonte auch die Live-Seite.', 'Ja.'],
     ['Ja. Die Live-Seite war genau dafür gebaut.', 'Ja.'],
-    ['Die Live-Seite war deutlich reichhaltiger und sprach viel klarer über', 'Diese Seite spricht klar über'],
+    ['Die Live-Seite war deutlich reichhaltiger und sprach viel klarer über', 'Eine gute Beratung betrachtet'],
     ['Die alte Live-Seite war spürbar näher an der Realität digitaler Nomaden:', 'Digitale Nomaden bewegen sich oft zwischen mehreren Ländern:'],
     ['Warum die Live-Seite für Nomaden deutlich tiefer war', 'Warum Nomaden-Setups genauer geprüft werden müssen'],
     ['genau das war die Kernbotschaft der Live-Seite auch für Nomaden-Setups.', 'genau das ist der Kern bei Nomaden-Setups.'],
@@ -246,13 +247,13 @@ function cleanMigrationWording(html) {
     ['Wie auf der Live-Seite geht es auch hier nicht um Theorie allein.', 'Es geht nicht um Theorie allein.'],
     ['Genau diese Annahme f&uuml;hrte auf der Live-Seite zu vielen der typischen Problemf&auml;lle.', 'Genau diese Annahme führt oft zu typischen Problemfällen.'],
     ['Die Live-Seite war bei dieser Zielgruppe deutlich konkreter:', 'Diese Beratung ist bei dieser Zielgruppe besonders konkret:'],
-    ['Die alte Live-Seite war klar auf Unternehmer mit Immobilien- und Standortbezug in mehreren Ländern zugeschnitten.', 'Diese Seite ist klar auf Unternehmer mit Immobilien- und Standortbezug in mehreren Ländern zugeschnitten.'],
-    ['Warum diese Beratung auf der Live-Seite so spezifisch war', 'Warum diese Beratung so spezifisch sein muss'],
+    ['Die alte Live-Seite war klar auf Unternehmer mit Immobilien- und Standortbezug in mehreren Ländern zugeschnitten.', 'Immobilien-Unternehmer mit mehreren Standorten brauchen eine l&auml;nder&uuml;bergreifende Einordnung.'],
+    ['Warum diese Beratung auf der Live-Seite so spezifisch war', 'Warum Mehr-Länder-Fälle spezifisch geprüft werden müssen'],
     ['Deutschland, Spanien und Dubai wurden auf der Live-Seite bewusst zusammen betrachtet,', 'Deutschland, Spanien und Dubai werden bewusst zusammen betrachtet,'],
     ['Genau wie auf der Live-Seite geht es darum,', 'Es geht darum,'],
     ['Die Live-Seite war hier konkreter als die lokale Fassung:', 'Entscheidend ist:'],
     ['Auch das brachte die Live-Seite deutlicher heraus:', 'Auch das ist wichtig:'],
-    ['Die Live-Seite war sehr bewusst darin, genau diese Zielgruppe anzusprechen und nicht alles für alle anbieten zu wollen.', 'Diese Seite spricht bewusst genau diese Zielgruppe an und will nicht alles für alle anbieten.'],
+    ['Die Live-Seite war sehr bewusst darin, genau diese Zielgruppe anzusprechen und nicht alles für alle anbieten zu wollen.', 'Die Beratung bleibt bewusst auf diese Zielgruppe fokussiert und will nicht alles für alle anbieten.'],
     ['Die Live-Seite war klar auf Mehr-Länder-Fälle zugeschnitten:', 'Diese Beratung ist klar auf Mehr-Länder-Fälle zugeschnitten:'],
     ['Die ursprüngliche Live-Seite war viel näher an echten Multi-Country-Fällen als die erste lokale Fassung.', 'Echte Multi-Country-Fälle brauchen eine konkrete Betrachtung.'],
     ['Die Themen, die auf der Live-Seite im Mittelpunkt standen', 'Die Themen, die im Mittelpunkt stehen'],
@@ -308,6 +309,22 @@ function finalUserFacingCopyCleanup(html) {
   for (const [from, to] of replacements) {
     html = html.split(from).join(to);
   }
+
+  html = html
+    .replace(/Rheinstra&szlig;e 80/g, 'Bismarckstra&szlig;e 26')
+    .replace(/Rheinstraße 80/g, 'Bismarckstraße 26')
+    .replace(/76532 Baden-Baden/g, '76530 Baden-Baden')
+    .replace(/info@oelze-findet-einsparung\.de/g, 'Finanzen@ludwigoelze.com')
+    .replace(/<p>Quellen:<\/p>/g, '')
+    .replace(/Pers&ouml;nliche Beratungsgespr&auml;che in meinem B&uuml;ro in der Bismarckstra&szlig;e 26 in Baden-Baden/g, 'Pers&ouml;nliche Beratungsgespr&auml;che nach Terminvereinbarung')
+    .replace(/Persönliche Beratungsgespräche in meinem Büro in der Bismarckstraße 26 in Baden-Baden/g, 'Persönliche Beratungsgespräche nach Terminvereinbarung')
+    .replace(/<li><span>Adresse: Bismarckstra&szlig;e 26, 76530 Baden-Baden<\/span><\/li>/g, '')
+    .replace(/<li><span>Adresse: Bismarckstraße 26, 76530 Baden-Baden<\/span><\/li>/g, '')
+    .replace(/Diese Seite spricht klar über/g, 'Eine gute Beratung betrachtet')
+    .replace(/Diese Seite spricht bewusst genau diese Zielgruppe an und will nicht alles für alle anbieten\./g, 'Die Beratung bleibt bewusst auf diese Zielgruppe fokussiert und will nicht alles für alle anbieten.')
+    .replace(/Warum diese Beratung auf der Seite so klar positioniert war/g, 'Warum die Beratung klar positioniert ist')
+    .replace(/Warum diese Beratung so spezifisch sein muss/g, 'Warum Mehr-L&auml;nder-F&auml;lle spezifisch gepr&uuml;ft werden m&uuml;ssen')
+    .replace(/https:\/\/www\.google\.com\/maps\/search\/\?api=1&amp;query=Ludwig%20Oelze%20Rheinstra%C3%9Fe%2080%2076532%20Baden-Baden/g, 'https://www.google.com/maps/search/?api=1&amp;query=Ludwig%20Oelze%20Bismarckstra%C3%9Fe%2026%2076530%20Baden-Baden');
 
   return normalizeDurchblickBranding(html);
 }
@@ -385,7 +402,7 @@ ${content}
 function schadenfallMain() {
   return `<main>
 <section class="hero hero-small">
-<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3007_prev.jpg"/></div>
+<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3007_prev.webp"/></div>
 <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(8, 37, 37, 0.88) 0%, rgba(18, 64, 64, 0.78) 48%, rgba(201, 169, 98, 0.46) 100%);"></div>
 <div class="hero-content">
 <span class="hero-badge">${icon.file} Schadenfall</span>
@@ -405,7 +422,7 @@ function schadenfallMain() {
 <li><a href="https://www.ilovepdf.com/de/jpg_zu_pdf" rel="noopener noreferrer" target="_blank">Fotos/Bilder in PDF umwandeln</a></li>
 <li><a href="https://www.ilovepdf.com/de/pdf_komprimieren" rel="noopener noreferrer" target="_blank">PDF-Dateigr&ouml;&szlig;e verkleinern</a></li>
 </ul>
-<p>Bitte f&uuml;ge alle relevanten Informationen bei. Bilder, Anschaffungsrechnungen oder Kostenvoranschl&auml;ge sind zwingend bei Sachsch&auml;den. Arztberichte sind zwingend bei Personensch&auml;den. Ganz unten kann eine zusammengef&uuml;hrte PDF-Datei hochgeladen werden.</p>
+<p>Bitte f&uuml;ge alle relevanten Informationen bei. Bilder, Anschaffungsrechnungen oder Kostenvoranschl&auml;ge sind zwingend bei Sachsch&auml;den. Arztberichte sind zwingend bei Personensch&auml;den. Ganz unten k&ouml;nnen mehrere PDF-Dateien hochgeladen werden.</p>
 <p>Achtung: Im Chrome Browser f&uuml;r Android kann es sein, dass du keine PDF-Dateien f&uuml;r den Upload ausw&auml;hlen kannst. Nutze dann bitte den Firefox-Browser <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" rel="noopener noreferrer" target="_blank">HIER</a></p>
 </div>
 <div class="card schadenfall-form-card reveal reveal-right">
@@ -449,7 +466,7 @@ function schadenfallMain() {
 </div>
 <div class="form-group">
 <label class="form-label" for="schadenfall-files">PDF-Datei hochladen</label>
-<input accept="application/pdf,.pdf" class="form-input form-input-file" id="schadenfall-files" name="attachment" type="file"/>
+<input accept="application/pdf,.pdf" class="form-input form-input-file" id="schadenfall-files" name="attachments[]" multiple type="file"/>
 </div>
 <button class="btn btn-primary btn-full" type="submit">Senden</button>
 </form>
@@ -460,16 +477,312 @@ function schadenfallMain() {
 </main>`;
 }
 
+function healthTrustGrid(items) {
+  return `<div class="grid grid-4">
+${items.map(([title, text, iconSvg], index) => card(title, text, iconSvg, `stagger-${(index % 6) + 1}`)).join('\n')}
+</div>`;
+}
+
+function healthSplit(heading, paragraphs, asideTitle, bullets, bg = 'bg-white') {
+  return `<section class="section ${bg}">
+<div class="container">
+<div class="two-col">
+<div class="reveal">
+<h2>${heading}</h2>
+${paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join('\n')}
+</div>
+<div class="card reveal reveal-right">
+<h3>${asideTitle}</h3>
+${list(bullets, bullets.length > 4)}
+</div>
+</div>
+</div>
+</section>`;
+}
+
+function healthReviewsSection() {
+  return `<section class="section bg-white" id="bewertungen">
+<div class="container">
+<div class="section-header reveal">
+<span class="section-badge">Bewertungen</span>
+<h2>Bewertungen</h2>
+</div>
+<div class="card reviews-embed-card reveal">
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-da863271-a986-48a3-9a7b-fc42d45556b9" data-elfsight-app-lazy></div>
+</div>
+</div>
+</section>`;
+}
+
+function healthTestimonials(items) {
+  return `<div class="grid grid-3">
+${items.map(([quote, name], index) => `<div class="card reveal stagger-${index + 1}">
+<p>&ldquo;${quote}&rdquo;</p>
+<strong>${name}</strong>
+</div>`).join('\n')}
+</div>`;
+}
+
+function expatHealthPageMain(config) {
+  return `<main>
+<section class="hero hero-small">
+<div class="hero-overlay" style="background: var(--gradient-hero);"></div>
+<div class="hero-shapes">
+<div class="hero-shape hero-shape-1"></div>
+<div class="hero-shape hero-shape-2"></div>
+</div>
+<div class="hero-content">
+<span class="hero-badge">${config.badgeIcon} ${config.badge}</span>
+<h1>${config.title}</h1>
+<p class="hero-subtitle">${config.subtitle}</p>
+</div>
+</section>
+<section class="section bg-white">
+<div class="container">
+<div class="two-col">
+<div class="reveal">
+<h2>${config.introHeading}</h2>
+${config.intro.map((paragraph) => `<p>${paragraph}</p>`).join('\n')}
+</div>
+<div class="card reveal reveal-right">
+<h3>${config.specializationHeading}</h3>
+${config.specialization.map((paragraph) => `<p>${paragraph}</p>`).join('\n')}
+</div>
+</div>
+</div>
+</section>
+<section class="section bg-off-white">
+<div class="container">
+<div class="section-header reveal">
+<h2>Warum du mir vertrauen kannst</h2>
+</div>
+${healthTrustGrid(config.trust)}
+</div>
+</section>
+<section class="section bg-white">
+<div class="container">
+<div class="section-header reveal">
+<h2>So helfe ich dir konkret</h2>
+</div>
+<div class="grid grid-3">
+<div class="card reveal stagger-1"><h3>${config.forTitle}</h3>${list(config.forItems, true)}</div>
+<div class="card reveal stagger-2"><h3>Ich helfe dir bei:</h3>${list(config.helpItems, true)}</div>
+<div class="card reveal stagger-3"><h3>${config.expertiseTitle}</h3>${list(config.expertiseItems, true)}</div>
+</div>
+</div>
+</section>
+${healthSplit(config.whyHeading, config.whyParagraphs, config.questionTitle, config.questionBullets, 'bg-off-white')}
+<section class="section bg-white">
+<div class="container">
+<div class="two-col">
+<div class="reveal">
+<h2>${config.promiseHeading}</h2>
+${config.promiseParagraphs.map((paragraph) => `<p>${paragraph}</p>`).join('\n')}
+</div>
+<div class="card reveal reveal-right">
+<h3>${config.ctaCardTitle}</h3>
+<p>${config.ctaCardText}</p>
+<a class="btn btn-primary btn-full" href="${config.whatsapp}" rel="noopener noreferrer" target="_blank">Stelle eine Frage per WhatsApp</a>
+</div>
+</div>
+</div>
+</section>
+${config.reviews ? healthReviewsSection() : ''}
+<section class="section bg-off-white">
+<div class="container container-narrow">
+<div class="section-header reveal"><h2>H&auml;ufige Fragen</h2></div>
+${accordion(config.faq)}
+</div>
+</section>
+<section class="section bg-white">
+<div class="container">
+<div class="section-header reveal">
+<h2>${config.testimonialHeading}</h2>
+</div>
+${healthTestimonials(config.testimonials)}
+</div>
+</section>
+<section class="cta-section" id="contact">
+<div class="container">
+<h2 class="reveal">${config.finalHeading}</h2>
+<p class="reveal">${config.finalText}</p>
+<div class="cta-actions">
+<a class="btn btn-primary btn-lg" href="${calendlyLinks.beratung}" rel="noopener noreferrer" target="_blank">Kostenlose Beratung vereinbaren</a>
+<a class="btn btn-secondary btn-lg" href="${config.whatsapp}" rel="noopener noreferrer" target="_blank">WhatsApp senden</a>
+</div>
+</div>
+</section>
+</main>`;
+}
+
+function freelancerNomadenMain() {
+  return expatHealthPageMain({
+    badgeIcon: icon.globe,
+    badge: 'Dein Nomaden-Experte zwischen Spanien &amp; Dubai',
+    title: 'Krankenversicherung f&uuml;r <span class="highlight">Selbst&auml;ndige in Spanien</span> mit Dubai-Aufenthalten',
+    subtitle: 'Spezialisierte Beratung f&uuml;r digitale Nomaden, Freelancer und mobile Unternehmer.',
+    introHeading: 'Ich bin Ludwig Oelze - dein Nomaden-Experte',
+    intro: ['Als unabh&auml;ngiger Versicherungsmakler habe ich einen klaren Fokus: Krankenversicherung f&uuml;r deutsche Selbst&auml;ndige und Freelancer, die zwischen Spanien und Dubai pendeln.'],
+    specializationHeading: 'Meine Spezialisierung f&uuml;r dich',
+    specialization: ['Als digitaler Nomade kenne ich die Herausforderungen des mobilen Lebens. Deshalb habe ich mich auf Krankenversicherungen f&uuml;r deutsche Selbst&auml;ndige spezialisiert, die haupts&auml;chlich in Spanien leben, aber regelm&auml;&szlig;ig in Dubai arbeiten oder sich aufhalten.', 'Dein mobiler Lifestyle braucht keine Standard-L&ouml;sungen, sondern jemanden, der versteht, wie Selbst&auml;ndigkeit, Residenz und internationale Aufenthalte zusammenspielen.'],
+    trust: [['Spanien-Expertise', 'Ich kenne die spanischen Residenz-Anforderungen und Gesundheitssystem-Besonderheiten.', icon.globe], ['Dubai-Erfahrung', 'Praktische Erfahrung mit UAE-Visa-Anforderungen und lokalen Gesundheitssystemen.', icon.card], ['Selbst&auml;ndigen-Fokus', 'Speziell auf die Bed&uuml;rfnisse von Freelancern und digitalen Nomaden ausgerichtet.', icon.file], ['Unabh&auml;ngig &amp; ehrlich', 'Ich sage dir auch, was du NICHT brauchst - dein Vorteil steht im Mittelpunkt.', icon.check]],
+    forTitle: 'Perfekt f&uuml;r:',
+    forItems: ['Deutsche Selbst&auml;ndige mit Residenz in Spanien', 'Digitale Nomaden zwischen Europa und Dubai', 'Freelancer mit Kunden in beiden L&auml;ndern', 'Online-Unternehmer mit Dubai-Aufenthalten', 'Consultants mit internationalen Projekten'],
+    helpItems: ['EU-konforme Krankenversicherung f&uuml;r Spanien-Residenten', 'Zusatzschutz f&uuml;r Dubai und VAE-Aufenthalte', 'Internationale Versicherungsl&ouml;sungen f&uuml;r Nomaden', 'Steueroptimierte Versicherungsgestaltung', 'Nahtloser Schutz bei L&auml;nder-Wechseln'],
+    expertiseTitle: 'Meine Nomaden-Expertise:',
+    expertiseItems: ['Spanische Gesundheitssystem-Regulierungen', 'UAE/Dubai Visa-konforme Versicherungen', 'Internationale Krankenversicherungen f&uuml;r Selbst&auml;ndige', 'Steuerliche Absetzbarkeit in beiden L&auml;ndern', '24/7 weltweite Notfall-Assistance'],
+    whyHeading: 'Warum diese spezielle Kombination?',
+    whyParagraphs: ['Spanien ist f&uuml;r deutsche Selbst&auml;ndige steuerlich attraktiv, Dubai bietet unglaubliche Business-M&ouml;glichkeiten. Aber die Krankenversicherung zwischen beiden L&auml;ndern ist kompliziert und wird oft falsch gemacht.', 'Viele Nomaden haben L&uuml;cken im Versicherungsschutz, zahlen doppelt oder erf&uuml;llen nicht die Residenz-Anforderungen. Ich kenne beide Systeme und sorge daf&uuml;r, dass du optimal und rechtssicher abgesichert bist.', 'Als jemand, der selbst international arbeitet, verstehe ich deine Herausforderungen: Visa-Anforderungen, Steuerpflicht, Behandlungskosten und die Balance zwischen Flexibilit&auml;t und Sicherheit.'],
+    questionTitle: 'Nomaden-Frage zwischen Spanien &amp; Dubai?',
+    questionBullets: ['Nomaden-Experte antwortet pers&ouml;nlich', 'Spanien &amp; Dubai Expertise', 'Kostenlos &amp; unverbindlich'],
+    promiseHeading: 'Transparenz und ma&szlig;geschneiderte L&ouml;sungen',
+    promiseParagraphs: ['Ich erkl&auml;re dir alle deine M&ouml;glichkeiten zwischen Spanien und Dubai. Ich sage dir auch, was du NICHT brauchst. Ich helfe dir, die richtige Absicherung f&uuml;r deinen mobilen Lifestyle zu finden - einfach, klar und ohne Verkaufsdruck.', 'Deine Freiheit als digitaler Nomade beginnt mit der richtigen Absicherung. Und die findest du nur durch ehrliche, spezialisierte Beratung.'],
+    ctaCardTitle: 'Stelle deine Frage direkt',
+    ctaCardText: 'Mobiles Leben bedeutet schnelle Antworten zu brauchen. Stelle mir deine Versicherungsfrage direkt per WhatsApp.',
+    whatsapp: 'https://wa.me/4917643689181?text=Hallo%20Ludwig,%20ich%20bin%20Selbst%C3%A4ndige/r%20zwischen%20Spanien%20und%20Dubai%20und%20habe%20eine%20Frage%20zur%20Krankenversicherung...',
+    reviews: true,
+    faq: [
+      { q: 'Kann ich als deutscher Selbst&auml;ndiger mit Residenz in Spanien einfach nach Dubai reisen?', a: 'Ja, aber du brauchst den richtigen Versicherungsschutz. Als Spanien-Resident hast du &uuml;ber die Europ&auml;ische Krankenversicherungskarte Grundschutz in der EU, aber nicht in Dubai. F&uuml;r UAE-Aufenthalte brauchst du zus&auml;tzlichen internationalen Schutz oder eine spezielle Reiseversicherung.' },
+      { q: 'Welche Krankenversicherung brauche ich als Selbst&auml;ndiger in Spanien mit Dubai-Aufenthalten?', a: 'Das h&auml;ngt von Aufenthaltsdauer und Status ab: spanische Residenz, Dubai-Aufenthalte unter 90 Tagen, l&auml;ngere Dubai-Aufenthalte oder parallele Dubai-Residenz brauchen unterschiedliche Kombinationen.' },
+      { q: 'Kann ich meine deutsche Krankenversicherung als Spanien-Resident behalten?', a: 'Wenn du deinen Lebensmittelpunkt nach Spanien verlegst, endet normalerweise die deutsche Krankenversicherungspflicht. Eine freiwillige Weiterversicherung ist oft teuer und bietet nicht automatisch Schutz in Spanien. Meist ist eine spanische oder internationale L&ouml;sung sinnvoller.' },
+      { q: 'Was kostet eine gute Krankenversicherung f&uuml;r Nomaden zwischen Spanien und Dubai?', a: 'Die Kosten variieren je nach Abdeckung: spanische Basisversicherung, internationale Reiseversicherung, weltweite Krankenversicherung oder Premium-Nomaden-Tarife. Ich finde die kosteneffizienteste L&ouml;sung f&uuml;r dein Reise- und Arbeitsverhalten.' },
+      { q: 'Was passiert bei einem medizinischen Notfall in Dubai ohne passende Versicherung?', a: 'Dubai hat eines der teuersten Gesundheitssysteme weltweit. Ein Arztbesuch oder Krankenhausaufenthalt kann sehr teuer werden; ohne Versicherung musst du alles selbst zahlen.' },
+    ],
+    testimonialHeading: 'Erfahrungen',
+    testimonials: [['Ludwig hat die perfekte L&ouml;sung f&uuml;r mein Leben zwischen Valencia und Dubai gefunden. Endlich keine Sorgen mehr bei Grenz&uuml;bertritten!', '- Marcus K., Freelancer seit 2022 in Spanien'], ['Als digitale Nomadin brauchte ich flexiblen Schutz. Ludwig versteht den Lifestyle und hat mir viel Geld gespart!', '- Sarah M., Online-Marketing Consultantin'], ['Komplizierte Steuer- und Versicherungsfragen einfach erkl&auml;rt. Jetzt bin ich optimal abgesichert zwischen beiden L&auml;ndern.', '- David R., E-Commerce Unternehmer']],
+    finalHeading: 'Starte jetzt deine optimale Nomaden-Absicherung',
+    finalText: 'Sichere dir dein kostenloses Orientierungsgespr&auml;ch und erfahre, wie du dich zwischen Spanien und Dubai optimal und kosteng&uuml;nstig absichern kannst.',
+  });
+}
+
+function immobilienNomadenMain() {
+  return expatHealthPageMain({
+    badgeIcon: icon.globe,
+    badge: 'Dein internationaler Experte',
+    title: 'Krankenversicherung f&uuml;r <span class="highlight">Immobilien-Unternehmer</span>',
+    subtitle: 'Spezialisierte Beratung f&uuml;r Unternehmer mit Immobilien in Deutschland, Spanien &amp; Dubai.',
+    introHeading: 'Ich bin Ludwig Oelze - dein internationaler Experte',
+    intro: ['Als unabh&auml;ngiger Versicherungsmakler mit internationaler Erfahrung habe ich einen klaren Fokus: Krankenversicherung f&uuml;r Unternehmer mit Immobilien in Deutschland, Spanien und Dubai.'],
+    specializationHeading: 'Meine Spezialisierung f&uuml;r dich',
+    specialization: ['Nach vielen Jahren als Allfinanzberater und eigenen Erfahrungen als Multi-Location-Unternehmer verstehe ich die komplexen Herausforderungen der Krankenversicherung bei Immobiliengesch&auml;ften in mehreren L&auml;ndern.', 'Als Immobilien-Unternehmer brauchst du keinen Alles-Anbieter, sondern jemanden, der die spezifischen Anforderungen deiner internationalen Gesch&auml;ftst&auml;tigkeit versteht und ehrlich ber&auml;t.'],
+    trust: [['Multi-Location-Expertise', 'Ich kenne die Versicherungsanforderungen in Deutschland, Spanien und Dubai aus eigener Erfahrung.', icon.globe], ['Immobilien-Spezialist', 'Fokus auf Unternehmer mit Immobilienportfolios - keine Ablenkung durch andere Branchen.', icon.file], ['Unabh&auml;ngig &amp; ehrlich', 'Ich sage dir auch, was du NICHT brauchst - dein Erfolg steht im Mittelpunkt.', icon.check], ['Rechtssichere Beratung', 'Ich kenne steuerliche und rechtliche Besonderheiten in allen drei L&auml;ndern.', icon.shield]],
+    forTitle: 'Deutschland-Expertise:',
+    forItems: ['GKV vs. PKV f&uuml;r Immobilien-Unternehmer', 'Auslandsaufenthalte und Meldepflichten', 'Steuerliche Absetzbarkeit optimieren', 'Familienversicherung bei internationaler T&auml;tigkeit', 'R&uuml;ckkehr-Szenarien absichern'],
+    helpItems: ['Residencia-konforme Krankenversicherung', 'Autonomo und Sociedades-Regelungen', 'Balearische und festl&auml;ndische Besonderheiten', 'EU-Krankenversicherungskarte vs. private Absicherung', 'Steueroptimierte Versicherungsl&ouml;sungen'],
+    expertiseTitle: 'Dubai/VAE-Expertise:',
+    expertiseItems: ['Visa-konforme Krankenversicherung f&uuml;r Investoren', 'Lokale vs. internationale Anbieter', 'Freezone-spezifische Anforderungen', 'Immobilien-Investor-Visa Absicherung', 'Steuerfreie Strukturierung'],
+    whyHeading: 'Warum nur Immobilien-Unternehmer?',
+    whyParagraphs: ['Immobilien-Unternehmer mit internationalen Aktivit&auml;ten haben einzigartige Herausforderungen: Wohnsitzwechsel, unterschiedliche Steuersysteme, Visa-Anforderungen und komplexe Unternehmensstrukturen.', 'Heute konzentriere ich mich auf Krankenversicherung f&uuml;r Immobilien-Unternehmer mit Multi-Location-Gesch&auml;ften, weil Spezialisierung mehr bringt als Oberfl&auml;che.', 'Als Unternehmer mit eigenen internationalen Immobilienaktivit&auml;ten kenne ich deine Herausforderungen aus erster Hand: Steueroptimierung, Rechtssicherheit und die Balance zwischen Kosten und optimaler Absicherung.'],
+    questionTitle: 'Komplexe Frage als Immobilien-Unternehmer?',
+    questionBullets: ['Multi-Location-Experte antwortet pers&ouml;nlich', 'Steueroptimierte Beratung', 'Kostenlos &amp; unverbindlich'],
+    promiseHeading: 'Transparenz und Expertise - immer',
+    promiseParagraphs: ['Ich erkl&auml;re dir alle deine M&ouml;glichkeiten in Deutschland, Spanien und Dubai. Ich sage dir auch, was du NICHT brauchst. Ich helfe dir, die steuerlich und rechtlich optimale Absicherung zu finden - einfach, klar und ohne Verkaufsdruck.', 'Dein internationaler Immobilien-Erfolg beginnt mit der richtigen Absicherung. Und die findest du nur durch ehrliche, spezialisierte Beratung.'],
+    ctaCardTitle: 'Stelle deine Frage direkt',
+    ctaCardText: 'Multi-Location-Gesch&auml;fte bedeuten komplexe Versicherungsfragen. Stelle mir deine spezifische Frage direkt per WhatsApp.',
+    whatsapp: 'https://wa.me/4917643689181?text=Hallo%20Ludwig,%20ich%20bin%20Immobilien-Unternehmer%20und%20habe%20eine%20Frage%20zur%20Krankenversicherung%20in%20Deutschland/Spanien/Dubai...',
+    faq: [
+      { q: 'Wie funktioniert die Krankenversicherung als Immobilien-Unternehmer mit Wohnsitzen in mehreren L&auml;ndern?', a: 'Das h&auml;ngt vom Hauptwohnsitz, der Dauer deiner Aufenthalte und deinen Unternehmensstrukturen ab. Deutschland, Spanien und Dubai stellen jeweils eigene Anforderungen.' },
+      { q: 'Kann ich meine deutsche Krankenversicherung in Spanien und Dubai nutzen?', a: 'Teilweise, aber es gibt wichtige Einschr&auml;nkungen. Die EU-Krankenversicherungskarte hilft nicht bei allen Residencia-Anforderungen und deutsche Versicherungen werden in Dubai nicht automatisch als visa-konform anerkannt.' },
+      { q: 'Welche Krankenversicherung brauche ich f&uuml;r mein Investor-Visa in Dubai?', a: 'F&uuml;r Immobilien-Investor-Visas gelten spezielle Anforderungen wie Mindestdeckung, zugelassene Anbieter und G&uuml;ltigkeit &uuml;ber die Visa-Laufzeit.' },
+      { q: 'Was passiert bei einem medizinischen Notfall im Ausland?', a: 'Das h&auml;ngt von deiner Struktur ab: lokale Versicherungen, internationale Versicherungen, Reiseversicherungen und R&uuml;cktransport m&uuml;ssen sauber zusammenspielen.' },
+      { q: 'Wie teuer ist eine optimale Krankenversicherung f&uuml;r Multi-Location-Unternehmer?', a: 'Die Kosten variieren stark je nach Umfang und L&auml;ndern. Ich ber&uuml;cksichtige Basis-Absicherung, internationale Premium-Tarife, Kombinations-L&ouml;sungen und steuerliche Vorteile.' },
+    ],
+    testimonialHeading: 'Erfahrungen',
+    testimonials: [['Ludwig hat f&uuml;r mein Immobilien-Portfolio in allen drei L&auml;ndern die perfekte Versicherungsl&ouml;sung gefunden. Steueroptimiert und rechtssicher!', '- Marcus K., Immobilien-Investor'], ['Endlich jemand, der die komplexen Anforderungen von Multi-Location-Unternehmern versteht. Danke f&uuml;r die transparente Beratung!', '- Andrea M., Immobilien-Unternehmerin'], ['Die Beratung hat mir nicht nur Geld gespart, sondern auch rechtliche Sicherheit in allen drei L&auml;ndern gegeben. Top Expertise!', '- Stefan R., Dubai-Investor']],
+    finalHeading: 'Starte jetzt deine optimale internationale Absicherung',
+    finalText: 'Sichere dir dein kostenloses Strategiegespr&auml;ch und erfahre, wie du dich als Immobilien-Unternehmer in Deutschland, Spanien und Dubai optimal und steueroptimiert absichern kannst.',
+  });
+}
+
+function digitaleNomadenMain() {
+  return expatHealthPageMain({
+    badgeIcon: icon.globe,
+    badge: 'Dein internationaler Experte',
+    title: 'Krankenversicherung f&uuml;r deutsche <span class="highlight">digitale Nomaden</span>',
+    subtitle: 'Spezialisierte Beratung f&uuml;r deine optimale Gesundheitsabsicherung in Spanien &amp; Dubai.',
+    introHeading: 'Ich bin Ludwig Oelze - dein internationaler Experte',
+    intro: ['Als unabh&auml;ngiger Versicherungsmakler mit internationaler Erfahrung habe ich einen klaren Fokus: Krankenversicherung f&uuml;r deutsche digitale Nomaden, die in Spanien und Dubai arbeiten.'],
+    specializationHeading: 'Meine Spezialisierung f&uuml;r dich',
+    specialization: ['Nach vielen Jahren als Allfinanzberater in Deutschland und eigener Erfahrung als digitaler Nomade habe ich mich auf Krankenversicherungen f&uuml;r deutsche Remote Worker in Spanien und Dubai fokussiert.', 'Als digitaler Nomade brauchst du keinen Alles-Anbieter, sondern jemanden, der die Herausforderungen des ortsunabh&auml;ngigen Arbeitens versteht und ehrlich ber&auml;t.'],
+    trust: [['Internationale Erfahrung', 'Ich kenne die Herausforderungen digitaler Nomaden in Spanien und Dubai aus eigener Erfahrung.', icon.globe], ['100% spezialisiert', 'Nur Krankenversicherungen f&uuml;r digitale Nomaden - keine Ablenkung durch andere Produkte.', icon.shield], ['Unabh&auml;ngig &amp; ehrlich', 'Ich sage dir auch, was du NICHT brauchst - dein Vorteil steht im Mittelpunkt.', icon.check], ['Deutsche Gr&uuml;ndlichkeit', 'Transparente Beratung auf Deutsch mit dem Service, den du gewohnt bist.', icon.file]],
+    forTitle: 'Individuelle Beratung f&uuml;r:',
+    forItems: ['Freelancer &amp; Selbstst&auml;ndige in Spanien', 'Remote Worker &amp; digitale Nomaden in Dubai', 'Online-Unternehmer mit Wohnsitz im Ausland', 'Deutsche mit Residencia in Spanien', 'Tempor&auml;re Aufenthalte &amp; Visa-Wechsel'],
+    helpItems: ['Internationaler Krankenversicherung f&uuml;r Nomaden', 'Spanien-konformer Gesundheitsabsicherung', 'Dubai-tauglichen Versicherungsl&ouml;sungen', 'Flexiblen Tarifen f&uuml;r ortsunabh&auml;ngiges Arbeiten', 'Optimierung deiner bestehenden Absicherung'],
+    expertiseTitle: 'Meine Nomaden-Expertise:',
+    expertiseItems: ['Spanische Gesundheitssystem-Anforderungen', 'Dubai/UAE Visa-konforme Versicherungen', 'Internationale Krankenversicherungen mit weltweiter Deckung', 'Flexible Tarife f&uuml;r wechselnde Aufenthaltsorte', 'Deutschsprachiger Support weltweit'],
+    whyHeading: 'Warum nur Krankenversicherung f&uuml;r Nomaden?',
+    whyParagraphs: ['Der Versicherungsmarkt f&uuml;r digitale Nomaden ist komplex: verschiedene L&auml;nder, unterschiedliche Regulierungen, aber wenig Klarheit f&uuml;r deutsche Remote Worker.', 'Heute konzentriere ich mich auf Krankenversicherung f&uuml;r deutsche digitale Nomaden, weil Spezialisierung mehr bringt als Oberfl&auml;che.', 'Als jemand, der selbst ortsunabh&auml;ngig arbeitet, kenne ich deine Herausforderungen: Visa-Bestimmungen, lokale &Auml;rzte, Behandlungskosten und die Balance zwischen Flexibilit&auml;t und Sicherheit.'],
+    questionTitle: 'Schnelle Frage als digitaler Nomade?',
+    questionBullets: ['Nomaden-Experte antwortet pers&ouml;nlich', 'Keine Wartezeit', 'Kostenlos &amp; unverbindlich'],
+    promiseHeading: 'Transparenz und Ehrlichkeit - immer',
+    promiseParagraphs: ['Ich erkl&auml;re dir alle deine M&ouml;glichkeiten als digitaler Nomade. Ich sage dir auch, was du NICHT brauchst. Ich helfe dir, die richtige Absicherung zu finden - flexibel, klar und ohne Verkaufsdruck.', 'Deine Freiheit als digitaler Nomade beginnt mit der richtigen Absicherung. Und die findest du nur durch ehrliche Beratung.'],
+    ctaCardTitle: 'Stelle deine Frage direkt',
+    ctaCardText: 'Ortsunabh&auml;ngig arbeiten bedeutet auch schnelle Antworten zu brauchen. Stelle mir deine Versicherungsfrage direkt per WhatsApp.',
+    whatsapp: 'https://wa.me/4917643689181?text=Hallo%20Ludwig,%20ich%20bin%20digitaler%20Nomade%20und%20habe%20eine%20Frage%20zur%20Krankenversicherung%20in%20Spanien/Dubai...',
+    faq: [
+      { q: 'Brauche ich als deutscher digitaler Nomade in Spanien eine spezielle Krankenversicherung?', a: 'Ja, wenn du l&auml;nger als 90 Tage in Spanien bleibst oder dort deinen Wohnsitz anmeldest, brauchst du eine Krankenversicherung, die in Spanien anerkannt wird.' },
+      { q: 'Was ist die beste Krankenversicherung f&uuml;r digitale Nomaden zwischen Spanien und Dubai?', a: 'Es gibt internationale Krankenversicherungen, nomadenspezifische Versicherungen, kombinierte L&ouml;sungen und regionale Anpassungen. Die beste L&ouml;sung h&auml;ngt von Reisemuster und Budget ab.' },
+      { q: 'Kann ich meine deutsche Krankenversicherung als digitaler Nomade behalten?', a: 'Das h&auml;ngt von deiner Situation ab. Gesetzliche Krankenversicherung, private Krankenversicherung und Anwartschaftsversicherung m&uuml;ssen jeweils konkret gepr&uuml;ft werden.' },
+      { q: 'Was kostet eine gute Krankenversicherung f&uuml;r digitale Nomaden?', a: 'Je nach Alter, Gesundheitszustand und Leistungsumfang reichen die Kosten von Basis-Nomaden-Versicherungen bis zu umfassenden internationalen Premium-Tarifen.' },
+      { q: 'Wie schnell kann ich als digitaler Nomade eine Krankenversicherung abschlie&szlig;en?', a: 'Bei vielen internationalen Anbietern ist ein Abschluss innerhalb von 1-5 Werktagen m&ouml;glich; manche bieten sogar Sofortschutz ab Antragstellung.' },
+    ],
+    testimonialHeading: 'Erfahrungen',
+    testimonials: [['Ludwig hat mir als digitaler Nomade die perfekte Versicherung f&uuml;r Spanien und Dubai gefunden. Flexibel, bezahlbar und zuverl&auml;ssig!', '- Marcus K., Remote Developer'], ['Endlich jemand, der die Nomaden-Realit&auml;t versteht! Transparente Beratung ohne Verkaufsdruck.', '- Lisa M., Online-Unternehmerin'], ['Als Freelancer zwischen Valencia und Dubai war ich v&ouml;llig &uuml;berfordert. Ludwig hat mir die perfekte, flexible L&ouml;sung gefunden!', '- Stefan R., Freelancer &amp; Nomade']],
+    finalHeading: 'Starte jetzt deine optimale Nomaden-Absicherung',
+    finalText: 'Sichere dir dein kostenloses Orientierungsgespr&auml;ch und erfahre, wie du dich als digitaler Nomade optimal und flexibel absichern kannst.',
+  });
+}
+
+function expatBeratungMain() {
+  return expatHealthPageMain({
+    badgeIcon: icon.globe,
+    badge: 'Dein Experte in Dubai',
+    title: 'Krankenversicherung f&uuml;r deutsche <span class="highlight">Expats in Dubai</span>',
+    subtitle: 'Spezialisierte Beratung f&uuml;r deine optimale Gesundheitsabsicherung in den VAE.',
+    introHeading: 'Ich bin Ludwig Oelze - dein Experte vor Ort',
+    intro: ['Als unabh&auml;ngiger Versicherungsmakler in Dubai habe ich einen klaren Fokus: Krankenversicherung f&uuml;r deutschsprachige Expats in Dubai und den VAE.'],
+    specializationHeading: 'Meine Spezialisierung f&uuml;r dich',
+    specialization: ['Nach vielen Jahren als Allfinanzberater in Deutschland lebe ich jetzt in Dubai und habe mich auf Krankenversicherungen f&uuml;r deutsche Expats in Dubai fokussiert. Lokale Expertise trifft deutsche Gr&uuml;ndlichkeit.', 'In einem Markt voller Komplexit&auml;t brauchst du keinen Alles-Anbieter, sondern jemanden, der sich auskennt, vor Ort ist und ehrlich ber&auml;t.'],
+    trust: [['Vor Ort in Dubai', 'Ich lebe selbst in Dubai und kenne die lokalen Gegebenheiten aus erster Hand.', icon.globe], ['100% spezialisiert', 'Nur Krankenversicherungen f&uuml;r Expats - keine Ablenkung durch andere Produkte.', icon.shield], ['Unabh&auml;ngig &amp; ehrlich', 'Ich sage dir auch, was du NICHT brauchst - dein Vorteil steht im Mittelpunkt.', icon.check], ['Deutsche Gr&uuml;ndlichkeit', 'Transparente Beratung auf Deutsch mit dem Service, den du gewohnt bist.', icon.file]],
+    forTitle: 'Individuelle Beratung f&uuml;r:',
+    forItems: ['Selbstst&auml;ndige &amp; Unternehmer in Dubai', 'Digitale Nomaden &amp; Remote-Worker', 'Rentner &amp; Familien mit Kindern', 'Angestellte mit Visa-Wechsel', 'Neu-Expats vor dem Umzug'],
+    helpItems: ['Gesetzeskonformer Krankenversicherung in Dubai', 'Auswahl zwischen lokalen und internationalen Anbietern', 'Vertragsabschluss und Schadensfallhilfe', 'Wechsel zwischen verschiedenen Versicherungen', 'Optimierung deiner bestehenden Absicherung'],
+    expertiseTitle: 'Meine Dubai-Expertise:',
+    expertiseItems: ['Lokale UAE-Versicherungsregulierungen (DHA/HAAD)', 'Internationale Krankenversicherungen f&uuml;r Expats', 'Spezielle Expat-Tarife und Gruppenversicherungen', 'Visa-konforme Versicherungsl&ouml;sungen', 'Deutschsprachiger Support vor Ort'],
+    whyHeading: 'Warum nur Krankenversicherung?',
+    whyParagraphs: ['Der Versicherungsmarkt in Dubai ist speziell: viele Anbieter, komplexe Regulierungen, aber wenig Transparenz f&uuml;r deutsche Expats.', 'Heute konzentriere ich mich auf Krankenversicherung f&uuml;r Expats in Dubai, weil Spezialisierung mehr bringt als Oberfl&auml;che.', 'Als deutschsprachiger Expat in Dubai kenne ich deine Herausforderungen aus erster Hand: Visa-Anforderungen, lokale &Auml;rzte, Behandlungskosten und die Unterschiede zu Deutschland.'],
+    questionTitle: 'Hast du eine schnelle Frage?',
+    questionBullets: ['Pers&ouml;nliche Antwort garantiert', 'Keine Wartezeit', 'Kostenlos &amp; unverbindlich'],
+    promiseHeading: 'Transparenz und Ehrlichkeit - immer',
+    promiseParagraphs: ['Ich erkl&auml;re dir alle deine M&ouml;glichkeiten in Dubai. Ich sage dir auch, was du NICHT brauchst. Ich helfe dir, die richtige Absicherung zu finden - einfach, klar und ohne Verkaufsdruck.', 'Deine Sicherheit im Ausland beginnt mit der richtigen Absicherung. Und die findest du nur durch ehrliche Beratung.'],
+    ctaCardTitle: 'Stelle deine Frage direkt',
+    ctaCardText: 'Manchmal ist ein kurzer Chat effektiver als ein langes Gespr&auml;ch. Stelle mir deine Frage direkt per WhatsApp.',
+    whatsapp: 'https://wa.me/4917643689181?text=Hallo%20Ludwig,%20ich%20habe%20eine%20Frage%20zur%20Krankenversicherung%20in%20Dubai...',
+    faq: [
+      { q: 'Ist eine Krankenversicherung in Dubai wirklich Pflicht f&uuml;r mich als deutschen Expat?', a: 'Ja. In Dubai und den gesamten VAE ist eine Krankenversicherung gesetzlich vorgeschrieben. Ohne g&uuml;ltige Krankenversicherung bekommst du keine Visa-Verl&auml;ngerung.' },
+      { q: 'Welche Krankenversicherung ist f&uuml;r mich als deutschen Expat in Dubai am besten?', a: 'Das h&auml;ngt von deiner individuellen Situation ab. Lokale Versicherungen, internationale Versicherungen, deutsche Spezialanbieter und Gruppenversicherungen m&uuml;ssen sauber verglichen werden.' },
+      { q: 'Kann ich meine deutsche Krankenversicherung in Dubai weiter nutzen?', a: 'Deutsche gesetzliche Krankenversicherungen bieten in der Regel keinen ausreichenden Schutz in Dubai. Private deutsche Krankenversicherungen haben teilweise internationale Tarife, aber nicht alle erf&uuml;llen lokale Anforderungen.' },
+      { q: 'Was kostet eine gute Krankenversicherung in Dubai f&uuml;r mich?', a: 'Die Kosten variieren stark nach Alter, Gesundheitszustand und Leistungsumfang: von einfachen lokalen Grundversicherungen bis zu umfassenden internationalen Premium-Tarifen.' },
+      { q: 'Wie schnell kann ich eine Krankenversicherung in Dubai abschlie&szlig;en?', a: 'Bei vielen Anbietern ist ein Abschluss innerhalb von 1-3 Werktagen m&ouml;glich. Ich helfe dir dabei, Unterlagen korrekt einzureichen und den Prozess zu beschleunigen.' },
+    ],
+    testimonialHeading: 'Erfahrungen',
+    testimonials: [['Ludwig hat uns genau die richtige Versicherung f&uuml;r unsere Familie gefunden. Kompetent, ehrlich und versteht die Expat-Situation perfekt!', '- Thomas K., seit 2021 in Dubai'], ['Endlich jemand, der nicht versucht, mir unn&ouml;tige Produkte zu verkaufen. Danke f&uuml;r die transparente Beratung und den lokalen Support!', '- Sandra M., Freelancerin in Dubai'], ['Als Neu-Expat war ich v&ouml;llig &uuml;berfordert. Ludwig hat mir den ganzen Prozess erkl&auml;rt und die perfekte L&ouml;sung gefunden.', '- Michael R., seit 2023 in Dubai']],
+    finalHeading: 'Starte jetzt deine optimale Absicherung',
+    finalText: 'Sichere dir dein kostenloses Orientierungsgespr&auml;ch und erfahre, wie du dich in Dubai optimal und kosteng&uuml;nstig absichern kannst.',
+  });
+}
+
 function impressumMain() {
   return legalTextMain(`<h1>Impressum / Kontakt</h1>
 <p>Ludwig Oelze: Mehr als nur Finanzberatung</p>
 <p>Einzelunternehmer</p>
 <p>Ludwig Oelze</p>
-<p>Rheinstra&szlig;e 80</p>
-<p>76532 Baden-Baden</p>
+<p>Bismarckstra&szlig;e 26</p>
+<p>76530 Baden-Baden</p>
 <p>Steuernummer: 33069/03006</p>
 <p>Keine Umsatzsteuernummer, da berufliche T&auml;tigkeit nicht Umsatzsteuerpflichtig.</p>
-<p>E-Mail: info@oelze-findet-einsparung.de</p>
+<p>E-Mail: Finanzen@ludwigoelze.com</p>
 <p>Tel: 0176 436 89181</p>
 <p>IBAN: DE71 2013 0400 0060 0128 87</p>
 <p>Inhaltlich verantwortlicher Dienstanbieter nach &sect; 5 TMG / &sect; 55 Abs. 2 RStV:<br/>Ludwig Oelze (Anschrift wie oben)</p>
@@ -522,7 +835,7 @@ function datenschutzMain() {
 <p>Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitsl&uuml;cken aufweisen kann. Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht m&ouml;glich.</p>
 <h2 class="mt-8">Hinweis zur verantwortlichen Stelle</h2>
 <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p>
-<p>Ludwig Oelze<br/>Rheinstra&szlig;e 80<br/>76532 Baden-Baden<br/>Telefon: +49 176 436 89181<br/>E-Mail: info@oelze-findet-einsparung.de</p>
+<p>Ludwig Oelze<br/>Bismarckstra&szlig;e 26<br/>76530 Baden-Baden<br/>Telefon: +49 176 436 89181<br/>E-Mail: Finanzen@ludwigoelze.com</p>
 <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. &Auml;.) entscheidet.</p>
 <h2 class="mt-8">Widerruf Ihrer Einwilligung zur Datenverarbeitung</h2>
 <p>Viele Datenverarbeitungsvorg&auml;nge sind nur mit Ihrer ausdr&uuml;cklichen Einwilligung m&ouml;glich. Sie k&ouml;nnen eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtm&auml;&szlig;igkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unber&uuml;hrt.</p>
@@ -609,7 +922,7 @@ function erstinformationMain() {
 function passportCardDeMain() {
   return `<main>
 <section class="hero hero-small">
-<div class="hero-bg"><img alt="Ludwig Oelze im Gespr&auml;ch" loading="eager" src="Ludwig_prev_foto/_X8A2955_prev.jpg"/></div>
+<div class="hero-bg"><img alt="Ludwig Oelze im Gespr&auml;ch" loading="eager" src="Ludwig_prev_foto/_X8A2955_prev.webp"/></div>
 <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(8, 37, 37, 0.84) 0%, rgba(18, 64, 64, 0.78) 45%, rgba(201, 169, 98, 0.52) 100%);"></div>
 <div class="hero-content">
 <span class="hero-badge">${icon.globe} Auslandskrankenversicherung</span>
@@ -723,7 +1036,7 @@ ${accordion([
 function passportCardEnMain() {
   return `<main>
 <section class="hero hero-small">
-<div class="hero-bg"><img alt="Ludwig Oelze in consultation" loading="eager" src="Ludwig_prev_foto/_X8A2955_prev.jpg"/></div>
+<div class="hero-bg"><img alt="Ludwig Oelze in consultation" loading="eager" src="Ludwig_prev_foto/_X8A2955_prev.webp"/></div>
 <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(8, 37, 37, 0.84) 0%, rgba(18, 64, 64, 0.78) 45%, rgba(201, 169, 98, 0.52) 100%);"></div>
 <div class="hero-content">
 <span class="hero-badge">${icon.globe} Dubai expat health cover</span>
@@ -839,16 +1152,12 @@ ${accordion([
 function durchblickMain() {
   return `<main>
 <section class="hero hero-small">
-<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3120_prev.jpg"/></div>
+<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3120_prev.webp"/></div>
 <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(8, 37, 37, 0.86) 0%, rgba(18, 64, 64, 0.78) 45%, rgba(201, 169, 98, 0.50) 100%);"></div>
 <div class="hero-content">
 <span class="hero-badge">${icon.card} ETF-Vorsorge</span>
 <h1>Hey! Kennst Du schon <span class="highlight">Durchblick?</span></h1>
 <p class="hero-subtitle">Deine ETF-Vorsorge der neuen Generation</p>
-<div class="hero-buttons">
-<a class="btn btn-white btn-lg" href="https://calendly.com/einsparung/beratung" rel="noopener noreferrer" target="_blank">Termin buchen</a>
-<a class="btn btn-primary btn-lg" href="#dokumente">Dokumente ansehen</a>
-</div>
 </div>
 </section>
 <section class="section bg-white durchblick-intro-section">
@@ -865,7 +1174,7 @@ ${list(['Renditechancen und Sicherheit: W&auml;hle Deine individuelle Anlagestra
 </div>
 <div class="card durchblick-phone-card reveal reveal-right">
 <div class="durchblick-phone-preview">
-<img alt="Smartphone-App-Ansicht der Durchblick ETF-Vorsorge" src="assets/images/durchblick/durchblick-app.png" loading="lazy"/>
+<img alt="Smartphone-App-Ansicht der Durchblick ETF-Vorsorge" src="assets/images/durchblick/durchblick-app.webp" loading="lazy"/>
 </div>
 </div>
 </div>
@@ -893,16 +1202,12 @@ ${list(['Renditechancen und Sicherheit: W&auml;hle Deine individuelle Anlagestra
 function ankuendigungMain() {
   return `<main>
 <section class="hero hero-small">
-<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3007_prev.jpg"/></div>
+<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3007_prev.webp"/></div>
 <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(8, 37, 37, 0.88) 0%, rgba(18, 64, 64, 0.78) 46%, rgba(201, 169, 98, 0.48) 100%);"></div>
 <div class="hero-content">
 <span class="hero-badge">${icon.clock} Mandanteninformation</span>
 <h1>Ank&uuml;ndigung</h1>
 <p class="hero-subtitle">Pilotprojekt f&uuml;r besseren Kundenservice</p>
-<div class="hero-buttons">
-<a class="btn btn-primary btn-lg" href="${calendlyLinks.telefon}" rel="noopener noreferrer" target="_blank">Termin f&uuml;r R&uuml;ckruf buchen</a>
-<a class="btn btn-white btn-lg" href="#ablauf">Was sich &auml;ndert</a>
-</div>
 </div>
 </section>
 <section class="section bg-white ankuendigung-intro-section">
@@ -914,7 +1219,7 @@ function ankuendigungMain() {
 <p>ich starte ein Pilotprojekt, um meinen Kundenservice noch effizienter und strukturierter zu gestalten. Mein Ziel ist es, dir nicht nur die beste Beratung, sondern auch klare und einfache Prozesse f&uuml;r deine Anliegen zu bieten.</p>
 </div>
 <div class="two-col-image reveal reveal-right">
-<img alt="Ludwig Oelze l&auml;chelnd im Gespr&auml;chsumfeld" src="assets/images/ankuendigung/ludwig-service-update.jpg" loading="lazy"/>
+<img alt="Ludwig Oelze l&auml;chelnd im Gespr&auml;chsumfeld" src="assets/images/ankuendigung/ludwig-service-update.webp" loading="lazy"/>
 </div>
 </div>
 </div>
@@ -923,6 +1228,7 @@ function ankuendigungMain() {
 <div class="container">
 <div class="section-header reveal">
 <h2>Was sich konkret &auml;ndert</h2>
+<a class="btn btn-primary btn-lg mt-4" href="${calendlyLinks.weitereFragen}" rel="noopener noreferrer" target="_blank">Termin f&uuml;r weitere Fragen buchen</a>
 </div>
 <div class="grid grid-2">
 <div class="card reveal stagger-1">
@@ -933,7 +1239,7 @@ function ankuendigungMain() {
 <p>Viele Fragen lassen sich &uuml;brigens auch schnell &uuml;ber meine App kl&auml;ren. Weitere Informationen dazu findest du unten.</p>
 <p>F&uuml;r dringende Anliegen, bei denen kein zeitnaher Termin verf&uuml;gbar ist, sende bitte eine E-Mail oder WhatsApp Nachricht mit dem Betreff „DRINGEND“, damit ich diese priorisiert bearbeiten und ggf. zur&uuml;ckrufen kann.</p>
 <p>F&uuml;r vollst&auml;ndige Beratungstermine zu neuen Produkten nutze bitte diesen Link:</p>
-<a class="knowledge-card-link" href="https://calendly.com/einsparung" rel="noopener noreferrer" target="_blank">https://calendly.com/einsparung</a>
+<a class="knowledge-card-link" href="${calendlyLinks.weitereFragen}" rel="noopener noreferrer" target="_blank">${calendlyLinks.weitereFragen}</a>
 </div>
 <div class="card reveal stagger-2">
 <div class="card-icon">${icon.shield}</div>
@@ -1008,7 +1314,7 @@ ${list(['Kilian Hauns, Stv. Bezirksdirektor LBS', 'Beratungsstelle B&uuml;hl, Gr
 <h2>Was bleibt wie gewohnt?</h2>
 </div>
 <div class="card reveal reveal-right">
-${list(['Laufende Anfragen werden selbstverständlich weiterhin bearbeitet.', 'Angeforderte Unterlagen werden direkt an die Gesellschaften weitergeleitet und du wirst in Kopie gesetzt.', 'Beratungstermine vor Ort und Online k&ouml;nnen weiterhin &uuml;ber <a href="https://calendly.com/einsparung/" rel="noopener noreferrer" target="_blank">https://calendly.com/einsparung/</a> gebucht werden.'])}
+${list(['Laufende Anfragen werden selbstverständlich weiterhin bearbeitet.', 'Angeforderte Unterlagen werden direkt an die Gesellschaften weitergeleitet und du wirst in Kopie gesetzt.', `Beratungstermine vor Ort und Online k&ouml;nnen weiterhin &uuml;ber <a href="${calendlyLinks.weitereFragen}" rel="noopener noreferrer" target="_blank">${calendlyLinks.weitereFragen}</a> gebucht werden.`])}
 </div>
 </div>
 </div>
@@ -1040,7 +1346,7 @@ ${list(['Laufende Anfragen werden selbstverständlich weiterhin bearbeitet.', 'A
 function unternehmerMain() {
   return `<main>
 <section class="hero hero-small">
-<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3042_prev.jpg"/></div>
+<div class="hero-bg"><img alt="Ludwig Oelze Beratung" loading="eager" src="Ludwig_prev_foto/_X8A3042_prev.webp"/></div>
 <div class="hero-overlay" style="background: linear-gradient(135deg, rgba(8, 37, 37, 0.86) 0%, rgba(18, 64, 64, 0.78) 45%, rgba(201, 169, 98, 0.50) 100%);"></div>
 <div class="hero-content">
 <span class="hero-badge">${icon.file} Unternehmervollmacht</span>
@@ -1160,7 +1466,6 @@ function wissenMain() {
     ['Hausratversicherung', 'Einrichtung, Wertsachen, Unterversicherung und Schadenfall sauber einordnen.', 'hausratversicherung.html'],
     ['Geb&auml;udeversicherung', 'Feuer, Leitungswasser, Sturm, Elementar und Sanierungspflichten im Blick behalten.', 'gebaeudeversicherung.html'],
     ['Rentenversicherung', 'Gesetzliche Rente, private Vorsorge und betriebliche Bausteine zusammen denken.', 'rentenversicherung.html'],
-    ['Durchblick', 'ETF-Vorsorge, Flexibilit&auml;t, Steuervorteile und Dokumente als schneller Einstieg.', 'durchblick.html'],
     ['Ank&uuml;ndigung', 'Aktuelle Mandanteninformation zu Servicewegen, Terminen, Schadenf&auml;llen und Spezialthemen.', 'ankuendigung.html'],
     ['Schadenfall', 'Schadenmeldung mit Angaben und Dateien direkt vorbereiten.', 'schadenfall.html'],
     ['Pflegeversicherung', 'Pflegel&uuml;cke, Pflegegrade und private Erg&auml;nzung realistisch planen.', 'pflegeversicherung.html'],
@@ -1174,7 +1479,7 @@ function wissenMain() {
 
   return `<main>
 <section class="hero hero-small">
-<div class="hero-bg"><img src="Ludwig_prev_foto/_X8A3120_prev.jpg" alt="Ludwig Oelze Beratung" loading="eager"></div>
+<div class="hero-bg"><img src="Ludwig_prev_foto/_X8A3120_prev.webp" alt="Ludwig Oelze Beratung" loading="eager"></div>
 <div class="hero-overlay"></div>
 <div class="hero-content">
 <span class="hero-badge">${icon.file} Wissen &amp; Ratgeber</span>
@@ -1198,7 +1503,6 @@ ${items.map(([title, text, href], index) => `<a class="card knowledge-card revea
 </div>
 </div>
 </section>
-${durchblickKnowledgeTeaser()}
 <section class="section bg-off-white">
 <div class="container">
 <div class="section-header reveal">
@@ -1213,9 +1517,9 @@ ${durchblickKnowledgeTeaser()}
 <div class="article-card-image"><img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&amp;q=80" alt="Unternehmervollmacht" loading="lazy"></div>
 <div class="article-card-content"><span class="article-card-category">Unternehmer</span><h3>Unternehmervollmacht: handlungsfähig bleiben</h3><p class="article-card-meta">Zum Ratgeber</p></div>
 </a>
-<a class="article-card reveal stagger-3" href="durchblick.html#dokumente">
-<div class="article-card-image"><img src="https://images.unsplash.com/photo-1554224154-26032fced8bd?w=600&amp;q=80" alt="Durchblick ETF-Vorsorge" loading="lazy"></div>
-<div class="article-card-content"><span class="article-card-category">Dokumente</span><h3>Durchblick: ETF-Vorsorge kurz ansehen</h3><p class="article-card-meta">Zu den Dokumenten</p></div>
+<a class="article-card reveal stagger-3" href="krankenversicherung.html">
+<div class="article-card-image"><img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&amp;q=80" alt="Krankenversicherung" loading="lazy"></div>
+<div class="article-card-content"><span class="article-card-category">Gesundheit</span><h3>Krankenversicherung: Entscheidungen richtig einordnen</h3><p class="article-card-meta">Zum Ratgeber</p></div>
 </a>
 </div>
 </div>
@@ -1253,7 +1557,7 @@ function updateIndex() {
                     <a href="https://www.axa.de/" target="_blank" rel="noopener noreferrer" aria-label="AXA"><img src="assets/images/partners/axa.svg" alt="AXA" loading="lazy"></a>
                     <a href="https://www.hdi.de/" target="_blank" rel="noopener noreferrer" aria-label="HDI"><img src="assets/images/partners/hdi.svg" alt="HDI" loading="lazy"></a>
                     <a href="https://www.alte-leipziger.de/" target="_blank" rel="noopener noreferrer" aria-label="Alte Leipziger"><img src="assets/images/partners/alte-leipziger-hallesche.svg" alt="Alte Leipziger" loading="lazy"></a>
-                    <a href="https://www.ergo.de/" target="_blank" rel="noopener noreferrer" aria-label="ERGO"><img src="assets/images/partners/ergo.jpg" alt="ERGO" loading="lazy"></a>
+                    <a href="https://www.ergo.de/" target="_blank" rel="noopener noreferrer" aria-label="ERGO"><img src="assets/images/partners/ergo.webp" alt="ERGO" loading="lazy"></a>
                     <a href="https://www.arag.de/" target="_blank" rel="noopener noreferrer" aria-label="ARAG"><img src="assets/images/partners/arag.svg" alt="ARAG" loading="lazy"></a>
                 </div>
             </div>
@@ -1263,7 +1567,7 @@ function updateIndex() {
   );
   html = html.replace(
     /<div class="google-badge">([\s\S]*?)<\/div>\s*<\/div>\s*<\/div>\s*<\/section>\s*<!-- CTA Section -->/,
-    `<a class="google-badge" href="https://www.google.com/maps/search/?api=1&amp;query=Ludwig%20Oelze%20Rheinstra%C3%9Fe%2080%2076532%20Baden-Baden" target="_blank" rel="noopener noreferrer" aria-label="Google Bewertungen von Ludwig Oelze ansehen">$1</a>
+    `<a class="google-badge" href="https://www.google.com/maps/search/?api=1&amp;query=Ludwig%20Oelze%20Bismarckstra%C3%9Fe%2026%2076530%20Baden-Baden" target="_blank" rel="noopener noreferrer" aria-label="Google Bewertungen von Ludwig Oelze ansehen">$1</a>
                 </div>
             </div>
         </section>
@@ -1294,6 +1598,57 @@ function fixBerufsunfaehigkeit() {
     html = html.split(source).join('');
   }
   write('berufsunfaehigkeit.html', html);
+}
+
+function fixFeedbackCleanupPages() {
+  let renten = read('rentenversicherung.html');
+  renten = renten
+    .replace(/<p>Quellen:<\/p>/g, '')
+    .replace(/<li><span>Bundesministerium f&uuml;r Arbeit und Soziales \(BMAS\)<\/span><\/li>/g, '')
+    .replace(/<li><span>Deutsche Rentenversicherung<\/span><\/li>/g, '')
+    .replace(/<li><span>Bundeszentrale f&uuml;r politische Bildung<\/span><\/li>/g, '')
+    .replace(/<li><span>Wikipedia - Gesetzliche Rentenversicherung<\/span><\/li>/g, '');
+  write('rentenversicherung.html', renten);
+
+  let haftpflicht = read('haftpflichtversicherung.html');
+  haftpflicht = haftpflicht
+    .replace(/<p>Quellen:<\/p>/g, '')
+    .replace(/<li><span>Die Versicherer - Private Haftpflichtversicherung<\/span><\/li>/g, '')
+    .replace(/<li><span>BaFin - Haftpflichtversicherung<\/span><\/li>/g, '')
+    .replace(/<li><span>Verbraucherzentrale - Private Haftpflichtversicherung<\/span><\/li>/g, '')
+    .replace(/<li><span>Wikipedia - Privathaftpflichtversicherung<\/span><\/li>/g, '');
+  write('haftpflichtversicherung.html', haftpflicht);
+
+  let hausrat = read('hausratversicherung.html');
+  hausrat = hausrat
+    .replace(/<li><span>Pers&ouml;nliche Beratungsgespr&auml;che in meinem B&uuml;ro in der Rheinstra&szlig;e 80 in Baden-Baden<\/span><\/li>/g, '<li><span>Pers&ouml;nliche Beratungsgespr&auml;che nach Terminvereinbarung</span></li>')
+    .replace(/<li><span>Adresse: Rheinstra&szlig;e 80, 76532 Baden-Baden<\/span><\/li>/g, '');
+  write('hausratversicherung.html', hausrat);
+
+  let kranken = read('krankenversicherung.html');
+  kranken = kranken.replace(
+    /<h1>Bei der <span class="highlight">Krankenversicherung<\/span> geht es nie nur um Beitrag, sondern immer auch um Richtung<\/h1>/,
+    '<h1>Private Krankenversicherung: <span class="highlight">Premiumschutz f&uuml;r Ihre Gesundheit</span></h1>'
+  );
+  write('krankenversicherung.html', kranken);
+
+  let ueber = read('ueber-ludwig.html');
+  ueber = ueber
+    .replace(/<h3>Bankfachwirt<\/h3>/g, '<h3>Bankfachwirt (SBW)</h3>')
+    .replace(/Bankfachwirt, freier Versicherungsmakler/g, 'Bankfachwirt (SBW), freier Versicherungsmakler');
+  write('ueber-ludwig.html', ueber);
+
+  let kontakt = read('kontakt.html');
+  kontakt = kontakt
+    .replace(
+      /<a href="https:\/\/calendly\.com\/einsparung\/zusammenarbeit" target="_blank" rel="noopener noreferrer"\s*class="btn btn-secondary btn-sm">\+49 176 43689181<\/a>/,
+      '<a href="tel:+4917643689181" class="btn btn-secondary btn-sm">+49 176 43689181</a>'
+    )
+    .replace(
+      /<a href="https:\/\/calendly\.com\/einsparung\/zusammenarbeit" target="_blank" rel="noopener noreferrer"\s*class="btn btn-secondary btn-sm">Termin buchen<\/a>/,
+      `<a href="${calendlyLinks.telefon}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">Termin buchen</a>`
+    );
+  write('kontakt.html', kontakt);
 }
 
 function updateMapping() {
@@ -1395,6 +1750,7 @@ for (const file of migratedPages) {
 
 updateIndex();
 fixBerufsunfaehigkeit();
+fixFeedbackCleanupPages();
 replaceMain('wissen.html', wissenMain(), {
   title: 'Wissen & Ratgeber, Ludwig Oelze',
   description: 'Ratgeber-Hub von Ludwig Oelze mit direkten Einstiegen zu Versicherung, Vorsorge, Ausland und Unternehmervollmacht.',
@@ -1410,6 +1766,30 @@ replaceMain('passportcard-en.html', passportCardEnMain(), {
   title: 'PassportCard Dubai, Ludwig Oelze | Expat Health Insurance',
   description: 'PassportCard for Dubai expats: international health insurance with card-based medical payment, 24/7 service and practical support abroad.',
   bodyClass: 'page-passportcard-en page-migrated-rich',
+  lang: 'de',
+});
+replaceMain('freelancer-nomaden.html', freelancerNomadenMain(), {
+  title: 'Krankenversicherung f&uuml;r Selbst&auml;ndige in Spanien mit Dubai-Aufenthalten, Ludwig Oelze',
+  description: 'Krankenversicherung f&uuml;r deutsche Selbst&auml;ndige in Spanien mit Dubai-Aufenthalten: spezialisierte Beratung f&uuml;r digitale Nomaden, Freelancer und mobile Unternehmer.',
+  bodyClass: 'page-freelancer-nomaden page-migrated-rich',
+  lang: 'de',
+});
+replaceMain('immobilien-nomaden.html', immobilienNomadenMain(), {
+  title: 'Krankenversicherung f&uuml;r Immobilien-Unternehmer, Ludwig Oelze',
+  description: 'Krankenversicherung f&uuml;r Immobilien-Unternehmer in Deutschland, Spanien und Dubai: spezialisierte Beratung f&uuml;r Multi-Location-Unternehmer.',
+  bodyClass: 'page-immobilien-nomaden page-migrated-rich',
+  lang: 'de',
+});
+replaceMain('digitale-nomaden.html', digitaleNomadenMain(), {
+  title: 'Krankenversicherung f&uuml;r deutsche digitale Nomaden, Ludwig Oelze',
+  description: 'Krankenversicherung f&uuml;r deutsche digitale Nomaden in Spanien und Dubai: spezialisierte Beratung f&uuml;r Remote Worker und ortsunabh&auml;ngige Unternehmer.',
+  bodyClass: 'page-digitale-nomaden page-migrated-rich',
+  lang: 'de',
+});
+replaceMain('expat-beratung-1.html', expatBeratungMain(), {
+  title: 'Krankenversicherung f&uuml;r deutsche Expats in Dubai, Ludwig Oelze',
+  description: 'Krankenversicherung f&uuml;r deutsche Expats in Dubai und den VAE: spezialisierte Beratung f&uuml;r lokale und internationale Absicherung.',
+  bodyClass: 'page-expat-beratung page-migrated-rich',
   lang: 'de',
 });
 

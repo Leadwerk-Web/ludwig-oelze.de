@@ -13,7 +13,7 @@ get_header();
 
 $home_url    = home_url( '/' );
 $contact_url = function_exists( 'leadwerk_theme_get_page_url' ) ? leadwerk_theme_get_page_url( 'ludwig-kontakt-v1', 'de', home_url( '/kontakt/' ) ) : home_url( '/kontakt/' );
-$image_url   = defined( 'LEADWERK_THEME_URI' ) ? LEADWERK_THEME_URI . '/Ludwig_prev_foto/_X8A2938_prev.jpg' : '';
+$image_url   = defined( 'LEADWERK_THEME_URI' ) ? LEADWERK_THEME_URI . '/Ludwig_prev_foto/_X8A2938_prev.webp' : '';
 ?>
 
 <main>

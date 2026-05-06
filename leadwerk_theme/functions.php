@@ -45,6 +45,11 @@ if ( is_file( $leadwerk_ludwig_exact_binders_file ) ) {
 	require_once $leadwerk_ludwig_exact_binders_file;
 }
 
+$leadwerk_ludwig_schadenfall_file = LEADWERK_THEME_DIR . '/inc/ludwig-schadenfall-handler.php';
+if ( is_file( $leadwerk_ludwig_schadenfall_file ) ) {
+	require_once $leadwerk_ludwig_schadenfall_file;
+}
+
 /**
  * Whether the active static profile is Ludwig.
  *
@@ -1155,17 +1160,23 @@ function leadwerk_theme_get_schadenfall_form_markup( $fallback_html = '' ) {
 	);
 
 	if ( '' === $form_config || ! shortcode_exists( 'wpforms' ) ) {
-		return (string) $fallback_html;
+		return function_exists( 'leadwerk_theme_get_schadenfall_standalone_form_markup' )
+			? leadwerk_theme_get_schadenfall_standalone_form_markup( (string) $fallback_html )
+			: (string) $fallback_html;
 	}
 
 	$shortcode = leadwerk_theme_normalize_wpforms_shortcode( $form_config );
 	if ( '' === $shortcode ) {
-		return (string) $fallback_html;
+		return function_exists( 'leadwerk_theme_get_schadenfall_standalone_form_markup' )
+			? leadwerk_theme_get_schadenfall_standalone_form_markup( (string) $fallback_html )
+			: (string) $fallback_html;
 	}
 
 	$markup = (string) do_shortcode( $shortcode );
 	if ( '' === trim( wp_strip_all_tags( $markup ) ) && false === strpos( $markup, '<form' ) && false === strpos( $markup, 'wpforms' ) ) {
-		return (string) $fallback_html;
+		return function_exists( 'leadwerk_theme_get_schadenfall_standalone_form_markup' )
+			? leadwerk_theme_get_schadenfall_standalone_form_markup( (string) $fallback_html )
+			: (string) $fallback_html;
 	}
 
 	return '<div class="leadwerk-contact-form-slot leadwerk-contact-form-slot--schadenfall">' . $markup . '</div>';
