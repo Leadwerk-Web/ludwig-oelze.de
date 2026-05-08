@@ -3770,6 +3770,14 @@ class Leadwerk_Importer {
 				$this->leadwerk_update_option( 'schadenfall_owner_email', 'finanzen@ludwigoelze.com' );
 			}
 
+			if ( ! $this->leadwerk_get_option( 'schadenfall_sender_email' ) ) {
+				$this->leadwerk_update_option( 'schadenfall_sender_email', 'finanzen@ludwigoelze.com' );
+			}
+
+			if ( ! $this->leadwerk_get_option( 'schadenfall_sender_name' ) ) {
+				$this->leadwerk_update_option( 'schadenfall_sender_name', 'Ludwig Oelze' );
+			}
+
 			if ( ! $this->leadwerk_get_option( 'wpforms_schadenfall_form_id_de' ) ) {
 				$this->leadwerk_update_option( 'wpforms_schadenfall_form_id_de', '' );
 			}

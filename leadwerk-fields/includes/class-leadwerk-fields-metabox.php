@@ -52,6 +52,16 @@ class Leadwerk_Fields_Metabox {
 				'wpforms_form_id_de' => array( 'label' => 'WPForms Form ID / Shortcode (DE)', 'type' => 'text' ),
 				'wpforms_form_id_en' => array( 'label' => 'WPForms Form ID / Shortcode (EN)', 'type' => 'text' ),
 				'schadenfall_owner_email' => array( 'label' => 'Schadenfall Empfaenger-E-Mail', 'type' => 'text' ),
+				'schadenfall_sender_email' => array(
+					'label' => 'Schadenfall Absender-E-Mail',
+					'type'  => 'admin_email_select',
+					'help'  => 'Diese Adresse wird als From/Return-Path fuer Schadenfall-Mails verwendet. Am besten eine Domain-Adresse mit SPF/DKIM verwenden.',
+				),
+				'schadenfall_sender_name' => array(
+					'label' => 'Schadenfall Absender-Name',
+					'type'  => 'text',
+					'help'  => 'Name im Posteingang. Leer lassen fuer Ludwig Oelze.',
+				),
 				'wpforms_schadenfall_form_id_de' => array( 'label' => 'WPForms Schadenfall Form ID / Shortcode (DE)', 'type' => 'text' ),
 				'wpforms_schadenfall_form_id_en' => array( 'label' => 'WPForms Schadenfall Form ID / Shortcode (EN)', 'type' => 'text' ),
 			),
@@ -1158,6 +1168,55 @@ class Leadwerk_Fields_Metabox {
 		}
 	}
 
+	/**
+	 * Build selectable sender email options from site and administrator emails.
+	 *
+	 * @param string $current Current saved value.
+	 * @return array<string,string>
+	 */
+	private static function get_admin_email_options( $current = '' ) {
+		$options = array();
+		$site_admin = sanitize_email( (string) get_option( 'admin_email', '' ) );
+		$company_email = sanitize_email( (string) self::storage_get_field( 'company_email', 'option' ) );
+		$owner_email = sanitize_email( (string) self::storage_get_field( 'schadenfall_owner_email', 'option' ) );
+
+		$base = array(
+			$company_email => 'Globale Kontaktdaten',
+			$owner_email   => 'Schadenfall Empfaenger',
+			$site_admin    => 'WordPress Administrator',
+			'finanzen@ludwigoelze.com' => 'Ludwig Oelze',
+		);
+
+		foreach ( $base as $email => $label ) {
+			if ( is_email( $email ) ) {
+				$options[ $email ] = $label . ' <' . $email . '>';
+			}
+		}
+
+		$admins = get_users(
+			array(
+				'role'   => 'administrator',
+				'fields' => array( 'display_name', 'user_email' ),
+			)
+		);
+
+		foreach ( $admins as $admin ) {
+			$email = sanitize_email( (string) ( $admin->user_email ?? '' ) );
+			if ( ! is_email( $email ) ) {
+				continue;
+			}
+			$name = trim( (string) ( $admin->display_name ?? '' ) );
+			$options[ $email ] = ( '' !== $name ? $name : 'Administrator' ) . ' <' . $email . '>';
+		}
+
+		$current = sanitize_email( (string) $current );
+		if ( is_email( $current ) && ! isset( $options[ $current ] ) ) {
+			$options[ $current ] = 'Aktuell gespeichert <' . $current . '>';
+		}
+
+		return $options;
+	}
+
 	private static function render_field( $name, $definition, $value, $id = '' ) {
 		$type  = $definition['type'] ?? 'text';
 		$label = $definition['label'] ?? $name;
@@ -1234,6 +1293,17 @@ class Leadwerk_Fields_Metabox {
 				}
 				echo '<textarea id="' . esc_attr( $id ) . '" name="' . esc_attr( $name ) . '" rows="5" class="large-text code">' . esc_textarea( $text_value ) . '</textarea>';
 				echo '<p class="description">Eine Option pro Zeile.</p>';
+				break;
+
+			case 'admin_email_select':
+				$current = sanitize_email( (string) $value );
+				$options = self::get_admin_email_options( $current );
+				echo '<select id="' . esc_attr( $id ) . '" name="' . esc_attr( $name ) . '" class="regular-text">';
+				echo '<option value="">' . esc_html__( 'Bitte waehlen', 'leadwerk-fields' ) . '</option>';
+				foreach ( $options as $email => $option_label ) {
+					echo '<option value="' . esc_attr( $email ) . '"' . selected( $current, $email, false ) . '>' . esc_html( $option_label ) . '</option>';
+				}
+				echo '</select>';
 				break;
 
 			case 'checkbox':
@@ -1427,6 +1497,11 @@ class Leadwerk_Fields_Metabox {
 				}
 
 				return $out;
+
+			case 'admin_email_select':
+				$email = sanitize_email( is_null( $value ) ? '' : wp_unslash( $value ) );
+
+				return is_email( $email ) ? $email : '';
 
 			case 'repeater':
 				$rows = is_array( $value ) ? $value : array();

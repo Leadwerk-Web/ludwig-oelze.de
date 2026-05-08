@@ -39,6 +39,116 @@ function leadwerk_theme_schadenfall_owner_email() {
 }
 
 /**
+ * Sender email for Schadenfall notifications.
+ *
+ * @return string
+ */
+function leadwerk_theme_schadenfall_sender_email() {
+	$email = '';
+	if ( function_exists( 'leadwerk_theme_get_option_value' ) ) {
+		$email = leadwerk_theme_get_option_value( 'schadenfall_sender_email', '' );
+		if ( '' === trim( (string) $email ) ) {
+			$email = leadwerk_theme_get_option_value( 'company_email', '' );
+		}
+	}
+
+	$email = sanitize_email( (string) $email );
+	if ( ! is_email( $email ) ) {
+		$email = 'finanzen@ludwigoelze.com';
+	}
+
+	return (string) apply_filters( 'leadwerk_schadenfall_sender_email', $email );
+}
+
+/**
+ * Sender name for Schadenfall notifications.
+ *
+ * @return string
+ */
+function leadwerk_theme_schadenfall_sender_name() {
+	$name = '';
+	if ( function_exists( 'leadwerk_theme_get_option_value' ) ) {
+		$name = leadwerk_theme_get_option_value( 'schadenfall_sender_name', '' );
+	}
+
+	$name = sanitize_text_field( (string) $name );
+	if ( '' === trim( $name ) || 'demo' === strtolower( trim( $name ) ) ) {
+		$name = 'Ludwig Oelze';
+	}
+
+	return (string) apply_filters( 'leadwerk_schadenfall_sender_name', $name );
+}
+
+/**
+ * wp_mail_from callback for this form only.
+ *
+ * @param string $from Existing sender.
+ * @return string
+ */
+function leadwerk_theme_schadenfall_mail_from( $from ) {
+	return leadwerk_theme_schadenfall_sender_email();
+}
+
+/**
+ * wp_mail_from_name callback for this form only.
+ *
+ * @param string $from_name Existing sender name.
+ * @return string
+ */
+function leadwerk_theme_schadenfall_mail_from_name( $from_name ) {
+	return leadwerk_theme_schadenfall_sender_name();
+}
+
+/**
+ * Force PHPMailer envelope sender for this form only.
+ *
+ * @param PHPMailer\PHPMailer\PHPMailer $phpmailer Mailer instance.
+ * @return void
+ */
+function leadwerk_theme_schadenfall_configure_phpmailer( $phpmailer ) {
+	$email = leadwerk_theme_schadenfall_sender_email();
+	$name  = leadwerk_theme_schadenfall_sender_name();
+
+	if ( is_email( $email ) ) {
+		$phpmailer->Sender   = $email;
+		$phpmailer->From     = $email;
+		$phpmailer->FromName = $name;
+	}
+}
+
+/**
+ * Send Schadenfall mail with explicit From and envelope sender.
+ *
+ * @param string|array $to Recipient.
+ * @param string       $subject Subject.
+ * @param string       $body HTML body.
+ * @param array        $headers Headers.
+ * @param array        $attachments Attachments.
+ * @return bool
+ */
+function leadwerk_theme_schadenfall_wp_mail( $to, $subject, $body, $headers = array(), $attachments = array() ) {
+	$headers = array_merge(
+		array(
+			'From: ' . leadwerk_theme_schadenfall_sender_name() . ' <' . leadwerk_theme_schadenfall_sender_email() . '>',
+			'Content-Type: text/html; charset=UTF-8',
+		),
+		(array) $headers
+	);
+
+	add_filter( 'wp_mail_from', 'leadwerk_theme_schadenfall_mail_from', 20 );
+	add_filter( 'wp_mail_from_name', 'leadwerk_theme_schadenfall_mail_from_name', 20 );
+	add_action( 'phpmailer_init', 'leadwerk_theme_schadenfall_configure_phpmailer', 20 );
+
+	try {
+		return (bool) wp_mail( $to, $subject, $body, $headers, $attachments );
+	} finally {
+		remove_action( 'phpmailer_init', 'leadwerk_theme_schadenfall_configure_phpmailer', 20 );
+		remove_filter( 'wp_mail_from_name', 'leadwerk_theme_schadenfall_mail_from_name', 20 );
+		remove_filter( 'wp_mail_from', 'leadwerk_theme_schadenfall_mail_from', 20 );
+	}
+}
+
+/**
  * Field definitions shared by the frontend form and email templates.
  *
  * @return array<int,array<string,mixed>>
@@ -588,12 +698,12 @@ function leadwerk_theme_schadenfall_send_owner_mail( $fields, $files, $submissio
 	$content .= '<h2>PDF-Dateien</h2>' . leadwerk_theme_schadenfall_file_list_for_email( $files );
 	$content .= '<h2>Sicherheit</h2><p>Vorgangs-ID: <strong>' . esc_html( $submission_id ) . '</strong><br>Die PDF-Dateien wurden nur fuer den Versand als E-Mail-Anhang verarbeitet. Temporaere Server-Kopien werden nach dem Mailversand geloescht.</p>';
 	$body    = leadwerk_theme_schadenfall_email_shell( 'Neue Schadenmeldung', 'Eingaben und PDF-Dateien im Anhang', $content );
-	$headers = array( 'Content-Type: text/html; charset=UTF-8' );
+	$headers = array();
 	if ( is_email( $email ) ) {
 		$headers[] = 'Reply-To: ' . sanitize_text_field( $name ) . ' <' . sanitize_email( $email ) . '>';
 	}
 
-	return (bool) wp_mail( leadwerk_theme_schadenfall_owner_email(), $subject, $body, $headers, leadwerk_theme_schadenfall_mail_attachment_paths( $files ) );
+	return leadwerk_theme_schadenfall_wp_mail( leadwerk_theme_schadenfall_owner_email(), $subject, $body, $headers, leadwerk_theme_schadenfall_mail_attachment_paths( $files ) );
 }
 
 /**
@@ -617,7 +727,14 @@ function leadwerk_theme_schadenfall_send_customer_mail( $fields, $submission_id 
 	$content .= '<p>Viele Gruesse<br>Ludwig Oelze</p>';
 	$body = leadwerk_theme_schadenfall_email_shell( 'Schadenmeldung erhalten', 'Kurze Eingangsbestaetigung', $content );
 
-	return (bool) wp_mail( sanitize_email( $email ), $subject, $body, array( 'Content-Type: text/html; charset=UTF-8' ) );
+	return leadwerk_theme_schadenfall_wp_mail(
+		sanitize_email( $email ),
+		$subject,
+		$body,
+		array(
+			'Reply-To: ' . leadwerk_theme_schadenfall_sender_name() . ' <' . leadwerk_theme_schadenfall_sender_email() . '>',
+		)
+	);
 }
 
 /**
