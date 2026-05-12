@@ -508,8 +508,10 @@ function healthReviewsSection() {
 <h2>Bewertungen</h2>
 </div>
 <div class="card reviews-embed-card reveal">
+<div class="reviews-embed-inner">
 <script src="https://static.elfsight.com/platform/platform.js" async></script>
 <div class="elfsight-app-da863271-a986-48a3-9a7b-fc42d45556b9" data-elfsight-app-lazy></div>
+</div>
 </div>
 </div>
 </section>`;

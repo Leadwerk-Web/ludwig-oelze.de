@@ -1671,12 +1671,6 @@ p:last-child {
     color: var(--color-gray-600);
 }
 
-/* Elfsight: „Free Google Reviews Widget“-Badge (Werbung im kostenlosen Tarif) */
-[class*="elfsight-app"] a[href*="elfsight.com/google-reviews-widget"],
-a[href*="elfsight.com/google-reviews-widget"] {
-    display: none !important;
-}
-
 /* Partner Logos */
 .partner-logos {
     display: flex;
@@ -1844,6 +1838,33 @@ a[href*="elfsight.com/google-reviews-widget"] {
 .reviews-embed-card {
     min-height: 260px;
     overflow: hidden;
+}
+
+/* Elfsight: Werbelink liegt im Shadow DOM — normales Seiten-CSS greift nicht.
+   Unterer Verlauf deckt das Badge ab (Farben wie .card), Overlay fängt Klicks ab. */
+.reviews-embed-inner {
+    position: relative;
+    isolation: isolate;
+}
+
+.reviews-embed-inner::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3.75rem;
+    z-index: 2147483646;
+    transform: translateZ(0);
+    pointer-events: auto;
+    cursor: default;
+    background: linear-gradient(
+        to top,
+        #f8fafa 0%,
+        #f8fafa 38%,
+        rgba(248, 250, 250, 0.98) 62%,
+        transparent 100%
+    );
 }
 
 .form-input-file {
