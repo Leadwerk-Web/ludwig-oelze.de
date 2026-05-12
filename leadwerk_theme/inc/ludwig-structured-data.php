@@ -10,6 +10,146 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
+ * Default business SEO payload when JSON config is missing or invalid.
+ *
+ * @return array<string,mixed>
+ */
+function leadwerk_theme_ludwig_business_seo_defaults() {
+	return array(
+		'aggregateRating'            => array(
+			'@type'       => 'AggregateRating',
+			'ratingValue' => 4.9,
+			'bestRating'  => 5,
+			'worstRating' => 1,
+			'reviewCount' => 50,
+		),
+		'googleBusinessProfileUrl' => '',
+	);
+}
+
+/**
+ * Load ludwig-business-seo.json from the theme config directory.
+ *
+ * @return array<string,mixed>
+ */
+function leadwerk_theme_ludwig_load_business_seo_config() {
+	static $cached = null;
+
+	if ( null !== $cached ) {
+		return $cached;
+	}
+
+	$cached = leadwerk_theme_ludwig_business_seo_defaults();
+	$path   = LEADWERK_THEME_DIR . '/config/ludwig-business-seo.json';
+
+	if ( ! is_readable( $path ) ) {
+		return $cached;
+	}
+
+	$raw = file_get_contents( $path );
+	if ( ! is_string( $raw ) || '' === $raw ) {
+		return $cached;
+	}
+
+	$data = json_decode( $raw, true );
+	if ( ! is_array( $data ) ) {
+		return $cached;
+	}
+
+	if ( ! empty( $data['aggregateRating'] ) && is_array( $data['aggregateRating'] ) ) {
+		$ar                        = $data['aggregateRating'];
+		$cached['aggregateRating'] = array(
+			'@type'       => 'AggregateRating',
+			'ratingValue' => isset( $ar['ratingValue'] ) ? $ar['ratingValue'] : $cached['aggregateRating']['ratingValue'],
+			'bestRating'  => isset( $ar['bestRating'] ) ? $ar['bestRating'] : $cached['aggregateRating']['bestRating'],
+			'worstRating' => isset( $ar['worstRating'] ) ? $ar['worstRating'] : $cached['aggregateRating']['worstRating'],
+			'reviewCount' => isset( $ar['reviewCount'] ) ? (int) $ar['reviewCount'] : (int) $cached['aggregateRating']['reviewCount'],
+		);
+	}
+
+	if ( isset( $data['googleBusinessProfileUrl'] ) && is_string( $data['googleBusinessProfileUrl'] ) ) {
+		$cached['googleBusinessProfileUrl'] = trim( $data['googleBusinessProfileUrl'] );
+	}
+
+	return $cached;
+}
+
+/**
+ * Base sameAs URLs (social); GBP is appended from config when set.
+ *
+ * @return array<int,string>
+ */
+function leadwerk_theme_ludwig_schema_base_same_as() {
+	return array(
+		'https://www.facebook.com/ludwig.finanzmakler/',
+		'https://www.linkedin.com/in/ludwig-oelze-6656b8173',
+		'https://www.instagram.com/ludwig_finanzmakler',
+	);
+}
+
+/**
+ * Collect FAQ rows from Ludwig flexible sections (layout "faq") for JSON-LD.
+ *
+ * @param int    $post_id    Post ID.
+ * @param string $source_key Leadwerk source key.
+ * @return array<int,array{question:string,answer:string}>
+ */
+function leadwerk_theme_ludwig_collect_faq_schema_items( $post_id, $source_key ) {
+	$post_id    = (int) $post_id;
+	$source_key = (string) $source_key;
+
+	if ( $post_id < 1 || ! class_exists( 'Leadwerk_Content_Schema' ) ) {
+		return array();
+	}
+
+	$group = Leadwerk_Content_Schema::get_group_for_source_key( $source_key );
+	if ( ! is_array( $group ) || empty( $group['field_name'] ) ) {
+		return array();
+	}
+
+	$field_name = (string) $group['field_name'];
+	if ( 'ludwig_page_document' === $field_name ) {
+		return array();
+	}
+
+	$sections = function_exists( 'leadwerk_theme_get_managed_field_value' )
+		? leadwerk_theme_get_managed_field_value( $field_name, $post_id )
+		: null;
+
+	if ( ! is_array( $sections ) ) {
+		return array();
+	}
+
+	$out = array();
+	foreach ( $sections as $row ) {
+		if ( ! is_array( $row ) ) {
+			continue;
+		}
+		$layout = isset( $row['acf_fc_layout'] ) ? (string) $row['acf_fc_layout'] : '';
+		if ( 'faq' !== $layout ) {
+			continue;
+		}
+		$items = isset( $row['items'] ) && is_array( $row['items'] ) ? $row['items'] : array();
+		foreach ( $items as $item ) {
+			if ( ! is_array( $item ) ) {
+				continue;
+			}
+			$q = isset( $item['question'] ) ? trim( wp_strip_all_tags( (string) $item['question'] ) ) : '';
+			$a = isset( $item['answer'] ) ? trim( wp_strip_all_tags( (string) $item['answer'] ) ) : '';
+			if ( '' === $q ) {
+				continue;
+			}
+			$out[] = array(
+				'question' => $q,
+				'answer'   => $a,
+			);
+		}
+	}
+
+	return $out;
+}
+
+/**
  * Get geo metadata for the current Ludwig page.
  *
  * @param string $source_key Leadwerk source key.
@@ -121,6 +261,14 @@ function leadwerk_theme_ludwig_schema_graph( $post_id, $source_key ) {
 		$description = get_bloginfo( 'description' );
 	}
 
+	$seo        = leadwerk_theme_ludwig_load_business_seo_config();
+	$same_as    = leadwerk_theme_ludwig_schema_base_same_as();
+	$gbp        = isset( $seo['googleBusinessProfileUrl'] ) ? trim( (string) $seo['googleBusinessProfileUrl'] ) : '';
+	if ( '' !== $gbp && filter_var( $gbp, FILTER_VALIDATE_URL ) ) {
+		array_unshift( $same_as, $gbp );
+		$same_as = array_values( array_unique( $same_as ) );
+	}
+
 	$place = array(
 		'@type'   => 'Place',
 		'@id'     => $place_id,
@@ -174,23 +322,13 @@ function leadwerk_theme_ludwig_schema_graph( $post_id, $source_key ) {
 			'opens'     => '09:00',
 			'closes'    => '18:00',
 		),
-		'aggregateRating'   => array(
-			'@type'       => 'AggregateRating',
-			'ratingValue' => 4.9,
-			'bestRating'  => 5,
-			'worstRating' => 1,
-			'ratingCount' => 50,
-		),
+		'aggregateRating'   => isset( $seo['aggregateRating'] ) && is_array( $seo['aggregateRating'] ) ? $seo['aggregateRating'] : leadwerk_theme_ludwig_business_seo_defaults()['aggregateRating'],
 		'founder'           => array(
 			'@type'    => 'Person',
 			'name'     => 'Ludwig Oelze',
 			'jobTitle' => 'Versicherungsmakler',
 		),
-		'sameAs'            => array(
-			'https://www.facebook.com/ludwig.finanzmakler/',
-			'https://www.linkedin.com/in/ludwig-oelze-6656b8173',
-			'https://www.instagram.com/ludwig_finanzmakler',
-		),
+		'sameAs'            => $same_as,
 	);
 
 	$web_page = array(
@@ -310,3 +448,62 @@ function leadwerk_theme_ludwig_output_structured_data() {
 	}
 }
 add_action( 'wp_head', 'leadwerk_theme_ludwig_output_structured_data', 20 );
+
+/**
+ * Output FAQPage JSON-LD when the page has Ludwig FAQ flexible rows.
+ *
+ * @return void
+ */
+function leadwerk_theme_ludwig_output_faqpage_schema() {
+	if ( ! function_exists( 'leadwerk_theme_profile_is_ludwig' ) || ! leadwerk_theme_profile_is_ludwig() ) {
+		return;
+	}
+
+	if ( ! is_singular( 'page' ) ) {
+		return;
+	}
+
+	$post_id    = (int) get_queried_object_id();
+	$source_key = function_exists( 'leadwerk_theme_get_current_source_key' ) ? leadwerk_theme_get_current_source_key() : '';
+	if ( $post_id < 1 || '' === $source_key || 0 !== strpos( $source_key, 'ludwig-' ) ) {
+		return;
+	}
+
+	$faq_rows = leadwerk_theme_ludwig_collect_faq_schema_items( $post_id, $source_key );
+	if ( empty( $faq_rows ) ) {
+		return;
+	}
+
+	$main_entity = array();
+	foreach ( $faq_rows as $faq ) {
+		$q = isset( $faq['question'] ) ? trim( (string) $faq['question'] ) : '';
+		$a = isset( $faq['answer'] ) ? trim( (string) $faq['answer'] ) : '';
+		if ( '' === $q ) {
+			continue;
+		}
+		$main_entity[] = array(
+			'@type'          => 'Question',
+			'name'           => $q,
+			'acceptedAnswer' => array(
+				'@type' => 'Answer',
+				'text'  => $a,
+			),
+		);
+	}
+
+	if ( empty( $main_entity ) ) {
+		return;
+	}
+
+	$schema = array(
+		'@context'   => 'https://schema.org',
+		'@type'      => 'FAQPage',
+		'mainEntity' => $main_entity,
+	);
+
+	$json = wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );
+	if ( is_string( $json ) && '' !== $json ) {
+		echo '<script type="application/ld+json" id="ludwig-faq-structured-data">' . "\n" . $json . "\n" . '</script>' . "\n";
+	}
+}
+add_action( 'wp_head', 'leadwerk_theme_ludwig_output_faqpage_schema', 21 );

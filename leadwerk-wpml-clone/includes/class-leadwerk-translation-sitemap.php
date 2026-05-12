@@ -24,6 +24,7 @@ class Leadwerk_Translation_Sitemap {
 		add_filter( 'wp_sitemaps_posts_entry', array( __CLASS__, 'add_hreflang_to_sitemap_entry' ), 10, 3 );
 
 		/* Yoast SEO */
+		add_filter( 'wpseo_sitemap_urlset', array( __CLASS__, 'ensure_yoast_urlset_xhtml_namespace' ), 1, 1 );
 		add_filter( 'wpseo_sitemap_url', array( __CLASS__, 'add_hreflang_to_yoast_url' ), 10, 2 );
 
 		/* RankMath */
@@ -83,6 +84,60 @@ class Leadwerk_Translation_Sitemap {
 		}
 
 		return $entry;
+	}
+
+	/**
+	 * Declare XHTML namespace on Yoast urlset so injected xhtml:link nodes validate.
+	 *
+	 * Yoast outputs urlset without xmlns:xhtml; Leadwerk adds xhtml:link via wpseo_sitemap_url.
+	 *
+	 * @param string $urlset Opening urlset fragment / document head from Yoast.
+	 * @return string
+	 */
+	public static function ensure_yoast_urlset_xhtml_namespace( $urlset ) {
+		if ( ! is_string( $urlset ) || '' === $urlset ) {
+			return $urlset;
+		}
+
+		if ( false !== stripos( $urlset, 'xmlns:xhtml' ) ) {
+			return $urlset;
+		}
+
+		$out = preg_replace( '/<urlset\s+/', '<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml" ', $urlset, 1 );
+		if ( ! is_string( $out ) || '' === $out ) {
+			$out = $urlset;
+		}
+
+		// #region agent log
+		$payload = wp_json_encode(
+			array(
+				'sessionId'    => '7850bc',
+				'hypothesisId' => 'H1',
+				'location'     => 'Leadwerk_Translation_Sitemap::ensure_yoast_urlset_xhtml_namespace',
+				'message'      => 'yoast_urlset_xhtml_namespace',
+				'data'         => array(
+					'incoming_has_xmlns_xhtml' => false !== stripos( $urlset, 'xmlns:xhtml' ),
+					'outgoing_has_xmlns_xhtml' => false !== stripos( $out, 'xmlns:xhtml' ),
+					'urlset_prefix_snippet'    => substr( $out, 0, 240 ),
+				),
+				'timestamp'    => (int) round( microtime( true ) * 1000 ),
+			)
+		);
+		$log_targets = array(
+			WP_CONTENT_DIR . '/debug-7850bc.log',
+			dirname( ABSPATH ) . '/debug-7850bc.log',
+		);
+		foreach ( $log_targets as $log_file ) {
+			$dir = dirname( $log_file );
+			if ( $dir && is_dir( $dir ) && is_writable( $dir ) ) {
+				if ( false !== @file_put_contents( $log_file, $payload . "\n", FILE_APPEND | LOCK_EX ) ) {
+					break;
+				}
+			}
+		}
+		// #endregion
+
+		return $out;
 	}
 
 	/**

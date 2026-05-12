@@ -8,8 +8,82 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MAPPING = ROOT / "leadwerk_importer" / "manifest" / "mapping.json"
+BUSINESS_SEO_CONFIG = ROOT / "leadwerk_theme" / "config" / "ludwig-business-seo.json"
 SITE_URL = "https://ludwigoelze.com"
 LOGO_URL = f"{SITE_URL}/assets/images/logo.png"
+
+_seo_config_cache: dict | None = None
+
+
+def load_business_seo_config() -> dict:
+    """Mirror leadwerk_theme/inc/ludwig-structured-data.php defaults + ludwig-business-seo.json."""
+    global _seo_config_cache
+    if _seo_config_cache is not None:
+        return _seo_config_cache
+
+    defaults: dict = {
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.9,
+            "bestRating": 5,
+            "worstRating": 1,
+            "reviewCount": 50,
+        },
+        "googleBusinessProfileUrl": "",
+    }
+
+    if not BUSINESS_SEO_CONFIG.is_file():
+        _seo_config_cache = defaults
+        return _seo_config_cache
+
+    try:
+        raw = json.loads(BUSINESS_SEO_CONFIG.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        _seo_config_cache = defaults
+        return _seo_config_cache
+
+    if not isinstance(raw, dict):
+        _seo_config_cache = defaults
+        return _seo_config_cache
+
+    ar = raw.get("aggregateRating")
+    if isinstance(ar, dict):
+        defaults = {
+            **defaults,
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": ar.get("ratingValue", defaults["aggregateRating"]["ratingValue"]),
+                "bestRating": ar.get("bestRating", defaults["aggregateRating"]["bestRating"]),
+                "worstRating": ar.get("worstRating", defaults["aggregateRating"]["worstRating"]),
+                "reviewCount": int(ar.get("reviewCount", defaults["aggregateRating"]["reviewCount"])),
+            },
+        }
+
+    gbp = raw.get("googleBusinessProfileUrl")
+    if isinstance(gbp, str):
+        defaults["googleBusinessProfileUrl"] = gbp.strip()
+
+    _seo_config_cache = defaults
+    return _seo_config_cache
+
+
+def ludwig_same_as_urls(seo: dict) -> list[str]:
+    base = [
+        "https://www.facebook.com/ludwig.finanzmakler/",
+        "https://www.linkedin.com/in/ludwig-oelze-6656b8173",
+        "https://www.instagram.com/ludwig_finanzmakler",
+    ]
+    gbp = (seo.get("googleBusinessProfileUrl") or "").strip()
+    if gbp and (gbp.startswith("http://") or gbp.startswith("https://")):
+        merged = [gbp] + base
+        seen: set[str] = set()
+        out: list[str] = []
+        for url in merged:
+            if url not in seen:
+                seen.add(url)
+                out.append(url)
+        return out
+    return base
 
 LEGAL_SOURCE_KEYS = {
     "ludwig-impressum-v1",
@@ -121,6 +195,7 @@ def build_schema(page: dict, markup: str) -> dict:
     title = find_title(markup, str(page.get("title", "")))
     description = find_meta_description(markup) or "Versicherungsmakler und Baufinanzierungsberater in Baden-Baden."
     geo = geo_profile(source_key)
+    seo = load_business_seo_config()
     org_id = f"{SITE_URL}/#organization"
     website_id = f"{SITE_URL}/#website"
     place_id = f"{canonical}#primary-location"
@@ -189,23 +264,13 @@ def build_schema(page: dict, markup: str) -> dict:
                 "opens": "09:00",
                 "closes": "18:00",
             },
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": 4.9,
-                "bestRating": 5,
-                "worstRating": 1,
-                "ratingCount": 50,
-            },
+            "aggregateRating": seo["aggregateRating"],
             "founder": {
                 "@type": "Person",
                 "name": "Ludwig Oelze",
                 "jobTitle": "Versicherungsmakler",
             },
-            "sameAs": [
-                "https://www.facebook.com/ludwig.finanzmakler/",
-                "https://www.linkedin.com/in/ludwig-oelze-6656b8173",
-                "https://www.instagram.com/ludwig_finanzmakler",
-            ],
+            "sameAs": ludwig_same_as_urls(seo),
         },
         {
             "@type": "Place",
@@ -303,24 +368,38 @@ def replace_block(markup: str, label: str, replacement: str) -> str:
 
 def apply_to_file(page: dict) -> bool:
     source_file = str(page.get("source_file", ""))
-    path = ROOT / source_file
-    if not path.is_file() or source_file == "404.html":
+    if not source_file or source_file == "404.html":
         return False
 
-    markup = path.read_text(encoding="utf-8")
-    if "</head>" not in markup:
-        return False
+    bases = (
+        ROOT,
+        ROOT / "leadwerk_theme" / "source_shells",
+        ROOT / "leadwerk_importer" / "source_assets",
+    )
+    changed_any = False
 
-    markup = replace_block(markup, "Ludwig Geo Tags", "")
-    markup = replace_block(markup, "Ludwig Structured Data", "")
+    for base in bases:
+        path = base / source_file
+        if not path.is_file():
+            continue
 
-    insert = build_geo_tags(str(page.get("source_key", ""))) + "\n\n" + build_schema_tag(build_schema(page, markup))
-    updated = markup.replace("</head>", f"\n{insert}\n</head>", 1)
+        original = path.read_text(encoding="utf-8")
+        if "</head>" not in original:
+            continue
 
-    if updated != path.read_text(encoding="utf-8"):
-        path.write_text(updated, encoding="utf-8")
-        return True
-    return False
+        markup = replace_block(original, "Ludwig Geo Tags", "")
+        markup = replace_block(markup, "Ludwig Structured Data", "")
+
+        insert = build_geo_tags(str(page.get("source_key", ""))) + "\n\n" + build_schema_tag(
+            build_schema(page, markup)
+        )
+        updated = markup.replace("</head>", f"\n{insert}\n</head>", 1)
+
+        if updated != original:
+            path.write_text(updated, encoding="utf-8")
+            changed_any = True
+
+    return changed_any
 
 
 def main() -> None:

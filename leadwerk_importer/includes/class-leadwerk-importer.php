@@ -901,7 +901,14 @@ class Leadwerk_Importer {
 			$page_config = is_array( $page_config ) ? $page_config : array();
 			$field_name  = (string) ( $page_config['field_name'] ?? '' );
 			$group       = Leadwerk_Content_Schema::get_group( $field_name );
-			if ( empty( $group['layouts'] ) ) {
+			if ( ! is_array( $group ) ) {
+				continue;
+			}
+
+			// Ludwig document pages use fields + repeater sections only (no flex layouts).
+			$has_layout_sections = ! empty( $group['layouts'] );
+			$is_document_group   = 'ludwig_page_document' === $field_name;
+			if ( ! $has_layout_sections && ! $is_document_group ) {
 				continue;
 			}
 
