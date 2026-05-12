@@ -1671,6 +1671,12 @@ p:last-child {
     color: var(--color-gray-600);
 }
 
+/* Elfsight: „Free Google Reviews Widget“-Badge (Werbung im kostenlosen Tarif) */
+[class*="elfsight-app"] a[href*="elfsight.com/google-reviews-widget"],
+a[href*="elfsight.com/google-reviews-widget"] {
+    display: none !important;
+}
+
 /* Partner Logos */
 .partner-logos {
     display: flex;
